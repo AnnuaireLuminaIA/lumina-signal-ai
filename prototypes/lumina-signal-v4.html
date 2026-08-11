@@ -1219,7 +1219,7 @@
           const prompt = src === "en"
             ? `Translate this video/podcast title to French. Return ONLY the translation, no quotes:\n${c.title}`
             : `Translate this video/podcast title to English. Return ONLY the translation, no quotes:\n${c.title}`;
-          const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(key)}`;
+          const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(key)}`;
           const res = await fetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
