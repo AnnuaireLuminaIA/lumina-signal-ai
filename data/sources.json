@@ -130,7 +130,8 @@
       "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQgWpmt02UtJkyO32HGUASQ",
       "priority": 2,
       "language": "fr",
-      "notes": "Long-form FR interviews — high signal when AI/tech guests"
+      "notes": "Generalist show — only AI-related episodes kept",
+      "filter": "ai-only"
     },
     {
       "voiceId": "simon-willison",

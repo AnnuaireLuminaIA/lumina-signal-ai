@@ -28,6 +28,27 @@ def parse_date(s):
     except: return None
 
 
+
+def is_ai_relevant(title, voice_id):
+    """For generalist sources, keep only AI-related titles."""
+    GENERALISTS = {"thinkerview"}
+    if voice_id not in GENERALISTS:
+        return True
+    t = (title or "").lower()
+    keywords = [
+        "i.a", "ia ", " ia", "ia:", "ia,", "ia.", "l'ia", "l’ia",
+        "intelligence artificielle", "artificial intelligence",
+        "machine learning", "deep learning", "llm", "gpt", "chatgpt",
+        "claude", "openai", "mistral", "gemini", "neural", "neurone",
+        "algorithme", "algorithm", "robot", "automation", "automatisation",
+        "data science", "big data", "octets", "numérique et", "digital",
+        "silicon", "transhuman", "singularity", "agi", "alignement",
+        "babinet",  # often AI guests on Thinkerview
+        "ia ", "ai ", " a.i", "a.i.",
+    ]
+    # accent-insensitive light check
+    return any(k in t for k in keywords)
+
 def topics_from_title(title):
     t = (title or "").lower()
     topics = []
@@ -60,6 +81,8 @@ def relative_ago(dt):
 
 normalized = []
 for item in raw["items"]:
+    if not is_ai_relevant(item.get("title", ""), item.get("voiceId", "")):
+        continue
     voice = voices.get(item["voiceId"], {})
     dt = parse_date(item.get("publishedAt", ""))
     lang = "fr" if item["voiceId"] in ("nicolas-guyon", "ludovic-salenne", "thinkerview") else "en"

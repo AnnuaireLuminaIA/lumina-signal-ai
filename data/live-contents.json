@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "2026-08-11T12:15:04.394423+00:00",
-    "count": 90
+    "updated": "2026-08-11T12:41:31.827673+00:00",
+    "count": 87
   },
-  "generatedAt": "2026-08-11T12:15:04.394433+00:00",
+  "generatedAt": "2026-08-11T12:41:31.827687+00:00",
   "contents": [
     {
       "id": "simon-willison-8aaf1cb28862",
@@ -517,23 +517,6 @@
       "isNew": true
     },
     {
-      "id": "thinkerview-682a4d1a621a",
-      "voiceId": "thinkerview",
-      "type": "video",
-      "title": "Bruno Le Maire Sans Filtre [EN DIRECT]",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=0QSlS8ifBbo",
-      "thumbnail": "https://i1.ytimg.com/vi/0QSlS8ifBbo/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 1 sem.",
-      "publishedAt": "2026-07-29T19:01:54+00:00",
-      "platform": "youtube",
-      "signalScore": 8.2,
-      "topics": [],
-      "language": "fr",
-      "isNew": true
-    },
-    {
       "id": "huggingface-798c8796c151",
       "voiceId": "huggingface",
       "type": "video",
@@ -777,23 +760,6 @@
       "isNew": true
     },
     {
-      "id": "thinkerview-fb3fa5749d80",
-      "voiceId": "thinkerview",
-      "type": "video",
-      "title": "L'Euro et l’UE sont bientôt morts ? Préparez-vous ! Thomas Grjebine et Nicolas Meilhan [EN DIRECT]",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=f9_i3mYLFpA",
-      "thumbnail": "https://i3.ytimg.com/vi/f9_i3mYLFpA/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 1 mois",
-      "publishedAt": "2026-07-01T20:21:42+00:00",
-      "platform": "youtube",
-      "signalScore": 8.2,
-      "topics": [],
-      "language": "fr",
-      "isNew": true
-    },
-    {
       "id": "ludovic-salenne-ba72c2b951c4",
       "voiceId": "ludovic-salenne",
       "type": "video",
@@ -927,23 +893,6 @@
       "publishedAt": "2026-06-19T17:01:45+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
-      "language": "fr",
-      "isNew": true
-    },
-    {
-      "id": "thinkerview-8ca5bf036688",
-      "voiceId": "thinkerview",
-      "type": "video",
-      "title": "Fin définitive de l'énergie bon marché ? Francis Perrin [EN DIRECT]",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=KK09dYN-YtI",
-      "thumbnail": "https://i4.ytimg.com/vi/KK09dYN-YtI/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 1 mois",
-      "publishedAt": "2026-06-16T20:07:18+00:00",
-      "platform": "youtube",
-      "signalScore": 8.2,
       "topics": [],
       "language": "fr",
       "isNew": true

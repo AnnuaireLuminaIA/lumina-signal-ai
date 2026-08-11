@@ -1,10 +1,10 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T12:15:05.107671+00:00",
+  "generatedAt": "2026-08-11T12:41:32.594930+00:00",
   "title": "Briefing du jour",
-  "summary": "90 contenus · top 7 signaux",
-  "editorial": "Dominant aujourd'hui : agents, education, policy. 15 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: agents, education, policy. 15 FR items in the feed.",
+  "summary": "87 contenus · top 7 signaux",
+  "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, policy. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -85,9 +85,9 @@
     }
   ],
   "stats": {
-    "totalContents": 90,
+    "totalContents": 87,
     "sources": 18,
-    "frCount": 15,
+    "frCount": 12,
     "enCount": 75
   }
 }
