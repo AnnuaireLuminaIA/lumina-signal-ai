@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-11T10:51:55.023920+00:00",
-  "count": 75,
+  "fetchedAt": "2026-08-11T12:15:04.007418+00:00",
+  "count": 90,
   "items": [
     {
       "voiceId": "dwarkesh-patel",
@@ -746,6 +746,141 @@
       "publishedAt": "2026-06-16T16:13:24+00:00",
       "platform": "youtube",
       "thumbnail": "https://i2.ytimg.com/vi/U-YfMAhMB44/hqdefault.jpg"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "publishedAt": "2026-08-10T23:56:03+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
+      "title": "Quoting OpenClaw",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "publishedAt": "2026-08-10T02:05:16+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "publishedAt": "2026-08-09T23:31:39+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "publishedAt": "2026-08-09T22:48:05+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
+      "title": "SQLite compressed text-history prototypes",
+      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+      "publishedAt": "2026-08-09T22:05:00+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "publishedAt": "Mon, 10 Aug 2026 13:02:42 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "publishedAt": "Sun, 09 Aug 2026 14:57:11 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "publishedAt": "Mon, 03 Aug 2026 14:03:08 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "publishedAt": "Sun, 02 Aug 2026 13:01:40 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "publishedAt": "Wed, 22 Jul 2026 14:09:04 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "voiceName": "Lil'Log",
+      "type": "podcast",
+      "title": "Harness Engineering for Self-Improvement",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "publishedAt": "Sat, 04 Jul 2026 00:00:00 +0000",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "voiceName": "Lil'Log",
+      "type": "podcast",
+      "title": "Scaling Laws, Carefully",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "publishedAt": "Wed, 24 Jun 2026 00:00:00 +0000",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "voiceName": "Lil'Log",
+      "type": "podcast",
+      "title": "Why We Think",
+      "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+      "publishedAt": "Thu, 01 May 2025 00:00:00 +0000",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "voiceName": "Lil'Log",
+      "type": "podcast",
+      "title": "Reward Hacking in Reinforcement Learning",
+      "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+      "publishedAt": "Thu, 28 Nov 2024 00:00:00 +0000",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "voiceName": "Lil'Log",
+      "type": "podcast",
+      "title": "Extrinsic Hallucinations in LLMs",
+      "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
+      "publishedAt": "Sun, 07 Jul 2024 00:00:00 +0000",
+      "platform": "rss"
     }
   ]
 }

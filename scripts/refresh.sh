@@ -26,6 +26,25 @@ def parse_date(s):
     try: return datetime.fromisoformat(s2)
     except: return None
 
+
+def topics_from_title(title):
+    t = (title or "").lower()
+    topics = []
+    rules = [
+        ("agents", ["agent", "agents", "tool use", "tool-use", "multiagent", "multi-agent"]),
+        ("safety", ["safety", "alignment", "x-risk", "catastrophic", "rlhf"]),
+        ("open-source", ["open source", "open-source", "open weight", "open-weight", "llama", "mistral", "huggingface"]),
+        ("reasoning", ["reason", "o1", "chain-of-thought", "cot", "test-time"]),
+        ("multimodal", ["vision", "image", "video", "multimodal", "audio"]),
+        ("infra", ["gpu", "cuda", "kernel", "inference", "serving", "vllm"]),
+        ("policy", ["policy", "regulation", "governance", "law"]),
+        ("education", ["course", "tutorial", "from scratch", "intro"]),
+    ]
+    for name, kws in rules:
+        if any(k in t for k in kws):
+            topics.append(name)
+    return topics[:4]
+
 def relative_ago(dt):
     if not dt: return ""
     if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
@@ -56,7 +75,7 @@ for item in raw["items"]:
         "publishedAt": item.get("publishedAt", ""),
         "platform": item.get("platform", "youtube"),
         "signalScore": voice.get("signalScore", 8.0),
-        "topics": [],
+        "topics": topics_from_title(item.get("title", "")),
         "language": lang,
         "isNew": True
     })
@@ -96,11 +115,26 @@ for c in sorted(contents, key=lambda x: -x.get("signalScore", 0)):
         "why": v.get("why", "Signal élevé.")
     })
     if len(top) >= 7: break
+# Lightweight editorial line from top topics
+from collections import Counter
+topic_counter = Counter()
+for c in contents:
+    for t in c.get("topics") or []:
+        topic_counter[t] += 1
+top_topics = [t for t,_ in topic_counter.most_common(3)]
+fr_n = sum(1 for c in contents if c.get("language")=="fr")
+if top_topics:
+    editorial = f"Dominant aujourd'hui : {', '.join(top_topics)}. {fr_n} contenus FR dans le flux."
+else:
+    editorial = f"{len(contents)} contenus agrégés · {fr_n} en français · curation high-signal."
+
 briefing = {
     "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     "generatedAt": datetime.now(timezone.utc).isoformat(),
     "title": "Briefing du jour",
     "summary": f"{len(contents)} contenus · top {len(top)} signaux",
+    "editorial": editorial,
+    "editorialEn": f"Today's dominant topics: {', '.join(top_topics) if top_topics else 'mixed'}. {fr_n} FR items in the feed.",
     "items": top,
     "stats": {
         "totalContents": len(contents),

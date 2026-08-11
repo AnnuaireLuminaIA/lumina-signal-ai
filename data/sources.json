@@ -131,6 +131,31 @@
       "priority": 2,
       "language": "fr",
       "notes": "Long-form FR interviews — high signal when AI/tech guests"
+    },
+    {
+      "voiceId": "simon-willison",
+      "name": "Simon Willison",
+      "type": "rss",
+      "rss": "https://simonwillison.net/atom/everything/",
+      "priority": 2,
+      "language": "en",
+      "notes": "Atom feed - high signal practical LLM notes"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "name": "Nathan Lambert Interconnects",
+      "type": "rss",
+      "rss": "https://www.interconnects.ai/feed",
+      "priority": 2,
+      "language": "en"
+    },
+    {
+      "voiceId": "lilian-weng",
+      "name": "Lil'Log",
+      "type": "rss",
+      "rss": "https://lilianweng.github.io/index.xml",
+      "priority": 2,
+      "language": "en"
     }
   ]
 }

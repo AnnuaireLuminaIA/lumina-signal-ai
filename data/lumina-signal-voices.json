@@ -2,9 +2,10 @@
   "meta": {
     "project": "Lumina Signal",
     "version": "1.6.0",
-    "updated": "2026-08-11",
+    "updated": "2026-08-11T12:14:03.991311+00:00",
     "totalVoices": 48,
-    "description": "High-signal AI voices curated for Lumina Signal"
+    "description": "High-signal AI voices curated for Lumina Signal",
+    "count": 67
   },
   "voices": [
     {
@@ -33,7 +34,11 @@
       "active": true,
       "roleFr": "Éducateur & chercheur en IA",
       "bioFr": "Ancien directeur de l'IA chez Tesla et membre fondateur d'OpenAI. Produit les contenus pédagogiques from-scratch les plus clairs sur le deep learning et les LLM.",
-      "whyFr": "Meilleure pédagogie technique du moment. Rare combinaison d'expérience frontier et d'excellence pédagogique."
+      "whyFr": "Meilleure pédagogie technique du moment. Rare combinaison d'expérience frontier et d'excellence pédagogique.",
+      "listenFirst": "YouTube: Let's build GPT / Neural nets series",
+      "listenFirstFr": "YouTube : Let's build GPT / série Neural nets",
+      "frequency": "Occasional long videos",
+      "frequencyFr": "Vidéos longues occasionnelles"
     },
     {
       "id": "dwarkesh-patel",
@@ -62,7 +67,11 @@
       "active": true,
       "roleFr": "Animateur – Dwarkesh Podcast",
       "bioFr": "Réalise les interviews long format les mieux préparées avec les dirigeants des labs frontier et des chercheurs de premier plan.",
-      "whyFr": "Profondeur exceptionnelle, préparation obsessionnelle, accès unique aux décideurs qui construisent les modèles frontier."
+      "whyFr": "Profondeur exceptionnelle, préparation obsessionnelle, accès unique aux décideurs qui construisent les modèles frontier.",
+      "listenFirst": "Latest long interview with a lab leader",
+      "listenFirstFr": "Dernière longue interview avec un lab leader",
+      "frequency": "Regular long episodes",
+      "frequencyFr": "Épisodes longs réguliers"
     },
     {
       "id": "yann-lecun",
@@ -90,7 +99,11 @@
       "active": true,
       "roleFr": "Chief AI Scientist – Meta",
       "bioFr": "Prix Turing. Voix majeure sur les limites du pure scaling, défenseur de la recherche ouverte et d'architectures alternatives.",
-      "whyFr": "L'un des penseurs long terme les plus influents du domaine, avec des positions publiques constantes et high-signal."
+      "whyFr": "L'un des penseurs long terme les plus influents du domaine, avec des positions publiques constantes et high-signal.",
+      "listenFirst": "Recent talks on world models / JEPA",
+      "listenFirstFr": "Talks récents world models / JEPA",
+      "frequency": "Talks, social",
+      "frequencyFr": "Talks, réseaux"
     },
     {
       "id": "demis-hassabis",
@@ -115,7 +128,11 @@
       "active": true,
       "roleFr": "CEO – Google DeepMind",
       "bioFr": "Co-fondateur de DeepMind. Dirige l'un des labos frontier les plus importants, avec un ancrage fort en science et en AGI.",
-      "whyFr": "Perspective unique sur la recherche AGI au sommet d'un lab frontier."
+      "whyFr": "Perspective unique sur la recherche AGI au sommet d'un lab frontier.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "dario-amodei",
@@ -140,7 +157,11 @@
       "active": true,
       "roleFr": "CEO – Anthropic",
       "bioFr": "CEO d'Anthropic. Voix centrale sur la sécurité des modèles frontier et le scaling responsable.",
-      "whyFr": "Perspective lab frontier orientée safety, rare à ce niveau."
+      "whyFr": "Perspective lab frontier orientée safety, rare à ce niveau.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "swyx-alessio",
@@ -167,7 +188,11 @@
       "active": true,
       "roleFr": "Animateurs – Latent Space",
       "bioFr": "Couvrent la pratique réelle de l'ingénierie IA, les outils, les agents et le paysage open-source avec une densite technique élevée.",
-      "whyFr": "Meilleure couverture continue de l'ingénierie IA en production."
+      "whyFr": "Meilleure couverture continue de l'ingénierie IA en production.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "arthur-mensch",
@@ -197,7 +222,11 @@
       "active": true,
       "roleFr": "CEO – Mistral AI",
       "bioFr": "Co-fondateur de Mistral AI. Voix européenne centrale sur les modèles open-weight et la souveraineté technologique.",
-      "whyFr": "Voix européenne open-weight stratégique."
+      "whyFr": "Voix européenne open-weight stratégique.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "nathan-labenz",
@@ -223,7 +252,11 @@
       "active": true,
       "roleFr": "Animateur – The Cognitive Revolution",
       "bioFr": "Explore ce que les modèles savent vraiment faire, au-delà des benchmarks, avec des invités builders et researchers.",
-      "whyFr": "Excellent signal sur les capacités réelles des modèles versus les annonces."
+      "whyFr": "Excellent signal sur les capacités réelles des modèles versus les annonces.",
+      "listenFirst": "Latest Cognitive Revolution episode",
+      "listenFirstFr": "Dernier épisode Cognitive Revolution",
+      "frequency": "Very frequent",
+      "frequencyFr": "Très fréquent"
     },
     {
       "id": "yannic-kilcher",
@@ -249,7 +282,11 @@
       "active": true,
       "roleFr": "Chercheur & YouTuber IA",
       "bioFr": "Propose des walkthroughs rigoureux et détaillés des papers de machine learning importants.",
-      "whyFr": "Explications de papers de la plus haute qualité disponible en public."
+      "whyFr": "Explications de papers de la plus haute qualité disponible en public.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "ai-explained",
@@ -274,7 +311,11 @@
       "active": true,
       "roleFr": "Analyste & YouTuber",
       "bioFr": "Analyses sobres et soignées des nouveaux modèles, benchmarks et affirmations dans l'écosystème IA.",
-      "whyFr": "Commentaire anti-hype, high-signal, très utile pour séparer le signal du bruit."
+      "whyFr": "Commentaire anti-hype, high-signal, très utile pour séparer le signal du bruit.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "nicolas-guyon",
@@ -303,7 +344,11 @@
       "active": true,
       "roleFr": "Créateur – Comptoir IA",
       "bioFr": "Contenu francophone régulier sur les outils IA, l'actualité et les usages concrets.",
-      "whyFr": "Point d'entrée FR accessible et réactif sur l'écosystème IA."
+      "whyFr": "Point d'entrée FR accessible et réactif sur l'écosystème IA.",
+      "listenFirst": "Latest Comptoir IA",
+      "listenFirstFr": "Dernier Comptoir IA",
+      "frequency": "Frequent FR videos",
+      "frequencyFr": "Vidéos FR fréquentes"
     },
     {
       "id": "ilya-sutskever",
@@ -327,7 +372,11 @@
       "active": true,
       "roleFr": "Chercheur · co-fondateur OpenAI",
       "bioFr": "Co-fondateur d'OpenAI. L'une des figures les plus influentes de la recherche deep learning moderne.",
-      "whyFr": "Signal research historique et positions publiques à fort impact."
+      "whyFr": "Signal research historique et positions publiques à fort impact.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "geoffrey-hinton",
@@ -351,7 +400,11 @@
       "active": true,
       "roleFr": "Pionnier du deep learning",
       "bioFr": "Pionnier du deep learning. Se concentre désormais sur les risques de l'IA et les implications des systèmes avancés.",
-      "whyFr": "Contributions fondatrices + voix publique de plus en plus importante sur les risques."
+      "whyFr": "Contributions fondatrices + voix publique de plus en plus importante sur les risques.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "yoshua-bengio",
@@ -378,7 +431,11 @@
       "active": true,
       "roleFr": "Professeur – Mila",
       "bioFr": "Prix Turing. Voix majeure sur la sécurité de l'IA et le développement responsable.",
-      "whyFr": "Crédibilité technique profonde combinée à un plaidoyer fort pour la sécurité."
+      "whyFr": "Crédibilité technique profonde combinée à un plaidoyer fort pour la sécurité.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "francois-chollet",
@@ -404,7 +461,11 @@
       "active": true,
       "roleFr": "Créateur de Keras · chercheur",
       "bioFr": "Créateur de Keras. Critique influent de l'approche pure scaling et promoteur de benchmarks d'intelligence plus robustes (ARC).",
-      "whyFr": "Contrepoint intellectuel essentiel au narratif dominant du scaling."
+      "whyFr": "Contrepoint intellectuel essentiel au narratif dominant du scaling.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "thomas-wolf",
@@ -431,7 +492,11 @@
       "active": true,
       "roleFr": "Co-fondateur – Hugging Face",
       "bioFr": "Figure clé de l'écosystème open-source IA via Hugging Face.",
-      "whyFr": "Voix centrale pour les modèles ouverts et l'infrastructure autour."
+      "whyFr": "Voix centrale pour les modèles ouverts et l'infrastructure autour.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "jeremy-howard",
@@ -456,7 +521,11 @@
       "active": true,
       "roleFr": "Co-fondateur fast.ai",
       "bioFr": "Rend le deep learning accessible. Approche pratique et anti-élitiste de l'éducation IA.",
-      "whyFr": "Pédagogie pratique exceptionnelle pour builders."
+      "whyFr": "Pédagogie pratique exceptionnelle pour builders.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "simon-willison",
@@ -482,7 +551,11 @@
       "active": true,
       "roleFr": "Créateur de Datasette · blogueur",
       "bioFr": "Explore les LLM par l'expérimentation concrète, les outils et l'ingénierie pragmatique.",
-      "whyFr": "Meilleur signal hands-on pour développeurs qui utilisent vraiment les modèles."
+      "whyFr": "Meilleur signal hands-on pour développeurs qui utilisent vraiment les modèles.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "3blue1brown",
@@ -507,7 +580,11 @@
       "active": true,
       "roleFr": "Éducateur – mathématiques & intuition",
       "bioFr": "Rend les mathématiques et les fondations du deep learning visuellement intuitives, d'une clarté rare.",
-      "whyFr": "Meilleure intuition mathématique pour comprendre les fondations de l'IA moderne."
+      "whyFr": "Meilleure intuition mathématique pour comprendre les fondations de l'IA moderne.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "lex-fridman",
@@ -533,7 +610,11 @@
       "active": true,
       "roleFr": "Animateur – Lex Fridman Podcast",
       "bioFr": "Interviews long format avec chercheurs, dirigeants et penseurs sur l'IA, la science et la société.",
-      "whyFr": "Accès large aux figures majeures ; utile malgré un format parfois long."
+      "whyFr": "Accès large aux figures majeures ; utile malgré un format parfois long.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "no-priors",
@@ -558,7 +639,11 @@
       "active": true,
       "roleFr": "Podcast – No Priors",
       "bioFr": "Podcast sur les startups, labs et tendances IA avec des invités de premier plan.",
-      "whyFr": "Bon pulse ecosystem / business de l'IA."
+      "whyFr": "Bon pulse ecosystem / business de l'IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "stuart-russell",
@@ -582,7 +667,11 @@
       "active": true,
       "roleFr": "Professeur – UC Berkeley",
       "bioFr": "Auteur de référence en IA. Plaidoyer majeur pour des systèmes alignés sur les valeurs humaines.",
-      "whyFr": "Référence académique incontournable sur le contrôle de l'IA."
+      "whyFr": "Référence académique incontournable sur le contrôle de l'IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "ethan-mollick",
@@ -607,7 +696,11 @@
       "active": true,
       "roleFr": "Professeur – Wharton",
       "bioFr": "Étudie l'adoption réelle de l'IA dans le travail et l'éducation, avec des expériences concrètes.",
-      "whyFr": "Pont rare entre recherche et usage professionnel réel."
+      "whyFr": "Pont rare entre recherche et usage professionnel réel.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "hamel-husain",
@@ -632,7 +725,11 @@
       "active": true,
       "roleFr": "Ingénieur ML · éducateur",
       "bioFr": "Contenu pratique sur l'évaluation, le fine-tuning et les systèmes LLM en production.",
-      "whyFr": "Signal engineering très actionnable."
+      "whyFr": "Signal engineering très actionnable.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "paul-christiano",
@@ -657,7 +754,11 @@
       "active": true,
       "roleFr": "Chercheur – alignment",
       "bioFr": "Figure centrale de la recherche en alignement et des approches d'apprentissage à partir de préférences humaines.",
-      "whyFr": "Référence alignment technique."
+      "whyFr": "Référence alignment technique.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "neel-nanda",
@@ -682,7 +783,11 @@
       "active": true,
       "roleFr": "Chercheur – interprétabilité",
       "bioFr": "Travaux majeurs en mechanistic interpretability sur les transformers.",
-      "whyFr": "Meilleure porte d'entrée publique vers l'interprétabilité moderne."
+      "whyFr": "Meilleure porte d'entrée publique vers l'interprétabilité moderne.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "dan-hendrycks",
@@ -706,7 +811,11 @@
       "active": true,
       "roleFr": "Directeur – Center for AI Safety",
       "bioFr": "Benchmarks, risques catastrophiques et politique de sécurité IA.",
-      "whyFr": "Signal safety institutionnel et technique."
+      "whyFr": "Signal safety institutionnel et technique.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "chris-olah",
@@ -731,7 +840,11 @@
       "active": true,
       "roleFr": "Chercheur – interprétabilité",
       "bioFr": "Pionnier de l'interprétabilité des réseaux de neurones et des circuits dans les modèles.",
-      "whyFr": "Travail fondateur en interprétabilité."
+      "whyFr": "Travail fondateur en interprétabilité.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "andrew-ng",
@@ -756,7 +869,11 @@
       "active": true,
       "roleFr": "Éducateur · entrepreneur IA",
       "bioFr": "Cours et initiatives qui ont formé une génération de practitioners ML.",
-      "whyFr": "Pédagogie et diffusion à très grande échelle."
+      "whyFr": "Pédagogie et diffusion à très grande échelle.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "fei-fei-li",
@@ -781,7 +898,11 @@
       "active": true,
       "roleFr": "Professeure – Stanford",
       "bioFr": "Figure majeure de la vision par ordinateur et de l'IA centrée sur l'humain.",
-      "whyFr": "Leadership research + human-centered AI."
+      "whyFr": "Leadership research + human-centered AI.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "guillaume-lample",
@@ -806,7 +927,11 @@
       "active": true,
       "roleFr": "Co-fondateur – Mistral AI",
       "bioFr": "Chercheur et co-fondateur de Mistral. Contributions majeures en NLP et modèles open-weight.",
-      "whyFr": "Signal technique européen de premier plan."
+      "whyFr": "Signal technique européen de premier plan.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "jim-fan",
@@ -831,7 +956,11 @@
       "active": true,
       "roleFr": "Chercheur – NVIDIA / agents",
       "bioFr": "Travaux sur les agents incarnés et les fondations multimodales.",
-      "whyFr": "Signal agents / embodiment de haut niveau."
+      "whyFr": "Signal agents / embodiment de haut niveau.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "riley-goodside",
@@ -855,7 +984,11 @@
       "active": true,
       "roleFr": "Prompt engineer · analyste",
       "bioFr": "Exploration fine du comportement des modèles via le prompting et l'analyse empirique.",
-      "whyFr": "Observation fine, souvent en avance sur les narratifs marketing."
+      "whyFr": "Observation fine, souvent en avance sur les narratifs marketing.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "two-minute-papers",
@@ -880,7 +1013,11 @@
       "active": true,
       "roleFr": "Vulgarisateur research",
       "bioFr": "Rend les papers de pointe accessibles en vidéos courtes et enthousiastes.",
-      "whyFr": "Excellent pouls sur la nouvelle research, très accessible."
+      "whyFr": "Excellent pouls sur la nouvelle research, très accessible.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "laurence-devillers",
@@ -903,7 +1040,11 @@
       "active": true,
       "roleFr": "Professeure – éthique & IA",
       "bioFr": "Spécialiste de l'éthique de l'IA et des interactions humain-machine en France.",
-      "whyFr": "Voix académique FR de référence sur l'éthique de l'IA."
+      "whyFr": "Voix académique FR de référence sur l'éthique de l'IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "zvi-mowshowitz",
@@ -928,7 +1069,11 @@
       "active": true,
       "roleFr": "Analyste – AI & rationalité",
       "bioFr": "Analyses denses sur les développements IA, les risques et les dynamiques d'acteurs.",
-      "whyFr": "Synthèses longues et exigeantes, utiles pour le suivi stratégique."
+      "whyFr": "Synthèses longues et exigeantes, utiles pour le suivi stratégique.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "jack-clark",
@@ -953,7 +1098,11 @@
       "active": true,
       "roleFr": "Co-fondateur – Anthropic",
       "bioFr": "Ancien d'OpenAI. Écrit Import AI ; perspective policy et ecosystem.",
-      "whyFr": "Veille policy / industrie de grande qualité."
+      "whyFr": "Veille policy / industrie de grande qualité.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "helen-toner",
@@ -977,7 +1126,11 @@
       "active": true,
       "roleFr": "Directrice – CSET / gouvernance",
       "bioFr": "Expertise en gouvernance de l'IA, policy et suivi des capacités.",
-      "whyFr": "Référence gouvernance et policy IA."
+      "whyFr": "Référence gouvernance et policy IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "sam-charrington",
@@ -1003,7 +1156,11 @@
       "active": true,
       "roleFr": "Animateur – This Week in ML",
       "bioFr": "Podcast long format technique avec researchers et builders ML.",
-      "whyFr": "Archive vivante d'interviews techniques."
+      "whyFr": "Archive vivante d'interviews techniques.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "sarah-guo",
@@ -1028,7 +1185,11 @@
       "active": true,
       "roleFr": "Investisseuse – Conviction",
       "bioFr": "Suivi de l'écosystème startups IA et des tendances d'investissement.",
-      "whyFr": "Angle capital / marché sur l'IA."
+      "whyFr": "Angle capital / marché sur l'IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "elad-gil",
@@ -1053,7 +1214,11 @@
       "active": true,
       "roleFr": "Investisseur & opérateur",
       "bioFr": "Perspectives sur les startups tech et l'infrastructure IA.",
-      "whyFr": "Lecture ecosystem par un opérateur expérimenté."
+      "whyFr": "Lecture ecosystem par un opérateur expérimenté.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "luc-julia",
@@ -1075,7 +1240,11 @@
       "active": true,
       "roleFr": "Scientifique & auteur",
       "bioFr": "Scientifique connu pour des positions critiques et pédagogiques sur l'IA.",
-      "whyFr": "Perspective FR accessible, utile pour le débat public."
+      "whyFr": "Perspective FR accessible, utile pour le débat public.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "joelle-pineau",
@@ -1099,7 +1268,11 @@
       "active": true,
       "roleFr": "Chercheuse – FAIR / McGill",
       "bioFr": "Chercheuse de premier plan en apprentissage par renforcement et IA responsable.",
-      "whyFr": "Crédibilité research + leadership sur l'IA responsable."
+      "whyFr": "Crédibilité research + leadership sur l'IA responsable.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "sebastian-raschka",
@@ -1124,7 +1297,11 @@
       "active": true,
       "roleFr": "Éducateur ML · auteur",
       "bioFr": "Livres et cours sur le machine learning et les LLM, très pédagogiques.",
-      "whyFr": "Ressources éducatives techniques de grande clarté."
+      "whyFr": "Ressources éducatives techniques de grande clarté.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "mlst",
@@ -1150,7 +1327,11 @@
       "active": true,
       "roleFr": "Machine Learning Street Talk",
       "bioFr": "Discussions techniques denses entre researchers et practitioners sur les avancées ML.",
-      "whyFr": "Profondeur technique rare dans le format podcast."
+      "whyFr": "Profondeur technique rare dans le format podcast.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "huggingface",
@@ -1176,7 +1357,11 @@
       "active": true,
       "roleFr": "Plateforme open-source IA",
       "bioFr": "Organisation derrière la plateforme Hugging Face : modèles, datasets, outils open-source.",
-      "whyFr": "Hub central de l'écosystème open-source IA."
+      "whyFr": "Hub central de l'écosystème open-source IA.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "ludovic-salenne",
@@ -1202,7 +1387,11 @@
       "active": true,
       "roleFr": "Créateur de contenu IA (FR)",
       "bioFr": "Vulgarisation et tests d'outils IA pour un public francophone.",
-      "whyFr": "Réactivité FR sur les outils IA du quotidien."
+      "whyFr": "Réactivité FR sur les outils IA du quotidien.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "ai-epiphany",
@@ -1227,7 +1416,11 @@
       "active": true,
       "roleFr": "Ingénierie IA & agents",
       "bioFr": "Deep dives techniques sur les agents, l'infra et les systèmes IA.",
-      "whyFr": "Deep dives techniques agents & research."
+      "whyFr": "Deep dives techniques agents & research.",
+      "listenFirst": "Top-rated or latest long-form content",
+      "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
+      "frequency": "Varies",
+      "frequencyFr": "Variable"
     },
     {
       "id": "thinkerview",
@@ -1253,7 +1446,540 @@
       "active": true,
       "roleFr": "Interviews long format (FR)",
       "bioFr": "Interviews longues en français avec experts, chercheurs et décideurs. Format exigeant, peu de filtre média.",
-      "whyFr": "Meilleur format long FR pour entendre des experts sans format court hype. Filtrer les épisodes IA/tech."
+      "whyFr": "Meilleur format long FR pour entendre des experts sans format court hype. Filtrer les épisodes IA/tech.",
+      "listenFirst": "Filter for tech/AI guests",
+      "listenFirstFr": "Filtrer les invités tech/IA",
+      "frequency": "Long interviews",
+      "frequencyFr": "Interviews longues"
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "role": "AI Research · Writing",
+      "roleFr": "Research IA · auteure",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.8,
+      "categories": [
+        "Research",
+        "Education",
+        "Engineering"
+      ],
+      "bio": "Known for exceptionally clear long-form technical blog posts on deep learning topics (attention, agents, diffusion, etc.).",
+      "bioFr": "Connue pour des articles techniques longs d'une clarté rare (attention, agents, diffusion, etc.).",
+      "why": "One of the best free curricula for serious ML practitioners.",
+      "whyFr": "Un des meilleurs cursus gratuits pour practitioners ML sérieux.",
+      "listenFirst": "Lil'Log posts on transformers / agents",
+      "listenFirstFr": "Articles Lil'Log sur les transformers / agents",
+      "frequency": "Occasional deep posts",
+      "frequencyFr": "Posts longs occasionnels",
+      "links": {
+        "website": "https://lilianweng.github.io",
+        "x": "https://x.com/lilianweng"
+      },
+      "active": true
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "role": "ML Systems educator",
+      "roleFr": "Éducatrice systèmes ML",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.6,
+      "categories": [
+        "Engineering",
+        "Education"
+      ],
+      "bio": "Author of practical books on ML systems and real-world deployment challenges.",
+      "bioFr": "Auteure de livres pratiques sur les systèmes ML et le déploiement en conditions réelles.",
+      "why": "Bridges research ideas and production constraints clearly.",
+      "whyFr": "Relie clairement les idées de research aux contraintes de production.",
+      "listenFirst": "Talks / writing on ML system design",
+      "listenFirstFr": "Talks / textes sur le design de systèmes ML",
+      "frequency": "Books + talks",
+      "frequencyFr": "Livres + talks",
+      "links": {
+        "website": "https://huyenchip.com",
+        "x": "https://x.com/chipro"
+      },
+      "active": true
+    },
+    {
+      "id": "clem-delangue",
+      "name": "Clément Delangue",
+      "role": "CEO – Hugging Face",
+      "roleFr": "CEO – Hugging Face",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Open-source",
+        "Europe",
+        "French",
+        "Builders"
+      ],
+      "bio": "CEO of Hugging Face. Public voice for open-source AI and the broader ecosystem.",
+      "bioFr": "CEO de Hugging Face. Voix publique pour l'IA open-source et l'écosystème.",
+      "why": "Central open-source / industry signal from Europe.",
+      "whyFr": "Signal open-source / industrie central depuis l'Europe.",
+      "listenFirst": "Interviews on open models strategy",
+      "listenFirstFr": "Interviews sur la stratégie open models",
+      "frequency": "Interviews, social",
+      "frequencyFr": "Interviews, réseaux",
+      "links": {
+        "x": "https://x.com/ClementDelangue",
+        "website": "https://huggingface.co"
+      },
+      "active": true
+    },
+    {
+      "id": "lewis-tunstall",
+      "name": "Lewis Tunstall",
+      "role": "ML Engineer – Hugging Face",
+      "roleFr": "ML Engineer – Hugging Face",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Open-source",
+        "Engineering",
+        "Education"
+      ],
+      "bio": "Works on open models, alignment tooling, and educational material around modern NLP stacks.",
+      "bioFr": "Travaille sur les modèles ouverts, l'alignment tooling et du matériel éducatif NLP moderne.",
+      "why": "Practical open-source ML education with high signal.",
+      "whyFr": "Éducation ML open-source pratique, high-signal.",
+      "listenFirst": "HF course / open model writeups",
+      "listenFirstFr": "Cours HF / writeups modèles ouverts",
+      "frequency": "Regular technical content",
+      "frequencyFr": "Contenu technique régulier",
+      "links": {
+        "x": "https://x.com/_lewtun",
+        "website": "https://huggingface.co"
+      },
+      "active": true
+    },
+    {
+      "id": "philipp-schmid",
+      "name": "Philipp Schmid",
+      "role": "ML / Cloud – Hugging Face",
+      "roleFr": "ML / Cloud – Hugging Face",
+      "country": "DE",
+      "countryCode": "DE",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Engineering",
+        "Open-source",
+        "Education"
+      ],
+      "bio": "Practical guides on training, serving, and optimizing open LLMs.",
+      "bioFr": "Guides pratiques pour entraîner, servir et optimiser les LLM open.",
+      "why": "Very actionable engineering posts for builders.",
+      "whyFr": "Posts engineering très actionnables pour builders.",
+      "listenFirst": "LLM fine-tuning / serving guides",
+      "listenFirstFr": "Guides fine-tuning / serving LLM",
+      "frequency": "Frequent technical posts",
+      "frequencyFr": "Posts techniques fréquents",
+      "links": {
+        "x": "https://x.com/_philschmid",
+        "website": "https://www.philschmid.de"
+      },
+      "active": true
+    },
+    {
+      "id": "jason-wei",
+      "name": "Jason Wei",
+      "role": "AI researcher",
+      "roleFr": "Chercheur IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Research",
+        "Education"
+      ],
+      "bio": "Influential papers and explainers on emergent abilities, chain-of-thought, and scaling phenomena.",
+      "bioFr": "Papers et explainers influents sur les capacités émergentes, le chain-of-thought et le scaling.",
+      "why": "Clear research communication on core LLM phenomena.",
+      "whyFr": "Communication research claire sur les phénomènes LLM centraux.",
+      "listenFirst": "Chain-of-thought / emergent abilities writeups",
+      "listenFirstFr": "Writeups chain-of-thought / capacités émergentes",
+      "frequency": "Papers + threads",
+      "frequencyFr": "Papers + threads",
+      "links": {
+        "x": "https://x.com/_jasonwei",
+        "website": "https://www.jasonwei.net"
+      },
+      "active": true
+    },
+    {
+      "id": "harrison-chase",
+      "name": "Harrison Chase",
+      "role": "CEO – LangChain",
+      "roleFr": "CEO – LangChain",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Engineering",
+        "Builders",
+        "Agents"
+      ],
+      "bio": "Public face of the LangChain ecosystem; frequent discussions on agents and LLM app architecture.",
+      "bioFr": "Visage public de l'écosystème LangChain ; discussions fréquentes sur agents et archi d'apps LLM.",
+      "why": "Useful pulse on agent frameworks and developer tooling.",
+      "whyFr": "Bon pulse sur les frameworks agents et le tooling dev.",
+      "listenFirst": "Agent architecture talks",
+      "listenFirstFr": "Talks d'architecture agents",
+      "frequency": "Talks, product updates",
+      "frequencyFr": "Talks, updates produit",
+      "links": {
+        "x": "https://x.com/hwchase17"
+      },
+      "active": true
+    },
+    {
+      "id": "nathan-lambert",
+      "name": "Nathan Lambert",
+      "role": "RLHF / open models",
+      "roleFr": "RLHF / modèles ouverts",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Research",
+        "Open-source",
+        "Engineering"
+      ],
+      "bio": "Writes in depth about post-training, RLHF, and the open-model ecosystem.",
+      "bioFr": "Écrit en profondeur sur le post-training, le RLHF et l'écosystème open-model.",
+      "why": "High-signal commentary on how models are actually trained after pretraining.",
+      "whyFr": "Commentaire high-signal sur l'entraînement réel après le prétraining.",
+      "listenFirst": "Interconnects / post-training essays",
+      "listenFirstFr": "Essais Interconnects / post-training",
+      "frequency": "Regular essays",
+      "frequencyFr": "Essais réguliers",
+      "links": {
+        "website": "https://www.interconnects.ai",
+        "x": "https://x.com/natolambert"
+      },
+      "active": true
+    },
+    {
+      "id": "gary-marcus",
+      "name": "Gary Marcus",
+      "role": "Critic & cognitive scientist",
+      "roleFr": "Critique & scientifique cognitif",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.6,
+      "categories": [
+        "Analysis",
+        "Safety",
+        "Anti-hype"
+      ],
+      "bio": "Long-time critic of pure deep learning hype; argues for hybrid approaches and stronger evaluation.",
+      "bioFr": "Critique de longue date du hype pure deep learning ; défend des approches hybrides et une évaluation plus stricte.",
+      "why": "Useful counterweight to optimistic narratives—read alongside builders.",
+      "whyFr": "Contrepoint utile aux narratifs optimistes — à lire avec les builders.",
+      "listenFirst": "Debates on LLM limits",
+      "listenFirstFr": "Débats sur les limites des LLM",
+      "frequency": "Frequent commentary",
+      "frequencyFr": "Commentaire fréquent",
+      "links": {
+        "x": "https://x.com/GaryMarcus",
+        "website": "https://garymarcus.substack.com"
+      },
+      "active": true
+    },
+    {
+      "id": "max-tegmark",
+      "name": "Max Tegmark",
+      "role": "Physicist · FLI",
+      "roleFr": "Physicien · FLI",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.9,
+      "categories": [
+        "Safety",
+        "Research"
+      ],
+      "bio": "MIT physicist; Future of Life Institute. Focus on existential risk and AI policy.",
+      "bioFr": "Physicien MIT ; Future of Life Institute. Focus risques existentiels et policy IA.",
+      "why": "Major public voice on catastrophic risk framing.",
+      "whyFr": "Voix publique majeure sur le cadrage des risques catastrophiques.",
+      "listenFirst": "FLI / risk interviews",
+      "listenFirstFr": "Interviews FLI / risques",
+      "frequency": "Talks, advocacy",
+      "frequencyFr": "Talks, plaidoyer",
+      "links": {
+        "x": "https://x.com/tegmark",
+        "website": "https://futureoflife.org"
+      },
+      "active": true
+    },
+    {
+      "id": "connor-leahy",
+      "name": "Connor Leahy",
+      "role": "AI safety · Conjecture",
+      "roleFr": "AI safety · Conjecture",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.8,
+      "categories": [
+        "Safety",
+        "Research"
+      ],
+      "bio": "Outspoken safety researcher; previously EleutherAI, now Conjecture.",
+      "bioFr": "Chercheur safety très direct ; ex-EleutherAI, maintenant Conjecture.",
+      "why": "Strong, unfiltered safety takes from someone who built open models.",
+      "whyFr": "Prises de position safety tranchées, venant de quelqu'un qui a construit des modèles ouverts.",
+      "listenFirst": "Long interviews on x-risk",
+      "listenFirstFr": "Longues interviews sur le x-risk",
+      "frequency": "Interviews",
+      "frequencyFr": "Interviews",
+      "links": {
+        "x": "https://x.com/npdotee"
+      },
+      "active": true
+    },
+    {
+      "id": "eugene-yan",
+      "name": "Eugene Yan",
+      "role": "Applied ML · writing",
+      "roleFr": "ML appliqué · écriture",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Engineering",
+        "Education"
+      ],
+      "bio": "Practical essays on applied ML, recommendations, and LLM systems in industry.",
+      "bioFr": "Essais pratiques sur le ML appliqué, les reco et les systèmes LLM en industrie.",
+      "why": "Grounded industry ML writing without hype.",
+      "whyFr": "Écriture ML industrie ancrée, sans hype.",
+      "listenFirst": "eugeneyan.com system design posts",
+      "listenFirstFr": "Posts system design sur eugeneyan.com",
+      "frequency": "Regular essays",
+      "frequencyFr": "Essais réguliers",
+      "links": {
+        "website": "https://eugeneyan.com",
+        "x": "https://x.com/eugeneyan"
+      },
+      "active": true
+    },
+    {
+      "id": "hugo-larochelle",
+      "name": "Hugo Larochelle",
+      "role": "Research scientist · educator",
+      "roleFr": "Chercheur · éducateur",
+      "country": "CA",
+      "countryCode": "CA",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Research",
+        "Education",
+        "French"
+      ],
+      "bio": "Deep learning researcher and educator; clear course material used worldwide.",
+      "bioFr": "Chercheur et éducateur en deep learning ; cours clairs utilisés dans le monde entier.",
+      "why": "Excellent pedagogical baseline for deep learning foundations.",
+      "whyFr": "Excellent socle pédagogique pour les fondations du deep learning.",
+      "listenFirst": "Neural networks courses / talks",
+      "listenFirstFr": "Cours / talks réseaux de neurones",
+      "frequency": "Courses, talks",
+      "frequencyFr": "Cours, talks",
+      "links": {
+        "website": "https://www.youtube.com/@HugoLarochelle",
+        "x": "https://x.com/hugo_larochelle"
+      },
+      "active": true
+    },
+    {
+      "id": "john-carmack",
+      "name": "John Carmack",
+      "role": "Engineer · AGI interest",
+      "roleFr": "Ingénieur · intérêt AGI",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Engineering",
+        "Frontier"
+      ],
+      "bio": "Legendary engineer; public notes and interviews on AGI research approaches and engineering rigor.",
+      "bioFr": "Ingénieur légendaire ; notes et interviews publiques sur l'AGI et la rigueur engineering.",
+      "why": "Rare engineering-first lens on AGI research.",
+      "whyFr": "Regard engineering rare sur la research AGI.",
+      "listenFirst": "Dwarkesh / long interviews",
+      "listenFirstFr": "Interviews longues (Dwarkesh, etc.)",
+      "frequency": "Occasional interviews",
+      "frequencyFr": "Interviews occasionnelles",
+      "links": {
+        "x": "https://x.com/ID_AA_Carmack"
+      },
+      "active": true
+    },
+    {
+      "id": "sholto-douglas",
+      "name": "Sholto Douglas",
+      "role": "Researcher · frontier labs",
+      "roleFr": "Chercheur · labs frontier",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Research",
+        "Frontier",
+        "Engineering"
+      ],
+      "bio": "Known for technical depth in long-form interviews on scaling, kernels, and frontier training.",
+      "bioFr": "Connu pour sa profondeur technique en interviews long format (scaling, kernels, training frontier).",
+      "why": "Extremely high technical density when he speaks publicly.",
+      "whyFr": "Densité technique extrême lorsqu'il s'exprime en public.",
+      "listenFirst": "Dwarkesh interview",
+      "listenFirstFr": "Interview Dwarkesh",
+      "frequency": "Rare interviews",
+      "frequencyFr": "Interviews rares",
+      "links": {
+        "x": "https://x.com/sholtodouglas"
+      },
+      "active": true
+    },
+    {
+      "id": "noam-brown",
+      "name": "Noam Brown",
+      "role": "Researcher – OpenAI",
+      "roleFr": "Chercheur – OpenAI",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Research",
+        "Frontier"
+      ],
+      "bio": "Poker AI to o1-style reasoning research; clear communicator on test-time compute.",
+      "bioFr": "De l'IA poker à la research type o1 ; communicant clair sur le test-time compute.",
+      "why": "Primary source energy on reasoning systems.",
+      "whyFr": "Source primaire sur les systèmes de raisonnement.",
+      "listenFirst": "Talks on reasoning / test-time compute",
+      "listenFirstFr": "Talks raisonnement / test-time compute",
+      "frequency": "Talks, papers",
+      "frequencyFr": "Talks, papers",
+      "links": {
+        "x": "https://x.com/polynoamial"
+      },
+      "active": true
+    },
+    {
+      "id": "olivier-godement",
+      "name": "Olivier Godement",
+      "role": "Product – OpenAI",
+      "roleFr": "Produit – OpenAI",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 7.7,
+      "categories": [
+        "Builders",
+        "French",
+        "Europe"
+      ],
+      "bio": "French product voice in frontier AI; occasional public discussions on product and platform.",
+      "bioFr": "Voix produit française dans l'IA frontier ; discussions publiques occasionnelles produit / plateforme.",
+      "why": "FR/EU product perspective inside a frontier lab.",
+      "whyFr": "Perspective produit FR/EU au sein d'un lab frontier.",
+      "listenFirst": "FR podcasts / interviews",
+      "listenFirstFr": "Podcasts / interviews FR",
+      "frequency": "Occasional",
+      "frequencyFr": "Occasionnel",
+      "links": {
+        "x": "https://x.com/ogodement"
+      },
+      "active": true
+    },
+    {
+      "id": "allison-duettmann",
+      "name": "Allison Duettmann",
+      "role": "Foresight Institute",
+      "roleFr": "Foresight Institute",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.7,
+      "categories": [
+        "Safety",
+        "Research"
+      ],
+      "bio": "Works on long-term technology strategy, AI risk, and multipolar scenarios.",
+      "bioFr": "Travaille sur la stratégie tech long terme, les risques IA et les scénarios multipolaires.",
+      "why": "Thoughtful long-horizon framing beyond weekly model launches.",
+      "whyFr": "Cadrage long terme soigné, au-delà des launches de modèles hebdomadaires.",
+      "listenFirst": "Foresight talks",
+      "listenFirstFr": "Talks Foresight",
+      "frequency": "Talks, events",
+      "frequencyFr": "Talks, events",
+      "links": {
+        "x": "https://x.com/AllisonDuett"
+      },
+      "active": true
     }
   ]
 }

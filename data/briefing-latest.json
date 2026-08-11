@@ -1,8 +1,10 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T10:51:56.060796+00:00",
+  "generatedAt": "2026-08-11T12:15:05.107671+00:00",
   "title": "Briefing du jour",
-  "summary": "75 contenus · top 7 signaux",
+  "summary": "90 contenus · top 7 signaux",
+  "editorial": "Dominant aujourd'hui : agents, education, policy. 15 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, policy. 15 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -43,13 +45,24 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 16h",
+      "ago": "Il y a 18h",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."
     },
     {
       "rank": 5,
+      "title": "Harness Engineering for Self-Improvement",
+      "voiceId": "lilian-weng",
+      "voiceName": "Lilian Weng",
+      "signalScore": 8.8,
+      "ago": "Il y a 1 mois",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "language": "en",
+      "why": "One of the best free curricula for serious ML practitioners."
+    },
+    {
+      "rank": 6,
       "title": "The 64 sugar cubes puzzle",
       "voiceId": "3blue1brown",
       "voiceName": "3Blue1Brown (Grant Sanderson)",
@@ -60,7 +73,7 @@
       "why": "Best mathematical intuition content for understanding the foundations of deep learning."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
       "voiceId": "yannic-kilcher",
       "voiceName": "Yannic Kilcher",
@@ -69,23 +82,12 @@
       "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
       "language": "en",
       "why": "Highest-quality paper explanation content available publicly."
-    },
-    {
-      "rank": 7,
-      "title": "AI is getting a little out of control",
-      "voiceId": "ai-explained",
-      "voiceName": "AI Explained",
-      "signalScore": 8.6,
-      "ago": "Il y a 4j",
-      "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
-      "language": "en",
-      "why": "Consistently low-hype, high-signal commentary on rapid developments."
     }
   ],
   "stats": {
-    "totalContents": 75,
-    "sources": 15,
+    "totalContents": 90,
+    "sources": 18,
     "frCount": 15,
-    "enCount": 60
+    "enCount": 75
   }
 }
