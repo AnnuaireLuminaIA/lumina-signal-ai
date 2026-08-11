@@ -510,6 +510,96 @@
       padding: 12px 18px; display: flex; gap: 10px; flex-wrap: wrap;
       border-top: 1px solid rgba(255,255,255,0.06);
     }
+
+    /* Compact mode */
+    body.compact .card {
+      padding: 8px 10px;
+      gap: 10px;
+    }
+    body.compact .thumb {
+      width: 72px; height: 40px;
+    }
+    body.compact .card-title {
+      font-size: 13px;
+      margin-bottom: 0;
+      -webkit-line-clamp: 1;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    body.compact .card-actions { display: none; }
+    body.compact .card-excerpt { display: none; }
+    body.compact .card-top { margin-bottom: 2px; }
+    /* Voice detail modal */
+    .voice-modal-backdrop {
+      position: fixed; inset: 0; z-index: 150;
+      background: rgba(0,0,0,0.75);
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .voice-modal {
+      background: #0c0c11;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      max-width: 520px; width: 100%;
+      max-height: 85vh; overflow: auto;
+      padding: 28px;
+    }
+    .voice-modal h2 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: 24px; font-weight: 400; margin: 0 0 6px;
+    }
+    .voice-modal .role { color: #a1a1aa; font-size: 13.5px; margin-bottom: 14px; }
+    .voice-modal .meta-row {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+      font-size: 12px; color: #71717a;
+    }
+    .voice-modal .meta-row span {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 3px 9px; border-radius: 6px;
+    }
+    .voice-modal .score {
+      color: #c4b5fd; background: rgba(167,139,250,0.12) !important;
+      border-color: rgba(167,139,250,0.25) !important; font-weight: 600;
+    }
+    .voice-modal .bio { font-size: 14px; color: #d4d4d8; line-height: 1.55; margin-bottom: 12px; }
+    .voice-modal .why {
+      font-size: 13px; color: #a1a1aa; line-height: 1.5;
+      padding: 12px; border-radius: 10px;
+      background: rgba(167,139,250,0.06);
+      border: 1px solid rgba(167,139,250,0.15);
+      margin-bottom: 18px;
+    }
+    .voice-modal .links {
+      display: flex; flex-wrap: wrap; gap: 8px;
+    }
+    .voice-modal .links a {
+      font-size: 12.5px; color: #c4b5fd;
+      text-decoration: none;
+      padding: 7px 12px; border-radius: 8px;
+      border: 1px solid rgba(167,139,250,0.3);
+      background: rgba(167,139,250,0.08);
+    }
+    .voice-modal .links a:hover { background: rgba(167,139,250,0.18); }
+    .voice-card { cursor: pointer; }
+    .chip-toggle {
+      margin-left: auto;
+    }
+    .share-row {
+      display: flex; gap: 8px; flex-wrap: wrap;
+      margin-top: 16px; justify-content: center;
+    }
+    .share-row button {
+      font-size: 12px; font-family: inherit;
+      padding: 7px 12px; border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.04);
+      color: #a1a1aa; cursor: pointer;
+    }
+    .share-row button:hover {
+      color: #c4b5fd; border-color: rgba(167,139,250,0.35);
+    }
   </style>
 </head>
 <body>
@@ -575,6 +665,7 @@
           <button class="chip" data-type="podcast">Podcasts</button>
           <button class="chip" data-type="fr">FR only</button>
           <button class="chip" data-type="fav">★ Favoris</button>
+          <button class="chip chip-toggle" id="compact-toggle" title="Mode compact (c)">Compact</button>
         </div>
         <div class="feed" id="feed-list"></div>
       </div>
@@ -781,6 +872,83 @@
       return s; // already formatted in sample
     }
 
+
+    function openVoiceModal(id) {
+      const v = getVoice(id);
+      if (!v) return;
+      document.getElementById("voice-modal")?.remove();
+      const links = v.links || {};
+      const linkHtml = [
+        links.youtube ? `<a href="${links.youtube}" target="_blank" rel="noopener">YouTube</a>` : "",
+        links.x ? `<a href="${links.x}" target="_blank" rel="noopener">X / Twitter</a>` : "",
+        links.website ? `<a href="${links.website}" target="_blank" rel="noopener">Site</a>` : "",
+        links.podcast ? `<a href="${links.podcast}" target="_blank" rel="noopener">Podcast</a>` : "",
+        links.github ? `<a href="${links.github}" target="_blank" rel="noopener">GitHub</a>` : "",
+        links.linkedin ? `<a href="${links.linkedin}" target="_blank" rel="noopener">LinkedIn</a>` : "",
+      ].filter(Boolean).join("");
+      const cats = (v.categories || []).map(c => `<span>${c}</span>`).join("");
+      const langs = (v.language || []).join(" / ").toUpperCase();
+      const html = `<div class="voice-modal-backdrop" id="voice-modal" onclick="if(event.target===this)this.remove()">
+        <div class="voice-modal">
+          <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:8px">
+            <h2>${v.name}</h2>
+            <button onclick="document.getElementById('voice-modal').remove()" style="background:none;border:none;color:#a1a1aa;font-size:22px;cursor:pointer;line-height:1">×</button>
+          </div>
+          <div class="role">${v.role || ""}</div>
+          <div class="meta-row">
+            <span>${v.country || v.countryCode || ""}</span>
+            <span class="score">Signal ${v.signalScore}</span>
+            <span>${langs || "—"}</span>
+            ${cats}
+          </div>
+          <div class="bio">${v.bio || ""}</div>
+          ${v.why ? `<div class="why"><strong style="color:#c4b5fd">Pourquoi suivre · </strong>${v.why}</div>` : ""}
+          ${linkHtml ? `<div class="links">${linkHtml}</div>` : ""}
+        </div>
+      </div>`;
+      document.body.insertAdjacentHTML("beforeend", html);
+    }
+
+    function getBriefingShareText() {
+      let top = [];
+      if (typeof BRIEFING !== "undefined" && BRIEFING.items) top = BRIEFING.items;
+      const lines = ["✦ Lumina Signal — Briefing du jour", ""];
+      top.forEach((it, i) => {
+        lines.push(`${i+1}. [${it.signalScore}] ${it.voiceName || it.voiceId} — ${it.title}`);
+        if (it.url) lines.push(`   ${it.url}`);
+      });
+      lines.push("", "https://annuaireluminaia.github.io/lumina-signal-ai/");
+      return lines.join("\n");
+    }
+
+    async function copyBriefingText() {
+      const text = getBriefingShareText();
+      try {
+        await navigator.clipboard.writeText(text);
+        alert("Briefing copié dans le presse-papiers");
+      } catch(e) {
+        prompt("Copie ce texte :", text);
+      }
+    }
+
+    async function copyBriefingLink() {
+      const url = location.href.split("#")[0] + "#briefing";
+      try {
+        await navigator.clipboard.writeText(url);
+        alert("Lien copié");
+      } catch(e) {
+        prompt("Copie ce lien :", url);
+      }
+    }
+
+    function toggleCompact() {
+      document.body.classList.toggle("compact");
+      const on = document.body.classList.contains("compact");
+      localStorage.setItem("lumina-compact", on ? "1" : "0");
+      const btn = document.getElementById("compact-toggle");
+      if (btn) btn.classList.toggle("active", on);
+    }
+
     // ——— Render Feed ———
     function renderFeed() {
       const list = document.getElementById("feed-list");
@@ -853,7 +1021,7 @@
             </div>
             <div class="card-content">
               <div class="card-top">
-                <span class="name">${v.name}</span>
+                <span class="name" style="cursor:pointer" onclick="event.stopPropagation();openVoiceModal('${c.voiceId}')" title="Fiche voix">${v.name}</span>
                 <span>·</span>
                 <span>${c.ago || c.duration || ""}</span>
                 <span class="badge">${c.signalScore}</span>
@@ -900,7 +1068,7 @@
           links.github ? `<a class="vlink" href="${links.github}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GitHub</a>` : "",
         ].filter(Boolean).join("");
         return `
-        <div class="voice-card" data-id="${v.id}">
+        <div class="voice-card" data-id="${v.id}" onclick="openVoiceModal('${v.id}')">
           <h3>${v.name}</h3>
           <div class="voice-role">${v.role}</div>
           <div class="voice-meta">
@@ -1132,7 +1300,11 @@
       });
 
       html += `</div>
-          <div style="margin-top:18px;font-size:12px;color:#52525b;text-align:center">Clique sur un item pour ouvrir · Généré à partir des flux live</div>
+          <div class="share-row">
+            <button type="button" onclick="copyBriefingText()">📋 Copier le briefing</button>
+            <button type="button" onclick="copyBriefingLink()">🔗 Copier le lien</button>
+          </div>
+          <div style="margin-top:12px;font-size:12px;color:#52525b;text-align:center">Clique sur un item pour ouvrir · Généré à partir des flux live</div>
         </div>
       </div>`;
 
@@ -1210,12 +1382,44 @@
       });
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") document.getElementById("player-modal")?.remove();
-      if (e.key === "/" && e.target.tagName !== "INPUT") {
+      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") {
+        if (e.key === "Escape") e.target.blur();
+        return;
+      }
+      if (e.key === "Escape") {
+        document.getElementById("player-modal")?.remove();
+        document.getElementById("voice-modal")?.remove();
+        document.getElementById("briefing-modal")?.remove();
+      }
+      if (e.key === "/") {
         e.preventDefault();
         document.getElementById("search-input")?.focus();
       }
+      if (e.key === "b" || e.key === "B") {
+        e.preventDefault();
+        openBriefing();
+      }
+      if (e.key === "c" || e.key === "C") {
+        e.preventDefault();
+        toggleCompact();
+      }
+      if (e.key === "v" || e.key === "V") {
+        e.preventDefault();
+        setView("voices");
+      }
+      if (e.key === "f" || e.key === "F") {
+        e.preventDefault();
+        setView("feed");
+      }
     });
+
+    document.getElementById("compact-toggle")?.addEventListener("click", toggleCompact);
+    if (localStorage.getItem("lumina-compact") === "1") {
+      document.body.classList.add("compact");
+      document.getElementById("compact-toggle")?.classList.add("active");
+    }
+    // Deep link #briefing
+    if (location.hash === "#briefing") setTimeout(openBriefing, 400);
 
     // Init
     loadLiveData();
