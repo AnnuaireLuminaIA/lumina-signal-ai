@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Signal — High-signal AI voices</title>
+  <meta name="description" content="Suivre les personnes qui parlent sérieusement d'IA. Feed live, briefing du jour, curation high-signal.">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta property="og:title" content="Lumina Signal">
+  <meta property="og:description" content="High-signal AI voices, live. Briefing du jour + feed curaté.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://annuaireluminaia.github.io/lumina-signal-ai/">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #050507;
+      --bg-sidebar: #08080c;
+      --bg-card: #0c0c11;
+      --bg-card-hover: #101016;
+      --border: rgba(255,255,255,0.06);
+      --border-strong: rgba(255,255,255,0.1);
+      --text: #fafafa;
+      --text-2: #a1a1aa;
+      --text-3: #71717a;
+      --accent: #a78bfa;
+      --accent-dim: rgba(167, 139, 250, 0.12);
+      --green: #34d399;
+      --radius: 14px;
+      --radius-sm: 9px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+    }
+    .header {
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px 0 18px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(5,5,7,0.85);
+      backdrop-filter: blur(16px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 14.5px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+    }
+    .logo-icon {
+      width: 22px; height: 22px;
+      border-radius: 7px;
+      background: linear-gradient(145deg, #8b5cf6, #6366f1);
+      display: grid; place-items: center;
+      font-size: 11px;
+      box-shadow: 0 0 0 1px rgba(139,92,246,0.3), 0 4px 12px rgba(139,92,246,0.25);
+    }
+    .nav {
+      display: flex;
+      gap: 2px;
+      background: rgba(255,255,255,0.03);
+      padding: 3px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+    }
+    .nav button {
+      background: none; border: none;
+      color: var(--text-3);
+      font-size: 13px; font-weight: 500;
+      padding: 5px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s;
+    }
+    .nav button:hover { color: var(--text-2); }
+    .nav button.active {
+      background: rgba(255,255,255,0.07);
+      color: var(--text);
+    }
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .lang {
+      display: flex;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      overflow: hidden;
+      font-size: 11.5px; font-weight: 600;
+    }
+    .lang span {
+      padding: 4px 9px; cursor: pointer; color: var(--text-3);
+    }
+    .lang span.active {
+      background: var(--accent-dim); color: var(--accent);
+    }
+    .shell {
+      display: grid;
+      grid-template-columns: 240px 1fr 320px;
+      height: calc(100vh - 52px);
+    }
+    .sidebar {
+      background: var(--bg-sidebar);
+      border-right: 1px solid var(--border);
+      padding: 18px 12px;
+      overflow-y: auto;
+    }
+    .side-label {
+      font-size: 10.5px; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--text-3);
+      padding: 0 8px; margin-bottom: 8px; margin-top: 6px;
+    }
+    .side-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 7px 8px; border-radius: 8px;
+      font-size: 13px; color: var(--text-2);
+      cursor: pointer; transition: all 0.12s;
+      margin-bottom: 1px; border: none; background: none;
+      width: 100%; text-align: left; font-family: inherit;
+    }
+    .side-item:hover { background: rgba(255,255,255,0.035); color: var(--text); }
+    .side-item.active { background: var(--accent-dim); color: #c4b5fd; }
+    .divider { height: 1px; background: var(--border); margin: 16px 8px; }
+    .main { overflow-y: auto; padding: 24px 28px 80px; }
+    .feed-header {
+      display: flex; align-items: flex-end;
+      justify-content: space-between; margin-bottom: 22px;
+    }
+    .feed-title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 26px; font-weight: 400;
+      letter-spacing: -0.03em; line-height: 1.1;
+    }
+    .feed-sub { font-size: 13px; color: var(--text-3); margin-top: 3px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      height: 32px; padding: 0 13px; border-radius: 8px;
+      font-size: 12.5px; font-weight: 550;
+      border: none; cursor: pointer; transition: all 0.15s;
+      font-family: inherit;
+    }
+    .btn-primary {
+      background: linear-gradient(180deg, #a78bfa, #8b5cf6);
+      color: #fff;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.12) inset, 0 4px 12px rgba(139,92,246,0.3);
+    }
+    .btn-primary:hover { filter: brightness(1.08); }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-2);
+    }
+    .btn-ghost:hover {
+      border-color: var(--border-strong);
+      color: var(--text);
+      background: rgba(255,255,255,0.03);
+    }
+    .feed { display: flex; flex-direction: column; gap: 10px; }
+    .card {
+      display: flex; gap: 14px; padding: 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer; transition: all 0.18s;
+    }
+    .card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-strong);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    .thumb {
+      width: 120px; height: 68px;
+      border-radius: 9px; flex-shrink: 0;
+      display: grid; place-items: center;
+      font-size: 10px; font-weight: 600;
+      letter-spacing: 0.04em;
+      color: rgba(255,255,255,0.35);
+    }
+    .thumb.video { background: linear-gradient(145deg, #1e1b4b, #312e81); }
+    .thumb.podcast { background: linear-gradient(145deg, #0f172a, #1e3a5f); }
+    .card-content { flex: 1; min-width: 0; }
+    .card-top {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 12px; color: var(--text-3); margin-bottom: 5px;
+    }
+    .card-top .name { color: var(--text-2); font-weight: 500; }
+    .badge {
+      margin-left: auto;
+      font-size: 11px; font-weight: 600;
+      color: #c4b5fd; background: var(--accent-dim);
+      padding: 2px 7px; border-radius: 5px;
+    }
+    .card-title {
+      font-size: 14.5px; font-weight: 560;
+      letter-spacing: -0.015em; line-height: 1.35; margin-bottom: 5px;
+    }
+    .card-excerpt {
+      font-size: 12.5px; color: var(--text-3); line-height: 1.45;
+      display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+    /* Voices grid */
+    .voices-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .voice-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .voice-card:hover {
+      border-color: var(--border-strong);
+      background: var(--bg-card-hover);
+      transform: translateY(-1px);
+    }
+    .voice-card h3 {
+      font-size: 15px; font-weight: 600;
+      letter-spacing: -0.02em; margin-bottom: 2px;
+    }
+    .voice-role { font-size: 12.5px; color: var(--text-3); margin-bottom: 10px; }
+    .voice-meta {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; color: var(--text-3); margin-bottom: 12px;
+    }
+    .score-pill {
+      background: var(--accent-dim); color: #c4b5fd;
+      font-weight: 600; padding: 2px 8px; border-radius: 5px;
+      font-size: 12px;
+    }
+    .voice-bio {
+      font-size: 12.5px; color: var(--text-2);
+      line-height: 1.5;
+      display: -webkit-box; -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+    .tag {
+      font-size: 11px; padding: 2px 8px; border-radius: 5px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border); color: var(--text-3);
+    }
+    .voice-links {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;
+    }
+    .vlink {
+      font-size: 11.5px; font-weight: 500;
+      color: #c4b5fd; text-decoration: none;
+      padding: 3px 8px; border-radius: 5px;
+      background: var(--accent-dim);
+      border: 1px solid rgba(167,139,250,0.2);
+      transition: all 0.12s;
+    }
+    .vlink:hover {
+      background: rgba(167,139,250,0.25);
+      color: #e9e0ff;
+    }
+    /* Assistant */
+    .assistant-panel {
+      border-left: 1px solid var(--border);
+      background: var(--bg-sidebar);
+      display: flex; flex-direction: column; overflow: hidden;
+    }
+    .assistant-header {
+      padding: 16px 18px 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .assistant-title {
+      font-size: 13.5px; font-weight: 600;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .assistant-title span {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 3px rgba(52,211,153,0.2);
+    }
+    .assistant-body {
+      flex: 1; padding: 18px; overflow-y: auto;
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .msg {
+      max-width: 95%; font-size: 13px; line-height: 1.5;
+    }
+    .msg.bot {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 12px 12px 12px 4px;
+      padding: 12px 14px; color: var(--text-2);
+    }
+    .msg.bot strong { color: var(--text); font-weight: 560; }
+    .suggestions {
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .suggestion {
+      font-size: 12.5px; padding: 8px 12px;
+      border-radius: 8px; border: 1px solid var(--border);
+      background: transparent; color: var(--text-3);
+      text-align: left; cursor: pointer;
+      font-family: inherit; transition: all 0.12s;
+    }
+    .suggestion:hover {
+      border-color: rgba(167,139,250,0.3);
+      color: #c4b5fd; background: var(--accent-dim);
+    }
+    .assistant-input {
+      padding: 14px 16px; border-top: 1px solid var(--border);
+    }
+    .input-wrap {
+      display: flex; gap: 8px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 6px 6px 14px;
+    }
+    .input-wrap:focus-within { border-color: rgba(167,139,250,0.4); }
+    .input-wrap input {
+      flex: 1; background: transparent; border: none;
+      outline: none; color: var(--text);
+      font-size: 13px; font-family: inherit;
+    }
+    .input-wrap input::placeholder { color: var(--text-3); }
+    .send-btn {
+      width: 32px; height: 32px; border-radius: 8px;
+      border: none; background: var(--accent); color: white;
+      display: grid; place-items: center; cursor: pointer;
+      font-size: 14px;
+    }
+    .hidden { display: none !important; }
+    .empty {
+      text-align: center; padding: 60px 20px;
+      color: var(--text-3); font-size: 14px;
+    }
+    @media (max-width: 1100px) {
+      .shell { grid-template-columns: 220px 1fr; }
+      .assistant-panel { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-icon">✦</div>
+      Lumina Signal
+    </div>
+    <nav class="nav">
+      <button data-view="feed" class="active">Feed</button>
+      <button data-view="voices">Voix</button>
+      <button data-view="assistant">Assistant</button>
+    </nav>
+    <div class="header-actions">
+      <div class="lang">
+        <span class="active" data-lang="fr">FR</span>
+        <span data-lang="en">EN</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="side-label">Catégories</div>
+      <button class="side-item active" data-filter="all">Toutes</button>
+      <button class="side-item" data-filter="Research">Research</button>
+      <button class="side-item" data-filter="Engineering">Engineering</button>
+      <button class="side-item" data-filter="Safety">Safety</button>
+      <button class="side-item" data-filter="Podcast">Podcast</button>
+      <button class="side-item" data-filter="Education">Education</button>
+      <button class="side-item" data-filter="French">French</button>
+      <div class="divider"></div>
+      <div class="side-label">Pays</div>
+      <button class="side-item" data-country="all">Tous</button>
+      <button class="side-item" data-country="US">🇺🇸 United States</button>
+      <button class="side-item" data-country="FR">🇫🇷 France</button>
+      <button class="side-item" data-country="GB">🇬🇧 United Kingdom</button>
+      <button class="side-item" data-country="CA">🇨🇦 Canada</button>
+      <button class="side-item" data-country="CH">🇨🇭 Switzerland</button>
+      <button class="side-item" data-country="HU">🇭🇺 Hungary</button>
+      <button class="side-item" data-country="RS">🇷🇸 Serbia</button>
+    </aside>
+
+    <main class="main">
+      <!-- FEED VIEW -->
+      <div id="view-feed">
+        <div class="feed-header">
+          <div>
+            <h1 class="feed-title">Signal</h1>
+            <p class="feed-sub" id="feed-meta">Contenus récents</p>
+          </div>
+          <button class="btn btn-primary">✦ Briefing du jour</button>
+        </div>
+        <div class="feed" id="feed-list"></div>
+      </div>
+
+      <!-- VOICES VIEW -->
+      <div id="view-voices" class="hidden">
+        <div class="feed-header">
+          <div>
+            <h1 class="feed-title">Voix</h1>
+            <p class="feed-sub" id="voices-meta">44 voix sélectionnées</p>
+          </div>
+        </div>
+        <div class="voices-grid" id="voices-list"></div>
+      </div>
+    </main>
+
+    <aside class="assistant-panel">
+      <div class="assistant-header">
+        <div class="assistant-title">
+          <span></span>
+          Assistant
+        </div>
+      </div>
+      <div class="assistant-body" id="assistant-body">
+        <div class="msg bot">
+          Bonjour. Je connais les <strong>44 voix</strong> sélectionnées.<br><br>
+          Je peux te recommander qui suivre, filtrer par sujet, ou te dire qui parle le mieux d’un thème précis.
+        </div>
+        <div class="suggestions">
+          <button class="suggestion" data-q="Qui parle le mieux d’agents ?">Qui parle le mieux d’agents ?</button>
+          <button class="suggestion" data-q="Montre-moi les voix françaises">Montre-moi les voix françaises</button>
+          <button class="suggestion" data-q="Top voix Safety">Top voix Safety</button>
+        </div>
+      </div>
+      <div class="assistant-input">
+        <div class="input-wrap">
+          <input type="text" id="assistant-input" placeholder="Pose une question…" />
+          <button class="send-btn" id="send-btn">↑</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    // ——— Embedded data (top voices for demo) ———
+    const VOICES = [{"id": "andrej-karpathy", "name": "Andrej Karpathy", "role": "AI Educator & Researcher", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 9.6, "categories": ["Education", "Research", "Engineering"], "bio": "Former Director of AI at Tesla and founding member of OpenAI. Creates the clearest from-scratch educational content on deep learning and LLMs.", "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence.", "links": {"website": "https://karpathy.ai", "youtube": "https://www.youtube.com/@AndrejKarpathy", "x": "https://x.com/karpathy", "github": "https://github.com/karpathy"}},
+      {"id": "dwarkesh-patel", "name": "Dwarkesh Patel", "role": "Host – Dwarkesh Podcast", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 9.4, "categories": ["Frontier", "Research", "Podcast", "Long-form"], "bio": "Produces the most thoroughly prepared long-form interviews with frontier lab leaders and researchers.", "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models.", "links": {"website": "https://www.dwarkesh.com", "youtube": "https://www.youtube.com/@DwarkeshPatel", "x": "https://x.com/dwarkesh_sp", "podcast": "https://www.dwarkesh.com/podcast"}},
+      {"id": "yann-lecun", "name": "Yann LeCun", "role": "Chief AI Scientist – Meta", "country": "FR", "countryCode": "FR", "language": ["en", "fr"], "signalScore": 9.1, "categories": ["Research", "Vision", "Open-source"], "bio": "Turing Award winner. Leading voice on the limitations of pure scaling and advocate for open research and alternative architectures.", "why": "One of the most influential long-term thinkers in the field with consistent, high-signal public positions.", "links": {"x": "https://x.com/ylecun", "website": "https://yann.lecun.com"}},
+      {"id": "demis-hassabis", "name": "Demis Hassabis", "role": "CEO – Google DeepMind", "country": "GB", "countryCode": "GB", "language": ["en"], "signalScore": 9.0, "categories": ["Frontier", "Research"], "bio": "Co-founder of DeepMind. Key figure in AGI research and scientific applications of AI (AlphaFold, etc.).", "why": "Rare combination of scientific depth and leadership at the absolute frontier.", "links": {"x": "https://x.com/demishassabis", "website": "https://deepmind.google"}},
+      {"id": "swyx-alessio", "name": "swyx & Alessio Fanelli", "role": "Hosts – Latent Space", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 9.0, "categories": ["Engineering", "Podcast", "Builders"], "bio": "The leading podcast for AI engineers. Covers agents, infrastructure, evals, and production systems with high technical density.", "why": "Best ongoing coverage of real AI engineering practice.", "links": {"website": "https://www.latent.space", "x_swyx": "https://x.com/swyx", "x_alessio": "https://x.com/AlessioFanelli"}},
+      {"id": "dario-amodei", "name": "Dario Amodei", "role": "CEO – Anthropic", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 9.0, "categories": ["Frontier", "Safety"], "bio": "CEO of Anthropic. Influential voice on scaling, safety, and responsible development of frontier models.", "why": "High-signal public communications on both capabilities and risks from a frontier lab leader.", "links": {"x": "https://x.com/darioamodei", "website": "https://www.anthropic.com"}},
+      {"id": "arthur-mensch", "name": "Arthur Mensch", "role": "Co-founder & CEO – Mistral AI", "country": "FR", "countryCode": "FR", "language": ["en", "fr"], "signalScore": 8.9, "categories": ["Frontier", "Europe", "Open-weight", "Business"], "bio": "CEO of Mistral AI. Leading European voice on open-weight models, sovereignty, and industrial AI strategy.", "why": "Most important European voice at the frontier. Clear strategic thinking on open models and Europe’s position.", "links": {"x": "https://x.com/arthurmensch", "linkedin": "https://www.linkedin.com/in/arthur-mensch", "website": "https://mistral.ai"}},
+      {"id": "ilya-sutskever", "name": "Ilya Sutskever", "role": "Co-founder – Safe Superintelligence", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.8, "categories": ["Research", "Safety"], "bio": "Former Chief Scientist of OpenAI. Deep technical and philosophical voice on the path to superintelligence.", "why": "One of the most important technical minds in the field with rare public depth.", "links": {"x": "https://x.com/ilyasut"}},
+      {"id": "nathan-labenz", "name": "Nathan Labenz", "role": "Host – The Cognitive Revolution", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.8, "categories": ["Evaluation", "Engineering", "Podcast"], "bio": "Deep conversations with builders and researchers focused on real model capabilities, evaluations, and practical strategy.", "why": "Excellent signal on what models can actually do versus benchmarks.", "links": {"website": "https://www.cognitiverevolution.ai", "x": "https://x.com/labenz"}},
+      {"id": "3blue1brown", "name": "3Blue1Brown (Grant Sanderson)", "role": "Mathematics Educator", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.7, "categories": ["Education", "Math"], "bio": "Creates exceptional visual explanations of mathematical concepts underlying modern AI.", "why": "Best mathematical intuition content for understanding the foundations of deep learning.", "links": {"youtube": "https://www.youtube.com/@3blue1brown", "website": "https://www.3blue1brown.com"}},
+      {"id": "geoffrey-hinton", "name": "Geoffrey Hinton", "role": "Godfather of Deep Learning", "country": "CA", "countryCode": "CA", "language": ["en"], "signalScore": 8.7, "categories": ["Research", "Safety"], "bio": "Pioneer of deep learning. Now focused on AI risk and the implications of advanced systems.", "why": "Foundational contributions + increasingly important public voice on risks.", "links": {"x": "https://x.com/geoffreyhinton"}},
+      {"id": "yannic-kilcher", "name": "Yannic Kilcher", "role": "AI Researcher & YouTuber", "country": "CH", "countryCode": "CH", "language": ["en"], "signalScore": 8.7, "categories": ["Research", "Paper reviews", "YouTube"], "bio": "Produces rigorous, detailed walkthroughs of important machine learning papers.", "why": "Highest-quality paper explanation content available publicly.", "links": {"youtube": "https://www.youtube.com/@YannicKilcher", "x": "https://x.com/YannicKilcher"}},
+      {"id": "yoshua-bengio", "name": "Yoshua Bengio", "role": "Professor – Mila", "country": "CA", "countryCode": "CA", "language": ["en", "fr"], "signalScore": 8.6, "categories": ["Research", "Safety"], "bio": "Turing Award winner. Major voice on AI safety and responsible development.", "why": "Deep technical credibility combined with strong safety advocacy.", "links": {"website": "https://yoshuabengio.org", "x": "https://x.com/Yoshua_Bengio"}},
+      {"id": "ai-explained", "name": "AI Explained", "role": "Analyst & YouTuber", "country": "GB", "countryCode": "GB", "language": ["en"], "signalScore": 8.6, "categories": ["Analysis", "Anti-hype", "YouTube"], "bio": "Sober, careful analysis of new models, benchmarks, and claims in the AI space.", "why": "Consistently low-hype, high-signal commentary on rapid developments.", "links": {"youtube": "https://www.youtube.com/@aiexplained-official"}},
+      {"id": "thomas-wolf", "name": "Thomas Wolf", "role": "Co-founder – Hugging Face", "country": "FR", "countryCode": "FR", "language": ["en", "fr"], "signalScore": 8.5, "categories": ["Open-source", "Engineering", "Europe"], "bio": "Key figure in the open-source AI ecosystem through Hugging Face.", "why": "Central voice for open models and the infrastructure around them.", "links": {"x": "https://x.com/Thom_Wolf"}},
+      {"id": "francois-chollet", "name": "François Chollet", "role": "Creator of Keras / AI Researcher", "country": "FR", "countryCode": "FR", "language": ["en"], "signalScore": 8.5, "categories": ["Research", "Benchmarks", "Analysis"], "bio": "Creator of Keras. Influential thinker on the nature of intelligence and limitations of current approaches.", "why": "Sharp, first-principles thinking on what intelligence actually requires.", "links": {"x": "https://x.com/fchollet"}},
+      {"id": "hamel-husain", "name": "Hamel Husain", "role": "AI Engineer & Educator", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.5, "categories": ["Engineering", "Evals", "Practical"], "bio": "Focuses on production AI systems, evaluations, and practical workflows.", "why": "High-signal content on the unsexy but critical parts of shipping AI products.", "links": {"x": "https://x.com/HamelHusain"}},
+      {"id": "paul-christiano", "name": "Paul Christiano", "role": "Alignment Researcher", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.5, "categories": ["Safety", "Research"], "bio": "One of the most influential thinkers on AI alignment and scalable oversight.", "why": "Deep, careful reasoning on the hardest alignment problems.", "links": {"x": "https://x.com/paul_christiano", "website": "https://ai-alignment.com"}},
+      {"id": "nicolas-guyon", "name": "Nicolas Guyon", "role": "Host – Comptoir IA", "country": "FR", "countryCode": "FR", "language": ["fr"], "signalScore": 8.4, "categories": ["French", "Podcast", "Education"], "bio": "Leading French-language podcast on generative AI, with regular interviews of practitioners and experts.", "why": "Best consistent high-signal French voice on practical and strategic AI topics.", "links": {"youtube": "https://www.youtube.com/@nicolasguyon", "podcast": "https://shows.acast.com/comptoir-ia", "x": "https://x.com/nico16184", "linktree": "https://linktr.ee/nicoguyon", "substack": "https://nicoguyon.substack.com"}},
+      {"id": "mlst", "name": "Machine Learning Street Talk", "role": "AI Research Podcast", "country": "GB", "countryCode": "GB", "language": ["en"], "signalScore": 8.4, "categories": ["Research", "Podcast", "Philosophy"], "bio": "In-depth technical and philosophical conversations on machine learning and AI.", "why": "High-quality long-form research discussions.", "links": {"youtube": "https://www.youtube.com/@MachineLearningStreetTalk", "x": "https://x.com/MLStreetTalk"}},
+      {"id": "lex-fridman", "name": "Lex Fridman", "role": "Host – Lex Fridman Podcast", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.3, "categories": ["Podcast", "Long-form"], "bio": "Long-form conversations with leading scientists, engineers, and thinkers in AI and beyond.", "why": "Broad reach and consistent access to important guests, even if less technically dense than specialized shows.", "links": {"youtube": "https://www.youtube.com/@lexfridman", "x": "https://x.com/lexfridman", "website": "https://lexfridman.com"}},
+      {"id": "huggingface", "name": "Hugging Face", "role": "Open-source AI Platform", "country": "US", "countryCode": "US", "language": ["en"], "signalScore": 8.3, "categories": ["Open-source", "Engineering", "Education"], "bio": "Official channel of the Hugging Face ecosystem — models, tools, and open AI education.", "why": "Central node of the open-source AI community.", "links": {"youtube": "https://www.youtube.com/@HuggingFace", "website": "https://huggingface.co"}},
+      {"id": "ai-epiphany", "name": "The AI Epiphany", "role": "AI Research Educator", "country": "RS", "countryCode": "RS", "language": ["en"], "signalScore": 8.1, "categories": ["Research", "Education", "Engineering"], "bio": "Technical deep dives on AI research, agents, and engineering practice.", "why": "Bonne densité technique, moins de hype.", "links": {"youtube": "https://www.youtube.com/@TheAIEpiphany"}},
+      {"id": "two-minute-papers", "name": "Two Minute Papers (Károly Zsolnai-Fehér)", "role": "Research Communicator", "country": "HU", "countryCode": "HU", "language": ["en"], "signalScore": 8.0, "categories": ["Education", "Research"], "bio": "Makes cutting-edge research papers accessible through short, enthusiastic videos.", "why": "Excellent pulse on new research with very high accessibility.", "links": {"youtube": "https://www.youtube.com/@TwoMinutePapers", "x": "https://x.com/TwoMinutePapers"}},
+      {"id": "ludovic-salenne", "name": "Ludovic Salenne", "role": "Créateur IA – YouTube FR", "country": "FR", "countryCode": "FR", "language": ["fr"], "signalScore": 7.8, "categories": ["Education", "Tools", "Practical"], "bio": "Référence francophone sur les outils d’IA générative et les workflows pratiques.", "why": "Volume et réactivité FR sur les outils du quotidien.", "links": {"youtube": "https://www.youtube.com/@LudovicSalenne"}}];
+
+    let CONTENTS = [
+      {"id":"mlst-93204883","voiceId":"mlst","type":"video","title":"Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart","description":"","duration":"—","ago":"Il y a 10h","signalScore":8.4,"url":"https://www.youtube.com/watch?v=revreN8LZ_M"},
+      {"id":"nathan-labenz-74989049","voiceId":"nathan-labenz","type":"video","title":"Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses","description":"","duration":"—","ago":"Il y a 15h","signalScore":8.8,"url":"https://www.youtube.com/watch?v=4JYoTE_VKaU"},
+      {"id":"huggingface-67246872","voiceId":"huggingface","type":"video","title":"Prompt Caching Explained: Stop Overpaying for AI Agents","description":"","duration":"—","ago":"Il y a 1j","signalScore":8.3,"url":"https://www.youtube.com/watch?v=SkM4k4SKvCM"},
+      {"id":"nicolas-guyon-51917677","voiceId":"nicolas-guyon","type":"video","title":"🤯 Deux milliardaires paient en secret pour nous faire sortir de la Matrice","description":"","duration":"—","ago":"Il y a 1j","signalScore":8.4,"url":"https://www.youtube.com/watch?v=vb2uR2aONxs"},
+      {"id":"dwarkesh-patel-79994855","voiceId":"dwarkesh-patel","type":"video","title":"How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson","description":"","duration":"—","ago":"Il y a 1j","signalScore":9.4,"url":"https://www.youtube.com/shorts/KP_Bpsu69NI"},
+      {"id":"nathan-labenz-44951909","voiceId":"nathan-labenz","type":"video","title":"Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent","description":"","duration":"—","ago":"Il y a 2j","signalScore":8.8,"url":"https://www.youtube.com/watch?v=YduOnBDuD0c"},
+      {"id":"huggingface-85034351","voiceId":"huggingface","type":"video","title":"How AI agents reproduced ICML 2026  papers","description":"","duration":"—","ago":"Il y a 3j","signalScore":8.3,"url":"https://www.youtube.com/watch?v=8qpEDpNhzWY"},
+      {"id":"dwarkesh-patel-60165304","voiceId":"dwarkesh-patel","type":"video","title":"AlphaZero for Mathematics - Grant Sanderson","description":"","duration":"—","ago":"Il y a 3j","signalScore":9.4,"url":"https://www.youtube.com/shorts/AvH0cJV1Cc8"},
+      {"id":"dwarkesh-patel-54930411","voiceId":"dwarkesh-patel","type":"video","title":"8 Predictions for the Era of Continual Learning","description":"","duration":"—","ago":"Il y a 3j","signalScore":9.4,"url":"https://www.youtube.com/watch?v=iewm45atodE"},
+      {"id":"two-minute-papers-20650450","voiceId":"two-minute-papers","type":"video","title":"DeepMind Just Changed How AI Sees The World","description":"","duration":"—","ago":"Il y a 4j","signalScore":8.0,"url":"https://www.youtube.com/watch?v=vO6SWG-jxvE"},
+      {"id":"dwarkesh-patel-28749309","voiceId":"dwarkesh-patel","type":"video","title":"The Skill Great Teachers Have That LLMs Completely Lack - Grant Sanderson","description":"","duration":"—","ago":"Il y a 4j","signalScore":9.4,"url":"https://www.youtube.com/shorts/1vAGYbbtahU"},
+      {"id":"ai-explained-92561637","voiceId":"ai-explained","type":"video","title":"AI is getting a little out of control","description":"","duration":"—","ago":"Il y a 4j","signalScore":8.6,"url":"https://www.youtube.com/watch?v=xGzseSSStnw"},
+      {"id":"nathan-labenz-95010539","voiceId":"nathan-labenz","type":"video","title":"Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...","description":"","duration":"—","ago":"Il y a 5j","signalScore":8.8,"url":"https://www.youtube.com/watch?v=wAzq8gA5jyc"},
+      {"id":"two-minute-papers-1844778","voiceId":"two-minute-papers","type":"video","title":"The Billion Dollar AI Race Just Broke","description":"","duration":"—","ago":"Il y a 5j","signalScore":8.0,"url":"https://www.youtube.com/watch?v=ppQh4Tc9BmM"},
+      {"id":"dwarkesh-patel-2553050","voiceId":"dwarkesh-patel","type":"video","title":"The Real Advantage AI Has Over Human Geniuses - Grant Sanderson","description":"","duration":"—","ago":"Il y a 6j","signalScore":9.4,"url":"https://www.youtube.com/shorts/KjMKzIOhw4Q"},
+      {"id":"huggingface-43692807","voiceId":"huggingface","type":"video","title":"Hugging Face Journal Club: Scaling Laws for Pre-training & RL","description":"","duration":"—","ago":"Il y a 6j","signalScore":8.3,"url":"https://www.youtube.com/watch?v=XB9PlaofL-Q"},
+      {"id":"nicolas-guyon-5893580","voiceId":"nicolas-guyon","type":"video","title":"Test des capacités de Seedance 2.5, le nouveau modèle vidéo de ByteDance, via Dreamina : générer mon","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.4,"url":"https://www.youtube.com/shorts/MhY4joEuU1I"},
+      {"id":"two-minute-papers-15571427","voiceId":"two-minute-papers","type":"video","title":"Another DeepSeek Moment Has Arrived","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.0,"url":"https://www.youtube.com/watch?v=bm1BjOjS7sQ"},
+      {"id":"nathan-labenz-81241519","voiceId":"nathan-labenz","type":"video","title":"Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.8,"url":"https://www.youtube.com/watch?v=w9zJzd3WqA8"},
+      {"id":"two-minute-papers-13523379","voiceId":"two-minute-papers","type":"video","title":"NVIDIA's AI Learns Why Copying Humans Isn't Enough","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.0,"url":"https://www.youtube.com/watch?v=8B05cy3UuSE"},
+      {"id":"mlst-86266718","voiceId":"mlst","type":"video","title":"How Researchers Test AI for Hidden Goals — Apollo Research","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.4,"url":"https://www.youtube.com/watch?v=n1Qk8xbqF-M"},
+      {"id":"huggingface-63192139","voiceId":"huggingface","type":"video","title":"Tau Crash Course: The Python Port of Pi","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.3,"url":"https://www.youtube.com/watch?v=qo1QNxWcm28"},
+      {"id":"nathan-labenz-35839316","voiceId":"nathan-labenz","type":"video","title":"Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.8,"url":"https://www.youtube.com/watch?v=EjLeFMCRdWk"},
+      {"id":"nicolas-guyon-6871716","voiceId":"nicolas-guyon","type":"video","title":"🚜 Des pelleteuses SANS CHAUFFEUR construisent les data centers de l'IA ! — Vincent Gonguet","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.4,"url":"https://www.youtube.com/watch?v=nSt4ytkeAuQ"},
+      {"id":"huggingface-17421159","voiceId":"huggingface","type":"video","title":"Hugging Face Journal Club: Kimi K3","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.3,"url":"https://www.youtube.com/watch?v=MW8-kqd2SD8"},
+      {"id":"two-minute-papers-98250345","voiceId":"two-minute-papers","type":"video","title":"Kimi K3 Just Broke The Economics Of AI","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.0,"url":"https://www.youtube.com/watch?v=Xj-QdEUxJkE"},
+      {"id":"lex-fridman-55919156","voiceId":"lex-fridman","type":"video","title":"Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499","description":"","duration":"—","ago":"Il y a 1 sem.","signalScore":8.3,"url":"https://www.youtube.com/watch?v=XyXBwO5jYpw"},
+      {"id":"3blue1brown-24380602","voiceId":"3blue1brown","type":"video","title":"The 64 sugar cubes puzzle","description":"","duration":"—","ago":"Il y a 2 sem.","signalScore":8.7,"url":"https://www.youtube.com/shorts/6XPlmCDNLNc"},
+      {"id":"nicolas-guyon-43941917","voiceId":"nicolas-guyon","type":"video","title":"Plage maintenant, agents à la rentrée 🏖️🤖 (Claudio #4)","description":"","duration":"—","ago":"Il y a 2 sem.","signalScore":8.4,"url":"https://www.youtube.com/shorts/kCvhGL9C1ec"},
+      {"id":"ai-explained-90894934","voiceId":"ai-explained","type":"video","title":"GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype","description":"","duration":"—","ago":"Il y a 2 sem.","signalScore":8.6,"url":"https://www.youtube.com/watch?v=wzY2fV4Mp3U"},
+      {"id":"3blue1brown-99290236","voiceId":"3blue1brown","type":"video","title":"But what is cross-entropy? | Compression is Intelligence Part 2","description":"","duration":"—","ago":"Il y a 3 sem.","signalScore":8.7,"url":"https://www.youtube.com/watch?v=GlYgs6v2YfU"},
+      {"id":"nicolas-guyon-53039620","voiceId":"nicolas-guyon","type":"video","title":"« ARRÊTEZ DE RECRUTER DES HUMAINS » 🤖 La pub qui s'affiche partout à San Francisco.","description":"","duration":"—","ago":"Il y a 4 sem.","signalScore":8.4,"url":"https://www.youtube.com/shorts/R0oVyoa29AM"},
+      {"id":"mlst-68194250","voiceId":"mlst","type":"video","title":"Watching America Run Away With AI - Alistair Pullen (Cosine AI)","description":"","duration":"—","ago":"Il y a 4 sem.","signalScore":8.4,"url":"https://www.youtube.com/watch?v=JTHmrELSfvk"},
+      {"id":"ai-explained-916358","voiceId":"ai-explained","type":"video","title":"A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.6,"url":"https://www.youtube.com/watch?v=mWlCituW7wo"},
+      {"id":"ludovic-salenne-69530508","voiceId":"ludovic-salenne","type":"video","title":"Le nouveau ChatGPT est DISPO : voici tout ce qu’il peut faire.","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":7.8,"url":"https://www.youtube.com/watch?v=5dF9rDlMGhE"},
+      {"id":"ai-explained-29012570","voiceId":"ai-explained","type":"video","title":"Fable 5 vs GPT 5.6 Sol: The Early Results","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.6,"url":"https://www.youtube.com/watch?v=y24lF1q4SFY"},
+      {"id":"ludovic-salenne-53325682","voiceId":"ludovic-salenne","type":"video","title":"Claude Sonnet 5 : l'IA qui fait tout... sans cramer vos tokens.","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":7.8,"url":"https://www.youtube.com/watch?v=ffwftm89rQg"},
+      {"id":"mlst-48199703","voiceId":"mlst","type":"video","title":"ARC-AGI-3 winning team - Millennia of minds, compressed into words.","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.4,"url":"https://www.youtube.com/watch?v=Vg6FBKTlfOw"},
+      {"id":"lex-fridman-11272849","voiceId":"lex-fridman","type":"video","title":"The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.3,"url":"https://www.youtube.com/watch?v=pv1TUJSEM2k"},
+      {"id":"mlst-760215","voiceId":"mlst","type":"video","title":"The Thermodynamic AI Chip · Thomas Ahle","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.4,"url":"https://www.youtube.com/watch?v=5pieVHmlbyk"},
+      {"id":"ludovic-salenne-63768596","voiceId":"ludovic-salenne","type":"video","title":"Les 2 seuls VRAIS BUSINESS IA à lancer en 2026","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":7.8,"url":"https://www.youtube.com/watch?v=WyA985f8kqg"},
+      {"id":"ludovic-salenne-95974635","voiceId":"ludovic-salenne","type":"video","title":"Claude IA : le tutoriel facile pour débutant","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":7.8,"url":"https://www.youtube.com/watch?v=nHXND_R4Jy8"},
+      {"id":"ludovic-salenne-46486748","voiceId":"ludovic-salenne","type":"video","title":"Actus IA : Anthropic et OpenAI SOUS PRESSION !","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":7.8,"url":"https://www.youtube.com/watch?v=Msi5PaWHIe8"},
+      {"id":"3blue1brown-3259209","voiceId":"3blue1brown","type":"video","title":"100 random chords, how many intersections?","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.7,"url":"https://www.youtube.com/shorts/wGffBCfrAsE"},
+      {"id":"ai-explained-8168536","voiceId":"ai-explained","type":"video","title":"Claude Fable Blocked - 11 Quiet Details on What’s Next","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.6,"url":"https://www.youtube.com/watch?v=Qj71N0tBzRo"},
+      {"id":"3blue1brown-87588407","voiceId":"3blue1brown","type":"video","title":"Measuring the entropy of English","description":"","duration":"—","ago":"Il y a 1 mois","signalScore":8.7,"url":"https://www.youtube.com/shorts/-7etvZSBxlk"},
+      {"id":"3blue1brown-91318483","voiceId":"3blue1brown","type":"video","title":"What's the perfect encoding? How do you know?","description":"","duration":"—","ago":"Il y a 2 mois","signalScore":8.7,"url":"https://www.youtube.com/shorts/7L_eTem1SQ4"},
+      {"id":"lex-fridman-37496355","voiceId":"lex-fridman","type":"video","title":"Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497","description":"","duration":"—","ago":"Il y a 2 mois","signalScore":8.3,"url":"https://www.youtube.com/watch?v=1M3Vdl6DRkU"},
+      {"id":"lex-fridman-69660190","voiceId":"lex-fridman","type":"video","title":"FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496","description":"","duration":"—","ago":"Il y a 3 mois","signalScore":8.3,"url":"https://www.youtube.com/watch?v=nepKKz-MzFM"},
+      {"id":"lex-fridman-32354840","voiceId":"lex-fridman","type":"video","title":"Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495","description":"","duration":"—","ago":"Il y a 4 mois","signalScore":8.3,"url":"https://www.youtube.com/watch?v=iKx3gAODybU"},
+      {"id":"yannic-kilcher-54982155","voiceId":"yannic-kilcher","type":"video","title":"I BUILT A FULLY AUTOMATIC MANSPLAINER","description":"","duration":"—","ago":"Il y a 5 mois","signalScore":8.7,"url":"https://www.youtube.com/watch?v=xHi8PUIVyoo"},
+      {"id":"yannic-kilcher-27656645","voiceId":"yannic-kilcher","type":"video","title":"Traditional X-Mas Stream","description":"","duration":"—","ago":"Il y a 7 mois","signalScore":8.7,"url":"https://www.youtube.com/watch?v=Dr6jw-WAd9E"},
+      {"id":"yannic-kilcher-3095653","voiceId":"yannic-kilcher","type":"video","title":"Traditional Holiday Live Stream","description":"","duration":"—","ago":"Il y a 7 mois","signalScore":8.7,"url":"https://www.youtube.com/watch?v=DNajvkqfobY"},
+      {"id":"yannic-kilcher-1149310","voiceId":"yannic-kilcher","type":"video","title":"TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)","description":"","duration":"—","ago":"Il y a 7 mois","signalScore":8.7,"url":"https://www.youtube.com/watch?v=taCVT5vDAk0"},
+      {"id":"yannic-kilcher-12056870","voiceId":"yannic-kilcher","type":"video","title":"Titans: Learning to Memorize at Test Time (Paper Analysis)","description":"","duration":"—","ago":"Il y a 7 mois","signalScore":8.7,"url":"https://www.youtube.com/watch?v=v67plFw1nMw"},
+      {"id":"ai-epiphany-54741357","voiceId":"ai-epiphany","type":"video","title":"Archie: an engineering AGI for Dyson Spheres | P-1 AI | $23 million seed round","description":"","duration":"—","ago":"Il y a 15 mois","signalScore":8.1,"url":"https://www.youtube.com/watch?v=oSZYnx-Y8ZM"},
+      {"id":"andrej-karpathy-19903250","voiceId":"andrej-karpathy","type":"video","title":"How I use LLMs","description":"","duration":"—","ago":"Il y a 17 mois","signalScore":9.6,"url":"https://www.youtube.com/watch?v=EWvNQjAaOHw"},
+      {"id":"andrej-karpathy-47816046","voiceId":"andrej-karpathy","type":"video","title":"Deep Dive into LLMs like ChatGPT","description":"","duration":"—","ago":"Il y a 18 mois","signalScore":9.6,"url":"https://www.youtube.com/watch?v=7xTGNNLPyMI"},
+      {"id":"ai-epiphany-70940506","voiceId":"ai-epiphany","type":"video","title":"Build AI Agents using Integrail (Halloween special)","description":"","duration":"—","ago":"Il y a 21 mois","signalScore":8.1,"url":"https://www.youtube.com/watch?v=fsNylf0Z4wk"},
+      {"id":"ai-epiphany-43101439","voiceId":"ai-epiphany","type":"video","title":"Cracked Engineers - Find Tech Jobs / Hire Tech Talent","description":"","duration":"—","ago":"Il y a 21 mois","signalScore":8.1,"url":"https://www.youtube.com/watch?v=XmuIOdES7mQ"},
+      {"id":"ai-epiphany-52138829","voiceId":"ai-epiphany","type":"video","title":"Imbue - training a 70B model from scratch! (w/ Bowei - head of infra)","description":"","duration":"—","ago":"Il y a 23 mois","signalScore":8.1,"url":"https://www.youtube.com/watch?v=wTE8Dk6I80A"},
+      {"id":"ai-epiphany-51752538","voiceId":"ai-epiphany","type":"video","title":"LLaMA 3 Deep Dive! (Thomas Scialom - Meta)","description":"","duration":"—","ago":"Il y a 24 mois","signalScore":8.1,"url":"https://www.youtube.com/watch?v=J9gfTLthGVI"},
+      {"id":"andrej-karpathy-50018123","voiceId":"andrej-karpathy","type":"video","title":"Let's reproduce GPT-2 (124M)","description":"","duration":"—","ago":"Il y a 26 mois","signalScore":9.6,"url":"https://www.youtube.com/watch?v=l8pRSuU81PU"},
+      {"id":"andrej-karpathy-39235743","voiceId":"andrej-karpathy","type":"video","title":"Let's build the GPT Tokenizer","description":"","duration":"—","ago":"Il y a 30 mois","signalScore":9.6,"url":"https://www.youtube.com/watch?v=zduSFxRajkE"},
+      {"id":"andrej-karpathy-5618997","voiceId":"andrej-karpathy","type":"video","title":"[1hr Talk] Intro to Large Language Models","description":"","duration":"—","ago":"Il y a 33 mois","signalScore":9.6,"url":"https://www.youtube.com/watch?v=zjkBMFhNj_g"},
+      {"id":"swyx-alessio-67854407","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-muse-glimmer-and-spark-open"},
+      {"id":"swyx-alessio-85418858","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Zawinski's Law of MultiAgents","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-zawinskis-law-of-multiagents"},
+      {"id":"swyx-alessio-62695628","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] AMD buys Taalas","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-amd-buys-taalas"},
+      {"id":"swyx-alessio-63104070","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc"},
+      {"id":"swyx-alessio-18259826","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Megakernels are so dead and so back","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-megakernels-are-so-dead-and"}
+    ];
+
+    let BRIEFING = {"date": "2026-08-11", "generatedAt": "2026-08-11T09:29:30.153250+00:00", "title": "Briefing du jour", "summary": "70 contenus analysés · top 7 signaux diversifiés", "items": [{"rank": 1, "title": "How I use LLMs", "voiceId": "andrej-karpathy", "voiceName": "Andrej Karpathy", "signalScore": 9.6, "ago": "Il y a 17 mois", "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw", "language": "en", "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence."}, {"rank": 2, "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson", "voiceId": "dwarkesh-patel", "voiceName": "Dwarkesh Patel", "signalScore": 9.4, "ago": "Il y a 1j", "url": "https://www.youtube.com/shorts/KP_Bpsu69NI", "language": "en", "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."}, {"rank": 3, "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise", "voiceId": "swyx-alessio", "voiceName": "swyx & Alessio Fanelli", "signalScore": 9.0, "ago": "", "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open", "language": "en", "why": "Best ongoing coverage of real AI engineering practice."}, {"rank": 4, "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses", "voiceId": "nathan-labenz", "voiceName": "Nathan Labenz", "signalScore": 8.8, "ago": "Il y a 15h", "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU", "language": "en", "why": "Excellent signal on what models can actually do versus benchmarks."}, {"rank": 5, "title": "The 64 sugar cubes puzzle", "voiceId": "3blue1brown", "voiceName": "3Blue1Brown (Grant Sanderson)", "signalScore": 8.7, "ago": "Il y a 2 sem.", "url": "https://www.youtube.com/shorts/6XPlmCDNLNc", "language": "en", "why": "Best mathematical intuition content for understanding the foundations of deep learning."}, {"rank": 6, "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER", "voiceId": "yannic-kilcher", "voiceName": "Yannic Kilcher", "signalScore": 8.7, "ago": "Il y a 5 mois", "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo", "language": "en", "why": "Highest-quality paper explanation content available publicly."}, {"rank": 7, "title": "AI is getting a little out of control", "voiceId": "ai-explained", "voiceName": "AI Explained", "signalScore": 8.6, "ago": "Il y a 4j", "url": "https://www.youtube.com/watch?v=xGzseSSStnw", "language": "en", "why": "Consistently low-hype, high-signal commentary on rapid developments."}], "stats": {"totalContents": 70, "sources": 14, "frCount": 10, "enCount": 60}};
+
+    // ——— State ———
+    let currentView = "feed";
+    let categoryFilter = "all";
+    let countryFilter = "all";
+    let lang = "fr";
+
+    // ——— Helpers ———
+    function getVoice(id) {
+      return VOICES.find(v => v.id === id);
+    }
+
+    function formatDuration(s) {
+      return s; // already formatted in sample
+    }
+
+    // ——— Render Feed ———
+    function renderFeed() {
+      const list = document.getElementById("feed-list");
+      let items = CONTENTS;
+
+      if (categoryFilter !== "all") {
+        items = items.filter(c => {
+          const v = getVoice(c.voiceId);
+          return v && v.categories.includes(categoryFilter);
+        });
+      }
+      if (countryFilter !== "all") {
+        items = items.filter(c => {
+          const v = getVoice(c.voiceId);
+          return v && v.countryCode === countryFilter;
+        });
+      }
+
+      document.getElementById("feed-meta").textContent =
+        items.length + " contenu" + (items.length > 1 ? "s" : "") + " · live RSS";
+
+      if (items.length === 0) {
+        list.innerHTML = `<div class="empty">Aucun contenu pour ce filtre.</div>`;
+        return;
+      }
+
+      list.innerHTML = items.map(c => {
+        const v = getVoice(c.voiceId) || { name: c.voiceId };
+        const openAttr = c.url ? `onclick="window.open('${c.url}', '_blank')"` : "";
+        return `
+          <article class="card" ${openAttr} style="${c.url ? 'cursor:pointer' : ''}">
+            <div class="thumb ${c.type}">${c.type === "video" ? "YT" : "POD"}</div>
+            <div class="card-content">
+              <div class="card-top">
+                <span class="name">${v.name}</span>
+                <span>·</span>
+                <span>${c.duration}</span>
+                <span>·</span>
+                <span>${c.ago}</span>
+                <span class="badge">${c.signalScore}</span>
+              </div>
+              <h3 class="card-title">${c.title}</h3>
+              <p class="card-excerpt">${c.description || (c.url ? "Ouvrir le contenu →" : "")}</p>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    // ——— Render Voices ———
+    function renderVoices() {
+      const list = document.getElementById("voices-list");
+      let items = [...VOICES];
+
+      if (categoryFilter !== "all") {
+        items = items.filter(v => v.categories.includes(categoryFilter));
+      }
+      if (countryFilter !== "all") {
+        items = items.filter(v => v.countryCode === countryFilter);
+      }
+
+      document.getElementById("voices-meta").textContent =
+        items.length + " voix" + (categoryFilter !== "all" || countryFilter !== "all" ? " (filtrées)" : " sélectionnées");
+
+      if (items.length === 0) {
+        list.innerHTML = `<div class="empty">Aucune voix pour ce filtre.</div>`;
+        return;
+      }
+
+      list.innerHTML = items.map(v => {
+        const links = v.links || {};
+        const linkHtml = [
+          links.youtube ? `<a class="vlink" href="${links.youtube}" target="_blank" rel="noopener" onclick="event.stopPropagation()">YouTube</a>` : "",
+          links.x ? `<a class="vlink" href="${links.x}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>` : "",
+          links.website ? `<a class="vlink" href="${links.website}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Site</a>` : "",
+          links.podcast ? `<a class="vlink" href="${links.podcast}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Podcast</a>` : "",
+          links.github ? `<a class="vlink" href="${links.github}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GitHub</a>` : "",
+        ].filter(Boolean).join("");
+        return `
+        <div class="voice-card" data-id="${v.id}">
+          <h3>${v.name}</h3>
+          <div class="voice-role">${v.role}</div>
+          <div class="voice-meta">
+            <span>${v.countryCode}</span>
+            <span class="score-pill">${v.signalScore}</span>
+            <span>${(v.language || []).join(" / ").toUpperCase()}</span>
+          </div>
+          <p class="voice-bio">${v.bio}</p>
+          <div class="tags">
+            ${v.categories.map(c => `<span class="tag">${c}</span>`).join("")}
+          </div>
+          ${linkHtml ? `<div class="voice-links">${linkHtml}</div>` : ""}
+        </div>
+      `}).join("");
+    }
+
+    // ——— Navigation ———
+    function setView(view) {
+      currentView = view;
+      document.querySelectorAll(".nav button").forEach(b => {
+        b.classList.toggle("active", b.dataset.view === view);
+      });
+      document.getElementById("view-feed").classList.toggle("hidden", view !== "feed");
+      document.getElementById("view-voices").classList.toggle("hidden", view !== "voices");
+
+      if (view === "feed") renderFeed();
+      if (view === "voices") renderVoices();
+    }
+
+    // ——— Filters ———
+    function setCategory(cat) {
+      categoryFilter = cat;
+      document.querySelectorAll("[data-filter]").forEach(el => {
+        el.classList.toggle("active", el.dataset.filter === cat);
+      });
+      if (currentView === "feed") renderFeed();
+      if (currentView === "voices") renderVoices();
+    }
+
+    function setCountry(code) {
+      countryFilter = code;
+      document.querySelectorAll("[data-country]").forEach(el => {
+        el.classList.toggle("active", el.dataset.country === code);
+      });
+      if (currentView === "feed") renderFeed();
+      if (currentView === "voices") renderVoices();
+    }
+
+    // ——— Assistant (simple demo) ———
+    function askAssistant(q) {
+      const body = document.getElementById("assistant-body");
+      const userMsg = document.createElement("div");
+      userMsg.className = "msg bot";
+      userMsg.style.alignSelf = "flex-end";
+      userMsg.style.background = "var(--accent-dim)";
+      userMsg.style.borderColor = "rgba(167,139,250,0.2)";
+      userMsg.style.color = "#ddd6fe";
+      userMsg.style.borderRadius = "12px 12px 4px 12px";
+      userMsg.textContent = q;
+      body.appendChild(userMsg);
+
+      let answer = "Je regarde…";
+
+      const lower = q.toLowerCase();
+      if (lower.includes("français") || lower.includes("french") || lower.includes("france")) {
+        const fr = VOICES.filter(v => v.countryCode === "FR" || (v.language || []).includes("fr"));
+        answer = `Voici les principales voix françaises / bilingues :<br><br>` +
+          fr.map(v => `<strong>${v.name}</strong> — ${v.role} (${v.signalScore})`).join("<br>");
+        setCountry("FR");
+        setView("voices");
+      } else if (lower.includes("safety") || lower.includes("sécurité") || lower.includes("align")) {
+        const safety = VOICES.filter(v => v.categories.includes("Safety")).sort((a,b) => b.signalScore - a.signalScore);
+        answer = `Top voix Safety :<br><br>` +
+          safety.slice(0,5).map(v => `<strong>${v.name}</strong> — ${v.signalScore}`).join("<br>");
+        setCategory("Safety");
+        setView("voices");
+      } else if (lower.includes("agent")) {
+        answer = `Pour les agents, les voix les plus utiles actuellement sont :<br><br>
+          <strong>1. swyx & Alessio</strong> (Latent Space) — très fort sur l’engineering d’agents<br>
+          <strong>2. Nathan Labenz</strong> — évaluations et capacités réelles<br>
+          <strong>3. Nicolas Guyon</strong> — angle francophone et pratique<br><br>
+          Je te recommande de commencer par Latent Space.`;
+      } else if (lower.includes("open") || lower.includes("open-source") || lower.includes("open source") || lower.includes("mistral") || lower.includes("hugging")) {
+        answer = `Pour l’open-source et les modèles ouverts :<br><br>
+          <strong>1. Arthur Mensch</strong> (Mistral) — stratégie européenne open-weight<br>
+          <strong>2. Thomas Wolf</strong> (Hugging Face) — écosystème open<br>
+          <strong>3. Yann LeCun</strong> — défense de l’open research<br><br>
+          Ces trois voix sont les plus utiles sur ce sujet.`;
+        setCategory("Open-source");
+        setView("voices");
+      } else if (lower.includes("éducation") || lower.includes("education") || lower.includes("apprendre") || lower.includes("débutant") || lower.includes("pedago")) {
+        answer = `Meilleures voix pour apprendre :<br><br>
+          <strong>1. Andrej Karpathy</strong> (9.6) — from-scratch, clarté exceptionnelle<br>
+          <strong>2. 3Blue1Brown</strong> — intuition mathématique<br>
+          <strong>3. Jeremy Howard / fast.ai</strong> — approche pratique<br><br>
+          Karpathy reste la référence absolue.`;
+        setCategory("Education");
+        setView("voices");
+      } else if (lower.includes("top") || lower.includes("meilleur") || lower.includes("best") || lower.includes("classement")) {
+        const top = [...VOICES].sort((a,b) => b.signalScore - a.signalScore).slice(0,6);
+        answer = `Top voix par Signal Score :<br><br>` +
+          top.map((v,i) => `<strong>${i+1}. ${v.name}</strong> — ${v.signalScore}`).join("<br>");
+        setView("voices");
+      } else {
+        answer = `Je peux t’aider sur :<br>
+          • Voix françaises<br>
+          • Safety / alignement<br>
+          • Agents<br>
+          • Open-source<br>
+          • Éducation / apprendre<br>
+          • Top scores<br><br>
+          Pose ta question ou clique sur une suggestion.`;
+      }
+
+      setTimeout(() => {
+        const botMsg = document.createElement("div");
+        botMsg.className = "msg bot";
+        botMsg.innerHTML = answer;
+        body.appendChild(botMsg);
+        body.scrollTop = body.scrollHeight;
+      }, 400);
+    }
+
+    // ——— Events ———
+    document.querySelectorAll(".nav button").forEach(btn => {
+      btn.addEventListener("click", () => setView(btn.dataset.view));
+    });
+    document.querySelectorAll("[data-filter]").forEach(btn => {
+      btn.addEventListener("click", () => setCategory(btn.dataset.filter));
+    });
+    document.querySelectorAll("[data-country]").forEach(btn => {
+      btn.addEventListener("click", () => setCountry(btn.dataset.country));
+    });
+    document.querySelectorAll(".suggestion").forEach(btn => {
+      btn.addEventListener("click", () => askAssistant(btn.dataset.q));
+    });
+    document.getElementById("send-btn").addEventListener("click", () => {
+      const input = document.getElementById("assistant-input");
+      if (input.value.trim()) {
+        askAssistant(input.value.trim());
+        input.value = "";
+      }
+    });
+    document.getElementById("assistant-input").addEventListener("keydown", e => {
+      if (e.key === "Enter") document.getElementById("send-btn").click();
+    });
+
+    // ——— Briefing ———
+    
+    function getWhy(c) {
+      const t = (c.title || "").toLowerCase();
+      const voiceWhy = {
+        "dwarkesh-patel": "Profondeur rare et accès aux frontier thinkers.",
+        "swyx-alessio": "Meilleur signal engineering / production AI du moment.",
+        "yannic-kilcher": "Analyse paper la plus rigoureuse en public.",
+        "3blue1brown": "Intuition mathématique exceptionnelle, fondations de l’IA.",
+        "andrej-karpathy": "Pédagogie from-scratch inégalée.",
+        "nathan-labenz": "Évaluations et capacités réelles des modèles.",
+        "arthur-mensch": "Voix européenne open-weight stratégique.",
+        "yann-lecun": "Contrepoint long-terme au pure scaling.",
+        "ai-explained": "Analyses sobres, anti-hype, très utiles pour séparer signal et bruit.",
+        "nicolas-guyon": "Meilleur angle francophone pratique et terrain.",
+        "lex-fridman": "Long-form interviews avec des profils très divers.",
+        "mlst": "Discussions techniques et philosophiques de haut niveau.",
+        "two-minute-papers": "Synthèses paper accessibles et rapides.",
+        "huggingface": "Cœur de l’écosystème open-source AI.",
+        "ludovic-salenne": "Réactivité FR sur les outils IA du quotidien.",
+        "ai-epiphany": "Deep dives techniques agents & research.",
+      };
+      // Title-based hints
+      if (t.includes("agent") || t.includes("autonom")) return "Agents & autonomie — sujet central du moment.";
+      if (t.includes("open") && (t.includes("weight") || t.includes("source") || t.includes("model"))) return "Open-weight / open models — enjeu stratégique.";
+      if (t.includes("safety") || t.includes("align") || t.includes("rogue")) return "Safety & alignement — signal important.";
+      if (t.includes("eval") || t.includes("bench") || t.includes("benchmark")) return "Évaluations — permet de mesurer le vrai progrès.";
+      if (t.includes("math") || t.includes("riemann") || t.includes("cross-entropy")) return "Fondations mathématiques de l’IA.";
+      if (t.includes("europe") || t.includes("mistral") || t.includes("souverain")) return "Angle européen / souveraineté.";
+      return voiceWhy[c.voiceId] || "Signal élevé de cette voix.";
+    }
+
+    function openBriefing() {
+      let top;
+      if (typeof BRIEFING !== "undefined" && BRIEFING.items && BRIEFING.items.length) {
+        top = BRIEFING.items.map(it => ({
+          title: it.title, voiceId: it.voiceId, signalScore: it.signalScore,
+          ago: it.ago, url: it.url, _why: it.why, _voiceName: it.voiceName
+        }));
+      } else {
+        const seen = new Set();
+        top = [];
+        const sorted = [...CONTENTS].sort((a, b) => (b.signalScore || 0) - (a.signalScore || 0));
+        for (const c of sorted) {
+          if (seen.has(c.voiceId)) continue;
+          seen.add(c.voiceId);
+          top.push(c);
+          if (top.length >= 7) break;
+        }
+      }
+
+      const subtitle = (typeof BRIEFING !== "undefined" && BRIEFING.summary)
+        ? BRIEFING.summary
+        : "Top signaux · diversifiés par voix";
+
+      let html = `<div style="position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px" id="briefing-modal">
+        <div style="background:#0c0c11;border:1px solid rgba(255,255,255,0.1);border-radius:16px;max-width:560px;width:100%;max-height:80vh;overflow:auto;padding:28px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+            <div>
+              <div style="font-family:'Instrument Serif',serif;font-size:22px">Briefing du jour</div>
+              <div style="font-size:12px;color:#71717a;margin-top:2px">${subtitle}</div>
+            </div>
+            <button onclick="document.getElementById('briefing-modal').remove()" style="background:none;border:none;color:#a1a1aa;font-size:20px;cursor:pointer">×</button>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:14px">`;
+
+      top.forEach((c, i) => {
+        const v = getVoice(c.voiceId) || { name: c._voiceName || c.voiceId };
+        const why = c._why || getWhy(c);
+        html += `
+          <div style="padding:14px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:12px;cursor:pointer" ${c.url ? `onclick="window.open('${c.url}','_blank')"` : ""}>
+            <div style="display:flex;align-items:center;gap:8px;font-size:12px;color:#71717a;margin-bottom:6px">
+              <span style="font-weight:600;color:#c4b5fd">${i + 1}</span>
+              <span>${v.name || c._voiceName || c.voiceId}</span>
+              <span>·</span>
+              <span>${c.ago || ""}</span>
+              <span style="margin-left:auto;background:rgba(167,139,250,0.12);color:#c4b5fd;padding:2px 7px;border-radius:5px;font-weight:600">${c.signalScore}</span>
+            </div>
+            <div style="font-size:14px;font-weight:560;margin-bottom:6px;letter-spacing:-0.01em">${c.title}</div>
+            <div style="font-size:12.5px;color:#a1a1aa;line-height:1.45">${why}</div>
+          </div>`;
+      });
+
+      html += `</div>
+          <div style="margin-top:18px;font-size:12px;color:#52525b;text-align:center">Clique sur un item pour ouvrir · Généré à partir des flux live</div>
+        </div>
+      </div>`;
+
+      document.body.insertAdjacentHTML("beforeend", html);
+    }
+
+    document.querySelector(".btn-primary")?.addEventListener("click", openBriefing);
+
+    // ——— Load live data from JSON (auto-updated by robot) ———
+    async function loadLiveData() {
+      try {
+        const [liveRes, briefRes] = await Promise.all([
+          fetch("../data/live-contents.json", { cache: "no-store" }),
+          fetch("../data/briefing-latest.json", { cache: "no-store" })
+        ]);
+        if (liveRes.ok) {
+          const live = await liveRes.json();
+          if (live.contents && live.contents.length) {
+            CONTENTS = live.contents.map(c => ({
+              id: c.id,
+              voiceId: c.voiceId,
+              type: c.type || "video",
+              title: c.title,
+              description: c.description || "",
+              duration: c.duration || "—",
+              ago: c.ago || "",
+              signalScore: c.signalScore || 8,
+              url: c.url || ""
+            }));
+            console.log("[Lumina] Live contents:", CONTENTS.length);
+          }
+        }
+        if (briefRes.ok) {
+          const b = await briefRes.json();
+          if (b.items) {
+            BRIEFING = b;
+            console.log("[Lumina] Briefing:", b.items.length, "items");
+          }
+        }
+      } catch (e) {
+        console.warn("[Lumina] Live fetch failed, using embedded data", e);
+      }
+      renderFeed();
+    }
+
+    // Init
+    loadLiveData();
+  </script>
+</body>
+</html>
