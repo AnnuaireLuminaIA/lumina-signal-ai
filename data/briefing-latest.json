@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T09:29:30.153250+00:00",
+  "title": "Briefing du jour",
+  "summary": "70 contenus analysés · top 7 signaux diversifiés",
+  "items": [
+    {
+      "rank": 1,
+      "title": "How I use LLMs",
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "signalScore": 9.6,
+      "ago": "Il y a 17 mois",
+      "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+      "language": "en",
+      "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence."
+    },
+    {
+      "rank": 2,
+      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "signalScore": 9.4,
+      "ago": "Il y a 1j",
+      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
+      "language": "en",
+      "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
+    },
+    {
+      "rank": 3,
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+      "voiceId": "swyx-alessio",
+      "voiceName": "swyx & Alessio Fanelli",
+      "signalScore": 9.0,
+      "ago": "",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+      "language": "en",
+      "why": "Best ongoing coverage of real AI engineering practice."
+    },
+    {
+      "rank": 4,
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "voiceId": "nathan-labenz",
+      "voiceName": "Nathan Labenz",
+      "signalScore": 8.8,
+      "ago": "Il y a 15h",
+      "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
+      "language": "en",
+      "why": "Excellent signal on what models can actually do versus benchmarks."
+    },
+    {
+      "rank": 5,
+      "title": "The 64 sugar cubes puzzle",
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown (Grant Sanderson)",
+      "signalScore": 8.7,
+      "ago": "Il y a 2 sem.",
+      "url": "https://www.youtube.com/shorts/6XPlmCDNLNc",
+      "language": "en",
+      "why": "Best mathematical intuition content for understanding the foundations of deep learning."
+    },
+    {
+      "rank": 6,
+      "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "signalScore": 8.7,
+      "ago": "Il y a 5 mois",
+      "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
+      "language": "en",
+      "why": "Highest-quality paper explanation content available publicly."
+    },
+    {
+      "rank": 7,
+      "title": "AI is getting a little out of control",
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "signalScore": 8.6,
+      "ago": "Il y a 4j",
+      "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+      "language": "en",
+      "why": "Consistently low-hype, high-signal commentary on rapid developments."
+    }
+  ],
+  "stats": {
+    "totalContents": 70,
+    "sources": 14,
+    "frCount": 10,
+    "enCount": 60
+  }
+}

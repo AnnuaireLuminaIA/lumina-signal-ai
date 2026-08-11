@@ -2,24 +2,36 @@
 
 **High-signal AI voices, live.**
 
-## Quick start
+## Site public
 
-Ouvre `prototypes/lumina-signal-v4.html` → clique **✦ Briefing du jour**.
+https://annuaireluminaia.github.io/lumina-signal-ai/
 
-## Refresh
+Prototype direct :  
+https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html
+
+## Features
+
+- 48 voix curées (Signal Score)
+- 14 sources RSS
+- Feed live + Briefing du jour
+- Filtres catégorie / pays
+- FR + EN
+- Auto-refresh toutes les 6 h (GitHub Actions)
+
+## Architecture
+
+```
+scripts/refresh.sh     → fetch RSS → data/live-contents.json + briefing-latest.json
+prototypes/v4.html     → charge les JSON en live (fetch)
+.github/workflows/     → cron 6h
+```
+
+## Refresh local
 
 ```bash
 bash scripts/refresh.sh
 ```
 
-## Chiffres
+## Repo
 
-- 48 voix curées
-- 14 sources RSS
-- 70 contenus live
-- FR + EN
-- Briefing intelligent
-
-## Structure
-
-Voir `docs/PROJECT-STATUS.md` et `docs/ARCHITECTURE.md`.
+https://github.com/AnnuaireLuminaIA/lumina-signal-ai

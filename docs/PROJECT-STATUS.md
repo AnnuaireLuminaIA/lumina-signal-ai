@@ -1,24 +1,16 @@
 # Lumina Signal — Project Status
 
 **Date:** 2026-08-11  
-**Mode:** Autonomous  
 
 ## Métriques
 
 | Élément | Valeur |
 |---------|--------|
-| Voix | **48** |
-| Sources RSS | **14** |
-| Contenus live | **70** |
-| Contenu FR | **10** |
-| Prototype | v4 |
-
-## Sources actives (14)
-
-Dwarkesh · Karpathy · Yannic · 3Blue1Brown · AI Explained ·  
-Lex Fridman · MLST · Latent Space · Comptoir IA ·  
-Two Minute Papers · Hugging Face · Cognitive Revolution ·  
-**Ludovic Salenne (FR)** · **The AI Epiphany**
+| Voix | 48 |
+| Sources RSS | 14 |
+| Contenus live | 70 |
+| FR | 10 |
+| Briefing | JSON + UI wired |
 
 ## Pipeline
 
@@ -26,7 +18,12 @@ Two Minute Papers · Hugging Face · Cognitive Revolution ·
 bash scripts/refresh.sh
 ```
 
+1. RSS fetch  
+2. Normalize → live-contents.json  
+3. Briefing → briefing-latest.json  
+
+Le prototype v4 embarque le briefing et l’utilise en priorité.
+
 ## Status
 
-Feed dense, bilingue, briefing opérationnel.  
-Produit prêt pour tests utilisateurs intensifs.
+**Produit end-to-end opérationnel.**

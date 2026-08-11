@@ -42,7 +42,7 @@ normalized = []
 for item in raw["items"]:
     voice = voices.get(item["voiceId"], {})
     dt = parse_date(item.get("publishedAt", ""))
-    lang = "fr" if item["voiceId"] == "nicolas-guyon" else "en"
+    lang = "fr" if item["voiceId"] in ("nicolas-guyon", "ludovic-salenne") else "en"
     normalized.append({
         "id": f"{item['voiceId']}-{abs(hash(item.get('url', item['title']))) % 10**8}",
         "voiceId": item["voiceId"],
@@ -65,4 +65,47 @@ with open(ROOT / "data/live-contents.json", "w") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
 print(f"  {len(normalized)} contents → data/live-contents.json")
 PY
-echo "✓ Done. Re-open or refresh v4 after embedding if needed."
+
+echo ""
+echo "→ Generating briefing..."
+python3 - << 'PY2'
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+ROOT = Path(".")
+with open(ROOT / "data/live-contents.json") as f:
+    live = json.load(f)
+with open(ROOT / "data/lumina-signal-voices.json") as f:
+    voices = {v["id"]: v for v in json.load(f)["voices"]}
+contents = live["contents"]
+seen, top = set(), []
+for c in sorted(contents, key=lambda x: -x.get("signalScore", 0)):
+    if c["voiceId"] in seen: continue
+    seen.add(c["voiceId"])
+    v = voices.get(c["voiceId"], {})
+    top.append({
+        "rank": len(top)+1, "title": c["title"], "voiceId": c["voiceId"],
+        "voiceName": v.get("name", c["voiceId"]), "signalScore": c.get("signalScore"),
+        "ago": c.get("ago"), "url": c.get("url"), "language": c.get("language", "en"),
+        "why": v.get("why", "Signal élevé.")
+    })
+    if len(top) >= 7: break
+briefing = {
+    "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+    "generatedAt": datetime.now(timezone.utc).isoformat(),
+    "title": "Briefing du jour",
+    "summary": f"{len(contents)} contenus · top {len(top)} signaux",
+    "items": top,
+    "stats": {
+        "totalContents": len(contents),
+        "sources": len({c["voiceId"] for c in contents}),
+        "frCount": sum(1 for c in contents if c.get("language")=="fr"),
+        "enCount": sum(1 for c in contents if c.get("language")!="fr"),
+    }
+}
+with open(ROOT / "data/briefing-latest.json", "w") as f:
+    json.dump(briefing, f, indent=2, ensure_ascii=False)
+print(f"  {len(top)} signaux → data/briefing-latest.json")
+PY2
+echo "✓ Full refresh done."
+

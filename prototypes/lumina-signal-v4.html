@@ -470,7 +470,7 @@
       {"id": "two-minute-papers", "name": "Two Minute Papers (Károly Zsolnai-Fehér)", "role": "Research Communicator", "country": "HU", "countryCode": "HU", "language": ["en"], "signalScore": 8.0, "categories": ["Education", "Research"], "bio": "Makes cutting-edge research papers accessible through short, enthusiastic videos.", "why": "Excellent pulse on new research with very high accessibility.", "links": {"youtube": "https://www.youtube.com/@TwoMinutePapers", "x": "https://x.com/TwoMinutePapers"}},
       {"id": "ludovic-salenne", "name": "Ludovic Salenne", "role": "Créateur IA – YouTube FR", "country": "FR", "countryCode": "FR", "language": ["fr"], "signalScore": 7.8, "categories": ["Education", "Tools", "Practical"], "bio": "Référence francophone sur les outils d’IA générative et les workflows pratiques.", "why": "Volume et réactivité FR sur les outils du quotidien.", "links": {"youtube": "https://www.youtube.com/@LudovicSalenne"}}];
 
-    const CONTENTS = [
+    let CONTENTS = [
       {"id":"mlst-93204883","voiceId":"mlst","type":"video","title":"Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart","description":"","duration":"—","ago":"Il y a 10h","signalScore":8.4,"url":"https://www.youtube.com/watch?v=revreN8LZ_M"},
       {"id":"nathan-labenz-74989049","voiceId":"nathan-labenz","type":"video","title":"Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses","description":"","duration":"—","ago":"Il y a 15h","signalScore":8.8,"url":"https://www.youtube.com/watch?v=4JYoTE_VKaU"},
       {"id":"huggingface-67246872","voiceId":"huggingface","type":"video","title":"Prompt Caching Explained: Stop Overpaying for AI Agents","description":"","duration":"—","ago":"Il y a 1j","signalScore":8.3,"url":"https://www.youtube.com/watch?v=SkM4k4SKvCM"},
@@ -542,6 +542,8 @@
       {"id":"swyx-alessio-63104070","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc"},
       {"id":"swyx-alessio-18259826","voiceId":"swyx-alessio","type":"podcast","title":"[AINews] Megakernels are so dead and so back","description":"","duration":"—","ago":"","signalScore":9.0,"url":"https://www.latent.space/p/ainews-megakernels-are-so-dead-and"}
     ];
+
+    let BRIEFING = {"date": "2026-08-11", "generatedAt": "2026-08-11T09:29:30.153250+00:00", "title": "Briefing du jour", "summary": "70 contenus analysés · top 7 signaux diversifiés", "items": [{"rank": 1, "title": "How I use LLMs", "voiceId": "andrej-karpathy", "voiceName": "Andrej Karpathy", "signalScore": 9.6, "ago": "Il y a 17 mois", "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw", "language": "en", "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence."}, {"rank": 2, "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson", "voiceId": "dwarkesh-patel", "voiceName": "Dwarkesh Patel", "signalScore": 9.4, "ago": "Il y a 1j", "url": "https://www.youtube.com/shorts/KP_Bpsu69NI", "language": "en", "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."}, {"rank": 3, "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise", "voiceId": "swyx-alessio", "voiceName": "swyx & Alessio Fanelli", "signalScore": 9.0, "ago": "", "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open", "language": "en", "why": "Best ongoing coverage of real AI engineering practice."}, {"rank": 4, "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses", "voiceId": "nathan-labenz", "voiceName": "Nathan Labenz", "signalScore": 8.8, "ago": "Il y a 15h", "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU", "language": "en", "why": "Excellent signal on what models can actually do versus benchmarks."}, {"rank": 5, "title": "The 64 sugar cubes puzzle", "voiceId": "3blue1brown", "voiceName": "3Blue1Brown (Grant Sanderson)", "signalScore": 8.7, "ago": "Il y a 2 sem.", "url": "https://www.youtube.com/shorts/6XPlmCDNLNc", "language": "en", "why": "Best mathematical intuition content for understanding the foundations of deep learning."}, {"rank": 6, "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER", "voiceId": "yannic-kilcher", "voiceName": "Yannic Kilcher", "signalScore": 8.7, "ago": "Il y a 5 mois", "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo", "language": "en", "why": "Highest-quality paper explanation content available publicly."}, {"rank": 7, "title": "AI is getting a little out of control", "voiceId": "ai-explained", "voiceName": "AI Explained", "signalScore": 8.6, "ago": "Il y a 4j", "url": "https://www.youtube.com/watch?v=xGzseSSStnw", "language": "en", "why": "Consistently low-hype, high-signal commentary on rapid developments."}], "stats": {"totalContents": 70, "sources": 14, "frCount": 10, "enCount": 60}};
 
     // ——— State ———
     let currentView = "feed";
@@ -818,48 +820,47 @@
     }
 
     function openBriefing() {
-
-      const seen = new Set();
-      const top = [];
-      const sorted = [...CONTENTS].sort((a, b) => (b.signalScore || 0) - (a.signalScore || 0));
-      for (const c of sorted) {
-        if (seen.has(c.voiceId)) continue;
-        seen.add(c.voiceId);
-        top.push(c);
-        if (top.length >= 5) break;
+      let top;
+      if (typeof BRIEFING !== "undefined" && BRIEFING.items && BRIEFING.items.length) {
+        top = BRIEFING.items.map(it => ({
+          title: it.title, voiceId: it.voiceId, signalScore: it.signalScore,
+          ago: it.ago, url: it.url, _why: it.why, _voiceName: it.voiceName
+        }));
+      } else {
+        const seen = new Set();
+        top = [];
+        const sorted = [...CONTENTS].sort((a, b) => (b.signalScore || 0) - (a.signalScore || 0));
+        for (const c of sorted) {
+          if (seen.has(c.voiceId)) continue;
+          seen.add(c.voiceId);
+          top.push(c);
+          if (top.length >= 7) break;
+        }
       }
 
-      const whyMap = {
-        "dwarkesh-patel": "Profondeur rare et accès aux frontier thinkers.",
-        "swyx-alessio": "Meilleur signal engineering / production AI du moment.",
-        "yannic-kilcher": "Analyse paper la plus rigoureuse en public.",
-        "3blue1brown": "Intuition mathématique exceptionnelle, fondations de l’IA.",
-        "andrej-karpathy": "Pédagogie from-scratch inégalée.",
-        "nathan-labenz": "Évaluations et capacités réelles des modèles.",
-        "arthur-mensch": "Voix européenne open-weight stratégique.",
-        "yann-lecun": "Contrepoint long-terme au pure scaling.",
-        "ai-explained": "Analyses sobres, anti-hype, très utiles pour séparer signal et bruit.",
-      };
+      const subtitle = (typeof BRIEFING !== "undefined" && BRIEFING.summary)
+        ? BRIEFING.summary
+        : "Top signaux · diversifiés par voix";
 
       let html = `<div style="position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px" id="briefing-modal">
         <div style="background:#0c0c11;border:1px solid rgba(255,255,255,0.1);border-radius:16px;max-width:560px;width:100%;max-height:80vh;overflow:auto;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
             <div>
               <div style="font-family:'Instrument Serif',serif;font-size:22px">Briefing du jour</div>
-              <div style="font-size:12px;color:#71717a;margin-top:2px">Top signaux · diversifiés par voix</div>
+              <div style="font-size:12px;color:#71717a;margin-top:2px">${subtitle}</div>
             </div>
             <button onclick="document.getElementById('briefing-modal').remove()" style="background:none;border:none;color:#a1a1aa;font-size:20px;cursor:pointer">×</button>
           </div>
           <div style="display:flex;flex-direction:column;gap:14px">`;
 
       top.forEach((c, i) => {
-        const v = getVoice(c.voiceId) || { name: c.voiceId };
-        const why = getWhy(c);
+        const v = getVoice(c.voiceId) || { name: c._voiceName || c.voiceId };
+        const why = c._why || getWhy(c);
         html += `
           <div style="padding:14px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:12px;cursor:pointer" ${c.url ? `onclick="window.open('${c.url}','_blank')"` : ""}>
             <div style="display:flex;align-items:center;gap:8px;font-size:12px;color:#71717a;margin-bottom:6px">
               <span style="font-weight:600;color:#c4b5fd">${i + 1}</span>
-              <span>${v.name}</span>
+              <span>${v.name || c._voiceName || c.voiceId}</span>
               <span>·</span>
               <span>${c.ago || ""}</span>
               <span style="margin-left:auto;background:rgba(167,139,250,0.12);color:#c4b5fd;padding:2px 7px;border-radius:5px;font-weight:600">${c.signalScore}</span>
@@ -879,8 +880,45 @@
 
     document.querySelector(".btn-primary")?.addEventListener("click", openBriefing);
 
+    // ——— Load live data from JSON (auto-updated by robot) ———
+    async function loadLiveData() {
+      try {
+        const [liveRes, briefRes] = await Promise.all([
+          fetch("../data/live-contents.json", { cache: "no-store" }),
+          fetch("../data/briefing-latest.json", { cache: "no-store" })
+        ]);
+        if (liveRes.ok) {
+          const live = await liveRes.json();
+          if (live.contents && live.contents.length) {
+            CONTENTS = live.contents.map(c => ({
+              id: c.id,
+              voiceId: c.voiceId,
+              type: c.type || "video",
+              title: c.title,
+              description: c.description || "",
+              duration: c.duration || "—",
+              ago: c.ago || "",
+              signalScore: c.signalScore || 8,
+              url: c.url || ""
+            }));
+            console.log("[Lumina] Live contents:", CONTENTS.length);
+          }
+        }
+        if (briefRes.ok) {
+          const b = await briefRes.json();
+          if (b.items) {
+            BRIEFING = b;
+            console.log("[Lumina] Briefing:", b.items.length, "items");
+          }
+        }
+      } catch (e) {
+        console.warn("[Lumina] Live fetch failed, using embedded data", e);
+      }
+      renderFeed();
+    }
+
     // Init
-    renderFeed();
+    loadLiveData();
   </script>
 </body>
 </html>
