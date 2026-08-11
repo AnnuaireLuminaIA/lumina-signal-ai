@@ -644,6 +644,7 @@
     <nav class="nav">
       <button data-view="feed" class="active">Feed</button>
       <button data-view="voices">Voix</button>
+      <button data-view="favorites">★ Favoris</button>
     </nav>
     <div class="header-actions">
       <button type="button" class="settings-btn" id="settings-btn" title="Settings">⚙</button>
@@ -667,6 +668,9 @@
       <button class="side-item" data-filter="Podcast">Podcast</button>
       <button class="side-item" data-filter="Education">Education</button>
       <button class="side-item" data-filter="French">French</button>
+      <div class="divider"></div>
+      <div class="side-label">Favoris</div>
+      <button class="side-item" type="button" id="side-favs" onclick="setView('favorites')">★ Voir mes favoris</button>
       <div class="divider"></div>
       <div class="side-label">Pays</div>
       <button class="side-item" data-country="all">Tous</button>
@@ -837,6 +841,7 @@
       fr: {
         "nav.feed": "Feed",
         "nav.voices": "Voix",
+        "nav.favorites": "★ Favoris",
         "nav.assistant": "Assistant",
         "nav.home": "← Accueil",
         "side.categories": "Catégories",
@@ -878,6 +883,7 @@
       en: {
         "nav.feed": "Feed",
         "nav.voices": "Voices",
+        "nav.favorites": "★ Saved",
         "nav.assistant": "Assistant",
         "nav.home": "← Home",
         "side.categories": "Categories",
@@ -941,10 +947,12 @@
 
     function applyLang() {
       // Nav
-      const navBtns = document.querySelectorAll(".nav button");
-      if (navBtns[0]) navBtns[0].textContent = t("nav.feed");
-      if (navBtns[1]) navBtns[1].textContent = t("nav.voices");
-      if (navBtns[2]) navBtns[2].textContent = t("nav.assistant");
+      document.querySelectorAll(".nav button").forEach(btn => {
+        const v = btn.dataset.view;
+        if (v === "feed") btn.textContent = t("nav.feed");
+        if (v === "voices") btn.textContent = t("nav.voices");
+        if (v === "favorites") btn.textContent = t("nav.favorites");
+      });
       const home = document.querySelector(".home-btn");
       if (home) home.textContent = t("nav.home");
 
@@ -1349,8 +1357,29 @@
         ? ` · MAJ <strong>${lastUpdated}</strong>`
         : "";
       const unit = items.length > 1 ? t("contents_plural") : t("contents");
-      document.getElementById("feed-meta").textContent =
-        items.length + " " + unit + " · " + t("live");
+      let meta = items.length + " " + unit + " · " + t("live");
+      if (typeFilter === "fav") {
+        meta = items.length + " " + unit + (lang === "fr" ? " sauvegardés" : " saved");
+      }
+      document.getElementById("feed-meta").textContent = meta;
+      // Clear control
+      let clearBtn = document.getElementById("clear-favs-btn");
+      if (typeFilter === "fav" && items.length) {
+        if (!clearBtn) {
+          const hdr = document.querySelector("#view-feed .feed-header > div");
+          if (hdr) {
+            clearBtn = document.createElement("button");
+            clearBtn.id = "clear-favs-btn";
+            clearBtn.className = "act";
+            clearBtn.style.marginTop = "8px";
+            clearBtn.onclick = clearFavorites;
+            hdr.appendChild(clearBtn);
+          }
+        }
+        if (clearBtn) clearBtn.textContent = lang === "fr" ? "Vider les favoris" : "Clear favorites";
+      } else if (clearBtn) {
+        clearBtn.remove();
+      }
       const badge = document.getElementById("updated-badge");
       if (badge) badge.innerHTML = lastUpdated ? `${t("updated")} <strong>${lastUpdated}</strong>` : "";
 
@@ -1451,11 +1480,32 @@
       document.querySelectorAll(".nav button").forEach(b => {
         b.classList.toggle("active", b.dataset.view === view);
       });
-      document.getElementById("view-feed").classList.toggle("hidden", view !== "feed");
+      const showFeed = (view === "feed" || view === "favorites");
+      document.getElementById("view-feed").classList.toggle("hidden", !showFeed);
       document.getElementById("view-voices").classList.toggle("hidden", view !== "voices");
 
-      if (view === "feed") renderFeed();
-      if (view === "voices") renderVoices();
+      if (view === "favorites") {
+        typeFilter = "fav";
+        document.querySelectorAll("#type-chips .chip").forEach(b => {
+          b.classList.toggle("active", b.dataset.type === "fav");
+        });
+        const title = document.querySelector("#view-feed .feed-title");
+        if (title) title.textContent = t("nav.favorites");
+        renderFeed();
+        updateFavChip();
+      } else if (view === "feed") {
+        if (typeFilter === "fav") {
+          typeFilter = "all";
+          document.querySelectorAll("#type-chips .chip").forEach(b => {
+            b.classList.toggle("active", b.dataset.type === "all");
+          });
+        }
+        const title = document.querySelector("#view-feed .feed-title");
+        if (title) title.textContent = t("feed.title");
+        renderFeed();
+      } else if (view === "voices") {
+        renderVoices();
+      }
     }
 
     // ——— Filters ———
