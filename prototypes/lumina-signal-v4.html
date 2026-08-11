@@ -600,6 +600,34 @@
     .share-row button:hover {
       color: #c4b5fd; border-color: rgba(167,139,250,0.35);
     }
+
+    .lang-badge {
+      font-size: 10px; font-weight: 600;
+      padding: 1px 6px; border-radius: 4px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .lang-badge.fr {
+      background: rgba(59,130,246,0.15);
+      color: #93c5fd;
+      border: 1px solid rgba(59,130,246,0.3);
+    }
+    .lang-badge.en {
+      background: rgba(255,255,255,0.05);
+      color: #a1a1aa;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .card-title .orig {
+      display: block;
+      font-size: 11.5px; font-weight: 400;
+      color: #71717a; margin-top: 3px;
+    }
+    .settings-btn {
+      font-size: 13px; cursor: pointer;
+      background: none; border: none; color: #a1a1aa;
+      padding: 4px 8px;
+    }
+    .settings-btn:hover { color: #c4b5fd; }
   </style>
 </head>
 <body>
@@ -614,6 +642,7 @@
       <button data-view="assistant">Assistant</button>
     </nav>
     <div class="header-actions">
+      <button type="button" class="settings-btn" id="settings-btn" title="Settings">⚙</button>
       <a class="home-btn" href="https://annuaireluminaia.github.io/lumina-signal-ai/">← Accueil</a>
       <div class="lang">
         <span class="active" data-lang="fr">FR</span>
@@ -666,6 +695,7 @@
           <button class="chip" data-type="fr">FR only</button>
           <button class="chip" data-type="fav">★ Favoris</button>
           <button class="chip chip-toggle" id="compact-toggle" title="Mode compact (c)">Compact</button>
+          <button class="chip" id="translate-btn" title="Traduire les titres (Gemini)">🌐 Traduire</button>
         </div>
         <div class="feed" id="feed-list"></div>
       </div>
@@ -937,6 +967,8 @@
       });
       const compact = document.getElementById("compact-toggle");
       if (compact) compact.textContent = t("chip.compact");
+      const trBtn = document.getElementById("translate-btn");
+      if (trBtn && !trBtn.disabled) trBtn.textContent = lang === "fr" ? "🌐 Traduire" : "🌐 Translate";
 
       // Voices header
       const voicesTitle = document.querySelector("#view-voices .feed-title");
@@ -1092,6 +1124,136 @@
       if (btn) btn.classList.toggle("active", on);
     }
 
+
+    // ——— Content language & Gemini title translation ———
+    const titleCache = JSON.parse(localStorage.getItem("lumina-title-cache") || "{}");
+    function saveTitleCache() {
+      try { localStorage.setItem("lumina-title-cache", JSON.stringify(titleCache)); } catch(e) {}
+    }
+    function contentLang(c) {
+      if (c.language === "fr" || c.language === "en") return c.language;
+      const v = getVoice(c.voiceId);
+      if (v) {
+        if (v.countryCode === "FR") return "fr";
+        if ((v.language || []).length === 1 && v.language[0] === "fr") return "fr";
+      }
+      // heuristic on title
+      const t = (c.title || "");
+      if (/[àâäéèêëïîôùûüç]/i.test(t) || /\b(le|la|les|des|une|pour|dans|avec|sur)\b/i.test(t)) return "fr";
+      return "en";
+    }
+    function displayTitle(c) {
+      const target = lang; // UI language
+      // Prefer server-side translations from live JSON
+      if (target === "fr" && c.titleFr) return c.titleFr;
+      if (target === "en" && c.titleEn) return c.titleEn;
+      const src = contentLang(c);
+      if (src === target) return c.title;
+      // Client-side Gemini cache fallback
+      const key = target + "::" + c.id;
+      if (titleCache[key]) return titleCache[key];
+      return c.title;
+    }
+    function getGeminiKey() {
+      return localStorage.getItem("lumina-gemini-key") || "";
+    }
+    function openSettings() {
+      document.getElementById("settings-modal")?.remove();
+      const key = getGeminiKey();
+      const html = `<div class="voice-modal-backdrop" id="settings-modal" onclick="if(event.target===this)this.remove()">
+        <div class="voice-modal">
+          <div style="display:flex;justify-content:space-between;align-items:start">
+            <h2>${lang === "fr" ? "Réglages" : "Settings"}</h2>
+            <button onclick="document.getElementById('settings-modal').remove()" style="background:none;border:none;color:#a1a1aa;font-size:22px;cursor:pointer">×</button>
+          </div>
+          <p style="color:#a1a1aa;font-size:13px;margin:12px 0 16px;line-height:1.5">
+            ${lang === "fr"
+              ? "Clé API Gemini (gratuite via Google AI Studio). Stockée uniquement dans ton navigateur, jamais sur le serveur."
+              : "Gemini API key (free via Google AI Studio). Stored only in your browser, never on the server."}
+          </p>
+          <input id="gemini-key-input" type="password" value="${key.replace(/"/g, "&quot;")}"
+            placeholder="AIza..."
+            style="width:100%;padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.04);color:#fff;font-size:13px;margin-bottom:12px" />
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="act" onclick="saveGeminiKey()" style="padding:8px 14px;border-radius:8px;border:1px solid rgba(167,139,250,0.4);background:rgba(167,139,250,0.15);color:#c4b5fd;cursor:pointer">
+              ${lang === "fr" ? "Enregistrer" : "Save"}
+            </button>
+            <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener" style="font-size:12px;color:#93c5fd;align-self:center">Google AI Studio →</a>
+          </div>
+        </div>
+      </div>`;
+      document.body.insertAdjacentHTML("beforeend", html);
+    }
+    function saveGeminiKey() {
+      const v = document.getElementById("gemini-key-input")?.value?.trim() || "";
+      if (v) localStorage.setItem("lumina-gemini-key", v);
+      else localStorage.removeItem("lumina-gemini-key");
+      document.getElementById("settings-modal")?.remove();
+      alert(lang === "fr" ? "Clé enregistrée localement." : "Key saved locally.");
+    }
+    async function translateTitles() {
+      const key = getGeminiKey();
+      if (!key) {
+        openSettings();
+        alert(lang === "fr"
+          ? "Ajoute d’abord ta clé API Gemini gratuite (Settings ⚙)."
+          : "Add your free Gemini API key first (Settings ⚙).");
+        return;
+      }
+      const target = lang;
+      const need = CONTENTS.filter(c => {
+        const src = contentLang(c);
+        if (src === target) return false;
+        return !titleCache[target + "::" + c.id];
+      }).slice(0, 25); // batch limit free tier friendly
+      if (!need.length) {
+        alert(lang === "fr" ? "Titres déjà traduits (cache)." : "Titles already translated (cache).");
+        renderFeed();
+        return;
+      }
+      const btn = document.getElementById("translate-btn");
+      if (btn) { btn.textContent = "…"; btn.disabled = true; }
+      try {
+        for (const c of need) {
+          const src = contentLang(c);
+          const prompt = src === "en"
+            ? `Translate this video/podcast title to French. Return ONLY the translation, no quotes:\n${c.title}`
+            : `Translate this video/podcast title to English. Return ONLY the translation, no quotes:\n${c.title}`;
+          const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${encodeURIComponent(key)}`;
+          const res = await fetch(url, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.2, maxOutputTokens: 80 }
+            })
+          });
+          if (!res.ok) {
+            const err = await res.text();
+            throw new Error("Gemini " + res.status + ": " + err.slice(0, 180));
+          }
+          const data = await res.json();
+          const text = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+          if (text) {
+            titleCache[target + "::" + c.id] = text.replace(/^["«]|["»]$/g, "").trim();
+            saveTitleCache();
+          }
+        }
+        renderFeed();
+        alert(lang === "fr"
+          ? `${need.length} titres traduits (Gemini).`
+          : `${need.length} titles translated (Gemini).`);
+      } catch (e) {
+        console.error(e);
+        alert((lang === "fr" ? "Erreur Gemini : " : "Gemini error: ") + (e.message || e));
+      } finally {
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = lang === "fr" ? "🌐 Traduire" : "🌐 Translate";
+        }
+      }
+    }
+
     // ——— Render Feed ———
     function renderFeed() {
       const list = document.getElementById("feed-list");
@@ -1126,12 +1288,22 @@
           const v = getVoice(c.voiceId);
           const hay = [
             c.title || "",
+            displayTitle(c) || "",
             c.description || "",
             (v && v.name) || "",
             (v && v.role) || "",
             ((v && v.categories) || []).join(" ")
           ].join(" ").toLowerCase();
           return hay.includes(q);
+        });
+      }
+
+      // FR first when UI is French
+      if (lang === "fr") {
+        items = [...items].sort((a, b) => {
+          const af = contentLang(a) === "fr" ? 0 : 1;
+          const bf = contentLang(b) === "fr" ? 0 : 1;
+          return af - bf;
         });
       }
 
@@ -1167,10 +1339,12 @@
               <div class="card-top">
                 <span class="name" style="cursor:pointer" onclick="event.stopPropagation();openVoiceModal('${c.voiceId}')" title="Fiche voix">${v.name}</span>
                 <span>·</span>
+                <span class="lang-badge ${contentLang(c)}">${contentLang(c)}</span>
+                <span>·</span>
                 <span>${c.ago || c.duration || ""}</span>
                 <span class="badge">${c.signalScore}</span>
               </div>
-              <h3 class="card-title">${c.title}</h3>
+              <h3 class="card-title">${(displayTitle(c) !== c.title) ? (displayTitle(c) + '<span class="orig">' + c.title + '</span>') : displayTitle(c)}</h3>
               <div class="card-actions" onclick="event.stopPropagation()">
                 ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">${t("play")}</button>` : ""}
                 ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">${t("open")}</button>` : ""}
@@ -1478,7 +1652,9 @@
               signalScore: c.signalScore || 8,
               url: c.url || "",
               thumbnail: c.thumbnail || "",
-              language: c.language || "en"
+              language: c.language || "en",
+              titleFr: c.titleFr || "",
+              titleEn: c.titleEn || ""
             }));
             if (live.generatedAt) {
               try {
@@ -1558,6 +1734,8 @@
     });
 
     document.getElementById("compact-toggle")?.addEventListener("click", toggleCompact);
+    document.getElementById("settings-btn")?.addEventListener("click", openSettings);
+    document.getElementById("translate-btn")?.addEventListener("click", translateTitles);
     if (localStorage.getItem("lumina-compact") === "1") {
       document.body.classList.add("compact");
       document.getElementById("compact-toggle")?.classList.add("active");

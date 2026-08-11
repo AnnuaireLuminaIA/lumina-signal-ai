@@ -69,6 +69,10 @@ print(f"  {len(normalized)} contents → data/live-contents.json")
 PY
 
 echo ""
+echo "→ Translating titles (Gemini if key present)..."
+python3 scripts/translate_titles.py || echo "  (translate step skipped/failed)"
+
+echo ""
 echo "→ Generating briefing..."
 python3 - << 'PY2'
 import json

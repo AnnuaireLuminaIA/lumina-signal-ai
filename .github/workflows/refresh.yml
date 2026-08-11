@@ -18,10 +18,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run refresh
+      - name: Run refresh + translate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MAX_CALLS: "40"
         run: |
           chmod +x scripts/refresh.sh
-          bash scripts/refresh.sh || python3 scripts/test-rss.py
+          bash scripts/refresh.sh
 
       - name: Commit & push if changed
         run: |
