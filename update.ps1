@@ -43,6 +43,7 @@ try {
     "prototypes",
     "data",
     "scripts",
+    "assets",
     ".github",
     "docs",
     "index.html",
