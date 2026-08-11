@@ -44,6 +44,7 @@
       "accentTo": "#22d3ee",
       "initials": "AK",
       "avatarFallbacks": [
+        "https://unavatar.io/x/karpathy",
         "https://unavatar.io/youtube/@AndrejKarpathy"
       ],
       "avatarMode": "photo"
@@ -85,6 +86,7 @@
       "accentTo": "#4ade80",
       "initials": "DP",
       "avatarFallbacks": [
+        "https://unavatar.io/x/dwarkesh_sp",
         "https://unavatar.io/youtube/@DwarkeshPatel"
       ],
       "avatarMode": "photo"
@@ -124,7 +126,9 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "YL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/ylecun"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -159,7 +163,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "DH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/demishassabis"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -194,7 +200,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "DA",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/darioamodei"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -232,7 +240,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "S&",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/swyx"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -272,7 +282,9 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "AM",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/arthurmensch"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -308,7 +320,9 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "NL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/labenz"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -345,6 +359,7 @@
       "accentTo": "#4ade80",
       "initials": "YK",
       "avatarFallbacks": [
+        "https://unavatar.io/x/YannicKilcher",
         "https://unavatar.io/youtube/@YannicKilcher"
       ],
       "avatarMode": "photo"
@@ -421,6 +436,7 @@
       "accentTo": "#7c3aed",
       "initials": "NG",
       "avatarFallbacks": [
+        "https://unavatar.io/x/nico16184",
         "https://unavatar.io/youtube/@nicolasguyon"
       ],
       "avatarMode": "photo"
@@ -456,7 +472,9 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "IS",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/ilyasut"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -490,7 +508,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "GH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/geoffreyhinton"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -527,7 +547,9 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "YB",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/Yoshua_Bengio"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -563,7 +585,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "FC",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/fchollet"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -600,7 +624,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "TW",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/Thom_Wolf"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -635,7 +661,9 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "JH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/jeremyphoward"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -671,7 +699,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "SW",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/simonw"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -743,6 +773,7 @@
       "accentTo": "#e879f9",
       "initials": "LF",
       "avatarFallbacks": [
+        "https://unavatar.io/x/lexfridman",
         "https://unavatar.io/youtube/@lexfridman"
       ],
       "avatarMode": "photo"
@@ -777,11 +808,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@NoPriorsPodcast",
+      "avatar": "https://unavatar.io/twitter/NoPriorsPod",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "SG",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/NoPriorsPod",
+        "https://unavatar.io/youtube/@NoPriorsPodcast"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -811,13 +845,11 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Stuart%20Russell%20AI%20Berkeley",
+      "avatar": "https://unavatar.io/google/Stuart%20Russell%20AI",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Stuart+Russell&background=1e1b4b&color=c4b5fd&size=256&bold=true"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -852,7 +884,9 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "EM",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/emollick"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -887,7 +921,9 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "HH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/HamelHusain"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -918,13 +954,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Paul%20Christiano%20alignment",
+      "avatar": "https://unavatar.io/twitter/paul_christiano",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PC",
       "avatarFallbacks": [
-        "https://unavatar.io/twitter/paul_christiano",
-        "https://ui-avatars.com/api/?name=Paul+Christiano&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+        "https://unavatar.io/x/paul_christiano"
       ],
       "avatarMode": "photo"
     },
@@ -960,7 +995,9 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "NN",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/NeelNanda5"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -994,7 +1031,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "DH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/DanHendrycks"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1025,13 +1064,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Chris%20Olah%20Anthropic",
+      "avatar": "https://unavatar.io/twitter/ch402",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "CO",
       "avatarFallbacks": [
-        "https://unavatar.io/twitter/ch402",
-        "https://ui-avatars.com/api/?name=Chris+Olah&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+        "https://unavatar.io/x/ch402"
       ],
       "avatarMode": "photo"
     },
@@ -1067,7 +1105,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "AN",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/AndrewYNg"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1102,7 +1142,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "FL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/drfeifei"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1139,7 +1181,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "GL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/GuillaumeLample"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1174,7 +1218,9 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JF",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/DrJimFan"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1208,7 +1254,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "RG",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/goodside"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1244,6 +1292,7 @@
       "accentTo": "#a3e635",
       "initials": "TM",
       "avatarFallbacks": [
+        "https://unavatar.io/x/TwoMinutePapers",
         "https://unavatar.io/youtube/@TwoMinutePapers"
       ],
       "avatarMode": "photo"
@@ -1280,7 +1329,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "LD",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/lau_devil"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1315,7 +1366,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "ZM",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/TheZvi"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1350,7 +1403,9 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JC",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/jackclarkSF"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1380,13 +1435,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Helen%20Toner%20CSET",
+      "avatar": "https://unavatar.io/twitter/hlntnr",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HT",
       "avatarFallbacks": [
-        "https://unavatar.io/twitter/hlntnr",
-        "https://ui-avatars.com/api/?name=Helen+Toner&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+        "https://unavatar.io/x/hlntnr"
       ],
       "avatarMode": "photo"
     },
@@ -1423,7 +1477,9 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SC",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/samcharrington"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1459,7 +1515,7 @@
       "accentTo": "#fb7185",
       "initials": "SG",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Sarah+Guo&background=4c0519&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/x/Saranormous"
       ],
       "avatarMode": "photo"
     },
@@ -1496,7 +1552,7 @@
       "accentTo": "#a3e635",
       "initials": "EG",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Elad+Gil&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/x/EladGil"
       ],
       "avatarMode": "photo"
     },
@@ -1532,8 +1588,7 @@
       "accentTo": "#f59e0b",
       "initials": "LJ",
       "avatarFallbacks": [
-        "https://unavatar.io/twitter/lucjulia",
-        "https://ui-avatars.com/api/?name=Luc+Julia&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+        "https://unavatar.io/x/lucjulia"
       ],
       "avatarMode": "photo"
     },
@@ -1571,8 +1626,7 @@
       "accentTo": "#22d3ee",
       "initials": "JP",
       "avatarFallbacks": [
-        "https://unavatar.io/twitter/JoellePineau",
-        "https://ui-avatars.com/api/?name=Joëlle+Pineau&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+        "https://unavatar.io/x/JoellePineau"
       ],
       "avatarMode": "photo"
     },
@@ -1608,7 +1662,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/rasbt"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1645,8 +1701,8 @@
       "accentTo": "#a3e635",
       "initials": "ML",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@MachineLearningStreetTalk",
-        "https://ui-avatars.com/api/?name=Machine+Learning+Street+Talk&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/x/MLStreetTalk",
+        "https://unavatar.io/youtube/@MachineLearningStreetTalk"
       ],
       "avatarMode": "photo"
     },
@@ -1826,7 +1882,9 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "LW",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/lilianweng"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1861,7 +1919,9 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CH",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/chipro"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1899,7 +1959,9 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CD",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/ClementDelangue"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1935,7 +1997,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "LT",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/_lewtun"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -1971,7 +2035,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PS",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/_philschmid"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2006,7 +2072,9 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "JW",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/_jasonwei"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2041,7 +2109,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HC",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/hwchase17"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2077,7 +2147,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "NL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/natolambert"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2113,7 +2185,9 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "GM",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/GaryMarcus"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2148,7 +2222,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "MT",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/tegmark"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2182,7 +2258,9 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "CL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/npdotee"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2217,7 +2295,9 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "EY",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/eugeneyan"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2254,7 +2334,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "HL",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/hugo_larochelle"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2288,7 +2370,9 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "JC",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/ID_AA_Carmack"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2323,7 +2407,9 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SD",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/sholtodouglas"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2357,7 +2443,9 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "NB",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/polynoamial"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2394,7 +2482,9 @@
       "accentTo": "#a3e635",
       "initials": "OG",
       "avatarMode": "photo",
-      "avatarFallbacks": []
+      "avatarFallbacks": [
+        "https://unavatar.io/x/oliviergodement"
+      ]
     },
     {
       "id": "allison-duettmann",
@@ -2427,7 +2517,9 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "AD",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/x/AllisonDuett"
+      ],
       "avatarMode": "photo"
     }
   ]
