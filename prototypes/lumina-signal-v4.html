@@ -868,7 +868,7 @@
         "chip.all": "Tout",
         "chip.video": "Vidéos",
         "chip.podcast": "Podcasts",
-        "chip.fr": "FR only",
+        "chip.fr": "FR seulement",
         "chip.fav": "★ Favoris",
         "chip.compact": "Compact",
         "voices.title": "Voix",
@@ -967,9 +967,12 @@
         el.classList.toggle("active", el.dataset.lang === lang);
       });
       applyLang();
-      if (currentView === "feed") renderFeed();
+      // Force full repaint so Play/Open and chips refresh
       if (currentView === "voices") renderVoices();
+      else renderFeed();
+      updateFavChip();
     }
+
 
     function applyLang() {
       document.querySelectorAll(".nav button").forEach(btn => {
@@ -996,6 +999,18 @@
 
       const allCat = document.querySelector('[data-filter="all"]');
       if (allCat) allCat.textContent = t("side.all");
+      const catLabels = {
+        Research: { fr: "Research", en: "Research" },
+        Engineering: { fr: "Engineering", en: "Engineering" },
+        Safety: { fr: "Safety", en: "Safety" },
+        Podcast: { fr: "Podcast", en: "Podcast" },
+        Education: { fr: "Education", en: "Education" },
+        French: { fr: "Français", en: "French" }
+      };
+      document.querySelectorAll("[data-filter]").forEach(btn => {
+        const f = btn.dataset.filter;
+        if (f && f !== "all" && catLabels[f]) btn.textContent = catLabels[f][lang] || f;
+      });
       const allCountry = document.querySelector('[data-country="all"]');
       if (allCountry) allCountry.textContent = t("side.countries.all");
       const sideFavs = document.getElementById("side-favs");
@@ -1024,6 +1039,19 @@
       if (compact) compact.textContent = t("chip.compact");
       const trBtn = document.getElementById("translate-btn");
       if (trBtn && !trBtn.disabled) trBtn.textContent = t("chip.translate");
+
+      // Force chip labels (avoid stale English)
+      const frOnly = document.querySelector('#type-chips .chip[data-type="fr"]');
+      if (frOnly) frOnly.textContent = lang === "fr" ? "FR seulement" : "FR only";
+      const favChip = document.querySelector('#type-chips .chip[data-type="fav"]');
+      if (favChip && !favChip.textContent.includes("(")) {
+        favChip.textContent = lang === "fr" ? "★ Favoris" : "★ Saved";
+      }
+      const tr = document.getElementById("translate-btn");
+      if (tr && !tr.disabled) tr.textContent = lang === "fr" ? "🌐 Traduire" : "🌐 Translate";
+      const cp = document.getElementById("compact-toggle");
+      if (cp) cp.textContent = "Compact";
+
       updateFavChip();
 
       const voicesTitle = document.querySelector("#view-voices .feed-title");
@@ -1451,8 +1479,8 @@
               <h3 class="card-title">${(displayTitle(c) !== c.title) ? (displayTitle(c) + '<span class="orig">' + c.title + '</span>') : displayTitle(c)}</h3>
               ${(c.topics && c.topics.length) ? `<div class="tags" style="margin:6px 0 4px">${c.topics.map(t => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
               <div class="card-actions" onclick="event.stopPropagation()">
-                ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">${t("play")}</button>` : ""}
-                ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">${t("open")}</button>` : ""}
+                ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">${lang === "fr" ? "▶ Lire" : "▶ Play"}</button>` : ""}
+                ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">${lang === "fr" ? "↗ Ouvrir" : "↗ Open"}</button>` : ""}
                 <button class="fav-btn ${isFav ? "on" : ""}" title="Favori" onclick="toggleFav('${c.id}', event, '${(c.url || "").replace(/'/g, "\'")}')">${isFav ? "★" : "☆"}</button>
               </div>
             </div>
