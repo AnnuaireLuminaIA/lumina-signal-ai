@@ -8,6 +8,7 @@ echo ""
 echo "→ Normalizing..."
 python3 - << 'PY'
 import json
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -63,7 +64,7 @@ for item in raw["items"]:
     dt = parse_date(item.get("publishedAt", ""))
     lang = "fr" if item["voiceId"] in ("nicolas-guyon", "ludovic-salenne", "thinkerview") else "en"
     normalized.append({
-        "id": f"{item['voiceId']}-{abs(hash(item.get('url', item['title']))) % 10**8}",
+        "id": item.get("voiceId", "x") + "-" + hashlib.sha1((item.get("url") or item.get("title") or "").encode()).hexdigest()[:12],
         "voiceId": item["voiceId"],
         "type": item.get("type", "video"),
         "title": item["title"],
@@ -95,6 +96,7 @@ echo ""
 echo "→ Generating briefing..."
 python3 - << 'PY2'
 import json
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 ROOT = Path(".")

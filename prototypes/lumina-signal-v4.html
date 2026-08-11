@@ -992,16 +992,44 @@
 
     let lastUpdated = null;
     let favorites = new Set(JSON.parse(localStorage.getItem("lumina-favs") || "[]"));
+    // Also store by URL for resilience if ids ever change
+    let favUrls = new Set(JSON.parse(localStorage.getItem("lumina-fav-urls") || "[]"));
 
     function saveFavs() {
       localStorage.setItem("lumina-favs", JSON.stringify([...favorites]));
+      localStorage.setItem("lumina-fav-urls", JSON.stringify([...favUrls]));
+      updateFavChip();
     }
-    function toggleFav(id, ev) {
+    function isFavContent(c) {
+      return favorites.has(c.id) || (c.url && favUrls.has(c.url));
+    }
+    function toggleFav(id, ev, url) {
       if (ev) ev.stopPropagation();
-      if (favorites.has(id)) favorites.delete(id);
-      else favorites.add(id);
+      const on = favorites.has(id) || (url && favUrls.has(url));
+      if (on) {
+        favorites.delete(id);
+        if (url) favUrls.delete(url);
+      } else {
+        favorites.add(id);
+        if (url) favUrls.add(url);
+      }
       saveFavs();
       renderFeed();
+    }
+    function clearFavorites() {
+      if (!favorites.size && !favUrls.size) return;
+      if (!confirm(lang === "fr" ? "Vider tous les favoris ?" : "Clear all favorites?")) return;
+      favorites.clear();
+      favUrls.clear();
+      saveFavs();
+      renderFeed();
+    }
+    function updateFavChip() {
+      const chip = document.querySelector('#type-chips .chip[data-type="fav"]');
+      if (!chip) return;
+      const n = Math.max(favorites.size, favUrls.size);
+      const base = t("chip.fav");
+      chip.textContent = n ? (base + " (" + n + ")") : base;
     }
     function ytId(url) {
       if (!url) return null;
@@ -1290,7 +1318,7 @@
           return v && ((v.language || []).includes("fr") || v.countryCode === "FR");
         });
       } else if (typeFilter === "fav") {
-        items = items.filter(c => favorites.has(c.id));
+        items = items.filter(c => isFavContent(c));
       }
       if (searchQuery.trim()) {
         const q = searchQuery.trim().toLowerCase();
@@ -1327,14 +1355,17 @@
       if (badge) badge.innerHTML = lastUpdated ? `${t("updated")} <strong>${lastUpdated}</strong>` : "";
 
       if (items.length === 0) {
-        list.innerHTML = `<div class="empty">${t("empty.feed")}</div>`;
+        const emptyMsg = typeFilter === "fav"
+        ? (lang === "fr" ? "Aucun favori pour l'instant. Clique ☆ sur une carte." : "No favorites yet. Click ☆ on a card.")
+        : t("empty.feed");
+      list.innerHTML = `<div class="empty">${emptyMsg}${typeFilter === "fav" ? ' <button class="act" style="margin-left:8px" onclick="clearFavorites()">Clear</button>' : ""}</div>`;
         return;
       }
 
       list.innerHTML = items.map(c => {
         const v = getVoice(c.voiceId) || { name: c.voiceId };
         const isYt = !!ytId(c.url);
-        const isFav = favorites.has(c.id);
+        const isFav = isFavContent(c);
         const openJs = isYt
           ? `openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'").replace(/"/g, "&quot;")}', event)`
           : (c.url ? `window.open('${c.url}', '_blank')` : "");
@@ -1359,7 +1390,7 @@
               <div class="card-actions" onclick="event.stopPropagation()">
                 ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">${t("play")}</button>` : ""}
                 ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">${t("open")}</button>` : ""}
-                <button class="fav-btn ${isFav ? "on" : ""}" title="Favori" onclick="toggleFav('${c.id}', event)">${isFav ? "★" : "☆"}</button>
+                <button class="fav-btn ${isFav ? "on" : ""}" title="Favori" onclick="toggleFav('${c.id}', event, '${(c.url || "").replace(/'/g, "\'")}')">${isFav ? "★" : "☆"}</button>
               </div>
             </div>
           </article>
