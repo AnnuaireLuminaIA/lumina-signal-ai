@@ -39,11 +39,12 @@
       "listenFirstFr": "YouTube : Let's build GPT / série Neural nets",
       "frequency": "Occasional long videos",
       "frequencyFr": "Vidéos longues occasionnelles",
-      "avatar": "https://unavatar.io/twitter/karpathy",
+      "avatar": "../assets/avatars/andrej-karpathy.png",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "AK",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/karpathy",
         "https://unavatar.io/youtube/@AndrejKarpathy",
         "https://unavatar.io/x/karpathy"
       ],
@@ -806,11 +807,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/NoPriorsPod",
+      "avatar": "../assets/avatars/no-priors.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "SG",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/NoPriorsPod",
         "https://unavatar.io/youtube/@NoPriorsPodcast",
         "https://unavatar.io/x/NoPriorsPod"
       ],
@@ -941,7 +943,7 @@
       "bio": "One of the most influential thinkers on AI alignment and scalable oversight.",
       "why": "Deep, careful reasoning on the hardest alignment problems.",
       "links": {
-        "x": "https://x.com/paul_christiano",
+        "x": "https://x.com/paulfchristiano",
         "website": "https://ai-alignment.com"
       },
       "active": true,
@@ -952,11 +954,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/paul_christiano",
+      "avatar": "../assets/avatars/paul-christiano.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/paul_christiano",
         "https://unavatar.io/x/paul_christiano"
       ],
       "avatarMode": "photo"
@@ -1175,11 +1178,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/GuillaumeLample",
+      "avatar": "../assets/avatars/guillaume-lample.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "GL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/GuillaumeLample",
         "https://unavatar.io/x/GuillaumeLample"
       ],
       "avatarMode": "photo"
@@ -1275,7 +1279,7 @@
       "why": "Excellent pulse on new research with very high accessibility.",
       "links": {
         "youtube": "https://www.youtube.com/@TwoMinutePapers",
-        "x": "https://x.com/TwoMinutePapers"
+        "x": "https://x.com/twominutepapers"
       },
       "active": true,
       "roleFr": "Vulgarisateur research",
@@ -1285,11 +1289,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/TwoMinutePapers",
+      "avatar": "../assets/avatars/two-minute-papers.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "TM",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/TwoMinutePapers",
         "https://unavatar.io/youtube/@TwoMinutePapers",
         "https://unavatar.io/x/TwoMinutePapers"
       ],
@@ -1323,11 +1328,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/lau_devil",
+      "avatar": "../assets/avatars/laurence-devillers.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "LD",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/lau_devil",
         "https://unavatar.io/x/lau_devil"
       ],
       "avatarMode": "photo"
@@ -1471,11 +1477,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/samcharrington",
+      "avatar": "../assets/avatars/sam-charrington.png",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/samcharrington",
         "https://unavatar.io/x/samcharrington"
       ],
       "avatarMode": "photo"
@@ -1508,11 +1515,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/Saranormous",
+      "avatar": "../assets/avatars/sarah-guo.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "SG",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/Saranormous",
         "https://unavatar.io/x/Saranormous"
       ],
       "avatarMode": "photo"
@@ -1545,11 +1553,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/EladGil",
+      "avatar": "../assets/avatars/elad-gil.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "EG",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/EladGil",
         "https://unavatar.io/x/EladGil"
       ],
       "avatarMode": "photo"
@@ -1571,7 +1580,7 @@
       "bio": "Well-known French voice on AI, author and public communicator.",
       "why": "Accessible and established voice in the French public conversation on AI.",
       "links": {
-        "x": "https://x.com/lucjulia"
+        "x": "https://x.com/julialuc"
       },
       "active": true,
       "roleFr": "Scientifique & auteur",
@@ -1581,11 +1590,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/lucjulia",
+      "avatar": "../assets/avatars/luc-julia.jpg",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "LJ",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/lucjulia",
         "https://unavatar.io/x/lucjulia"
       ],
       "avatarMode": "photo"
@@ -1876,11 +1886,12 @@
         "x": "https://x.com/lilianweng"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/lilianweng",
+      "avatar": "../assets/avatars/lilian-weng.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "LW",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/lilianweng",
         "https://unavatar.io/x/lilianweng"
       ],
       "avatarMode": "photo"
@@ -1913,11 +1924,12 @@
         "x": "https://x.com/chipro"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/chipro",
+      "avatar": "../assets/avatars/chip-huyen.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/chipro",
         "https://unavatar.io/x/chipro"
       ],
       "avatarMode": "photo"
@@ -1953,11 +1965,12 @@
         "website": "https://huggingface.co"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/ClementDelangue",
+      "avatar": "../assets/avatars/clem-delangue.png",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CD",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/ClementDelangue",
         "https://unavatar.io/x/ClementDelangue"
       ],
       "avatarMode": "photo"
@@ -1991,11 +2004,12 @@
         "website": "https://huggingface.co"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_lewtun",
+      "avatar": "../assets/avatars/lewis-tunstall.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "LT",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/_lewtun",
         "https://unavatar.io/x/_lewtun"
       ],
       "avatarMode": "photo"
@@ -2029,11 +2043,12 @@
         "website": "https://www.philschmid.de"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_philschmid",
+      "avatar": "../assets/avatars/philipp-schmid.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PS",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/_philschmid",
         "https://unavatar.io/x/_philschmid"
       ],
       "avatarMode": "photo"
@@ -2066,11 +2081,12 @@
         "website": "https://www.jasonwei.net"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_jasonwei",
+      "avatar": "../assets/avatars/jason-wei.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "JW",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/_jasonwei",
         "https://unavatar.io/x/_jasonwei"
       ],
       "avatarMode": "photo"
@@ -2141,11 +2157,12 @@
         "x": "https://x.com/natolambert"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/natolambert",
+      "avatar": "../assets/avatars/nathan-lambert.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "NL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/natolambert",
         "https://unavatar.io/x/natolambert"
       ],
       "avatarMode": "photo"
@@ -2289,11 +2306,12 @@
         "x": "https://x.com/eugeneyan"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/eugeneyan",
+      "avatar": "../assets/avatars/eugene-yan.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "EY",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/eugeneyan",
         "https://unavatar.io/x/eugeneyan"
       ],
       "avatarMode": "photo"
@@ -2364,11 +2382,12 @@
         "x": "https://x.com/ID_AA_Carmack"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/ID_AA_Carmack",
+      "avatar": "../assets/avatars/john-carmack.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "JC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/ID_AA_Carmack",
         "https://unavatar.io/x/ID_AA_Carmack"
       ],
       "avatarMode": "photo"
@@ -2398,14 +2417,15 @@
       "frequency": "Rare interviews",
       "frequencyFr": "Interviews rares",
       "links": {
-        "x": "https://x.com/sholtodouglas"
+        "x": "https://x.com/_sholtodouglas"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/sholtodouglas",
+      "avatar": "../assets/avatars/sholto-douglas.jpg",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SD",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/sholtodouglas",
         "https://unavatar.io/x/sholtodouglas"
       ],
       "avatarMode": "photo"
@@ -2475,12 +2495,13 @@
         "x": "https://x.com/oliviergodement"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/oliviergodement",
+      "avatar": "../assets/avatars/olivier-godement.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "OG",
       "avatarMode": "photo",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/oliviergodement",
         "https://unavatar.io/x/oliviergodement"
       ]
     },
@@ -2511,11 +2532,12 @@
         "x": "https://x.com/AllisonDuett"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/AllisonDuett",
+      "avatar": "../assets/avatars/allison-duettmann.png",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "AD",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/AllisonDuett",
         "https://unavatar.io/x/AllisonDuett"
       ],
       "avatarMode": "photo"
