@@ -1,0 +1,36 @@
+name: Refresh Lumina Signal
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run refresh
+        run: |
+          chmod +x scripts/refresh.sh
+          bash scripts/refresh.sh || python3 scripts/test-rss.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "Lumina Signal Bot"
+          git config user.email "bot@lumina-signal.local"
+          git add data/ || true
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh live contents $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
