@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Méthode — Lumina Signal</title>
+  <meta name="description" content="Comment Lumina Signal sélectionne les voix IA, calcule le Signal Score et met à jour le feed automatiquement." />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta property="og:title" content="Méthode — Lumina Signal" />
+  <meta property="og:description" content="Curation stricte, Signal Score, robot RSS. Comment on filtre le bruit." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://annuaireluminaia.github.io/lumina-signal-ai/about.html" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #07070b; --surface: #0c0c11; --border: rgba(255,255,255,0.08);
+      --text: #f4f4f5; --muted: #a1a1aa; --faint: #71717a;
+      --accent: #a78bfa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--text);
+      line-height: 1.6; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 48px; }
+    .logo { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 600; font-size: 15px; }
+    .logo-mark {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(135deg, #7c3aed, #a78bfa);
+      display: grid; place-items: center; font-size: 14px;
+    }
+    nav a { color: var(--muted); text-decoration: none; font-size: 13px; margin-left: 16px; }
+    nav a:hover { color: var(--text); }
+    h1 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: clamp(32px, 6vw, 42px); font-weight: 400;
+      letter-spacing: -0.03em; margin-bottom: 12px;
+    }
+    .lead { color: var(--muted); font-size: 17px; margin-bottom: 40px; }
+    h2 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: 22px; font-weight: 400; margin: 36px 0 12px;
+    }
+    p, li { color: var(--muted); font-size: 15px; margin-bottom: 10px; }
+    ul { padding-left: 1.2em; margin-bottom: 16px; }
+    strong { color: var(--text); font-weight: 600; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px 18px; margin: 16px 0;
+    }
+    .card h3 { font-size: 14px; margin-bottom: 6px; color: var(--text); }
+    footer {
+      margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border);
+      font-size: 13px; color: var(--faint); text-align: center;
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="./"><span class="logo-mark">✦</span> Lumina Signal</a>
+      <nav>
+        <a href="prototypes/lumina-signal-v4.html">App</a>
+        <a href="about.html">Méthode</a>
+        <a href="https://github.com/AnnuaireLuminaIA" target="_blank" rel="noopener">Lumina IA</a>
+      </nav>
+    </header>
+
+    <h1>Comment on filtre le signal</h1>
+    <p class="lead">Trop de bruit. Trop de hype. Lumina Signal ne suit que les personnes qui parlent sérieusement d’IA.</p>
+
+    <h2>1. Curation humaine</h2>
+    <p>Chaque voix est sélectionnée à la main. On privilégie :</p>
+    <ul>
+      <li>chercheurs et builders avec un track record public,</li>
+      <li>analyses sobres plutôt que marketing,</li>
+      <li>formats longs et techniques quand c’est pertinent,</li>
+      <li>une présence FR assumée, sans sacrifier le niveau.</li>
+    </ul>
+
+    <h2>2. Signal Score (0–10)</h2>
+    <p>Note composite, indicative, basée sur :</p>
+    <div class="card">
+      <h3>Critères</h3>
+      <ul>
+        <li><strong>Profondeur</strong> — substance vs surface</li>
+        <li><strong>Expertise</strong> — crédibilité du locuteur</li>
+        <li><strong>Objectivité</strong> — distance au hype commercial</li>
+        <li><strong>Production</strong> — clarté, régularité, accessibilité</li>
+        <li><strong>Pertinence</strong> — utilité pour suivre le frontier / l’ingénierie / la safety</li>
+      </ul>
+    </div>
+    <p>Ce n’est pas un ranking scientifique. C’est un <strong>filtre éditorial</strong> pour prioriser l’attention.</p>
+
+    <h2>3. Robot RSS</h2>
+    <p>Un workflow GitHub Actions tourne environ toutes les <strong>6 heures</strong> :</p>
+    <ul>
+      <li>lecture des flux YouTube / podcasts des sources suivies,</li>
+      <li>normalisation dans <code>live-contents.json</code>,</li>
+      <li>briefing du jour (top signaux diversifiés),</li>
+      <li>commit automatique si le contenu a changé.</li>
+    </ul>
+
+    <h2>4. Ce que ce n’est pas</h2>
+    <ul>
+      <li>pas un agrégateur exhaustif de toute l’IA,</li>
+      <li>pas un outil de trading ou de conseils financiers,</li>
+      <li>pas une opinion unique « officielle » sur l’IA.</li>
+    </ul>
+
+    <h2>5. Écosystème Lumina</h2>
+    <p>
+      <strong>Lumina Signal</strong> = le flux des voix high-signal.<br>
+      <strong>Lumina IA</strong> = l’annuaire / la base plus large du projet.
+    </p>
+    <p>
+      <a href="https://github.com/AnnuaireLuminaIA" target="_blank" rel="noopener">Organisation GitHub AnnuaireLuminaIA →</a>
+    </p>
+
+    <footer>
+      <p>
+        <a href="./">Accueil</a> ·
+        <a href="prototypes/lumina-signal-v4.html">Ouvrir l’app</a> ·
+        <a href="https://github.com/AnnuaireLuminaIA/lumina-signal-ai">Code source</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

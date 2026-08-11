@@ -78,7 +78,8 @@
       "categories": [
         "Research",
         "Vision",
-        "Open-source"
+        "Open-source",
+        "French"
       ],
       "bio": "Turing Award winner. Leading voice on the limitations of pure scaling and advocate for open research and alternative architectures.",
       "why": "One of the most influential long-term thinkers in the field with consistent, high-signal public positions.",
@@ -183,7 +184,8 @@
         "Frontier",
         "Europe",
         "Open-weight",
-        "Business"
+        "Business",
+        "French"
       ],
       "bio": "CEO of Mistral AI. Leading European voice on open-weight models, sovereignty, and industrial AI strategy.",
       "why": "Most important European voice at the frontier. Clear strategic thinking on open models and Europe’s position.",
@@ -364,7 +366,8 @@
       "signalScore": 8.6,
       "categories": [
         "Research",
-        "Safety"
+        "Safety",
+        "French"
       ],
       "bio": "Turing Award winner. Major voice on AI safety and responsible development.",
       "why": "Deep technical credibility combined with strong safety advocacy.",
@@ -390,7 +393,8 @@
       "categories": [
         "Research",
         "Benchmarks",
-        "Analysis"
+        "Analysis",
+        "French"
       ],
       "bio": "Creator of Keras. Influential thinker on the nature of intelligence and limitations of current approaches.",
       "why": "Sharp, first-principles thinking on what intelligence actually requires.",
@@ -416,7 +420,8 @@
       "categories": [
         "Open-source",
         "Engineering",
-        "Europe"
+        "Europe",
+        "French"
       ],
       "bio": "Key figure in the open-source AI ecosystem through Hugging Face.",
       "why": "Central voice for open models and the infrastructure around them.",
@@ -792,7 +797,8 @@
       "categories": [
         "Frontier",
         "Europe",
-        "Research"
+        "Research",
+        "French"
       ],
       "bio": "Co-founder of Mistral AI. Previously at Meta FAIR, major contributions to open models.",
       "why": "Key technical figure behind one of Europe’s most important AI labs.",
@@ -1084,7 +1090,8 @@
       "signalScore": 8.2,
       "categories": [
         "Research",
-        "Europe"
+        "Europe",
+        "French"
       ],
       "bio": "Leading researcher in reinforcement learning and AI systems. Strong academic and industry presence.",
       "why": "High technical credibility with clear public communication.",
@@ -1184,7 +1191,8 @@
       "categories": [
         "Education",
         "Tools",
-        "Practical"
+        "Practical",
+        "French"
       ],
       "bio": "Référence francophone sur les outils d’IA générative et les workflows pratiques.",
       "why": "Volume et réactivité FR sur les outils du quotidien.",

@@ -1,37 +1,25 @@
 # Lumina Signal
 
-**High-signal AI voices, live.**
+High-signal AI voices — live feed, daily briefing, strict curation.
 
-## Site public
+**Live:** https://annuaireluminaia.github.io/lumina-signal-ai/
 
-https://annuaireluminaia.github.io/lumina-signal-ai/
+| Page | URL |
+|------|-----|
+| Pitch | `/` |
+| App | `/prototypes/lumina-signal-v4.html` |
+| Méthode | `/about.html` |
 
-Prototype direct :  
-https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html
+## Stack
+- Static HTML/JS (GitHub Pages)
+- RSS robot every 6h (GitHub Actions)
+- Optional Gemini title translation via `GEMINI_API_KEY` secret
 
-## Features
-
-- 48 voix curées (Signal Score)
-- 14 sources RSS
-- Feed live + Briefing du jour
-- Filtres catégorie / pays
-- FR + EN
-- Auto-refresh toutes les 6 h (GitHub Actions)
-
-## Architecture
-
-```
-scripts/refresh.sh     → fetch RSS → data/live-contents.json + briefing-latest.json
-prototypes/v4.html     → charge les JSON en live (fetch)
-.github/workflows/     → cron 6h
+## Update from ZIP (Windows)
+```powershell
+cd $env:USERPROFILE\LuminaSignal\lumina-signal-ai
+.\update.ps1
 ```
 
-## Refresh local
-
-```bash
-bash scripts/refresh.sh
-```
-
-## Repo
-
-https://github.com/AnnuaireLuminaIA/lumina-signal-ai
+## Ecosystem
+Part of **Lumina** — see [AnnuaireLuminaIA](https://github.com/AnnuaireLuminaIA).

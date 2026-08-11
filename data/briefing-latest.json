@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T11:40:13.019826+00:00",
+  "generatedAt": "2026-08-11T10:51:56.060796+00:00",
   "title": "Briefing du jour",
   "summary": "75 contenus · top 7 signaux",
   "items": [
@@ -43,7 +43,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 17h",
+      "ago": "Il y a 16h",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."
