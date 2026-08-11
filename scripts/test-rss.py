@@ -48,6 +48,14 @@ def parse_youtube_atom(xml_text: str, voice_id: str, voice_name: str):
         video_id = entry.findtext("yt:videoId", default="", namespaces=NS) or ""
         if not link and video_id:
             link = f"https://www.youtube.com/watch?v={video_id}"
+        thumb = ""
+        thumb_el = entry.find("media:group/media:thumbnail", NS)
+        if thumb_el is None:
+            thumb_el = entry.find("media:thumbnail", NS)
+        if thumb_el is not None:
+            thumb = thumb_el.get("url", "")
+        if not thumb and video_id:
+            thumb = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
         items.append({
             "voiceId": voice_id,
             "voiceName": voice_name,
@@ -56,6 +64,7 @@ def parse_youtube_atom(xml_text: str, voice_id: str, voice_name: str):
             "url": link,
             "publishedAt": published,
             "platform": "youtube",
+            "thumbnail": thumb,
         })
     return items
 

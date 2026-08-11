@@ -50,6 +50,7 @@ for item in raw["items"]:
         "title": item["title"],
         "description": "",
         "url": item.get("url", ""),
+        "thumbnail": item.get("thumbnail", ""),
         "duration": "—",
         "ago": relative_ago(dt),
         "publishedAt": item.get("publishedAt", ""),
