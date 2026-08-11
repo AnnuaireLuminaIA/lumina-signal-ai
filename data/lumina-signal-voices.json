@@ -44,8 +44,7 @@
       "accentTo": "#22d3ee",
       "initials": "AK",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@AndrejKarpathy",
-        "https://ui-avatars.com/api/?name=Andrej+Karpathy&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@AndrejKarpathy"
       ],
       "avatarMode": "photo"
     },
@@ -86,8 +85,7 @@
       "accentTo": "#4ade80",
       "initials": "DP",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@DwarkeshPatel",
-        "https://ui-avatars.com/api/?name=Dwarkesh+Patel&background=14532d&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@DwarkeshPatel"
       ],
       "avatarMode": "photo"
     },
@@ -126,9 +124,7 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "YL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Yann+LeCun&background=4c0519&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -163,9 +159,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "DH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Demis+Hassabis&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -200,9 +194,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "DA",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Dario+Amodei&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -280,9 +272,7 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "AM",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Arthur+Mensch&background=14532d&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -318,9 +308,7 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "NL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Nathan+Labenz&background=14532d&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -357,8 +345,7 @@
       "accentTo": "#4ade80",
       "initials": "YK",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@YannicKilcher",
-        "https://ui-avatars.com/api/?name=Yannic+Kilcher&background=14532d&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@YannicKilcher"
       ],
       "avatarMode": "photo"
     },
@@ -434,8 +421,7 @@
       "accentTo": "#7c3aed",
       "initials": "NG",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@nicolasguyon",
-        "https://ui-avatars.com/api/?name=Nicolas+Guyon&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@nicolasguyon"
       ],
       "avatarMode": "photo"
     },
@@ -470,9 +456,7 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "IS",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Ilya+Sutskever&background=4c0519&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -506,9 +490,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "GH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Geoffrey+Hinton&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -545,9 +527,7 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "YB",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Yoshua+Bengio&background=14532d&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -583,9 +563,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "FC",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=François+Chollet&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -622,9 +600,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "TW",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Thomas+Wolf&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -659,9 +635,7 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "JH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Jeremy+Howard&background=4c0519&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -697,9 +671,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "SW",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Simon+Willison&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -771,8 +743,7 @@
       "accentTo": "#e879f9",
       "initials": "LF",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@lexfridman",
-        "https://ui-avatars.com/api/?name=Lex+Fridman&background=3b0764&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@lexfridman"
       ],
       "avatarMode": "photo"
     },
@@ -840,7 +811,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Stuart%20Russell%20Berkeley%20AI%20professor",
+      "avatar": "https://unavatar.io/google/Stuart%20Russell%20AI%20Berkeley",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
@@ -881,9 +852,7 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "EM",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Ethan+Mollick&background=14532d&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -918,9 +887,7 @@
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "HH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Hamel+Husain&background=14532d&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -951,7 +918,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Paul%20Christiano%20AI%20alignment",
+      "avatar": "https://unavatar.io/google/Paul%20Christiano%20alignment",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PC",
@@ -993,9 +960,7 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "NN",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Neel+Nanda&background=3b0764&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1029,9 +994,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "DH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Dan+Hendrycks&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1062,7 +1025,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Chris%20Olah%20Anthropic%20distill",
+      "avatar": "https://unavatar.io/google/Chris%20Olah%20Anthropic",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "CO",
@@ -1104,9 +1067,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "AN",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Andrew+Ng&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1141,9 +1102,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "FL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Fei-Fei+Li&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1215,9 +1174,7 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JF",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Jim+Fan&background=3b0764&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1251,9 +1208,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "RG",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Riley+Goodside&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1289,8 +1244,7 @@
       "accentTo": "#a3e635",
       "initials": "TM",
       "avatarFallbacks": [
-        "https://unavatar.io/youtube/@TwoMinutePapers",
-        "https://ui-avatars.com/api/?name=Two+Minute+Papers+(Károly+Zsolnai-Fehér)&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/youtube/@TwoMinutePapers"
       ],
       "avatarMode": "photo"
     },
@@ -1361,9 +1315,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "ZM",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Zvi+Mowshowitz&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1398,9 +1350,7 @@
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JC",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Jack+Clark&background=3b0764&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1430,7 +1380,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Helen%20Toner%20CSET%20AI",
+      "avatar": "https://unavatar.io/google/Helen%20Toner%20CSET",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HT",
@@ -1473,9 +1423,7 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SC",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Sam+Charrington&background=1c1917&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1579,7 +1527,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Luc%20Julia%20Siri%20AI",
+      "avatar": "https://unavatar.io/twitter/lucjulia",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "LJ",
@@ -1618,7 +1566,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Joelle%20Pineau%20AI%20Meta",
+      "avatar": "https://unavatar.io/twitter/JoellePineau",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "JP",
@@ -1660,9 +1608,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Sebastian+Raschka&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1880,9 +1826,7 @@
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "LW",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Lilian+Weng&background=4c0519&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1917,9 +1861,7 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CH",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Chip+Huyen&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1957,9 +1899,7 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "CD",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Clément+Delangue&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -1995,9 +1935,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "LT",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Lewis+Tunstall&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2033,9 +1971,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PS",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Philipp+Schmid&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2070,9 +2006,7 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "JW",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Jason+Wei&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2107,9 +2041,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HC",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Harrison+Chase&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2145,9 +2077,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "NL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Nathan+Lambert&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2183,9 +2113,7 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "GM",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Gary+Marcus&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2220,9 +2148,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "MT",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Max+Tegmark&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2256,9 +2182,7 @@
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "CL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Connor+Leahy&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2293,9 +2217,7 @@
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "EY",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Eugene+Yan&background=1a2e05&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2332,9 +2254,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "HL",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Hugo+Larochelle&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2368,9 +2288,7 @@
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "JC",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=John+Carmack&background=0f172a&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2405,9 +2323,7 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "SD",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Sholto+Douglas&background=1c1917&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2441,9 +2357,7 @@
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "NB",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Noam+Brown&background=1e1b4b&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     },
     {
@@ -2513,9 +2427,7 @@
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "AD",
-      "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Allison+Duettmann&background=1c1917&color=ffffff&size=256&bold=true&format=png"
-      ],
+      "avatarFallbacks": [],
       "avatarMode": "photo"
     }
   ]
