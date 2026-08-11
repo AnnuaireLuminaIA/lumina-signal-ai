@@ -38,7 +38,8 @@
       "listenFirst": "YouTube: Let's build GPT / Neural nets series",
       "listenFirstFr": "YouTube : Let's build GPT / série Neural nets",
       "frequency": "Occasional long videos",
-      "frequencyFr": "Vidéos longues occasionnelles"
+      "frequencyFr": "Vidéos longues occasionnelles",
+      "avatar": "https://unavatar.io/twitter/karpathy"
     },
     {
       "id": "dwarkesh-patel",
@@ -71,7 +72,8 @@
       "listenFirst": "Latest long interview with a lab leader",
       "listenFirstFr": "Dernière longue interview avec un lab leader",
       "frequency": "Regular long episodes",
-      "frequencyFr": "Épisodes longs réguliers"
+      "frequencyFr": "Épisodes longs réguliers",
+      "avatar": "https://unavatar.io/twitter/dwarkesh_sp"
     },
     {
       "id": "yann-lecun",
@@ -103,7 +105,8 @@
       "listenFirst": "Recent talks on world models / JEPA",
       "listenFirstFr": "Talks récents world models / JEPA",
       "frequency": "Talks, social",
-      "frequencyFr": "Talks, réseaux"
+      "frequencyFr": "Talks, réseaux",
+      "avatar": "https://unavatar.io/twitter/ylecun"
     },
     {
       "id": "demis-hassabis",
@@ -132,7 +135,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/demishassabis"
     },
     {
       "id": "dario-amodei",
@@ -161,7 +165,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/darioamodei"
     },
     {
       "id": "swyx-alessio",
@@ -192,7 +197,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=swyx+&+Alessio+Fanelli&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "arthur-mensch",
@@ -226,7 +232,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/arthurmensch"
     },
     {
       "id": "nathan-labenz",
@@ -256,7 +263,8 @@
       "listenFirst": "Latest Cognitive Revolution episode",
       "listenFirstFr": "Dernier épisode Cognitive Revolution",
       "frequency": "Very frequent",
-      "frequencyFr": "Très fréquent"
+      "frequencyFr": "Très fréquent",
+      "avatar": "https://unavatar.io/twitter/labenz"
     },
     {
       "id": "yannic-kilcher",
@@ -286,7 +294,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/YannicKilcher"
     },
     {
       "id": "ai-explained",
@@ -315,7 +324,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/youtube/@aiexplained-official"
     },
     {
       "id": "nicolas-guyon",
@@ -348,7 +358,8 @@
       "listenFirst": "Latest Comptoir IA",
       "listenFirstFr": "Dernier Comptoir IA",
       "frequency": "Frequent FR videos",
-      "frequencyFr": "Vidéos FR fréquentes"
+      "frequencyFr": "Vidéos FR fréquentes",
+      "avatar": "https://unavatar.io/twitter/nico16184"
     },
     {
       "id": "ilya-sutskever",
@@ -376,7 +387,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/ilyasut"
     },
     {
       "id": "geoffrey-hinton",
@@ -404,7 +416,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/geoffreyhinton"
     },
     {
       "id": "yoshua-bengio",
@@ -435,7 +448,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/Yoshua_Bengio"
     },
     {
       "id": "francois-chollet",
@@ -465,7 +479,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/fchollet"
     },
     {
       "id": "thomas-wolf",
@@ -496,7 +511,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/Thom_Wolf"
     },
     {
       "id": "jeremy-howard",
@@ -525,7 +541,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/jeremyphoward"
     },
     {
       "id": "simon-willison",
@@ -555,7 +572,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/simonw"
     },
     {
       "id": "3blue1brown",
@@ -584,7 +602,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/youtube/@3blue1brown"
     },
     {
       "id": "lex-fridman",
@@ -614,7 +633,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/lexfridman"
     },
     {
       "id": "no-priors",
@@ -643,7 +663,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Guo+&+Elad+Gil&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "stuart-russell",
@@ -671,7 +692,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Stuart+Russell&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "ethan-mollick",
@@ -700,7 +722,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/emollick"
     },
     {
       "id": "hamel-husain",
@@ -729,7 +752,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/HamelHusain"
     },
     {
       "id": "paul-christiano",
@@ -758,7 +782,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/paul_christiano"
     },
     {
       "id": "neel-nanda",
@@ -787,7 +812,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/NeelNanda5"
     },
     {
       "id": "dan-hendrycks",
@@ -815,7 +841,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/DanHendrycks"
     },
     {
       "id": "chris-olah",
@@ -844,7 +871,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/ch402"
     },
     {
       "id": "andrew-ng",
@@ -873,7 +901,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/AndrewYNg"
     },
     {
       "id": "fei-fei-li",
@@ -902,7 +931,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/drfeifei"
     },
     {
       "id": "guillaume-lample",
@@ -931,7 +961,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Guillaume+Lample&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "jim-fan",
@@ -960,7 +991,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/DrJimFan"
     },
     {
       "id": "riley-goodside",
@@ -988,7 +1020,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/goodside"
     },
     {
       "id": "two-minute-papers",
@@ -1017,7 +1050,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/TwoMinutePapers"
     },
     {
       "id": "laurence-devillers",
@@ -1044,7 +1078,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Laurence+Devillers&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "zvi-mowshowitz",
@@ -1073,7 +1108,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/TheZvi"
     },
     {
       "id": "jack-clark",
@@ -1102,7 +1138,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/jackclarkSF"
     },
     {
       "id": "helen-toner",
@@ -1130,7 +1167,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/hlntnr"
     },
     {
       "id": "sam-charrington",
@@ -1160,7 +1198,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/samcharrington"
     },
     {
       "id": "sarah-guo",
@@ -1189,7 +1228,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/saranormous"
     },
     {
       "id": "elad-gil",
@@ -1218,7 +1258,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/eladgil"
     },
     {
       "id": "luc-julia",
@@ -1244,7 +1285,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Luc+Julia&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "joelle-pineau",
@@ -1272,7 +1314,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://ui-avatars.com/api/?name=Joëlle+Pineau&background=1e1b4b&color=c4b5fd&size=256&bold=true"
     },
     {
       "id": "sebastian-raschka",
@@ -1301,7 +1344,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/rasbt"
     },
     {
       "id": "mlst",
@@ -1331,7 +1375,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/twitter/MLStreetTalk"
     },
     {
       "id": "huggingface",
@@ -1361,7 +1406,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/youtube/@HuggingFace"
     },
     {
       "id": "ludovic-salenne",
@@ -1391,7 +1437,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/youtube/@LudovicSalenne"
     },
     {
       "id": "ai-epiphany",
@@ -1420,7 +1467,8 @@
       "listenFirst": "Top-rated or latest long-form content",
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
-      "frequencyFr": "Variable"
+      "frequencyFr": "Variable",
+      "avatar": "https://unavatar.io/youtube/@TheAIEpiphany"
     },
     {
       "id": "thinkerview",
@@ -1450,7 +1498,8 @@
       "listenFirst": "Filter for tech/AI guests",
       "listenFirstFr": "Filtrer les invités tech/IA",
       "frequency": "Long interviews",
-      "frequencyFr": "Interviews longues"
+      "frequencyFr": "Interviews longues",
+      "avatar": "https://unavatar.io/youtube/@thinkerview"
     },
     {
       "id": "lilian-weng",
@@ -1480,7 +1529,8 @@
         "website": "https://lilianweng.github.io",
         "x": "https://x.com/lilianweng"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/lilianweng"
     },
     {
       "id": "chip-huyen",
@@ -1509,7 +1559,8 @@
         "website": "https://huyenchip.com",
         "x": "https://x.com/chipro"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/chipro"
     },
     {
       "id": "clem-delangue",
@@ -1541,7 +1592,8 @@
         "x": "https://x.com/ClementDelangue",
         "website": "https://huggingface.co"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/ClementDelangue"
     },
     {
       "id": "lewis-tunstall",
@@ -1571,7 +1623,8 @@
         "x": "https://x.com/_lewtun",
         "website": "https://huggingface.co"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/_lewtun"
     },
     {
       "id": "philipp-schmid",
@@ -1601,7 +1654,8 @@
         "x": "https://x.com/_philschmid",
         "website": "https://www.philschmid.de"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/_philschmid"
     },
     {
       "id": "jason-wei",
@@ -1630,7 +1684,8 @@
         "x": "https://x.com/_jasonwei",
         "website": "https://www.jasonwei.net"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/_jasonwei"
     },
     {
       "id": "harrison-chase",
@@ -1659,7 +1714,8 @@
       "links": {
         "x": "https://x.com/hwchase17"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/hwchase17"
     },
     {
       "id": "nathan-lambert",
@@ -1689,7 +1745,8 @@
         "website": "https://www.interconnects.ai",
         "x": "https://x.com/natolambert"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/natolambert"
     },
     {
       "id": "gary-marcus",
@@ -1719,7 +1776,8 @@
         "x": "https://x.com/GaryMarcus",
         "website": "https://garymarcus.substack.com"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/GaryMarcus"
     },
     {
       "id": "max-tegmark",
@@ -1748,7 +1806,8 @@
         "x": "https://x.com/tegmark",
         "website": "https://futureoflife.org"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/tegmark"
     },
     {
       "id": "connor-leahy",
@@ -1776,7 +1835,8 @@
       "links": {
         "x": "https://x.com/npdotee"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/npdotee"
     },
     {
       "id": "eugene-yan",
@@ -1805,7 +1865,8 @@
         "website": "https://eugeneyan.com",
         "x": "https://x.com/eugeneyan"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/eugeneyan"
     },
     {
       "id": "hugo-larochelle",
@@ -1836,7 +1897,8 @@
         "website": "https://www.youtube.com/@HugoLarochelle",
         "x": "https://x.com/hugo_larochelle"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/hugo_larochelle"
     },
     {
       "id": "john-carmack",
@@ -1864,7 +1926,8 @@
       "links": {
         "x": "https://x.com/ID_AA_Carmack"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/ID_AA_Carmack"
     },
     {
       "id": "sholto-douglas",
@@ -1893,7 +1956,8 @@
       "links": {
         "x": "https://x.com/sholtodouglas"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/sholtodouglas"
     },
     {
       "id": "noam-brown",
@@ -1921,7 +1985,8 @@
       "links": {
         "x": "https://x.com/polynoamial"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/polynoamial"
     },
     {
       "id": "olivier-godement",
@@ -1951,7 +2016,8 @@
       "links": {
         "x": "https://x.com/ogodement"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/ogodement"
     },
     {
       "id": "allison-duettmann",
@@ -1979,7 +2045,8 @@
       "links": {
         "x": "https://x.com/AllisonDuett"
       },
-      "active": true
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/AllisonDuett"
     }
   ]
 }
