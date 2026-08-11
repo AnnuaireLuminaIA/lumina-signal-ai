@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "project": "Lumina Signal",
+    "type": "sample-contents",
+    "updated": "2026-08-11",
+    "note": "Exemple de contenus pour le prototype"
+  },
+  "contents": [
+    {
+      "id": "dwarkesh-data-black-hole",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "The data black hole at the center of AI",
+      "description": "Conversation dense sur les limites des données publiques, les incentives des labs et ce que les modèles ne peuvent toujours pas apprendre malgré le scaling.",
+      "duration": "2h 14m",
+      "ago": "Il y a 2j",
+      "signalScore": 9.4,
+      "topics": [
+        "data",
+        "scaling",
+        "frontier"
+      ]
+    },
+    {
+      "id": "latent-space-model-factory",
+      "voiceId": "swyx-alessio",
+      "type": "podcast",
+      "title": "Industrializing AI through model factory feedback loops",
+      "description": "Comment les équipes les plus avancées passent de la recherche héroïque à des boucles d’ingénierie automatisées.",
+      "duration": "1h 08m",
+      "ago": "Il y a 3j",
+      "signalScore": 8.9,
+      "topics": [
+        "engineering",
+        "agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "karpathy-llm-internals",
+      "voiceId": "andrej-karpathy",
+      "type": "video",
+      "title": "Deep Dive into LLM internals (from scratch)",
+      "description": "Karpathy reconstruit les mécanismes fondamentaux des modèles de langage avec une clarté rare.",
+      "duration": "1h 42m",
+      "ago": "Il y a 5j",
+      "signalScore": 9.6,
+      "topics": [
+        "education",
+        "llm",
+        "from-scratch"
+      ]
+    },
+    {
+      "id": "cognitive-revolution-evals",
+      "voiceId": "nathan-labenz",
+      "type": "podcast",
+      "title": "Evaluating frontier models in the wild",
+      "description": "Les écarts entre benchmarks publics et performances réelles, avec retours de builders.",
+      "duration": "1h 51m",
+      "ago": "Il y a 6j",
+      "signalScore": 8.7,
+      "topics": [
+        "evals",
+        "benchmarks",
+        "capabilities"
+      ]
+    },
+    {
+      "id": "yannic-tidar",
+      "voiceId": "yannic-kilcher",
+      "type": "video",
+      "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
+      "description": "Analyse détaillée d’un papier récent sur les architectures hybrides diffusion/autoregressive.",
+      "duration": "47m",
+      "ago": "Il y a 4j",
+      "signalScore": 8.7,
+      "topics": [
+        "research",
+        "architecture",
+        "papers"
+      ]
+    },
+    {
+      "id": "mensch-open-weight",
+      "voiceId": "arthur-mensch",
+      "type": "video",
+      "title": "Open-weight models and European sovereignty",
+      "description": "Arthur Mensch sur la stratégie open-weight et la place de l’Europe dans la course à l’IA.",
+      "duration": "32m",
+      "ago": "Il y a 7j",
+      "signalScore": 8.9,
+      "topics": [
+        "open-source",
+        "europe",
+        "strategy"
+      ]
+    },
+    {
+      "id": "guyon-comptoir-agents",
+      "voiceId": "nicolas-guyon",
+      "type": "podcast",
+      "title": "Les agents IA commencent-ils à travailler sans nous ?",
+      "description": "Discussion sur l’autonomie croissante des agents et les implications concrètes.",
+      "duration": "1h 08m",
+      "ago": "Il y a 1j",
+      "signalScore": 8.4,
+      "topics": [
+        "agents",
+        "french",
+        "practical"
+      ]
+    },
+    {
+      "id": "lecun-scaling-limits",
+      "voiceId": "yann-lecun",
+      "type": "video",
+      "title": "Why scaling alone will not lead to AGI",
+      "description": "Yann LeCun sur les limites du pure scaling et les architectures alternatives.",
+      "duration": "54m",
+      "ago": "Il y a 8j",
+      "signalScore": 9.1,
+      "topics": [
+        "research",
+        "vision",
+        "agi"
+      ]
+    }
+  ]
+}

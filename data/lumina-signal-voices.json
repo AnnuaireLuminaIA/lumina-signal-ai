@@ -1,0 +1,1081 @@
+{
+  "meta": {
+    "project": "Lumina Signal",
+    "version": "1.6.0",
+    "updated": "2026-08-11",
+    "totalVoices": 48,
+    "description": "High-signal AI voices curated for Lumina Signal"
+  },
+  "voices": [
+    {
+      "id": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "role": "AI Educator & Researcher",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.6,
+      "categories": [
+        "Education",
+        "Research",
+        "Engineering"
+      ],
+      "bio": "Former Director of AI at Tesla and founding member of OpenAI. Creates the clearest from-scratch educational content on deep learning and LLMs.",
+      "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence.",
+      "links": {
+        "website": "https://karpathy.ai",
+        "youtube": "https://www.youtube.com/@AndrejKarpathy",
+        "x": "https://x.com/karpathy",
+        "github": "https://github.com/karpathy"
+      },
+      "active": true
+    },
+    {
+      "id": "dwarkesh-patel",
+      "name": "Dwarkesh Patel",
+      "role": "Host – Dwarkesh Podcast",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.4,
+      "categories": [
+        "Frontier",
+        "Research",
+        "Podcast",
+        "Long-form"
+      ],
+      "bio": "Produces the most thoroughly prepared long-form interviews with frontier lab leaders and researchers.",
+      "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models.",
+      "links": {
+        "website": "https://www.dwarkesh.com",
+        "youtube": "https://www.youtube.com/@DwarkeshPatel",
+        "x": "https://x.com/dwarkesh_sp",
+        "podcast": "https://www.dwarkesh.com/podcast"
+      },
+      "active": true
+    },
+    {
+      "id": "yann-lecun",
+      "name": "Yann LeCun",
+      "role": "Chief AI Scientist – Meta",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 9.1,
+      "categories": [
+        "Research",
+        "Vision",
+        "Open-source"
+      ],
+      "bio": "Turing Award winner. Leading voice on the limitations of pure scaling and advocate for open research and alternative architectures.",
+      "why": "One of the most influential long-term thinkers in the field with consistent, high-signal public positions.",
+      "links": {
+        "x": "https://x.com/ylecun",
+        "website": "https://yann.lecun.com"
+      },
+      "active": true
+    },
+    {
+      "id": "demis-hassabis",
+      "name": "Demis Hassabis",
+      "role": "CEO – Google DeepMind",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.0,
+      "categories": [
+        "Frontier",
+        "Research"
+      ],
+      "bio": "Co-founder of DeepMind. Key figure in AGI research and scientific applications of AI (AlphaFold, etc.).",
+      "why": "Rare combination of scientific depth and leadership at the absolute frontier.",
+      "links": {
+        "x": "https://x.com/demishassabis",
+        "website": "https://deepmind.google"
+      },
+      "active": true
+    },
+    {
+      "id": "dario-amodei",
+      "name": "Dario Amodei",
+      "role": "CEO – Anthropic",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.0,
+      "categories": [
+        "Frontier",
+        "Safety"
+      ],
+      "bio": "CEO of Anthropic. Influential voice on scaling, safety, and responsible development of frontier models.",
+      "why": "High-signal public communications on both capabilities and risks from a frontier lab leader.",
+      "links": {
+        "x": "https://x.com/darioamodei",
+        "website": "https://www.anthropic.com"
+      },
+      "active": true
+    },
+    {
+      "id": "swyx-alessio",
+      "name": "swyx & Alessio Fanelli",
+      "role": "Hosts – Latent Space",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.0,
+      "categories": [
+        "Engineering",
+        "Podcast",
+        "Builders"
+      ],
+      "bio": "The leading podcast for AI engineers. Covers agents, infrastructure, evals, and production systems with high technical density.",
+      "why": "Best ongoing coverage of real AI engineering practice.",
+      "links": {
+        "website": "https://www.latent.space",
+        "x_swyx": "https://x.com/swyx",
+        "x_alessio": "https://x.com/AlessioFanelli"
+      },
+      "active": true
+    },
+    {
+      "id": "arthur-mensch",
+      "name": "Arthur Mensch",
+      "role": "Co-founder & CEO – Mistral AI",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.9,
+      "categories": [
+        "Frontier",
+        "Europe",
+        "Open-weight",
+        "Business"
+      ],
+      "bio": "CEO of Mistral AI. Leading European voice on open-weight models, sovereignty, and industrial AI strategy.",
+      "why": "Most important European voice at the frontier. Clear strategic thinking on open models and Europe’s position.",
+      "links": {
+        "x": "https://x.com/arthurmensch",
+        "linkedin": "https://www.linkedin.com/in/arthur-mensch",
+        "website": "https://mistral.ai"
+      },
+      "active": true
+    },
+    {
+      "id": "nathan-labenz",
+      "name": "Nathan Labenz",
+      "role": "Host – The Cognitive Revolution",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.8,
+      "categories": [
+        "Evaluation",
+        "Engineering",
+        "Podcast"
+      ],
+      "bio": "Deep conversations with builders and researchers focused on real model capabilities, evaluations, and practical strategy.",
+      "why": "Excellent signal on what models can actually do versus benchmarks.",
+      "links": {
+        "website": "https://www.cognitiverevolution.ai",
+        "x": "https://x.com/labenz"
+      },
+      "active": true
+    },
+    {
+      "id": "yannic-kilcher",
+      "name": "Yannic Kilcher",
+      "role": "AI Researcher & YouTuber",
+      "country": "CH",
+      "countryCode": "CH",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Research",
+        "Paper reviews",
+        "YouTube"
+      ],
+      "bio": "Produces rigorous, detailed walkthroughs of important machine learning papers.",
+      "why": "Highest-quality paper explanation content available publicly.",
+      "links": {
+        "youtube": "https://www.youtube.com/@YannicKilcher",
+        "x": "https://x.com/YannicKilcher"
+      },
+      "active": true
+    },
+    {
+      "id": "ai-explained",
+      "name": "AI Explained",
+      "role": "Analyst & YouTuber",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.6,
+      "categories": [
+        "Analysis",
+        "Anti-hype",
+        "YouTube"
+      ],
+      "bio": "Sober, careful analysis of new models, benchmarks, and claims in the AI space.",
+      "why": "Consistently low-hype, high-signal commentary on rapid developments.",
+      "links": {
+        "youtube": "https://www.youtube.com/@aiexplained-official"
+      },
+      "active": true
+    },
+    {
+      "id": "nicolas-guyon",
+      "name": "Nicolas Guyon",
+      "role": "Host – Comptoir IA",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "French",
+        "Podcast",
+        "Education"
+      ],
+      "bio": "Leading French-language podcast on generative AI, with regular interviews of practitioners and experts.",
+      "why": "Best consistent high-signal French voice on practical and strategic AI topics.",
+      "links": {
+        "youtube": "https://www.youtube.com/@nicolasguyon",
+        "podcast": "https://shows.acast.com/comptoir-ia",
+        "x": "https://x.com/nico16184",
+        "linktree": "https://linktr.ee/nicoguyon",
+        "substack": "https://nicoguyon.substack.com"
+      },
+      "active": true
+    },
+    {
+      "id": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "role": "Co-founder – Safe Superintelligence",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.8,
+      "categories": [
+        "Research",
+        "Safety"
+      ],
+      "bio": "Former Chief Scientist of OpenAI. Deep technical and philosophical voice on the path to superintelligence.",
+      "why": "One of the most important technical minds in the field with rare public depth.",
+      "links": {
+        "x": "https://x.com/ilyasut"
+      },
+      "active": true
+    },
+    {
+      "id": "geoffrey-hinton",
+      "name": "Geoffrey Hinton",
+      "role": "Godfather of Deep Learning",
+      "country": "CA",
+      "countryCode": "CA",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Research",
+        "Safety"
+      ],
+      "bio": "Pioneer of deep learning. Now focused on AI risk and the implications of advanced systems.",
+      "why": "Foundational contributions + increasingly important public voice on risks.",
+      "links": {
+        "x": "https://x.com/geoffreyhinton"
+      },
+      "active": true
+    },
+    {
+      "id": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "role": "Professor – Mila",
+      "country": "CA",
+      "countryCode": "CA",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.6,
+      "categories": [
+        "Research",
+        "Safety"
+      ],
+      "bio": "Turing Award winner. Major voice on AI safety and responsible development.",
+      "why": "Deep technical credibility combined with strong safety advocacy.",
+      "links": {
+        "website": "https://yoshuabengio.org",
+        "x": "https://x.com/Yoshua_Bengio"
+      },
+      "active": true
+    },
+    {
+      "id": "francois-chollet",
+      "name": "François Chollet",
+      "role": "Creator of Keras / AI Researcher",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Research",
+        "Benchmarks",
+        "Analysis"
+      ],
+      "bio": "Creator of Keras. Influential thinker on the nature of intelligence and limitations of current approaches.",
+      "why": "Sharp, first-principles thinking on what intelligence actually requires.",
+      "links": {
+        "x": "https://x.com/fchollet"
+      },
+      "active": true
+    },
+    {
+      "id": "thomas-wolf",
+      "name": "Thomas Wolf",
+      "role": "Co-founder – Hugging Face",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Open-source",
+        "Engineering",
+        "Europe"
+      ],
+      "bio": "Key figure in the open-source AI ecosystem through Hugging Face.",
+      "why": "Central voice for open models and the infrastructure around them.",
+      "links": {
+        "x": "https://x.com/Thom_Wolf"
+      },
+      "active": true
+    },
+    {
+      "id": "jeremy-howard",
+      "name": "Jeremy Howard",
+      "role": "fast.ai",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Education",
+        "Practical"
+      ],
+      "bio": "Co-founder of fast.ai. Focused on making deep learning practical and accessible.",
+      "why": "Excellent practical teaching and strong opinions grounded in real usage.",
+      "links": {
+        "website": "https://www.fast.ai",
+        "x": "https://x.com/jeremyphoward"
+      },
+      "active": true
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "role": "Creator of Datasette & AI tinkerer",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Practical",
+        "Tools",
+        "Engineering"
+      ],
+      "bio": "Prolific experimenter and clear writer on practical applications of LLMs and AI tools.",
+      "why": "Extremely high signal-to-noise on what actually works in practice.",
+      "links": {
+        "website": "https://simonwillison.net",
+        "x": "https://x.com/simonw"
+      },
+      "active": true
+    },
+    {
+      "id": "3blue1brown",
+      "name": "3Blue1Brown (Grant Sanderson)",
+      "role": "Mathematics Educator",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Education",
+        "Math"
+      ],
+      "bio": "Creates exceptional visual explanations of mathematical concepts underlying modern AI.",
+      "why": "Best mathematical intuition content for understanding the foundations of deep learning.",
+      "links": {
+        "youtube": "https://www.youtube.com/@3blue1brown",
+        "website": "https://www.3blue1brown.com"
+      },
+      "active": true
+    },
+    {
+      "id": "lex-fridman",
+      "name": "Lex Fridman",
+      "role": "Host – Lex Fridman Podcast",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Podcast",
+        "Long-form"
+      ],
+      "bio": "Long-form conversations with leading scientists, engineers, and thinkers in AI and beyond.",
+      "why": "Broad reach and consistent access to important guests, even if less technically dense than specialized shows.",
+      "links": {
+        "youtube": "https://www.youtube.com/@lexfridman",
+        "x": "https://x.com/lexfridman",
+        "website": "https://lexfridman.com"
+      },
+      "active": true
+    },
+    {
+      "id": "no-priors",
+      "name": "Sarah Guo & Elad Gil",
+      "role": "Hosts – No Priors",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Business",
+        "Podcast",
+        "Investing"
+      ],
+      "bio": "Podcast focused on AI startups, founders, and the business of frontier technology.",
+      "why": "Strong coverage of the company-building and investment side of AI.",
+      "links": {
+        "website": "https://nopriors.com"
+      },
+      "active": true
+    },
+    {
+      "id": "stuart-russell",
+      "name": "Stuart Russell",
+      "role": "Professor – UC Berkeley",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Safety",
+        "Research"
+      ],
+      "bio": "Author of the standard AI textbook. Leading voice on the control problem and value alignment.",
+      "why": "Foundational thinker on making AI systems provably beneficial.",
+      "links": {
+        "website": "https://people.eecs.berkeley.edu/~russell/"
+      },
+      "active": true
+    },
+    {
+      "id": "ethan-mollick",
+      "name": "Ethan Mollick",
+      "role": "Professor – Wharton",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Practical",
+        "Education",
+        "Business"
+      ],
+      "bio": "Studies and writes about the real-world use of AI in work and education.",
+      "why": "Grounded, evidence-based perspective on how people actually use these tools.",
+      "links": {
+        "x": "https://x.com/emollick"
+      },
+      "active": true
+    },
+    {
+      "id": "hamel-husain",
+      "name": "Hamel Husain",
+      "role": "AI Engineer & Educator",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Engineering",
+        "Evals",
+        "Practical"
+      ],
+      "bio": "Focuses on production AI systems, evaluations, and practical workflows.",
+      "why": "High-signal content on the unsexy but critical parts of shipping AI products.",
+      "links": {
+        "x": "https://x.com/HamelHusain"
+      },
+      "active": true
+    },
+    {
+      "id": "paul-christiano",
+      "name": "Paul Christiano",
+      "role": "Alignment Researcher",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Safety",
+        "Research"
+      ],
+      "bio": "One of the most influential thinkers on AI alignment and scalable oversight.",
+      "why": "Deep, careful reasoning on the hardest alignment problems.",
+      "links": {
+        "x": "https://x.com/paul_christiano",
+        "website": "https://ai-alignment.com"
+      },
+      "active": true
+    },
+    {
+      "id": "neel-nanda",
+      "name": "Neel Nanda",
+      "role": "Mechanistic Interpretability",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Research",
+        "Interpretability"
+      ],
+      "bio": "Leading public researcher and educator in mechanistic interpretability.",
+      "why": "Best public communication on how to actually understand model internals.",
+      "links": {
+        "x": "https://x.com/NeelNanda5",
+        "website": "https://www.neelnanda.io"
+      },
+      "active": true
+    },
+    {
+      "id": "dan-hendrycks",
+      "name": "Dan Hendrycks",
+      "role": "Director – Center for AI Safety",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Safety",
+        "Benchmarks"
+      ],
+      "bio": "Works on AI safety benchmarks, risk measurement, and policy-relevant research.",
+      "why": "Strong bridge between technical safety research and practical evaluation.",
+      "links": {
+        "x": "https://x.com/DanHendrycks"
+      },
+      "active": true
+    },
+    {
+      "id": "chris-olah",
+      "name": "Chris Olah",
+      "role": "Interpretability Researcher",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Research",
+        "Interpretability"
+      ],
+      "bio": "Pioneer of circuits-style interpretability and clear technical writing.",
+      "why": "Exceptional clarity and foundational work on understanding neural networks.",
+      "links": {
+        "x": "https://x.com/ch402",
+        "website": "https://distill.pub"
+      },
+      "active": true
+    },
+    {
+      "id": "andrew-ng",
+      "name": "Andrew Ng",
+      "role": "Educator & Entrepreneur",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Education",
+        "Business"
+      ],
+      "bio": "Co-founder of Coursera and Google Brain. Major voice in AI education and practical adoption.",
+      "why": "Unmatched reach and clarity for educating the next generation of practitioners.",
+      "links": {
+        "x": "https://x.com/AndrewYNg",
+        "website": "https://www.andrewng.org"
+      },
+      "active": true
+    },
+    {
+      "id": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "role": "Professor – Stanford",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Research",
+        "Vision",
+        "Ethics"
+      ],
+      "bio": "Pioneer of ImageNet and leading voice on human-centered AI.",
+      "why": "Deep technical contributions combined with thoughtful public leadership.",
+      "links": {
+        "x": "https://x.com/drfeifei"
+      },
+      "active": true
+    },
+    {
+      "id": "guillaume-lample",
+      "name": "Guillaume Lample",
+      "role": "Co-founder – Mistral AI",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Frontier",
+        "Europe",
+        "Research"
+      ],
+      "bio": "Co-founder of Mistral AI. Previously at Meta FAIR, major contributions to open models.",
+      "why": "Key technical figure behind one of Europe’s most important AI labs.",
+      "links": {},
+      "active": true
+    },
+    {
+      "id": "jim-fan",
+      "name": "Jim Fan",
+      "role": "Senior Research Scientist – NVIDIA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Research",
+        "Agents",
+        "Robotics"
+      ],
+      "bio": "Works on foundation agents and embodied AI. Clear and high-signal public communicator.",
+      "why": "Excellent taste and clarity on the agent and robotics frontier.",
+      "links": {
+        "x": "https://x.com/DrJimFan"
+      },
+      "active": true
+    },
+    {
+      "id": "riley-goodside",
+      "name": "Riley Goodside",
+      "role": "Prompt Engineer & Practitioner",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Practical",
+        "Prompting"
+      ],
+      "bio": "Early and influential voice on advanced prompting and practical LLM usage.",
+      "why": "High practical signal on what actually works when using frontier models.",
+      "links": {
+        "x": "https://x.com/goodside"
+      },
+      "active": true
+    },
+    {
+      "id": "two-minute-papers",
+      "name": "Two Minute Papers (Károly Zsolnai-Fehér)",
+      "role": "Research Communicator",
+      "country": "HU",
+      "countryCode": "HU",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Education",
+        "Research"
+      ],
+      "bio": "Makes cutting-edge research papers accessible through short, enthusiastic videos.",
+      "why": "Excellent pulse on new research with very high accessibility.",
+      "links": {
+        "youtube": "https://www.youtube.com/@TwoMinutePapers",
+        "x": "https://x.com/TwoMinutePapers"
+      },
+      "active": true
+    },
+    {
+      "id": "laurence-devillers",
+      "name": "Laurence Devillers",
+      "role": "Professor – Sorbonne / CNRS",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "French",
+        "Ethics",
+        "Safety"
+      ],
+      "bio": "Leading French voice on AI ethics, affective computing and societal impact.",
+      "why": "Important academic and public voice on the ethical dimensions of AI in the French ecosystem.",
+      "links": {},
+      "active": true
+    },
+    {
+      "id": "zvi-mowshowitz",
+      "name": "Zvi Mowshowitz",
+      "role": "Analyst & Writer",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Analysis",
+        "Safety"
+      ],
+      "bio": "Produces detailed, high-effort analysis of AI developments and risk.",
+      "why": "Unusually thorough and independent analysis of the AI landscape.",
+      "links": {
+        "x": "https://x.com/TheZvi",
+        "website": "https://thezvi.wordpress.com"
+      },
+      "active": true
+    },
+    {
+      "id": "jack-clark",
+      "name": "Jack Clark",
+      "role": "Co-founder – Anthropic / Import AI",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Policy",
+        "Industry",
+        "Analysis"
+      ],
+      "bio": "Co-founder of Anthropic and author of the long-running Import AI newsletter. Sharp observer of the industry and policy landscape.",
+      "why": "One of the best-informed and most consistent analysts of the AI industry trajectory.",
+      "links": {
+        "x": "https://x.com/jackclarkSF"
+      },
+      "active": true
+    },
+    {
+      "id": "helen-toner",
+      "name": "Helen Toner",
+      "role": "Director of Strategy – CSET",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Policy",
+        "Safety"
+      ],
+      "bio": "Former OpenAI board member. Works on AI policy and governance with strong technical grounding.",
+      "why": "Rare combination of policy expertise and direct frontier lab experience.",
+      "links": {
+        "x": "https://x.com/hlntnr"
+      },
+      "active": true
+    },
+    {
+      "id": "sam-charrington",
+      "name": "Sam Charrington",
+      "role": "Host – TWIML AI Podcast",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Podcast",
+        "Research",
+        "Engineering"
+      ],
+      "bio": "Long-running technical AI podcast with high-quality interviews of researchers and practitioners.",
+      "why": "Consistent technical depth over many years.",
+      "links": {
+        "website": "https://twimlai.com",
+        "x": "https://x.com/samcharrington"
+      },
+      "active": true
+    },
+    {
+      "id": "sarah-guo",
+      "name": "Sarah Guo",
+      "role": "Founder – Conviction / Co-host No Priors",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Business",
+        "Podcast",
+        "Investing"
+      ],
+      "bio": "Investor and co-host of No Priors. Strong coverage of AI startups and company building.",
+      "why": "High-signal perspective from the investment and founder side of AI.",
+      "links": {
+        "x": "https://x.com/saranormous"
+      },
+      "active": true
+    },
+    {
+      "id": "elad-gil",
+      "name": "Elad Gil",
+      "role": "Investor / Co-host No Priors",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Business",
+        "Podcast",
+        "Investing"
+      ],
+      "bio": "Experienced operator and investor. Co-host of No Priors with deep pattern recognition on tech companies.",
+      "why": "Strong strategic and company-building insights applied to AI.",
+      "links": {
+        "x": "https://x.com/eladgil"
+      },
+      "active": true
+    },
+    {
+      "id": "luc-julia",
+      "name": "Luc Julia",
+      "role": "Chief Scientific Officer – Renault / Author",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 7.9,
+      "categories": [
+        "French",
+        "Education"
+      ],
+      "bio": "Well-known French voice on AI, author and public communicator.",
+      "why": "Accessible and established voice in the French public conversation on AI.",
+      "links": {},
+      "active": true
+    },
+    {
+      "id": "joelle-pineau",
+      "name": "Joëlle Pineau",
+      "role": "AI Research Lead – Meta",
+      "country": "CA",
+      "countryCode": "CA",
+      "language": [
+        "en",
+        "fr"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Research",
+        "Europe"
+      ],
+      "bio": "Leading researcher in reinforcement learning and AI systems. Strong academic and industry presence.",
+      "why": "High technical credibility with clear public communication.",
+      "links": {},
+      "active": true
+    },
+    {
+      "id": "sebastian-raschka",
+      "name": "Sebastian Raschka",
+      "role": "AI Educator & Researcher",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Education",
+        "Engineering"
+      ],
+      "bio": "Author and educator focused on practical deep learning and LLMs. Clear technical writing and courses.",
+      "why": "Excellent practical educational content for builders.",
+      "links": {
+        "x": "https://x.com/rasbt",
+        "website": "https://sebastianraschka.com"
+      },
+      "active": true
+    },
+    {
+      "id": "mlst",
+      "name": "Machine Learning Street Talk",
+      "role": "AI Research Podcast",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Research",
+        "Podcast",
+        "Philosophy"
+      ],
+      "bio": "In-depth technical and philosophical conversations on machine learning and AI.",
+      "why": "High-quality long-form research discussions.",
+      "links": {
+        "youtube": "https://www.youtube.com/@MachineLearningStreetTalk",
+        "x": "https://x.com/MLStreetTalk"
+      },
+      "active": true
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "role": "Open-source AI Platform",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Open-source",
+        "Engineering",
+        "Education"
+      ],
+      "bio": "Official channel of the Hugging Face ecosystem — models, tools, and open AI education.",
+      "why": "Central node of the open-source AI community.",
+      "links": {
+        "youtube": "https://www.youtube.com/@HuggingFace",
+        "website": "https://huggingface.co"
+      },
+      "active": true
+    },
+    {
+      "id": "ludovic-salenne",
+      "name": "Ludovic Salenne",
+      "role": "Créateur IA – YouTube FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 7.8,
+      "categories": [
+        "Education",
+        "Tools",
+        "Practical"
+      ],
+      "bio": "Référence francophone sur les outils d’IA générative et les workflows pratiques.",
+      "why": "Volume et réactivité FR sur les outils du quotidien.",
+      "links": {
+        "youtube": "https://www.youtube.com/@LudovicSalenne"
+      },
+      "active": true
+    },
+    {
+      "id": "ai-epiphany",
+      "name": "The AI Epiphany",
+      "role": "AI Research Educator",
+      "country": "RS",
+      "countryCode": "RS",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.1,
+      "categories": [
+        "Research",
+        "Education",
+        "Engineering"
+      ],
+      "bio": "Technical deep dives on AI research, agents, and engineering practice.",
+      "why": "Bonne densité technique, moins de hype.",
+      "links": {
+        "youtube": "https://www.youtube.com/@TheAIEpiphany"
+      },
+      "active": true
+    }
+  ]
+}
