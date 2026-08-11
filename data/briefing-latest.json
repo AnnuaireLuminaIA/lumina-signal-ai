@@ -1,10 +1,10 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T15:30:52.373035+00:00",
+  "generatedAt": "2026-08-11T20:22:45.533721+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
-  "editorial": "Dominant aujourd'hui : agents, education, open-source. 12 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: agents, education, open-source. 12 FR items in the feed.",
+  "editorial": "Dominant aujourd'hui : agents, policy, education. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, policy, education. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -19,12 +19,12 @@
     },
     {
       "rank": 2,
-      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
+      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 1j",
-      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
+      "ago": "Il y a 3h",
+      "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
     },
@@ -45,7 +45,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 21h",
+      "ago": "Il y a 1j",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."

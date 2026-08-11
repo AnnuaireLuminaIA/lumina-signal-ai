@@ -1,7 +1,17 @@
 {
-  "fetchedAt": "2026-08-11T15:30:33.268950+00:00",
+  "fetchedAt": "2026-08-11T20:22:26.196759+00:00",
   "count": 95,
   "items": [
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+      "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
+      "publishedAt": "2026-08-11T16:45:37+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/-RXD4bTuFTo/hqdefault.jpg"
+    },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
@@ -41,16 +51,6 @@
       "publishedAt": "2026-08-06T22:13:29+00:00",
       "platform": "youtube",
       "thumbnail": "https://i2.ytimg.com/vi/1vAGYbbtahU/hqdefault.jpg"
-    },
-    {
-      "voiceId": "dwarkesh-patel",
-      "voiceName": "Dwarkesh Patel",
-      "type": "video",
-      "title": "The Real Advantage AI Has Over Human Geniuses - Grant Sanderson",
-      "url": "https://www.youtube.com/shorts/KjMKzIOhw4Q",
-      "publishedAt": "2026-08-04T22:08:20+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i4.ytimg.com/vi/KjMKzIOhw4Q/hqdefault.jpg"
     },
     {
       "voiceId": "yannic-kilcher",
@@ -501,6 +501,16 @@
       "voiceId": "two-minute-papers",
       "voiceName": "Two Minute Papers",
       "type": "video",
+      "title": "OpenAI’s AI Agents Just Crossed A Line",
+      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+      "publishedAt": "2026-08-11T15:35:35+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
       "title": "DeepMind Just Changed How AI Sees The World",
       "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
       "publishedAt": "2026-08-07T08:22:00+00:00",
@@ -538,14 +548,14 @@
       "thumbnail": "https://i1.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg"
     },
     {
-      "voiceId": "two-minute-papers",
-      "voiceName": "Two Minute Papers",
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
       "type": "video",
-      "title": "Kimi K3 Just Broke The Economics Of AI",
-      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
-      "publishedAt": "2026-07-29T12:37:50+00:00",
+      "title": "Hugging Face Journal Club: Direct On-Policy Distillation",
+      "url": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
+      "publishedAt": "2026-08-11T18:05:57+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i1.ytimg.com/vi/Xj-QdEUxJkE/hqdefault.jpg"
+      "thumbnail": "https://i4.ytimg.com/vi/S5wE1sjyiQY/hqdefault.jpg"
     },
     {
       "voiceId": "huggingface",
@@ -586,16 +596,6 @@
       "publishedAt": "2026-07-31T12:30:44+00:00",
       "platform": "youtube",
       "thumbnail": "https://i2.ytimg.com/vi/qo1QNxWcm28/hqdefault.jpg"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face",
-      "type": "video",
-      "title": "Hugging Face Journal Club: Kimi K3",
-      "url": "https://www.youtube.com/watch?v=MW8-kqd2SD8",
-      "publishedAt": "2026-07-29T18:31:00+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i2.ytimg.com/vi/MW8-kqd2SD8/hqdefault.jpg"
     },
     {
       "voiceId": "ludovic-salenne",
