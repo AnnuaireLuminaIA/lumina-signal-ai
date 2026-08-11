@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-11T12:41:31.305422+00:00",
-  "count": 90,
+  "fetchedAt": "2026-08-11T15:30:33.268950+00:00",
+  "count": 95,
   "items": [
     {
       "voiceId": "dwarkesh-patel",
@@ -451,7 +451,7 @@
       "voiceId": "mlst",
       "voiceName": "Machine Learning Street Talk",
       "type": "video",
-      "title": "Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart",
+      "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
       "url": "https://www.youtube.com/watch?v=revreN8LZ_M",
       "publishedAt": "2026-08-10T22:55:05+00:00",
       "platform": "youtube",
@@ -760,7 +760,7 @@
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "Quoting OpenClaw",
+      "title": "Quoting OpenClaw (running Opus 4.6)",
       "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
       "publishedAt": "2026-08-10T02:05:16+00:00",
       "platform": "rss"
@@ -880,6 +880,51 @@
       "title": "Extrinsic Hallucinations in LLMs",
       "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
       "publishedAt": "Sun, 07 Jul 2024 00:00:00 +0000",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "publishedAt": "Tue, 11 Aug 2026 13:37:10 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "publishedAt": "Mon, 10 Aug 2026 16:25:36 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "publishedAt": "Mon, 10 Aug 2026 10:05:36 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "publishedAt": "Mon, 10 Aug 2026 00:00:00 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "publishedAt": "Fri, 07 Aug 2026 17:53:32 GMT",
       "platform": "rss"
     }
   ]

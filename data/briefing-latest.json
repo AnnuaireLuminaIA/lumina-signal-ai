@@ -1,10 +1,10 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T12:41:32.594930+00:00",
+  "generatedAt": "2026-08-11T15:30:52.373035+00:00",
   "title": "Briefing du jour",
-  "summary": "87 contenus · top 7 signaux",
-  "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: agents, education, policy. 12 FR items in the feed.",
+  "summary": "92 contenus · top 7 signaux",
+  "editorial": "Dominant aujourd'hui : agents, education, open-source. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, open-source. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -45,7 +45,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 18h",
+      "ago": "Il y a 21h",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."
@@ -85,9 +85,9 @@
     }
   ],
   "stats": {
-    "totalContents": 87,
+    "totalContents": 92,
     "sources": 18,
     "frCount": 12,
-    "enCount": 75
+    "enCount": 80
   }
 }
