@@ -39,7 +39,15 @@
       "listenFirstFr": "YouTube : Let's build GPT / série Neural nets",
       "frequency": "Occasional long videos",
       "frequencyFr": "Vidéos longues occasionnelles",
-      "avatar": "https://unavatar.io/twitter/karpathy"
+      "avatar": "https://unavatar.io/twitter/karpathy?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "AK",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@AndrejKarpathy?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=andrej-karpathy&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "dwarkesh-patel",
@@ -73,7 +81,15 @@
       "listenFirstFr": "Dernière longue interview avec un lab leader",
       "frequency": "Regular long episodes",
       "frequencyFr": "Épisodes longs réguliers",
-      "avatar": "https://unavatar.io/twitter/dwarkesh_sp"
+      "avatar": "https://unavatar.io/twitter/dwarkesh_sp?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "DP",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@DwarkeshPatel?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=dwarkesh-patel&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "yann-lecun",
@@ -106,7 +122,14 @@
       "listenFirstFr": "Talks récents world models / JEPA",
       "frequency": "Talks, social",
       "frequencyFr": "Talks, réseaux",
-      "avatar": "https://unavatar.io/twitter/ylecun"
+      "avatar": "https://unavatar.io/twitter/ylecun?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "YL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=yann-lecun&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "demis-hassabis",
@@ -136,7 +159,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/demishassabis"
+      "avatar": "https://unavatar.io/twitter/demishassabis?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "DH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=demis-hassabis&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "dario-amodei",
@@ -166,7 +196,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/darioamodei"
+      "avatar": "https://unavatar.io/twitter/darioamodei?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "DA",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=dario-amodei&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "swyx-alessio",
@@ -198,7 +235,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=swyx+&+Alessio+Fanelli&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=swyx-alessio&backgroundColor=0c4a6e",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "S&",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "arthur-mensch",
@@ -233,7 +275,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/arthurmensch"
+      "avatar": "https://unavatar.io/twitter/arthurmensch?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "AM",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=arthur-mensch&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "nathan-labenz",
@@ -264,7 +313,14 @@
       "listenFirstFr": "Dernier épisode Cognitive Revolution",
       "frequency": "Very frequent",
       "frequencyFr": "Très fréquent",
-      "avatar": "https://unavatar.io/twitter/labenz"
+      "avatar": "https://unavatar.io/twitter/labenz?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "NL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=nathan-labenz&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "yannic-kilcher",
@@ -295,7 +351,15 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/YannicKilcher"
+      "avatar": "https://unavatar.io/twitter/YannicKilcher?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "YK",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@YannicKilcher?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=yannic-kilcher&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "ai-explained",
@@ -325,7 +389,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@aiexplained-official"
+      "avatar": "https://unavatar.io/youtube/@aiexplained-official?fallback=false",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "AE",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=ai-explained&backgroundColor=1c1917"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "nicolas-guyon",
@@ -359,7 +430,15 @@
       "listenFirstFr": "Dernier Comptoir IA",
       "frequency": "Frequent FR videos",
       "frequencyFr": "Vidéos FR fréquentes",
-      "avatar": "https://unavatar.io/twitter/nico16184"
+      "avatar": "https://unavatar.io/twitter/nico16184?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "NG",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@nicolasguyon?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=nicolas-guyon&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "ilya-sutskever",
@@ -388,7 +467,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/ilyasut"
+      "avatar": "https://unavatar.io/twitter/ilyasut?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "IS",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=ilya-sutskever&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "geoffrey-hinton",
@@ -417,7 +503,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/geoffreyhinton"
+      "avatar": "https://unavatar.io/twitter/geoffreyhinton?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "GH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=geoffrey-hinton&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "yoshua-bengio",
@@ -449,7 +542,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/Yoshua_Bengio"
+      "avatar": "https://unavatar.io/twitter/Yoshua_Bengio?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "YB",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=yoshua-bengio&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "francois-chollet",
@@ -480,7 +580,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/fchollet"
+      "avatar": "https://unavatar.io/twitter/fchollet?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "FC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=francois-chollet&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "thomas-wolf",
@@ -512,7 +619,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/Thom_Wolf"
+      "avatar": "https://unavatar.io/twitter/Thom_Wolf?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "TW",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=thomas-wolf&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "jeremy-howard",
@@ -542,7 +656,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/jeremyphoward"
+      "avatar": "https://unavatar.io/twitter/jeremyphoward?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "JH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=jeremy-howard&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "simon-willison",
@@ -573,7 +694,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/simonw"
+      "avatar": "https://unavatar.io/twitter/simonw?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "SW",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=simon-willison&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "3blue1brown",
@@ -603,7 +731,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@3blue1brown"
+      "avatar": "https://unavatar.io/youtube/@3blue1brown?fallback=false",
+      "accentFrom": "#3b0764",
+      "accentTo": "#e879f9",
+      "initials": "3(",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=3blue1brown&backgroundColor=3b0764"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "lex-fridman",
@@ -634,7 +769,15 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/lexfridman"
+      "avatar": "https://unavatar.io/twitter/lexfridman?fallback=false",
+      "accentFrom": "#3b0764",
+      "accentTo": "#e879f9",
+      "initials": "LF",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@lexfridman?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=lex-fridman&backgroundColor=3b0764"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "no-priors",
@@ -664,7 +807,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Sarah+Guo+&+Elad+Gil&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=no-priors&backgroundColor=14532d",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "SG",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "stuart-russell",
@@ -693,7 +841,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Stuart+Russell&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=stuart-russell&backgroundColor=0c4a6e",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "SR",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "ethan-mollick",
@@ -723,7 +876,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/emollick"
+      "avatar": "https://unavatar.io/twitter/emollick?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "EM",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=ethan-mollick&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "hamel-husain",
@@ -753,7 +913,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/HamelHusain"
+      "avatar": "https://unavatar.io/twitter/HamelHusain?fallback=false",
+      "accentFrom": "#14532d",
+      "accentTo": "#4ade80",
+      "initials": "HH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=hamel-husain&backgroundColor=14532d"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "paul-christiano",
@@ -783,7 +950,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/paul_christiano"
+      "avatar": "https://unavatar.io/twitter/paul_christiano?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "PC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=paul-christiano&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "neel-nanda",
@@ -813,7 +987,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/NeelNanda5"
+      "avatar": "https://unavatar.io/twitter/NeelNanda5?fallback=false",
+      "accentFrom": "#3b0764",
+      "accentTo": "#e879f9",
+      "initials": "NN",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=neel-nanda&backgroundColor=3b0764"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "dan-hendrycks",
@@ -842,7 +1023,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/DanHendrycks"
+      "avatar": "https://unavatar.io/twitter/DanHendrycks?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "DH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=dan-hendrycks&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "chris-olah",
@@ -872,7 +1060,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/ch402"
+      "avatar": "https://unavatar.io/twitter/ch402?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "CO",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=chris-olah&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "andrew-ng",
@@ -902,7 +1097,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/AndrewYNg"
+      "avatar": "https://unavatar.io/twitter/AndrewYNg?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "AN",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=andrew-ng&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "fei-fei-li",
@@ -932,7 +1134,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/drfeifei"
+      "avatar": "https://unavatar.io/twitter/drfeifei?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "FL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=fei-fei-li&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "guillaume-lample",
@@ -962,7 +1171,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Guillaume+Lample&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=guillaume-lample&backgroundColor=1e1b4b",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "GL",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "jim-fan",
@@ -992,7 +1206,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/DrJimFan"
+      "avatar": "https://unavatar.io/twitter/DrJimFan?fallback=false",
+      "accentFrom": "#3b0764",
+      "accentTo": "#e879f9",
+      "initials": "JF",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=jim-fan&backgroundColor=3b0764"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "riley-goodside",
@@ -1021,7 +1242,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/goodside"
+      "avatar": "https://unavatar.io/twitter/goodside?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "RG",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=riley-goodside&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "two-minute-papers",
@@ -1051,7 +1279,15 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/TwoMinutePapers"
+      "avatar": "https://unavatar.io/twitter/TwoMinutePapers?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "TM",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@TwoMinutePapers?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=two-minute-papers&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "laurence-devillers",
@@ -1079,7 +1315,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Laurence+Devillers&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=laurence-devillers&backgroundColor=1e1b4b",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "LD",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "zvi-mowshowitz",
@@ -1109,7 +1350,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/TheZvi"
+      "avatar": "https://unavatar.io/twitter/TheZvi?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "ZM",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=zvi-mowshowitz&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "jack-clark",
@@ -1139,7 +1387,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/jackclarkSF"
+      "avatar": "https://unavatar.io/twitter/jackclarkSF?fallback=false",
+      "accentFrom": "#3b0764",
+      "accentTo": "#e879f9",
+      "initials": "JC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=jack-clark&backgroundColor=3b0764"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "helen-toner",
@@ -1168,7 +1423,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/hlntnr"
+      "avatar": "https://unavatar.io/twitter/hlntnr?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "HT",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=helen-toner&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "sam-charrington",
@@ -1199,7 +1461,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/samcharrington"
+      "avatar": "https://unavatar.io/twitter/samcharrington?fallback=false",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "SC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=sam-charrington&backgroundColor=1c1917"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "sarah-guo",
@@ -1229,7 +1498,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/saranormous"
+      "avatar": "https://unavatar.io/twitter/saranormous?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "SG",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=sarah-guo&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "elad-gil",
@@ -1259,7 +1535,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/eladgil"
+      "avatar": "https://unavatar.io/twitter/eladgil?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "EG",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=elad-gil&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "luc-julia",
@@ -1286,7 +1569,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Luc+Julia&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=luc-julia&backgroundColor=1c1917",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "LJ",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "joelle-pineau",
@@ -1315,7 +1603,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://ui-avatars.com/api/?name=Joëlle+Pineau&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      "avatar": "https://api.dicebear.com/9.x/shapes/svg?seed=joelle-pineau&backgroundColor=0c4a6e",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "JP",
+      "avatarFallbacks": [],
+      "avatarMode": "photo"
     },
     {
       "id": "sebastian-raschka",
@@ -1345,7 +1638,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/rasbt"
+      "avatar": "https://unavatar.io/twitter/rasbt?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "SR",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=sebastian-raschka&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "mlst",
@@ -1376,7 +1676,15 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/MLStreetTalk"
+      "avatar": "https://unavatar.io/twitter/MLStreetTalk?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "ML",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@MachineLearningStreetTalk?fallback=false",
+        "https://api.dicebear.com/9.x/shapes/svg?seed=mlst&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "huggingface",
@@ -1407,7 +1715,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@HuggingFace"
+      "avatar": "https://unavatar.io/youtube/@HuggingFace?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "HF",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=huggingface&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "ludovic-salenne",
@@ -1438,7 +1753,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@LudovicSalenne"
+      "avatar": "https://unavatar.io/youtube/@LudovicSalenne?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "LS",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=ludovic-salenne&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "ai-epiphany",
@@ -1468,7 +1790,14 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@TheAIEpiphany"
+      "avatar": "https://unavatar.io/youtube/@TheAIEpiphany?fallback=false",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "TA",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=ai-epiphany&backgroundColor=1c1917"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "thinkerview",
@@ -1499,7 +1828,14 @@
       "listenFirstFr": "Filtrer les invités tech/IA",
       "frequency": "Long interviews",
       "frequencyFr": "Interviews longues",
-      "avatar": "https://unavatar.io/youtube/@thinkerview"
+      "avatar": "https://unavatar.io/youtube/@thinkerview?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "T",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=thinkerview&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "lilian-weng",
@@ -1530,7 +1866,14 @@
         "x": "https://x.com/lilianweng"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/lilianweng"
+      "avatar": "https://unavatar.io/twitter/lilianweng?fallback=false",
+      "accentFrom": "#4c0519",
+      "accentTo": "#fb7185",
+      "initials": "LW",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=lilian-weng&backgroundColor=4c0519"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "chip-huyen",
@@ -1560,7 +1903,14 @@
         "x": "https://x.com/chipro"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/chipro"
+      "avatar": "https://unavatar.io/twitter/chipro?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "CH",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=chip-huyen&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "clem-delangue",
@@ -1593,7 +1943,14 @@
         "website": "https://huggingface.co"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/ClementDelangue"
+      "avatar": "https://unavatar.io/twitter/ClementDelangue?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "CD",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=clem-delangue&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "lewis-tunstall",
@@ -1624,7 +1981,14 @@
         "website": "https://huggingface.co"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_lewtun"
+      "avatar": "https://unavatar.io/twitter/_lewtun?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "LT",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=lewis-tunstall&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "philipp-schmid",
@@ -1655,7 +2019,14 @@
         "website": "https://www.philschmid.de"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_philschmid"
+      "avatar": "https://unavatar.io/twitter/_philschmid?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "PS",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=philipp-schmid&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "jason-wei",
@@ -1685,7 +2056,14 @@
         "website": "https://www.jasonwei.net"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/_jasonwei"
+      "avatar": "https://unavatar.io/twitter/_jasonwei?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "JW",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=jason-wei&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "harrison-chase",
@@ -1715,7 +2093,14 @@
         "x": "https://x.com/hwchase17"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/hwchase17"
+      "avatar": "https://unavatar.io/twitter/hwchase17?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "HC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=harrison-chase&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "nathan-lambert",
@@ -1746,7 +2131,14 @@
         "x": "https://x.com/natolambert"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/natolambert"
+      "avatar": "https://unavatar.io/twitter/natolambert?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "NL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=nathan-lambert&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "gary-marcus",
@@ -1777,7 +2169,14 @@
         "website": "https://garymarcus.substack.com"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/GaryMarcus"
+      "avatar": "https://unavatar.io/twitter/GaryMarcus?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "GM",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=gary-marcus&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "max-tegmark",
@@ -1807,7 +2206,14 @@
         "website": "https://futureoflife.org"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/tegmark"
+      "avatar": "https://unavatar.io/twitter/tegmark?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "MT",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=max-tegmark&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "connor-leahy",
@@ -1836,7 +2242,14 @@
         "x": "https://x.com/npdotee"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/npdotee"
+      "avatar": "https://unavatar.io/twitter/npdotee?fallback=false",
+      "accentFrom": "#0c4a6e",
+      "accentTo": "#22d3ee",
+      "initials": "CL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=connor-leahy&backgroundColor=0c4a6e"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "eugene-yan",
@@ -1866,7 +2279,14 @@
         "x": "https://x.com/eugeneyan"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/eugeneyan"
+      "avatar": "https://unavatar.io/twitter/eugeneyan?fallback=false",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "EY",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=eugene-yan&backgroundColor=1a2e05"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "hugo-larochelle",
@@ -1898,7 +2318,14 @@
         "x": "https://x.com/hugo_larochelle"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/hugo_larochelle"
+      "avatar": "https://unavatar.io/twitter/hugo_larochelle?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "HL",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=hugo-larochelle&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "john-carmack",
@@ -1927,7 +2354,14 @@
         "x": "https://x.com/ID_AA_Carmack"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/ID_AA_Carmack"
+      "avatar": "https://unavatar.io/twitter/ID_AA_Carmack?fallback=false",
+      "accentFrom": "#0f172a",
+      "accentTo": "#38bdf8",
+      "initials": "JC",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=john-carmack&backgroundColor=0f172a"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "sholto-douglas",
@@ -1957,7 +2391,14 @@
         "x": "https://x.com/sholtodouglas"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/sholtodouglas"
+      "avatar": "https://unavatar.io/twitter/sholtodouglas?fallback=false",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "SD",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=sholto-douglas&backgroundColor=1c1917"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "noam-brown",
@@ -1986,7 +2427,14 @@
         "x": "https://x.com/polynoamial"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/polynoamial"
+      "avatar": "https://unavatar.io/twitter/polynoamial?fallback=false",
+      "accentFrom": "#1e1b4b",
+      "accentTo": "#7c3aed",
+      "initials": "NB",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=noam-brown&backgroundColor=1e1b4b"
+      ],
+      "avatarMode": "photo"
     },
     {
       "id": "olivier-godement",
@@ -2017,7 +2465,11 @@
         "x": "https://x.com/ogodement"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/ogodement"
+      "avatar": "",
+      "accentFrom": "#1a2e05",
+      "accentTo": "#a3e635",
+      "initials": "OG",
+      "avatarMode": "mono"
     },
     {
       "id": "allison-duettmann",
@@ -2046,7 +2498,14 @@
         "x": "https://x.com/AllisonDuett"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/AllisonDuett"
+      "avatar": "https://unavatar.io/twitter/AllisonDuett?fallback=false",
+      "accentFrom": "#1c1917",
+      "accentTo": "#f59e0b",
+      "initials": "AD",
+      "avatarFallbacks": [
+        "https://api.dicebear.com/9.x/shapes/svg?seed=allison-duettmann&backgroundColor=1c1917"
+      ],
+      "avatarMode": "photo"
     }
   ]
 }
