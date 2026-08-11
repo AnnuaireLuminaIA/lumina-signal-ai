@@ -840,11 +840,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Stuart_Russell_EMIS_workshop_2019.jpg/440px-Stuart_Russell_EMIS_workshop_2019.jpg",
+      "avatar": "https://unavatar.io/google/Stuart%20Russell%20Berkeley%20AI%20professor",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://ui-avatars.com/api/?name=Stuart+Russell&background=1e1b4b&color=c4b5fd&size=256&bold=true"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -949,12 +951,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/paul_christiano",
+      "avatar": "https://unavatar.io/google/Paul%20Christiano%20AI%20alignment",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "PC",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Paul+Christiano&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/twitter/paul_christiano",
+        "https://ui-avatars.com/api/?name=Paul+Christiano&background=1e1b4b&color=c4b5fd&size=256&bold=true"
       ],
       "avatarMode": "photo"
     },
@@ -1059,12 +1062,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/ch402",
+      "avatar": "https://unavatar.io/google/Chris%20Olah%20Anthropic%20distill",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "CO",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Chris+Olah&background=4c0519&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/twitter/ch402",
+        "https://ui-avatars.com/api/?name=Chris+Olah&background=1e1b4b&color=c4b5fd&size=256&bold=true"
       ],
       "avatarMode": "photo"
     },
@@ -1426,12 +1430,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/hlntnr",
+      "avatar": "https://unavatar.io/google/Helen%20Toner%20CSET%20AI",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HT",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Helen+Toner&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/twitter/hlntnr",
+        "https://ui-avatars.com/api/?name=Helen+Toner&background=1e1b4b&color=c4b5fd&size=256&bold=true"
       ],
       "avatarMode": "photo"
     },
@@ -1574,12 +1579,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/lucjulia",
+      "avatar": "https://unavatar.io/google/Luc%20Julia%20Siri%20AI",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "LJ",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Luc+Julia&background=1c1917&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/twitter/lucjulia",
+        "https://ui-avatars.com/api/?name=Luc+Julia&background=1e1b4b&color=c4b5fd&size=256&bold=true"
       ],
       "avatarMode": "photo"
     },
@@ -1612,12 +1618,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/JoellePineau",
+      "avatar": "https://unavatar.io/google/Joelle%20Pineau%20AI%20Meta",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "JP",
       "avatarFallbacks": [
-        "https://ui-avatars.com/api/?name=Joëlle+Pineau&background=0c4a6e&color=ffffff&size=256&bold=true&format=png"
+        "https://unavatar.io/twitter/JoellePineau",
+        "https://ui-avatars.com/api/?name=Joëlle+Pineau&background=1e1b4b&color=c4b5fd&size=256&bold=true"
       ],
       "avatarMode": "photo"
     },
