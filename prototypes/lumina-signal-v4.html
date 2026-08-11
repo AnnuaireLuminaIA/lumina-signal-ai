@@ -66,6 +66,26 @@
       cursor: pointer;
     }
     .logo:hover { opacity: 0.85; }
+
+    .home-btn {
+      display: inline-flex;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 500;
+      color: #c4b5fd;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(167,139,250,0.35);
+      background: rgba(167,139,250,0.1);
+      margin-right: 10px;
+      white-space: nowrap;
+    }
+    .home-btn:hover {
+      background: rgba(167,139,250,0.2);
+      color: #fff;
+    }
+
     .logo-icon {
       width: 22px; height: 22px;
       border-radius: 7px;
@@ -373,6 +393,7 @@
       <button data-view="assistant">Assistant</button>
     </nav>
     <div class="header-actions">
+      <a class="home-btn" href="https://annuaireluminaia.github.io/lumina-signal-ai/">← Accueil</a>
       <div class="lang">
         <span class="active" data-lang="fr">FR</span>
         <span data-lang="en">EN</span>
