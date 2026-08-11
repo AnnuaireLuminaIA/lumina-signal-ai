@@ -44,8 +44,8 @@
       "accentTo": "#22d3ee",
       "initials": "AK",
       "avatarFallbacks": [
-        "https://unavatar.io/x/karpathy",
-        "https://unavatar.io/youtube/@AndrejKarpathy"
+        "https://unavatar.io/youtube/@AndrejKarpathy",
+        "https://unavatar.io/x/karpathy"
       ],
       "avatarMode": "photo"
     },
@@ -86,8 +86,7 @@
       "accentTo": "#4ade80",
       "initials": "DP",
       "avatarFallbacks": [
-        "https://unavatar.io/x/dwarkesh_sp",
-        "https://unavatar.io/youtube/@DwarkeshPatel"
+        "https://unavatar.io/x/dwarkesh_sp"
       ],
       "avatarMode": "photo"
     },
@@ -359,8 +358,8 @@
       "accentTo": "#4ade80",
       "initials": "YK",
       "avatarFallbacks": [
-        "https://unavatar.io/x/YannicKilcher",
-        "https://unavatar.io/youtube/@YannicKilcher"
+        "https://unavatar.io/youtube/@YannicKilcher",
+        "https://unavatar.io/x/YannicKilcher"
       ],
       "avatarMode": "photo"
     },
@@ -436,8 +435,7 @@
       "accentTo": "#7c3aed",
       "initials": "NG",
       "avatarFallbacks": [
-        "https://unavatar.io/x/nico16184",
-        "https://unavatar.io/youtube/@nicolasguyon"
+        "https://unavatar.io/x/nico16184"
       ],
       "avatarMode": "photo"
     },
@@ -773,8 +771,8 @@
       "accentTo": "#e879f9",
       "initials": "LF",
       "avatarFallbacks": [
-        "https://unavatar.io/x/lexfridman",
-        "https://unavatar.io/youtube/@lexfridman"
+        "https://unavatar.io/youtube/@lexfridman",
+        "https://unavatar.io/x/lexfridman"
       ],
       "avatarMode": "photo"
     },
@@ -813,8 +811,8 @@
       "accentTo": "#4ade80",
       "initials": "SG",
       "avatarFallbacks": [
-        "https://unavatar.io/x/NoPriorsPod",
-        "https://unavatar.io/youtube/@NoPriorsPodcast"
+        "https://unavatar.io/youtube/@NoPriorsPodcast",
+        "https://unavatar.io/x/NoPriorsPod"
       ],
       "avatarMode": "photo"
     },
@@ -845,7 +843,7 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/google/Stuart%20Russell%20AI",
+      "avatar": "https://unavatar.io/people.eecs.berkeley.edu",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
@@ -1292,8 +1290,8 @@
       "accentTo": "#a3e635",
       "initials": "TM",
       "avatarFallbacks": [
-        "https://unavatar.io/x/TwoMinutePapers",
-        "https://unavatar.io/youtube/@TwoMinutePapers"
+        "https://unavatar.io/youtube/@TwoMinutePapers",
+        "https://unavatar.io/x/TwoMinutePapers"
       ],
       "avatarMode": "photo"
     },
@@ -1701,8 +1699,8 @@
       "accentTo": "#a3e635",
       "initials": "ML",
       "avatarFallbacks": [
-        "https://unavatar.io/x/MLStreetTalk",
-        "https://unavatar.io/youtube/@MachineLearningStreetTalk"
+        "https://unavatar.io/youtube/@MachineLearningStreetTalk",
+        "https://unavatar.io/x/MLStreetTalk"
       ],
       "avatarMode": "photo"
     },
