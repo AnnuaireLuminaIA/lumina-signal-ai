@@ -848,6 +848,19 @@
         "side.all": "Toutes",
         "side.countries": "Pays",
         "side.countries.all": "Tous",
+        "side.favorites": "Favoris",
+        "side.favorites.open": "★ Voir mes favoris",
+        "side.us": "🇺🇸 États-Unis",
+        "side.fr": "🇫🇷 France",
+        "side.gb": "🇬🇧 Royaume-Uni",
+        "side.ca": "🇨🇦 Canada",
+        "side.ch": "🇨🇭 Suisse",
+        "side.hu": "🇭🇺 Hongrie",
+        "side.rs": "🇷🇸 Serbie",
+        "side.de": "🇩🇪 Allemagne",
+        "nav.method": "Méthode",
+        "nav.lumina": "Lumina IA",
+        "chip.translate": "🌐 Traduire",
         "feed.title": "Signal",
         "feed.sub": "Contenus récents",
         "feed.briefing": "✦ Briefing du jour",
@@ -890,6 +903,19 @@
         "side.all": "All",
         "side.countries": "Countries",
         "side.countries.all": "All",
+        "side.favorites": "Saved",
+        "side.favorites.open": "★ View my favorites",
+        "side.us": "🇺🇸 United States",
+        "side.fr": "🇫🇷 France",
+        "side.gb": "🇬🇧 United Kingdom",
+        "side.ca": "🇨🇦 Canada",
+        "side.ch": "🇨🇭 Switzerland",
+        "side.hu": "🇭🇺 Hungary",
+        "side.rs": "🇷🇸 Serbia",
+        "side.de": "🇩🇪 Germany",
+        "nav.method": "Method",
+        "nav.lumina": "Lumina IA",
+        "chip.translate": "🌐 Translate",
         "feed.title": "Signal",
         "feed.sub": "Recent content",
         "feed.briefing": "✦ Daily briefing",
@@ -946,34 +972,49 @@
     }
 
     function applyLang() {
-      // Nav
       document.querySelectorAll(".nav button").forEach(btn => {
         const v = btn.dataset.view;
         if (v === "feed") btn.textContent = t("nav.feed");
         if (v === "voices") btn.textContent = t("nav.voices");
         if (v === "favorites") btn.textContent = t("nav.favorites");
       });
-      const home = document.querySelector(".home-btn");
-      if (home) home.textContent = t("nav.home");
+      document.querySelectorAll(".home-btn").forEach(a => {
+        const href = a.getAttribute("href") || "";
+        if (href.includes("about.html")) a.textContent = t("nav.method");
+        else if (href.includes("github.com/AnnuaireLuminaIA") && !href.includes("lumina-signal")) a.textContent = t("nav.lumina");
+        else if (href.includes("lumina-signal-ai") && !href.includes("about") && !href.includes("prototypes")) a.textContent = t("nav.home");
+      });
+      // Fix Lumina IA button label when pointing to about
+      document.querySelectorAll(".home-btn").forEach(a => {
+        if ((a.textContent || "").includes("Lumina")) a.textContent = t("nav.lumina");
+      });
 
-      // Sidebar labels
       const sideLabels = document.querySelectorAll(".side-label");
       if (sideLabels[0]) sideLabels[0].textContent = t("side.categories");
-      if (sideLabels[1]) sideLabels[1].textContent = t("side.countries");
+      if (sideLabels[1]) sideLabels[1].textContent = t("side.favorites");
+      if (sideLabels[2]) sideLabels[2].textContent = t("side.countries");
+
       const allCat = document.querySelector('[data-filter="all"]');
       if (allCat) allCat.textContent = t("side.all");
       const allCountry = document.querySelector('[data-country="all"]');
       if (allCountry) allCountry.textContent = t("side.countries.all");
+      const sideFavs = document.getElementById("side-favs");
+      if (sideFavs) sideFavs.textContent = t("side.favorites.open");
 
-      // Feed header
+      const countryMap = { US: "side.us", FR: "side.fr", GB: "side.gb", CA: "side.ca", CH: "side.ch", HU: "side.hu", RS: "side.rs", DE: "side.de" };
+      document.querySelectorAll("[data-country]").forEach(btn => {
+        const code = btn.dataset.country;
+        if (code && code !== "all" && countryMap[code]) btn.textContent = t(countryMap[code]);
+      });
+
       const feedTitle = document.querySelector("#view-feed .feed-title");
-      if (feedTitle) feedTitle.textContent = t("feed.title");
+      if (feedTitle && currentView !== "favorites") feedTitle.textContent = t("feed.title");
+      if (feedTitle && currentView === "favorites") feedTitle.textContent = t("nav.favorites");
       const briefingBtn = document.querySelector(".btn-primary");
       if (briefingBtn) briefingBtn.textContent = t("feed.briefing");
       const search = document.getElementById("search-input");
       if (search) search.placeholder = t("feed.search");
 
-      // Chips
       const chipMap = { all: "chip.all", video: "chip.video", podcast: "chip.podcast", fr: "chip.fr", fav: "chip.fav" };
       document.querySelectorAll("#type-chips .chip[data-type]").forEach(c => {
         const k = chipMap[c.dataset.type];
@@ -982,20 +1023,13 @@
       const compact = document.getElementById("compact-toggle");
       if (compact) compact.textContent = t("chip.compact");
       const trBtn = document.getElementById("translate-btn");
-      if (trBtn && !trBtn.disabled) trBtn.textContent = lang === "fr" ? "🌐 Traduire" : "🌐 Translate";
+      if (trBtn && !trBtn.disabled) trBtn.textContent = t("chip.translate");
+      updateFavChip();
 
-      // Voices header
       const voicesTitle = document.querySelector("#view-voices .feed-title");
       if (voicesTitle) voicesTitle.textContent = t("voices.title");
-
-      // Assistant
-      const asstInput = document.getElementById("assistant-input");
-      if (asstInput) asstInput.placeholder = t("assistant.placeholder");
-      const firstBot = document.querySelector("#assistant-body .msg.bot");
-      if (firstBot && !firstBot.dataset.user) {
-        firstBot.innerHTML = t("assistant.hello", { n: VOICES.length });
-      }
     }
+
 
 
     let lastUpdated = null;
