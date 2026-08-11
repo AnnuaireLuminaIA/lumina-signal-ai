@@ -818,7 +818,164 @@
     let countryFilter = "all";
     let typeFilter = "all";
     let searchQuery = "";
-    let lang = "fr";
+    let lang = localStorage.getItem("lumina-lang") || "fr";
+
+    // ——— i18n ———
+    const I18N = {
+      fr: {
+        "nav.feed": "Feed",
+        "nav.voices": "Voix",
+        "nav.assistant": "Assistant",
+        "nav.home": "← Accueil",
+        "side.categories": "Catégories",
+        "side.all": "Toutes",
+        "side.countries": "Pays",
+        "side.countries.all": "Tous",
+        "feed.title": "Signal",
+        "feed.sub": "Contenus récents",
+        "feed.briefing": "✦ Briefing du jour",
+        "feed.search": "Rechercher titre, voix, sujet…",
+        "chip.all": "Tout",
+        "chip.video": "Vidéos",
+        "chip.podcast": "Podcasts",
+        "chip.fr": "FR only",
+        "chip.fav": "★ Favoris",
+        "chip.compact": "Compact",
+        "voices.title": "Voix",
+        "voices.sub": "voix sélectionnées",
+        "voices.filtered": "voix (filtrées)",
+        "empty.feed": "Aucun contenu pour ce filtre.",
+        "empty.voices": "Aucune voix pour ce filtre.",
+        "updated": "Mis à jour :",
+        "contents": "contenu",
+        "contents_plural": "contenus",
+        "live": "live RSS",
+        "play": "▶ Lire",
+        "open": "↗ Ouvrir",
+        "briefing.title": "Briefing du jour",
+        "briefing.sub": "Top signaux · diversifiés par voix",
+        "briefing.copy": "📋 Copier le briefing",
+        "briefing.link": "🔗 Copier le lien",
+        "briefing.copied": "Briefing copié dans le presse-papiers",
+        "briefing.link_copied": "Lien copié",
+        "briefing.footer": "Clique sur un item pour ouvrir · Généré à partir des flux live",
+        "assistant.hello": "Bonjour. Je connais les <strong>{n} voix</strong> sélectionnées.<br><br>Je peux te recommander qui suivre, filtrer par sujet, ou te dire qui parle le mieux d'un thème précis.",
+        "assistant.placeholder": "Pose une question…",
+        "why.follow": "Pourquoi suivre · ",
+      },
+      en: {
+        "nav.feed": "Feed",
+        "nav.voices": "Voices",
+        "nav.assistant": "Assistant",
+        "nav.home": "← Home",
+        "side.categories": "Categories",
+        "side.all": "All",
+        "side.countries": "Countries",
+        "side.countries.all": "All",
+        "feed.title": "Signal",
+        "feed.sub": "Recent content",
+        "feed.briefing": "✦ Daily briefing",
+        "feed.search": "Search title, voice, topic…",
+        "chip.all": "All",
+        "chip.video": "Videos",
+        "chip.podcast": "Podcasts",
+        "chip.fr": "FR only",
+        "chip.fav": "★ Saved",
+        "chip.compact": "Compact",
+        "voices.title": "Voices",
+        "voices.sub": "curated voices",
+        "voices.filtered": "voices (filtered)",
+        "empty.feed": "No content for this filter.",
+        "empty.voices": "No voices for this filter.",
+        "updated": "Updated:",
+        "contents": "item",
+        "contents_plural": "items",
+        "live": "live RSS",
+        "play": "▶ Play",
+        "open": "↗ Open",
+        "briefing.title": "Daily briefing",
+        "briefing.sub": "Top signals · diversified by voice",
+        "briefing.copy": "📋 Copy briefing",
+        "briefing.link": "🔗 Copy link",
+        "briefing.copied": "Briefing copied to clipboard",
+        "briefing.link_copied": "Link copied",
+        "briefing.footer": "Click an item to open · Generated from live feeds",
+        "assistant.hello": "Hi. I know the <strong>{n} curated voices</strong>.<br><br>I can recommend who to follow, filter by topic, or tell you who covers a subject best.",
+        "assistant.placeholder": "Ask a question…",
+        "why.follow": "Why follow · ",
+      }
+    };
+
+    function t(key, vars) {
+      const dict = I18N[lang] || I18N.fr;
+      let s = dict[key] || I18N.fr[key] || key;
+      if (vars) {
+        Object.keys(vars).forEach(k => { s = s.replace("{" + k + "}", vars[k]); });
+      }
+      return s;
+    }
+
+    function setLang(next) {
+      lang = next === "en" ? "en" : "fr";
+      localStorage.setItem("lumina-lang", lang);
+      document.documentElement.lang = lang;
+      document.querySelectorAll(".lang span").forEach(el => {
+        el.classList.toggle("active", el.dataset.lang === lang);
+      });
+      applyLang();
+      if (currentView === "feed") renderFeed();
+      if (currentView === "voices") renderVoices();
+    }
+
+    function applyLang() {
+      // Nav
+      const navBtns = document.querySelectorAll(".nav button");
+      if (navBtns[0]) navBtns[0].textContent = t("nav.feed");
+      if (navBtns[1]) navBtns[1].textContent = t("nav.voices");
+      if (navBtns[2]) navBtns[2].textContent = t("nav.assistant");
+      const home = document.querySelector(".home-btn");
+      if (home) home.textContent = t("nav.home");
+
+      // Sidebar labels
+      const sideLabels = document.querySelectorAll(".side-label");
+      if (sideLabels[0]) sideLabels[0].textContent = t("side.categories");
+      if (sideLabels[1]) sideLabels[1].textContent = t("side.countries");
+      const allCat = document.querySelector('[data-filter="all"]');
+      if (allCat) allCat.textContent = t("side.all");
+      const allCountry = document.querySelector('[data-country="all"]');
+      if (allCountry) allCountry.textContent = t("side.countries.all");
+
+      // Feed header
+      const feedTitle = document.querySelector("#view-feed .feed-title");
+      if (feedTitle) feedTitle.textContent = t("feed.title");
+      const briefingBtn = document.querySelector(".btn-primary");
+      if (briefingBtn) briefingBtn.textContent = t("feed.briefing");
+      const search = document.getElementById("search-input");
+      if (search) search.placeholder = t("feed.search");
+
+      // Chips
+      const chipMap = { all: "chip.all", video: "chip.video", podcast: "chip.podcast", fr: "chip.fr", fav: "chip.fav" };
+      document.querySelectorAll("#type-chips .chip[data-type]").forEach(c => {
+        const k = chipMap[c.dataset.type];
+        if (k) c.textContent = t(k);
+      });
+      const compact = document.getElementById("compact-toggle");
+      if (compact) compact.textContent = t("chip.compact");
+
+      // Voices header
+      const voicesTitle = document.querySelector("#view-voices .feed-title");
+      if (voicesTitle) voicesTitle.textContent = t("voices.title");
+
+      // Assistant
+      const asstInput = document.getElementById("assistant-input");
+      if (asstInput) asstInput.placeholder = t("assistant.placeholder");
+      const firstBot = document.querySelector("#assistant-body .msg.bot");
+      if (firstBot && !firstBot.dataset.user) {
+        firstBot.innerHTML = t("assistant.hello", { n: VOICES.length });
+      }
+    }
+
+
     let lastUpdated = null;
     let favorites = new Set(JSON.parse(localStorage.getItem("lumina-favs") || "[]"));
 
@@ -902,7 +1059,7 @@
             ${cats}
           </div>
           <div class="bio">${v.bio || ""}</div>
-          ${v.why ? `<div class="why"><strong style="color:#c4b5fd">Pourquoi suivre · </strong>${v.why}</div>` : ""}
+          ${v.why ? `<div class="why"><strong style="color:#c4b5fd">${t("why.follow")}</strong>${v.why}</div>` : ""}
           ${linkHtml ? `<div class="links">${linkHtml}</div>` : ""}
         </div>
       </div>`;
@@ -925,7 +1082,7 @@
       const text = getBriefingShareText();
       try {
         await navigator.clipboard.writeText(text);
-        alert("Briefing copié dans le presse-papiers");
+        alert(t("briefing.copied"));
       } catch(e) {
         prompt("Copie ce texte :", text);
       }
@@ -935,7 +1092,7 @@
       const url = location.href.split("#")[0] + "#briefing";
       try {
         await navigator.clipboard.writeText(url);
-        alert("Lien copié");
+        alert(t("briefing.link_copied"));
       } catch(e) {
         prompt("Copie ce lien :", url);
       }
@@ -995,13 +1152,14 @@
       const updatedStr = lastUpdated
         ? ` · MAJ <strong>${lastUpdated}</strong>`
         : "";
+      const unit = items.length > 1 ? t("contents_plural") : t("contents");
       document.getElementById("feed-meta").textContent =
-        items.length + " contenu" + (items.length > 1 ? "s" : "") + " · live RSS";
+        items.length + " " + unit + " · " + t("live");
       const badge = document.getElementById("updated-badge");
-      if (badge) badge.innerHTML = lastUpdated ? `Mis à jour : <strong>${lastUpdated}</strong>` : "";
+      if (badge) badge.innerHTML = lastUpdated ? `${t("updated")} <strong>${lastUpdated}</strong>` : "";
 
       if (items.length === 0) {
-        list.innerHTML = `<div class="empty">Aucun contenu pour ce filtre.</div>`;
+        list.innerHTML = `<div class="empty">${t("empty.feed")}</div>`;
         return;
       }
 
@@ -1028,8 +1186,8 @@
               </div>
               <h3 class="card-title">${c.title}</h3>
               <div class="card-actions" onclick="event.stopPropagation()">
-                ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">▶ Lire</button>` : ""}
-                ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">↗ Ouvrir</button>` : ""}
+                ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">${t("play")}</button>` : ""}
+                ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">${t("open")}</button>` : ""}
                 <button class="fav-btn ${isFav ? "on" : ""}" title="Favori" onclick="toggleFav('${c.id}', event)">${isFav ? "★" : "☆"}</button>
               </div>
             </div>
@@ -1051,10 +1209,10 @@
       }
 
       document.getElementById("voices-meta").textContent =
-        items.length + " voix" + (categoryFilter !== "all" || countryFilter !== "all" ? " (filtrées)" : " sélectionnées");
+        items.length + " " + (categoryFilter !== "all" || countryFilter !== "all" ? t("voices.filtered") : t("voices.sub"));
 
       if (items.length === 0) {
-        list.innerHTML = `<div class="empty">Aucune voix pour ce filtre.</div>`;
+        list.innerHTML = `<div class="empty">${t("empty.voices")}</div>`;
         return;
       }
 
@@ -1269,13 +1427,13 @@
 
       const subtitle = (typeof BRIEFING !== "undefined" && BRIEFING.summary)
         ? BRIEFING.summary
-        : "Top signaux · diversifiés par voix";
+        : t("briefing.sub");
 
       let html = `<div style="position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px" id="briefing-modal">
         <div style="background:#0c0c11;border:1px solid rgba(255,255,255,0.1);border-radius:16px;max-width:560px;width:100%;max-height:80vh;overflow:auto;padding:28px">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
             <div>
-              <div style="font-family:'Instrument Serif',serif;font-size:22px">Briefing du jour</div>
+              <div style="font-family:'Instrument Serif',serif;font-size:22px">${t("briefing.title")}</div>
               <div style="font-size:12px;color:#71717a;margin-top:2px">${subtitle}</div>
             </div>
             <button onclick="document.getElementById('briefing-modal').remove()" style="background:none;border:none;color:#a1a1aa;font-size:20px;cursor:pointer">×</button>
@@ -1301,10 +1459,10 @@
 
       html += `</div>
           <div class="share-row">
-            <button type="button" onclick="copyBriefingText()">📋 Copier le briefing</button>
-            <button type="button" onclick="copyBriefingLink()">🔗 Copier le lien</button>
+            <button type="button" onclick="copyBriefingText()">${t("briefing.copy")}</button>
+            <button type="button" onclick="copyBriefingLink()">${t("briefing.link")}</button>
           </div>
-          <div style="margin-top:12px;font-size:12px;color:#52525b;text-align:center">Clique sur un item pour ouvrir · Généré à partir des flux live</div>
+          <div style="margin-top:12px;font-size:12px;color:#52525b;text-align:center">${t("briefing.footer")}</div>
         </div>
       </div>`;
 
@@ -1420,6 +1578,13 @@
     }
     // Deep link #briefing
     if (location.hash === "#briefing") setTimeout(openBriefing, 400);
+
+    // Lang switcher
+    document.querySelectorAll(".lang span").forEach(span => {
+      span.style.cursor = "pointer";
+      span.addEventListener("click", () => setLang(span.dataset.lang));
+    });
+    applyLang();
 
     // Init
     loadLiveData();
