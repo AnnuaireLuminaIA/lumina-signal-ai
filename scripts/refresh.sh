@@ -61,7 +61,8 @@ for item in raw["items"]:
         "isNew": True
     })
 normalized.sort(key=lambda x: (parse_date(x.get("publishedAt") or "") or datetime.min.replace(tzinfo=timezone.utc)).timestamp(), reverse=True)
-out = {"meta": {"updated": datetime.now(timezone.utc).isoformat(), "count": len(normalized)}, "contents": normalized}
+out = {"meta": {"updated": datetime.now(timezone.utc).isoformat(), "count": len(normalized)}, "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "contents": normalized}
 with open(ROOT / "data/live-contents.json", "w") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
 print(f"  {len(normalized)} contents → data/live-contents.json")

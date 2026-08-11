@@ -395,6 +395,121 @@
       .shell { grid-template-columns: 220px 1fr; }
       .assistant-panel { display: none; }
     }
+
+    /* Search */
+    .search-wrap {
+      position: relative;
+      margin-bottom: 14px;
+    }
+    .search-wrap input {
+      width: 100%;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px 10px 38px;
+      color: var(--text);
+      font-size: 13.5px;
+      outline: none;
+      font-family: inherit;
+    }
+    .search-wrap input:focus {
+      border-color: rgba(167,139,250,0.45);
+      background: rgba(167,139,250,0.06);
+    }
+    .search-wrap input::placeholder { color: #52525b; }
+    .search-wrap .search-icon {
+      position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      color: #71717a; font-size: 14px; pointer-events: none;
+    }
+    /* Type chips */
+    .type-chips {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      margin-bottom: 16px;
+    }
+    .chip {
+      font-size: 12px; font-weight: 500;
+      padding: 5px 11px; border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--text-3);
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.12s;
+    }
+    .chip:hover { border-color: rgba(167,139,250,0.35); color: var(--text); }
+    .chip.active {
+      background: rgba(167,139,250,0.15);
+      border-color: rgba(167,139,250,0.4);
+      color: #c4b5fd;
+    }
+    /* Fav button */
+    .fav-btn {
+      background: none; border: none; cursor: pointer;
+      font-size: 16px; line-height: 1; padding: 4px 6px;
+      opacity: 0.45; transition: opacity 0.12s, transform 0.12s;
+      color: #a1a1aa;
+    }
+    .fav-btn:hover { opacity: 1; transform: scale(1.1); }
+    .fav-btn.on { opacity: 1; color: #fbbf24; }
+    .card-actions {
+      display: flex; align-items: center; gap: 4px;
+      margin-top: 8px;
+    }
+    .card-actions .act {
+      font-size: 11.5px; color: #a1a1aa;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 6px; padding: 4px 9px;
+      cursor: pointer; font-family: inherit;
+    }
+    .card-actions .act:hover {
+      color: #c4b5fd; border-color: rgba(167,139,250,0.35);
+    }
+    /* Updated badge */
+    .updated-badge {
+      font-size: 11px; color: #71717a;
+      margin-top: 4px;
+    }
+    .updated-badge strong { color: #a1a1aa; font-weight: 500; }
+    /* Player modal */
+    .player-modal {
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.82);
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .player-box {
+      background: #0c0c11;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      width: min(900px, 100%);
+      overflow: hidden;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.5);
+    }
+    .player-head {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 18px; border-bottom: 1px solid rgba(255,255,255,0.06);
+      gap: 12px;
+    }
+    .player-head h3 {
+      font-size: 14px; font-weight: 560; margin: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .player-head .close {
+      background: none; border: none; color: #a1a1aa;
+      font-size: 22px; cursor: pointer; line-height: 1; flex-shrink: 0;
+    }
+    .player-frame {
+      position: relative; width: 100%; padding-top: 56.25%;
+      background: #000;
+    }
+    .player-frame iframe {
+      position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+    }
+    .player-foot {
+      padding: 12px 18px; display: flex; gap: 10px; flex-wrap: wrap;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
   </style>
 </head>
 <body>
@@ -446,8 +561,20 @@
           <div>
             <h1 class="feed-title">Signal</h1>
             <p class="feed-sub" id="feed-meta">Contenus récents</p>
+            <p class="updated-badge" id="updated-badge"></p>
           </div>
           <button class="btn btn-primary">✦ Briefing du jour</button>
+        </div>
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input type="search" id="search-input" placeholder="Rechercher titre, voix, sujet…" autocomplete="off" />
+        </div>
+        <div class="type-chips" id="type-chips">
+          <button class="chip active" data-type="all">Tout</button>
+          <button class="chip" data-type="video">Vidéos</button>
+          <button class="chip" data-type="podcast">Podcasts</button>
+          <button class="chip" data-type="fr">FR only</button>
+          <button class="chip" data-type="fav">★ Favoris</button>
         </div>
         <div class="feed" id="feed-list"></div>
       </div>
@@ -598,7 +725,52 @@
     let currentView = "feed";
     let categoryFilter = "all";
     let countryFilter = "all";
+    let typeFilter = "all";
+    let searchQuery = "";
     let lang = "fr";
+    let lastUpdated = null;
+    let favorites = new Set(JSON.parse(localStorage.getItem("lumina-favs") || "[]"));
+
+    function saveFavs() {
+      localStorage.setItem("lumina-favs", JSON.stringify([...favorites]));
+    }
+    function toggleFav(id, ev) {
+      if (ev) ev.stopPropagation();
+      if (favorites.has(id)) favorites.delete(id);
+      else favorites.add(id);
+      saveFavs();
+      renderFeed();
+    }
+    function ytId(url) {
+      if (!url) return null;
+      const m = url.match(/(?:youtu\.be\/|v=|\/embed\/|\/shorts\/)([A-Za-z0-9_-]{6,})/);
+      return m ? m[1] : null;
+    }
+    function openPlayer(url, title, ev) {
+      if (ev) ev.stopPropagation();
+      const id = ytId(url);
+      if (!id) {
+        window.open(url, "_blank");
+        return;
+      }
+      document.getElementById("player-modal")?.remove();
+      const safeTitle = (title || "").replace(/</g, "&lt;");
+      const html = `<div class="player-modal" id="player-modal" onclick="if(event.target===this)this.remove()">
+        <div class="player-box">
+          <div class="player-head">
+            <h3>${safeTitle}</h3>
+            <button class="close" onclick="document.getElementById('player-modal').remove()">×</button>
+          </div>
+          <div class="player-frame">
+            <iframe src="https://www.youtube.com/embed/${id}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="player-foot">
+            <a class="act" href="${url}" target="_blank" rel="noopener" style="font-size:12px;color:#c4b5fd;text-decoration:none">Ouvrir sur YouTube →</a>
+          </div>
+        </div>
+      </div>`;
+      document.body.insertAdjacentHTML("beforeend", html);
+    }
 
     // ——— Helpers ———
     function getVoice(id) {
@@ -626,9 +798,39 @@
           return v && v.countryCode === countryFilter;
         });
       }
+      if (typeFilter === "video" || typeFilter === "podcast") {
+        items = items.filter(c => c.type === typeFilter);
+      } else if (typeFilter === "fr") {
+        items = items.filter(c => {
+          if (c.language === "fr") return true;
+          const v = getVoice(c.voiceId);
+          return v && ((v.language || []).includes("fr") || v.countryCode === "FR");
+        });
+      } else if (typeFilter === "fav") {
+        items = items.filter(c => favorites.has(c.id));
+      }
+      if (searchQuery.trim()) {
+        const q = searchQuery.trim().toLowerCase();
+        items = items.filter(c => {
+          const v = getVoice(c.voiceId);
+          const hay = [
+            c.title || "",
+            c.description || "",
+            (v && v.name) || "",
+            (v && v.role) || "",
+            ((v && v.categories) || []).join(" ")
+          ].join(" ").toLowerCase();
+          return hay.includes(q);
+        });
+      }
 
+      const updatedStr = lastUpdated
+        ? ` · MAJ <strong>${lastUpdated}</strong>`
+        : "";
       document.getElementById("feed-meta").textContent =
         items.length + " contenu" + (items.length > 1 ? "s" : "") + " · live RSS";
+      const badge = document.getElementById("updated-badge");
+      if (badge) badge.innerHTML = lastUpdated ? `Mis à jour : <strong>${lastUpdated}</strong>` : "";
 
       if (items.length === 0) {
         list.innerHTML = `<div class="empty">Aucun contenu pour ce filtre.</div>`;
@@ -637,9 +839,13 @@
 
       list.innerHTML = items.map(c => {
         const v = getVoice(c.voiceId) || { name: c.voiceId };
-        const openAttr = c.url ? `onclick="window.open('${c.url}', '_blank')"` : "";
+        const isYt = !!ytId(c.url);
+        const isFav = favorites.has(c.id);
+        const openJs = isYt
+          ? `openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'").replace(/"/g, "&quot;")}', event)`
+          : (c.url ? `window.open('${c.url}', '_blank')` : "");
         return `
-          <article class="card" ${openAttr} style="${c.url ? 'cursor:pointer' : ''}">
+          <article class="card" style="${c.url ? 'cursor:pointer' : ''}" ${openJs ? `onclick="${openJs}"` : ""}>
             <div class="thumb ${c.type}">
               ${c.thumbnail
                 ? `<img src="${c.thumbnail}" alt="" loading="lazy" referrerpolicy="no-referrer" /><span class="play">▶</span>`
@@ -649,13 +855,15 @@
               <div class="card-top">
                 <span class="name">${v.name}</span>
                 <span>·</span>
-                <span>${c.duration}</span>
-                <span>·</span>
-                <span>${c.ago}</span>
+                <span>${c.ago || c.duration || ""}</span>
                 <span class="badge">${c.signalScore}</span>
               </div>
               <h3 class="card-title">${c.title}</h3>
-              <p class="card-excerpt">${c.description || (c.url ? "Ouvrir le contenu →" : "")}</p>
+              <div class="card-actions" onclick="event.stopPropagation()">
+                ${isYt ? `<button class="act" onclick="openPlayer('${c.url.replace(/'/g, "\\'")}', '${(c.title || "").replace(/'/g, "\\'")}', event)">▶ Lire</button>` : ""}
+                ${c.url ? `<button class="act" onclick="window.open('${c.url}','_blank')">↗ Ouvrir</button>` : ""}
+                <button class="fav-btn ${isFav ? "on" : ""}" title="Favori" onclick="toggleFav('${c.id}', event)">${isFav ? "★" : "☆"}</button>
+              </div>
             </div>
           </article>
         `;
@@ -953,15 +1161,32 @@
               ago: c.ago || "",
               signalScore: c.signalScore || 8,
               url: c.url || "",
-              thumbnail: c.thumbnail || ""
+              thumbnail: c.thumbnail || "",
+              language: c.language || "en"
             }));
-            console.log("[Lumina] Live contents:", CONTENTS.length);
+            if (live.generatedAt) {
+              try {
+                const d = new Date(live.generatedAt);
+                lastUpdated = d.toLocaleString("fr-FR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
+              } catch(e) { lastUpdated = live.generatedAt; }
+            } else if (live.updated || live.meta && live.meta.updated) {
+              lastUpdated = live.updated || live.meta.updated;
+            } else {
+              lastUpdated = new Date().toLocaleString("fr-FR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
+            }
+            console.log("[Lumina] Live contents:", CONTENTS.length, "updated:", lastUpdated);
           }
         }
         if (briefRes.ok) {
           const b = await briefRes.json();
           if (b.items) {
             BRIEFING = b;
+            if (!lastUpdated && b.generatedAt) {
+              try {
+                const d = new Date(b.generatedAt);
+                lastUpdated = d.toLocaleString("fr-FR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
+              } catch(e) {}
+            }
             console.log("[Lumina] Briefing:", b.items.length, "items");
           }
         }
@@ -970,6 +1195,27 @@
       }
       renderFeed();
     }
+
+    // ——— Search & type chips ———
+    document.getElementById("search-input")?.addEventListener("input", (e) => {
+      searchQuery = e.target.value;
+      renderFeed();
+    });
+    document.querySelectorAll("#type-chips .chip").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("#type-chips .chip").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        typeFilter = btn.dataset.type;
+        renderFeed();
+      });
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") document.getElementById("player-modal")?.remove();
+      if (e.key === "/" && e.target.tagName !== "INPUT") {
+        e.preventDefault();
+        document.getElementById("search-input")?.focus();
+      }
+    });
 
     // Init
     loadLiveData();
