@@ -30,7 +30,10 @@
         "x": "https://x.com/karpathy",
         "github": "https://github.com/karpathy"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Éducateur & chercheur en IA",
+      "bioFr": "Ancien directeur de l'IA chez Tesla et membre fondateur d'OpenAI. Produit les contenus pédagogiques from-scratch les plus clairs sur le deep learning et les LLM.",
+      "whyFr": "Meilleure pédagogie technique du moment. Rare combinaison d'expérience frontier et d'excellence pédagogique."
     },
     {
       "id": "dwarkesh-patel",
@@ -56,7 +59,10 @@
         "x": "https://x.com/dwarkesh_sp",
         "podcast": "https://www.dwarkesh.com/podcast"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Animateur – Dwarkesh Podcast",
+      "bioFr": "Réalise les interviews long format les mieux préparées avec les dirigeants des labs frontier et des chercheurs de premier plan.",
+      "whyFr": "Profondeur exceptionnelle, préparation obsessionnelle, accès unique aux décideurs qui construisent les modèles frontier."
     },
     {
       "id": "yann-lecun",
@@ -80,7 +86,10 @@
         "x": "https://x.com/ylecun",
         "website": "https://yann.lecun.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chief AI Scientist – Meta",
+      "bioFr": "Prix Turing. Voix majeure sur les limites du pure scaling, défenseur de la recherche ouverte et d'architectures alternatives.",
+      "whyFr": "L'un des penseurs long terme les plus influents du domaine, avec des positions publiques constantes et high-signal."
     },
     {
       "id": "demis-hassabis",
@@ -102,7 +111,10 @@
         "x": "https://x.com/demishassabis",
         "website": "https://deepmind.google"
       },
-      "active": true
+      "active": true,
+      "roleFr": "CEO – Google DeepMind",
+      "bioFr": "Co-fondateur de DeepMind. Dirige l'un des labos frontier les plus importants, avec un ancrage fort en science et en AGI.",
+      "whyFr": "Perspective unique sur la recherche AGI au sommet d'un lab frontier."
     },
     {
       "id": "dario-amodei",
@@ -124,7 +136,10 @@
         "x": "https://x.com/darioamodei",
         "website": "https://www.anthropic.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "CEO – Anthropic",
+      "bioFr": "CEO d'Anthropic. Voix centrale sur la sécurité des modèles frontier et le scaling responsable.",
+      "whyFr": "Perspective lab frontier orientée safety, rare à ce niveau."
     },
     {
       "id": "swyx-alessio",
@@ -148,7 +163,10 @@
         "x_swyx": "https://x.com/swyx",
         "x_alessio": "https://x.com/AlessioFanelli"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Animateurs – Latent Space",
+      "bioFr": "Couvrent la pratique réelle de l'ingénierie IA, les outils, les agents et le paysage open-source avec une densite technique élevée.",
+      "whyFr": "Meilleure couverture continue de l'ingénierie IA en production."
     },
     {
       "id": "arthur-mensch",
@@ -174,7 +192,10 @@
         "linkedin": "https://www.linkedin.com/in/arthur-mensch",
         "website": "https://mistral.ai"
       },
-      "active": true
+      "active": true,
+      "roleFr": "CEO – Mistral AI",
+      "bioFr": "Co-fondateur de Mistral AI. Voix européenne centrale sur les modèles open-weight et la souveraineté technologique.",
+      "whyFr": "Voix européenne open-weight stratégique."
     },
     {
       "id": "nathan-labenz",
@@ -197,7 +218,10 @@
         "website": "https://www.cognitiverevolution.ai",
         "x": "https://x.com/labenz"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Animateur – The Cognitive Revolution",
+      "bioFr": "Explore ce que les modèles savent vraiment faire, au-delà des benchmarks, avec des invités builders et researchers.",
+      "whyFr": "Excellent signal sur les capacités réelles des modèles versus les annonces."
     },
     {
       "id": "yannic-kilcher",
@@ -220,7 +244,10 @@
         "youtube": "https://www.youtube.com/@YannicKilcher",
         "x": "https://x.com/YannicKilcher"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur & YouTuber IA",
+      "bioFr": "Propose des walkthroughs rigoureux et détaillés des papers de machine learning importants.",
+      "whyFr": "Explications de papers de la plus haute qualité disponible en public."
     },
     {
       "id": "ai-explained",
@@ -242,7 +269,10 @@
       "links": {
         "youtube": "https://www.youtube.com/@aiexplained-official"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Analyste & YouTuber",
+      "bioFr": "Analyses sobres et soignées des nouveaux modèles, benchmarks et affirmations dans l'écosystème IA.",
+      "whyFr": "Commentaire anti-hype, high-signal, très utile pour séparer le signal du bruit."
     },
     {
       "id": "nicolas-guyon",
@@ -268,7 +298,10 @@
         "linktree": "https://linktr.ee/nicoguyon",
         "substack": "https://nicoguyon.substack.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Créateur – Comptoir IA",
+      "bioFr": "Contenu francophone régulier sur les outils IA, l'actualité et les usages concrets.",
+      "whyFr": "Point d'entrée FR accessible et réactif sur l'écosystème IA."
     },
     {
       "id": "ilya-sutskever",
@@ -289,7 +322,10 @@
       "links": {
         "x": "https://x.com/ilyasut"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur · co-fondateur OpenAI",
+      "bioFr": "Co-fondateur d'OpenAI. L'une des figures les plus influentes de la recherche deep learning moderne.",
+      "whyFr": "Signal research historique et positions publiques à fort impact."
     },
     {
       "id": "geoffrey-hinton",
@@ -310,7 +346,10 @@
       "links": {
         "x": "https://x.com/geoffreyhinton"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Pionnier du deep learning",
+      "bioFr": "Pionnier du deep learning. Se concentre désormais sur les risques de l'IA et les implications des systèmes avancés.",
+      "whyFr": "Contributions fondatrices + voix publique de plus en plus importante sur les risques."
     },
     {
       "id": "yoshua-bengio",
@@ -333,7 +372,10 @@
         "website": "https://yoshuabengio.org",
         "x": "https://x.com/Yoshua_Bengio"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Professeur – Mila",
+      "bioFr": "Prix Turing. Voix majeure sur la sécurité de l'IA et le développement responsable.",
+      "whyFr": "Crédibilité technique profonde combinée à un plaidoyer fort pour la sécurité."
     },
     {
       "id": "francois-chollet",
@@ -355,7 +397,10 @@
       "links": {
         "x": "https://x.com/fchollet"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Créateur de Keras · chercheur",
+      "bioFr": "Créateur de Keras. Critique influent de l'approche pure scaling et promoteur de benchmarks d'intelligence plus robustes (ARC).",
+      "whyFr": "Contrepoint intellectuel essentiel au narratif dominant du scaling."
     },
     {
       "id": "thomas-wolf",
@@ -378,7 +423,10 @@
       "links": {
         "x": "https://x.com/Thom_Wolf"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Co-fondateur – Hugging Face",
+      "bioFr": "Figure clé de l'écosystème open-source IA via Hugging Face.",
+      "whyFr": "Voix centrale pour les modèles ouverts et l'infrastructure autour."
     },
     {
       "id": "jeremy-howard",
@@ -400,7 +448,10 @@
         "website": "https://www.fast.ai",
         "x": "https://x.com/jeremyphoward"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Co-fondateur fast.ai",
+      "bioFr": "Rend le deep learning accessible. Approche pratique et anti-élitiste de l'éducation IA.",
+      "whyFr": "Pédagogie pratique exceptionnelle pour builders."
     },
     {
       "id": "simon-willison",
@@ -423,7 +474,10 @@
         "website": "https://simonwillison.net",
         "x": "https://x.com/simonw"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Créateur de Datasette · blogueur",
+      "bioFr": "Explore les LLM par l'expérimentation concrète, les outils et l'ingénierie pragmatique.",
+      "whyFr": "Meilleur signal hands-on pour développeurs qui utilisent vraiment les modèles."
     },
     {
       "id": "3blue1brown",
@@ -445,7 +499,10 @@
         "youtube": "https://www.youtube.com/@3blue1brown",
         "website": "https://www.3blue1brown.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Éducateur – mathématiques & intuition",
+      "bioFr": "Rend les mathématiques et les fondations du deep learning visuellement intuitives, d'une clarté rare.",
+      "whyFr": "Meilleure intuition mathématique pour comprendre les fondations de l'IA moderne."
     },
     {
       "id": "lex-fridman",
@@ -468,7 +525,10 @@
         "x": "https://x.com/lexfridman",
         "website": "https://lexfridman.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Animateur – Lex Fridman Podcast",
+      "bioFr": "Interviews long format avec chercheurs, dirigeants et penseurs sur l'IA, la science et la société.",
+      "whyFr": "Accès large aux figures majeures ; utile malgré un format parfois long."
     },
     {
       "id": "no-priors",
@@ -490,7 +550,10 @@
       "links": {
         "website": "https://nopriors.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Podcast – No Priors",
+      "bioFr": "Podcast sur les startups, labs et tendances IA avec des invités de premier plan.",
+      "whyFr": "Bon pulse ecosystem / business de l'IA."
     },
     {
       "id": "stuart-russell",
@@ -511,7 +574,10 @@
       "links": {
         "website": "https://people.eecs.berkeley.edu/~russell/"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Professeur – UC Berkeley",
+      "bioFr": "Auteur de référence en IA. Plaidoyer majeur pour des systèmes alignés sur les valeurs humaines.",
+      "whyFr": "Référence académique incontournable sur le contrôle de l'IA."
     },
     {
       "id": "ethan-mollick",
@@ -533,7 +599,10 @@
       "links": {
         "x": "https://x.com/emollick"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Professeur – Wharton",
+      "bioFr": "Étudie l'adoption réelle de l'IA dans le travail et l'éducation, avec des expériences concrètes.",
+      "whyFr": "Pont rare entre recherche et usage professionnel réel."
     },
     {
       "id": "hamel-husain",
@@ -555,7 +624,10 @@
       "links": {
         "x": "https://x.com/HamelHusain"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Ingénieur ML · éducateur",
+      "bioFr": "Contenu pratique sur l'évaluation, le fine-tuning et les systèmes LLM en production.",
+      "whyFr": "Signal engineering très actionnable."
     },
     {
       "id": "paul-christiano",
@@ -577,7 +649,10 @@
         "x": "https://x.com/paul_christiano",
         "website": "https://ai-alignment.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur – alignment",
+      "bioFr": "Figure centrale de la recherche en alignement et des approches d'apprentissage à partir de préférences humaines.",
+      "whyFr": "Référence alignment technique."
     },
     {
       "id": "neel-nanda",
@@ -599,7 +674,10 @@
         "x": "https://x.com/NeelNanda5",
         "website": "https://www.neelnanda.io"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur – interprétabilité",
+      "bioFr": "Travaux majeurs en mechanistic interpretability sur les transformers.",
+      "whyFr": "Meilleure porte d'entrée publique vers l'interprétabilité moderne."
     },
     {
       "id": "dan-hendrycks",
@@ -620,7 +698,10 @@
       "links": {
         "x": "https://x.com/DanHendrycks"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Directeur – Center for AI Safety",
+      "bioFr": "Benchmarks, risques catastrophiques et politique de sécurité IA.",
+      "whyFr": "Signal safety institutionnel et technique."
     },
     {
       "id": "chris-olah",
@@ -642,7 +723,10 @@
         "x": "https://x.com/ch402",
         "website": "https://distill.pub"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur – interprétabilité",
+      "bioFr": "Pionnier de l'interprétabilité des réseaux de neurones et des circuits dans les modèles.",
+      "whyFr": "Travail fondateur en interprétabilité."
     },
     {
       "id": "andrew-ng",
@@ -664,7 +748,10 @@
         "x": "https://x.com/AndrewYNg",
         "website": "https://www.andrewng.org"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Éducateur · entrepreneur IA",
+      "bioFr": "Cours et initiatives qui ont formé une génération de practitioners ML.",
+      "whyFr": "Pédagogie et diffusion à très grande échelle."
     },
     {
       "id": "fei-fei-li",
@@ -686,7 +773,10 @@
       "links": {
         "x": "https://x.com/drfeifei"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Professeure – Stanford",
+      "bioFr": "Figure majeure de la vision par ordinateur et de l'IA centrée sur l'humain.",
+      "whyFr": "Leadership research + human-centered AI."
     },
     {
       "id": "guillaume-lample",
@@ -707,7 +797,10 @@
       "bio": "Co-founder of Mistral AI. Previously at Meta FAIR, major contributions to open models.",
       "why": "Key technical figure behind one of Europe’s most important AI labs.",
       "links": {},
-      "active": true
+      "active": true,
+      "roleFr": "Co-fondateur – Mistral AI",
+      "bioFr": "Chercheur et co-fondateur de Mistral. Contributions majeures en NLP et modèles open-weight.",
+      "whyFr": "Signal technique européen de premier plan."
     },
     {
       "id": "jim-fan",
@@ -729,7 +822,10 @@
       "links": {
         "x": "https://x.com/DrJimFan"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Chercheur – NVIDIA / agents",
+      "bioFr": "Travaux sur les agents incarnés et les fondations multimodales.",
+      "whyFr": "Signal agents / embodiment de haut niveau."
     },
     {
       "id": "riley-goodside",
@@ -750,7 +846,10 @@
       "links": {
         "x": "https://x.com/goodside"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Prompt engineer · analyste",
+      "bioFr": "Exploration fine du comportement des modèles via le prompting et l'analyse empirique.",
+      "whyFr": "Observation fine, souvent en avance sur les narratifs marketing."
     },
     {
       "id": "two-minute-papers",
@@ -772,7 +871,10 @@
         "youtube": "https://www.youtube.com/@TwoMinutePapers",
         "x": "https://x.com/TwoMinutePapers"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Vulgarisateur research",
+      "bioFr": "Rend les papers de pointe accessibles en vidéos courtes et enthousiastes.",
+      "whyFr": "Excellent pouls sur la nouvelle research, très accessible."
     },
     {
       "id": "laurence-devillers",
@@ -792,7 +894,10 @@
       "bio": "Leading French voice on AI ethics, affective computing and societal impact.",
       "why": "Important academic and public voice on the ethical dimensions of AI in the French ecosystem.",
       "links": {},
-      "active": true
+      "active": true,
+      "roleFr": "Professeure – éthique & IA",
+      "bioFr": "Spécialiste de l'éthique de l'IA et des interactions humain-machine en France.",
+      "whyFr": "Voix académique FR de référence sur l'éthique de l'IA."
     },
     {
       "id": "zvi-mowshowitz",
@@ -814,7 +919,10 @@
         "x": "https://x.com/TheZvi",
         "website": "https://thezvi.wordpress.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Analyste – AI & rationalité",
+      "bioFr": "Analyses denses sur les développements IA, les risques et les dynamiques d'acteurs.",
+      "whyFr": "Synthèses longues et exigeantes, utiles pour le suivi stratégique."
     },
     {
       "id": "jack-clark",
@@ -836,7 +944,10 @@
       "links": {
         "x": "https://x.com/jackclarkSF"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Co-fondateur – Anthropic",
+      "bioFr": "Ancien d'OpenAI. Écrit Import AI ; perspective policy et ecosystem.",
+      "whyFr": "Veille policy / industrie de grande qualité."
     },
     {
       "id": "helen-toner",
@@ -857,7 +968,10 @@
       "links": {
         "x": "https://x.com/hlntnr"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Directrice – CSET / gouvernance",
+      "bioFr": "Expertise en gouvernance de l'IA, policy et suivi des capacités.",
+      "whyFr": "Référence gouvernance et policy IA."
     },
     {
       "id": "sam-charrington",
@@ -880,7 +994,10 @@
         "website": "https://twimlai.com",
         "x": "https://x.com/samcharrington"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Animateur – This Week in ML",
+      "bioFr": "Podcast long format technique avec researchers et builders ML.",
+      "whyFr": "Archive vivante d'interviews techniques."
     },
     {
       "id": "sarah-guo",
@@ -902,7 +1019,10 @@
       "links": {
         "x": "https://x.com/saranormous"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Investisseuse – Conviction",
+      "bioFr": "Suivi de l'écosystème startups IA et des tendances d'investissement.",
+      "whyFr": "Angle capital / marché sur l'IA."
     },
     {
       "id": "elad-gil",
@@ -924,7 +1044,10 @@
       "links": {
         "x": "https://x.com/eladgil"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Investisseur & opérateur",
+      "bioFr": "Perspectives sur les startups tech et l'infrastructure IA.",
+      "whyFr": "Lecture ecosystem par un opérateur expérimenté."
     },
     {
       "id": "luc-julia",
@@ -943,7 +1066,10 @@
       "bio": "Well-known French voice on AI, author and public communicator.",
       "why": "Accessible and established voice in the French public conversation on AI.",
       "links": {},
-      "active": true
+      "active": true,
+      "roleFr": "Scientifique & auteur",
+      "bioFr": "Scientifique connu pour des positions critiques et pédagogiques sur l'IA.",
+      "whyFr": "Perspective FR accessible, utile pour le débat public."
     },
     {
       "id": "joelle-pineau",
@@ -963,7 +1089,10 @@
       "bio": "Leading researcher in reinforcement learning and AI systems. Strong academic and industry presence.",
       "why": "High technical credibility with clear public communication.",
       "links": {},
-      "active": true
+      "active": true,
+      "roleFr": "Chercheuse – FAIR / McGill",
+      "bioFr": "Chercheuse de premier plan en apprentissage par renforcement et IA responsable.",
+      "whyFr": "Crédibilité research + leadership sur l'IA responsable."
     },
     {
       "id": "sebastian-raschka",
@@ -985,7 +1114,10 @@
         "x": "https://x.com/rasbt",
         "website": "https://sebastianraschka.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Éducateur ML · auteur",
+      "bioFr": "Livres et cours sur le machine learning et les LLM, très pédagogiques.",
+      "whyFr": "Ressources éducatives techniques de grande clarté."
     },
     {
       "id": "mlst",
@@ -1008,7 +1140,10 @@
         "youtube": "https://www.youtube.com/@MachineLearningStreetTalk",
         "x": "https://x.com/MLStreetTalk"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Machine Learning Street Talk",
+      "bioFr": "Discussions techniques denses entre researchers et practitioners sur les avancées ML.",
+      "whyFr": "Profondeur technique rare dans le format podcast."
     },
     {
       "id": "huggingface",
@@ -1031,7 +1166,10 @@
         "youtube": "https://www.youtube.com/@HuggingFace",
         "website": "https://huggingface.co"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Plateforme open-source IA",
+      "bioFr": "Organisation derrière la plateforme Hugging Face : modèles, datasets, outils open-source.",
+      "whyFr": "Hub central de l'écosystème open-source IA."
     },
     {
       "id": "ludovic-salenne",
@@ -1053,7 +1191,10 @@
       "links": {
         "youtube": "https://www.youtube.com/@LudovicSalenne"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Créateur de contenu IA (FR)",
+      "bioFr": "Vulgarisation et tests d'outils IA pour un public francophone.",
+      "whyFr": "Réactivité FR sur les outils IA du quotidien."
     },
     {
       "id": "ai-epiphany",
@@ -1075,7 +1216,10 @@
       "links": {
         "youtube": "https://www.youtube.com/@TheAIEpiphany"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Ingénierie IA & agents",
+      "bioFr": "Deep dives techniques sur les agents, l'infra et les systèmes IA.",
+      "whyFr": "Deep dives techniques agents & research."
     },
     {
       "id": "thinkerview",
@@ -1098,7 +1242,10 @@
         "youtube": "https://www.youtube.com/@thinkerview",
         "website": "https://thinkerview.com"
       },
-      "active": true
+      "active": true,
+      "roleFr": "Interviews long format (FR)",
+      "bioFr": "Interviews longues en français avec experts, chercheurs et décideurs. Format exigeant, peu de filtre média.",
+      "whyFr": "Meilleur format long FR pour entendre des experts sans format court hype. Filtrer les épisodes IA/tech."
     }
   ]
 }
