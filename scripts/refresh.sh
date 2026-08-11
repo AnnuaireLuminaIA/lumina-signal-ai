@@ -171,6 +171,32 @@ briefing = {
 with open(ROOT / "data/briefing-latest.json", "w") as f:
     json.dump(briefing, f, indent=2, ensure_ascii=False)
 print(f"  {len(top)} signaux → data/briefing-latest.json")
+
+# Append to briefings archive (keep 14)
+import json
+from pathlib import Path
+from datetime import datetime, timezone
+ap = Path("data/briefings-archive.json")
+if ap.exists():
+    arch = json.load(open(ap))
+else:
+    arch = {"briefings": []}
+dates = {b.get("date") for b in arch["briefings"]}
+if briefing.get("date") not in dates:
+    arch["briefings"].insert(0, {
+        "date": briefing.get("date"),
+        "generatedAt": briefing.get("generatedAt"),
+        "summary": briefing.get("summary"),
+        "editorial": briefing.get("editorial"),
+        "editorialEn": briefing.get("editorialEn"),
+        "items": briefing.get("items", [])[:7],
+        "stats": briefing.get("stats"),
+    })
+arch["briefings"] = arch["briefings"][:14]
+arch["updated"] = datetime.now(timezone.utc).isoformat()
+json.dump(arch, open(ap, "w"), indent=2, ensure_ascii=False)
+print(f"  archive: {len(arch['briefings'])} days")
+
 PY2
 echo "✓ Full refresh done."
 
