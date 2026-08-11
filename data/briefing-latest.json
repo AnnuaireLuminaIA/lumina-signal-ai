@@ -1,8 +1,8 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T09:29:30.153250+00:00",
+  "generatedAt": "2026-08-11T10:35:14.533791+00:00",
   "title": "Briefing du jour",
-  "summary": "70 contenus analysés · top 7 signaux diversifiés",
+  "summary": "75 contenus · top 7 signaux",
   "items": [
     {
       "rank": 1,
@@ -43,7 +43,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 15h",
+      "ago": "Il y a 16h",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."
@@ -83,9 +83,9 @@
     }
   ],
   "stats": {
-    "totalContents": 70,
-    "sources": 14,
-    "frCount": 10,
+    "totalContents": 75,
+    "sources": 15,
+    "frCount": 15,
     "enCount": 60
   }
 }

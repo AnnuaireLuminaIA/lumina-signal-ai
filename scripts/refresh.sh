@@ -42,7 +42,7 @@ normalized = []
 for item in raw["items"]:
     voice = voices.get(item["voiceId"], {})
     dt = parse_date(item.get("publishedAt", ""))
-    lang = "fr" if item["voiceId"] in ("nicolas-guyon", "ludovic-salenne") else "en"
+    lang = "fr" if item["voiceId"] in ("nicolas-guyon", "ludovic-salenne", "thinkerview") else "en"
     normalized.append({
         "id": f"{item['voiceId']}-{abs(hash(item.get('url', item['title']))) % 10**8}",
         "voiceId": item["voiceId"],

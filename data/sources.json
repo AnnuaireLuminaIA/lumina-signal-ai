@@ -121,6 +121,16 @@
       "channelId": "UCj8shE7aIn4Yawwbo2FceCQ",
       "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCj8shE7aIn4Yawwbo2FceCQ",
       "priority": 2
+    },
+    {
+      "voiceId": "thinkerview",
+      "name": "Thinkerview",
+      "type": "youtube",
+      "channelId": "UCQgWpmt02UtJkyO32HGUASQ",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQgWpmt02UtJkyO32HGUASQ",
+      "priority": 2,
+      "language": "fr",
+      "notes": "Long-form FR interviews — high signal when AI/tech guests"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updated": "2026-08-11T10:08:16.398619+00:00",
-    "count": 70
+    "updated": "2026-08-11T10:35:13.851246+00:00",
+    "count": 75
   },
   "contents": [
     {
-      "id": "mlst-90726587",
+      "id": "mlst-43100806",
       "voiceId": "mlst",
       "type": "video",
       "title": "Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart",
@@ -21,7 +21,7 @@
       "isNew": true
     },
     {
-      "id": "nathan-labenz-21026271",
+      "id": "nathan-labenz-70906292",
       "voiceId": "nathan-labenz",
       "type": "video",
       "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
@@ -37,7 +37,7 @@
       "isNew": true
     },
     {
-      "id": "huggingface-80033188",
+      "id": "huggingface-98909468",
       "voiceId": "huggingface",
       "type": "video",
       "title": "Prompt Caching Explained: Stop Overpaying for AI Agents",
@@ -53,7 +53,7 @@
       "isNew": true
     },
     {
-      "id": "nicolas-guyon-23109983",
+      "id": "nicolas-guyon-15558519",
       "voiceId": "nicolas-guyon",
       "type": "video",
       "title": "🤯 Deux milliardaires paient en secret pour nous faire sortir de la Matrice",
@@ -69,7 +69,7 @@
       "isNew": true
     },
     {
-      "id": "dwarkesh-patel-3706275",
+      "id": "dwarkesh-patel-29893898",
       "voiceId": "dwarkesh-patel",
       "type": "video",
       "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
@@ -85,7 +85,7 @@
       "isNew": true
     },
     {
-      "id": "nathan-labenz-19005990",
+      "id": "nathan-labenz-98530591",
       "voiceId": "nathan-labenz",
       "type": "video",
       "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
@@ -101,7 +101,7 @@
       "isNew": true
     },
     {
-      "id": "huggingface-40406529",
+      "id": "huggingface-23893955",
       "voiceId": "huggingface",
       "type": "video",
       "title": "How AI agents reproduced ICML 2026  papers",
@@ -117,7 +117,7 @@
       "isNew": true
     },
     {
-      "id": "dwarkesh-patel-84973861",
+      "id": "dwarkesh-patel-44269519",
       "voiceId": "dwarkesh-patel",
       "type": "video",
       "title": "AlphaZero for Mathematics - Grant Sanderson",
@@ -133,7 +133,7 @@
       "isNew": true
     },
     {
-      "id": "dwarkesh-patel-4071828",
+      "id": "dwarkesh-patel-53183260",
       "voiceId": "dwarkesh-patel",
       "type": "video",
       "title": "8 Predictions for the Era of Continual Learning",
@@ -149,7 +149,7 @@
       "isNew": true
     },
     {
-      "id": "two-minute-papers-24056013",
+      "id": "two-minute-papers-41226531",
       "voiceId": "two-minute-papers",
       "type": "video",
       "title": "DeepMind Just Changed How AI Sees The World",
@@ -165,7 +165,7 @@
       "isNew": true
     },
     {
-      "id": "dwarkesh-patel-90323678",
+      "id": "dwarkesh-patel-97548113",
       "voiceId": "dwarkesh-patel",
       "type": "video",
       "title": "The Skill Great Teachers Have That LLMs Completely Lack - Grant Sanderson",
@@ -181,7 +181,7 @@
       "isNew": true
     },
     {
-      "id": "ai-explained-86943084",
+      "id": "ai-explained-40414522",
       "voiceId": "ai-explained",
       "type": "video",
       "title": "AI is getting a little out of control",
@@ -197,7 +197,7 @@
       "isNew": true
     },
     {
-      "id": "nathan-labenz-37821152",
+      "id": "nathan-labenz-13337950",
       "voiceId": "nathan-labenz",
       "type": "video",
       "title": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...",
@@ -213,7 +213,7 @@
       "isNew": true
     },
     {
-      "id": "two-minute-papers-12346645",
+      "id": "two-minute-papers-47944562",
       "voiceId": "two-minute-papers",
       "type": "video",
       "title": "The Billion Dollar AI Race Just Broke",
@@ -229,7 +229,7 @@
       "isNew": true
     },
     {
-      "id": "dwarkesh-patel-38269035",
+      "id": "dwarkesh-patel-13112490",
       "voiceId": "dwarkesh-patel",
       "type": "video",
       "title": "The Real Advantage AI Has Over Human Geniuses - Grant Sanderson",
@@ -245,7 +245,7 @@
       "isNew": true
     },
     {
-      "id": "huggingface-70212199",
+      "id": "huggingface-6475914",
       "voiceId": "huggingface",
       "type": "video",
       "title": "Hugging Face Journal Club: Scaling Laws for Pre-training & RL",
@@ -261,7 +261,7 @@
       "isNew": true
     },
     {
-      "id": "nicolas-guyon-81457540",
+      "id": "nicolas-guyon-73279967",
       "voiceId": "nicolas-guyon",
       "type": "video",
       "title": "Test des capacités de Seedance 2.5, le nouveau modèle vidéo de ByteDance, via Dreamina : générer mon",
@@ -277,7 +277,7 @@
       "isNew": true
     },
     {
-      "id": "two-minute-papers-62744424",
+      "id": "two-minute-papers-76365557",
       "voiceId": "two-minute-papers",
       "type": "video",
       "title": "Another DeepSeek Moment Has Arrived",
@@ -293,7 +293,7 @@
       "isNew": true
     },
     {
-      "id": "nathan-labenz-15466168",
+      "id": "nathan-labenz-13512156",
       "voiceId": "nathan-labenz",
       "type": "video",
       "title": "Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics",
@@ -309,7 +309,7 @@
       "isNew": true
     },
     {
-      "id": "two-minute-papers-91173934",
+      "id": "two-minute-papers-1059237",
       "voiceId": "two-minute-papers",
       "type": "video",
       "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
@@ -325,7 +325,7 @@
       "isNew": true
     },
     {
-      "id": "mlst-92735934",
+      "id": "mlst-60362803",
       "voiceId": "mlst",
       "type": "video",
       "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
@@ -341,7 +341,7 @@
       "isNew": true
     },
     {
-      "id": "huggingface-24555905",
+      "id": "huggingface-86085388",
       "voiceId": "huggingface",
       "type": "video",
       "title": "Tau Crash Course: The Python Port of Pi",
@@ -357,7 +357,7 @@
       "isNew": true
     },
     {
-      "id": "nathan-labenz-93320314",
+      "id": "nathan-labenz-65396213",
       "voiceId": "nathan-labenz",
       "type": "video",
       "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
@@ -373,7 +373,7 @@
       "isNew": true
     },
     {
-      "id": "nicolas-guyon-26208267",
+      "id": "nicolas-guyon-66365601",
       "voiceId": "nicolas-guyon",
       "type": "video",
       "title": "🚜 Des pelleteuses SANS CHAUFFEUR construisent les data centers de l'IA ! — Vincent Gonguet",
@@ -389,7 +389,23 @@
       "isNew": true
     },
     {
-      "id": "huggingface-95932879",
+      "id": "thinkerview-42446777",
+      "voiceId": "thinkerview",
+      "type": "video",
+      "title": "Bruno Le Maire Sans Filtre [EN DIRECT]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=0QSlS8ifBbo",
+      "duration": "—",
+      "ago": "Il y a 1 sem.",
+      "publishedAt": "2026-07-29T19:01:54+00:00",
+      "platform": "youtube",
+      "signalScore": 8.2,
+      "topics": [],
+      "language": "fr",
+      "isNew": true
+    },
+    {
+      "id": "huggingface-29019553",
       "voiceId": "huggingface",
       "type": "video",
       "title": "Hugging Face Journal Club: Kimi K3",
@@ -405,7 +421,7 @@
       "isNew": true
     },
     {
-      "id": "two-minute-papers-15705719",
+      "id": "two-minute-papers-90116329",
       "voiceId": "two-minute-papers",
       "type": "video",
       "title": "Kimi K3 Just Broke The Economics Of AI",
@@ -421,7 +437,7 @@
       "isNew": true
     },
     {
-      "id": "lex-fridman-95044325",
+      "id": "lex-fridman-36295395",
       "voiceId": "lex-fridman",
       "type": "video",
       "title": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499",
@@ -437,7 +453,7 @@
       "isNew": true
     },
     {
-      "id": "3blue1brown-37644833",
+      "id": "3blue1brown-83367597",
       "voiceId": "3blue1brown",
       "type": "video",
       "title": "The 64 sugar cubes puzzle",
@@ -453,7 +469,7 @@
       "isNew": true
     },
     {
-      "id": "nicolas-guyon-59998514",
+      "id": "nicolas-guyon-65582390",
       "voiceId": "nicolas-guyon",
       "type": "video",
       "title": "Plage maintenant, agents à la rentrée 🏖️🤖 (Claudio #4)",
@@ -469,7 +485,7 @@
       "isNew": true
     },
     {
-      "id": "ai-explained-54039873",
+      "id": "ai-explained-21414737",
       "voiceId": "ai-explained",
       "type": "video",
       "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
@@ -485,7 +501,7 @@
       "isNew": true
     },
     {
-      "id": "3blue1brown-89831079",
+      "id": "3blue1brown-66594107",
       "voiceId": "3blue1brown",
       "type": "video",
       "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
@@ -501,7 +517,7 @@
       "isNew": true
     },
     {
-      "id": "nicolas-guyon-84435335",
+      "id": "nicolas-guyon-94180245",
       "voiceId": "nicolas-guyon",
       "type": "video",
       "title": "« ARRÊTEZ DE RECRUTER DES HUMAINS » 🤖 La pub qui s'affiche partout à San Francisco.",
@@ -517,7 +533,7 @@
       "isNew": true
     },
     {
-      "id": "mlst-93075686",
+      "id": "mlst-42971843",
       "voiceId": "mlst",
       "type": "video",
       "title": "Watching America Run Away With AI - Alistair Pullen (Cosine AI)",
@@ -533,7 +549,7 @@
       "isNew": true
     },
     {
-      "id": "ai-explained-88084424",
+      "id": "ai-explained-52890872",
       "voiceId": "ai-explained",
       "type": "video",
       "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
@@ -549,7 +565,7 @@
       "isNew": true
     },
     {
-      "id": "ludovic-salenne-97293086",
+      "id": "ludovic-salenne-49039657",
       "voiceId": "ludovic-salenne",
       "type": "video",
       "title": "Le nouveau ChatGPT est DISPO : voici tout ce qu’il peut faire.",
@@ -561,11 +577,27 @@
       "platform": "youtube",
       "signalScore": 7.8,
       "topics": [],
-      "language": "en",
+      "language": "fr",
       "isNew": true
     },
     {
-      "id": "ai-explained-66957670",
+      "id": "thinkerview-53194995",
+      "voiceId": "thinkerview",
+      "type": "video",
+      "title": "Le Jour d'Après: la Révolution des Octets - Bluetouff, Alexis Roussel et Caroline Zorn [EN DIRECT]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=IxivZdX4wmQ",
+      "duration": "—",
+      "ago": "Il y a 1 mois",
+      "publishedAt": "2026-07-06T20:20:35+00:00",
+      "platform": "youtube",
+      "signalScore": 8.2,
+      "topics": [],
+      "language": "fr",
+      "isNew": true
+    },
+    {
+      "id": "ai-explained-92436518",
       "voiceId": "ai-explained",
       "type": "video",
       "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
@@ -581,7 +613,23 @@
       "isNew": true
     },
     {
-      "id": "ludovic-salenne-26785851",
+      "id": "thinkerview-20261327",
+      "voiceId": "thinkerview",
+      "type": "video",
+      "title": "L'Euro et l’UE sont bientôt morts ? Préparez-vous ! Thomas Grjebine et Nicolas Meilhan [EN DIRECT]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=f9_i3mYLFpA",
+      "duration": "—",
+      "ago": "Il y a 1 mois",
+      "publishedAt": "2026-07-01T20:21:42+00:00",
+      "platform": "youtube",
+      "signalScore": 8.2,
+      "topics": [],
+      "language": "fr",
+      "isNew": true
+    },
+    {
+      "id": "ludovic-salenne-55288234",
       "voiceId": "ludovic-salenne",
       "type": "video",
       "title": "Claude Sonnet 5 : l'IA qui fait tout... sans cramer vos tokens.",
@@ -593,11 +641,11 @@
       "platform": "youtube",
       "signalScore": 7.8,
       "topics": [],
-      "language": "en",
+      "language": "fr",
       "isNew": true
     },
     {
-      "id": "mlst-11639823",
+      "id": "mlst-94627073",
       "voiceId": "mlst",
       "type": "video",
       "title": "ARC-AGI-3 winning team - Millennia of minds, compressed into words.",
@@ -613,7 +661,7 @@
       "isNew": true
     },
     {
-      "id": "lex-fridman-56618584",
+      "id": "lex-fridman-4799042",
       "voiceId": "lex-fridman",
       "type": "video",
       "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
@@ -629,7 +677,7 @@
       "isNew": true
     },
     {
-      "id": "mlst-8699081",
+      "id": "mlst-92947501",
       "voiceId": "mlst",
       "type": "video",
       "title": "The Thermodynamic AI Chip · Thomas Ahle",
@@ -645,7 +693,7 @@
       "isNew": true
     },
     {
-      "id": "ludovic-salenne-44168856",
+      "id": "ludovic-salenne-70579033",
       "voiceId": "ludovic-salenne",
       "type": "video",
       "title": "Les 2 seuls VRAIS BUSINESS IA à lancer en 2026",
@@ -657,11 +705,11 @@
       "platform": "youtube",
       "signalScore": 7.8,
       "topics": [],
-      "language": "en",
+      "language": "fr",
       "isNew": true
     },
     {
-      "id": "ludovic-salenne-11385273",
+      "id": "ludovic-salenne-64858184",
       "voiceId": "ludovic-salenne",
       "type": "video",
       "title": "Claude IA : le tutoriel facile pour débutant",
@@ -673,11 +721,11 @@
       "platform": "youtube",
       "signalScore": 7.8,
       "topics": [],
-      "language": "en",
+      "language": "fr",
       "isNew": true
     },
     {
-      "id": "ludovic-salenne-24393019",
+      "id": "ludovic-salenne-50911775",
       "voiceId": "ludovic-salenne",
       "type": "video",
       "title": "Actus IA : Anthropic et OpenAI SOUS PRESSION !",
@@ -689,11 +737,27 @@
       "platform": "youtube",
       "signalScore": 7.8,
       "topics": [],
-      "language": "en",
+      "language": "fr",
       "isNew": true
     },
     {
-      "id": "3blue1brown-64456118",
+      "id": "thinkerview-13959773",
+      "voiceId": "thinkerview",
+      "type": "video",
+      "title": "Fin définitive de l'énergie bon marché ? Francis Perrin [EN DIRECT]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=KK09dYN-YtI",
+      "duration": "—",
+      "ago": "Il y a 1 mois",
+      "publishedAt": "2026-06-16T20:07:18+00:00",
+      "platform": "youtube",
+      "signalScore": 8.2,
+      "topics": [],
+      "language": "fr",
+      "isNew": true
+    },
+    {
+      "id": "3blue1brown-89953907",
       "voiceId": "3blue1brown",
       "type": "video",
       "title": "100 random chords, how many intersections?",
@@ -709,7 +773,23 @@
       "isNew": true
     },
     {
-      "id": "ai-explained-63099584",
+      "id": "thinkerview-86148403",
+      "voiceId": "thinkerview",
+      "type": "video",
+      "title": "I.A. : L'humanité va-t-elle survivre ? Gilles Babinet [EN DIRECT]",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=U-YfMAhMB44",
+      "duration": "—",
+      "ago": "Il y a 1 mois",
+      "publishedAt": "2026-06-16T16:13:24+00:00",
+      "platform": "youtube",
+      "signalScore": 8.2,
+      "topics": [],
+      "language": "fr",
+      "isNew": true
+    },
+    {
+      "id": "ai-explained-79935592",
       "voiceId": "ai-explained",
       "type": "video",
       "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
@@ -725,7 +805,7 @@
       "isNew": true
     },
     {
-      "id": "3blue1brown-75435543",
+      "id": "3blue1brown-2062780",
       "voiceId": "3blue1brown",
       "type": "video",
       "title": "Measuring the entropy of English",
@@ -741,7 +821,7 @@
       "isNew": true
     },
     {
-      "id": "3blue1brown-59189700",
+      "id": "3blue1brown-21287068",
       "voiceId": "3blue1brown",
       "type": "video",
       "title": "What's the perfect encoding? How do you know?",
@@ -757,7 +837,7 @@
       "isNew": true
     },
     {
-      "id": "lex-fridman-18737249",
+      "id": "lex-fridman-25561550",
       "voiceId": "lex-fridman",
       "type": "video",
       "title": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
@@ -773,7 +853,7 @@
       "isNew": true
     },
     {
-      "id": "lex-fridman-87772366",
+      "id": "lex-fridman-77213428",
       "voiceId": "lex-fridman",
       "type": "video",
       "title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
@@ -789,7 +869,7 @@
       "isNew": true
     },
     {
-      "id": "lex-fridman-54620921",
+      "id": "lex-fridman-91814569",
       "voiceId": "lex-fridman",
       "type": "video",
       "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
@@ -805,7 +885,7 @@
       "isNew": true
     },
     {
-      "id": "yannic-kilcher-28485464",
+      "id": "yannic-kilcher-16728478",
       "voiceId": "yannic-kilcher",
       "type": "video",
       "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
@@ -821,7 +901,7 @@
       "isNew": true
     },
     {
-      "id": "yannic-kilcher-2980919",
+      "id": "yannic-kilcher-28751846",
       "voiceId": "yannic-kilcher",
       "type": "video",
       "title": "Traditional X-Mas Stream",
@@ -837,7 +917,7 @@
       "isNew": true
     },
     {
-      "id": "yannic-kilcher-41080149",
+      "id": "yannic-kilcher-32516197",
       "voiceId": "yannic-kilcher",
       "type": "video",
       "title": "Traditional Holiday Live Stream",
@@ -853,7 +933,7 @@
       "isNew": true
     },
     {
-      "id": "yannic-kilcher-20016291",
+      "id": "yannic-kilcher-2394625",
       "voiceId": "yannic-kilcher",
       "type": "video",
       "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
@@ -869,7 +949,7 @@
       "isNew": true
     },
     {
-      "id": "yannic-kilcher-18915739",
+      "id": "yannic-kilcher-28275803",
       "voiceId": "yannic-kilcher",
       "type": "video",
       "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
@@ -885,7 +965,7 @@
       "isNew": true
     },
     {
-      "id": "ai-epiphany-1807782",
+      "id": "ai-epiphany-20043735",
       "voiceId": "ai-epiphany",
       "type": "video",
       "title": "Archie: an engineering AGI for Dyson Spheres | P-1 AI | $23 million seed round",
@@ -901,7 +981,7 @@
       "isNew": true
     },
     {
-      "id": "andrej-karpathy-45942381",
+      "id": "andrej-karpathy-16310038",
       "voiceId": "andrej-karpathy",
       "type": "video",
       "title": "How I use LLMs",
@@ -917,7 +997,7 @@
       "isNew": true
     },
     {
-      "id": "andrej-karpathy-19582935",
+      "id": "andrej-karpathy-95655578",
       "voiceId": "andrej-karpathy",
       "type": "video",
       "title": "Deep Dive into LLMs like ChatGPT",
@@ -933,7 +1013,7 @@
       "isNew": true
     },
     {
-      "id": "ai-epiphany-17941080",
+      "id": "ai-epiphany-67748201",
       "voiceId": "ai-epiphany",
       "type": "video",
       "title": "Build AI Agents using Integrail (Halloween special)",
@@ -949,7 +1029,7 @@
       "isNew": true
     },
     {
-      "id": "ai-epiphany-9916737",
+      "id": "ai-epiphany-2278970",
       "voiceId": "ai-epiphany",
       "type": "video",
       "title": "Cracked Engineers - Find Tech Jobs / Hire Tech Talent",
@@ -965,7 +1045,7 @@
       "isNew": true
     },
     {
-      "id": "ai-epiphany-98333175",
+      "id": "ai-epiphany-54129251",
       "voiceId": "ai-epiphany",
       "type": "video",
       "title": "Imbue - training a 70B model from scratch! (w/ Bowei - head of infra)",
@@ -981,7 +1061,7 @@
       "isNew": true
     },
     {
-      "id": "ai-epiphany-58413952",
+      "id": "ai-epiphany-66675483",
       "voiceId": "ai-epiphany",
       "type": "video",
       "title": "LLaMA 3 Deep Dive! (Thomas Scialom - Meta)",
@@ -997,7 +1077,7 @@
       "isNew": true
     },
     {
-      "id": "andrej-karpathy-78467770",
+      "id": "andrej-karpathy-14172789",
       "voiceId": "andrej-karpathy",
       "type": "video",
       "title": "Let's reproduce GPT-2 (124M)",
@@ -1013,7 +1093,7 @@
       "isNew": true
     },
     {
-      "id": "andrej-karpathy-28663869",
+      "id": "andrej-karpathy-76941573",
       "voiceId": "andrej-karpathy",
       "type": "video",
       "title": "Let's build the GPT Tokenizer",
@@ -1029,7 +1109,7 @@
       "isNew": true
     },
     {
-      "id": "andrej-karpathy-74491983",
+      "id": "andrej-karpathy-59189476",
       "voiceId": "andrej-karpathy",
       "type": "video",
       "title": "[1hr Talk] Intro to Large Language Models",
@@ -1045,7 +1125,7 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-50912008",
+      "id": "swyx-alessio-12657527",
       "voiceId": "swyx-alessio",
       "type": "podcast",
       "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
@@ -1061,7 +1141,7 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-55562360",
+      "id": "swyx-alessio-82598998",
       "voiceId": "swyx-alessio",
       "type": "podcast",
       "title": "[AINews] Zawinski's Law of MultiAgents",
@@ -1077,7 +1157,7 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-88755108",
+      "id": "swyx-alessio-33386182",
       "voiceId": "swyx-alessio",
       "type": "podcast",
       "title": "[AINews] AMD buys Taalas",
@@ -1093,7 +1173,7 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-35245665",
+      "id": "swyx-alessio-95573239",
       "voiceId": "swyx-alessio",
       "type": "podcast",
       "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
@@ -1109,7 +1189,7 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-17953127",
+      "id": "swyx-alessio-17043265",
       "voiceId": "swyx-alessio",
       "type": "podcast",
       "title": "[AINews] Megakernels are so dead and so back",

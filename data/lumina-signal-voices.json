@@ -1076,6 +1076,29 @@
         "youtube": "https://www.youtube.com/@TheAIEpiphany"
       },
       "active": true
+    },
+    {
+      "id": "thinkerview",
+      "name": "Thinkerview",
+      "role": "Long-form interview (FR)",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Podcast",
+        "French",
+        "Research"
+      ],
+      "bio": "Interviews longues en français avec des experts, chercheurs et décideurs. Format exigeant, peu de filtre média.",
+      "why": "Meilleur format long FR pour entendre des experts sans format court hype. Filtrer les épisodes IA/tech.",
+      "links": {
+        "youtube": "https://www.youtube.com/@thinkerview",
+        "website": "https://thinkerview.com"
+      },
+      "active": true
     }
   ]
 }
