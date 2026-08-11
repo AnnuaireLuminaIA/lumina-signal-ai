@@ -157,6 +157,15 @@
       "rss": "https://lilianweng.github.io/index.xml",
       "priority": 2,
       "language": "en"
+    },
+    {
+      "voiceId": "huggingface",
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "rss": "https://huggingface.co/blog/feed.xml",
+      "priority": 2,
+      "language": "en",
+      "notes": "Official HF blog (often FR authors too)"
     }
   ]
 }

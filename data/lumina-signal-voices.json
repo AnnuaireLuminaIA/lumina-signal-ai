@@ -82,11 +82,12 @@
       "listenFirstFr": "Dernière longue interview avec un lab leader",
       "frequency": "Regular long episodes",
       "frequencyFr": "Épisodes longs réguliers",
-      "avatar": "https://unavatar.io/twitter/dwarkesh_sp",
+      "avatar": "/lumina-signal-ai/assets/avatars/dwarkesh-patel.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "DP",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/dwarkesh_sp",
         "https://unavatar.io/x/dwarkesh_sp"
       ],
       "avatarMode": "photo"
@@ -122,11 +123,12 @@
       "listenFirstFr": "Talks récents world models / JEPA",
       "frequency": "Talks, social",
       "frequencyFr": "Talks, réseaux",
-      "avatar": "https://unavatar.io/twitter/ylecun",
+      "avatar": "/lumina-signal-ai/assets/avatars/yann-lecun.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "YL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/ylecun",
         "https://unavatar.io/x/ylecun"
       ],
       "avatarMode": "photo"
@@ -159,11 +161,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/demishassabis",
+      "avatar": "/lumina-signal-ai/assets/avatars/demis-hassabis.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "DH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/demishassabis",
         "https://unavatar.io/x/demishassabis"
       ],
       "avatarMode": "photo"
@@ -196,11 +199,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/darioamodei",
+      "avatar": "/lumina-signal-ai/assets/avatars/dario-amodei.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "DA",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/darioamodei",
         "https://unavatar.io/x/darioamodei"
       ],
       "avatarMode": "photo"
@@ -236,11 +240,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/swyx",
+      "avatar": "/lumina-signal-ai/assets/avatars/swyx-alessio.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "S&",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/swyx",
         "https://unavatar.io/x/swyx"
       ],
       "avatarMode": "photo"
@@ -278,11 +283,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/arthurmensch",
+      "avatar": "/lumina-signal-ai/assets/avatars/arthur-mensch.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "AM",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/arthurmensch",
         "https://unavatar.io/x/arthurmensch"
       ],
       "avatarMode": "photo"
@@ -316,11 +322,12 @@
       "listenFirstFr": "Dernier épisode Cognitive Revolution",
       "frequency": "Very frequent",
       "frequencyFr": "Très fréquent",
-      "avatar": "https://unavatar.io/twitter/labenz",
+      "avatar": "/lumina-signal-ai/assets/avatars/nathan-labenz.png",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "NL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/labenz",
         "https://unavatar.io/x/labenz"
       ],
       "avatarMode": "photo"
@@ -344,7 +351,7 @@
       "why": "Highest-quality paper explanation content available publicly.",
       "links": {
         "youtube": "https://www.youtube.com/@YannicKilcher",
-        "x": "https://x.com/YannicKilcher"
+        "x": "https://x.com/ykilcher"
       },
       "active": true,
       "roleFr": "Chercheur & YouTuber IA",
@@ -354,11 +361,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/YannicKilcher",
+      "avatar": "/lumina-signal-ai/assets/avatars/yannic-kilcher.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "YK",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/YannicKilcher",
         "https://unavatar.io/youtube/@YannicKilcher",
         "https://unavatar.io/x/YannicKilcher"
       ],
@@ -431,11 +439,12 @@
       "listenFirstFr": "Dernier Comptoir IA",
       "frequency": "Frequent FR videos",
       "frequencyFr": "Vidéos FR fréquentes",
-      "avatar": "https://unavatar.io/twitter/nico16184",
+      "avatar": "/lumina-signal-ai/assets/avatars/nicolas-guyon.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "NG",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/nico16184",
         "https://unavatar.io/x/nico16184"
       ],
       "avatarMode": "photo"
@@ -467,11 +476,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/ilyasut",
+      "avatar": "/lumina-signal-ai/assets/avatars/ilya-sutskever.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "IS",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/ilyasut",
         "https://unavatar.io/x/ilyasut"
       ],
       "avatarMode": "photo"
@@ -503,11 +513,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/geoffreyhinton",
+      "avatar": "/lumina-signal-ai/assets/avatars/geoffrey-hinton.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "GH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/geoffreyhinton",
         "https://unavatar.io/x/geoffreyhinton"
       ],
       "avatarMode": "photo"
@@ -542,11 +553,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/Yoshua_Bengio",
+      "avatar": "/lumina-signal-ai/assets/avatars/yoshua-bengio.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "YB",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/Yoshua_Bengio",
         "https://unavatar.io/x/Yoshua_Bengio"
       ],
       "avatarMode": "photo"
@@ -580,11 +592,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/fchollet",
+      "avatar": "/lumina-signal-ai/assets/avatars/francois-chollet.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "FC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/fchollet",
         "https://unavatar.io/x/fchollet"
       ],
       "avatarMode": "photo"
@@ -619,11 +632,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/Thom_Wolf",
+      "avatar": "/lumina-signal-ai/assets/avatars/thomas-wolf.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "TW",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/Thom_Wolf",
         "https://unavatar.io/x/Thom_Wolf"
       ],
       "avatarMode": "photo"
@@ -656,11 +670,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/jeremyphoward",
+      "avatar": "/lumina-signal-ai/assets/avatars/jeremy-howard.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "JH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/jeremyphoward",
         "https://unavatar.io/x/jeremyphoward"
       ],
       "avatarMode": "photo"
@@ -694,11 +709,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/simonw",
+      "avatar": "/lumina-signal-ai/assets/avatars/simon-willison.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "SW",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/simonw",
         "https://unavatar.io/x/simonw"
       ],
       "avatarMode": "photo"
@@ -767,11 +783,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/lexfridman",
+      "avatar": "/lumina-signal-ai/assets/avatars/lex-fridman.jpg",
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "LF",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/lexfridman",
         "https://unavatar.io/youtube/@lexfridman",
         "https://unavatar.io/x/lexfridman"
       ],
@@ -880,11 +897,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/emollick",
+      "avatar": "/lumina-signal-ai/assets/avatars/ethan-mollick.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "EM",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/emollick",
         "https://unavatar.io/x/emollick"
       ],
       "avatarMode": "photo"
@@ -917,11 +935,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/HamelHusain",
+      "avatar": "/lumina-signal-ai/assets/avatars/hamel-husain.jpg",
       "accentFrom": "#14532d",
       "accentTo": "#4ade80",
       "initials": "HH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/HamelHusain",
         "https://unavatar.io/x/HamelHusain"
       ],
       "avatarMode": "photo"
@@ -992,11 +1011,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/NeelNanda5",
+      "avatar": "/lumina-signal-ai/assets/avatars/neel-nanda.jpg",
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "NN",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/NeelNanda5",
         "https://unavatar.io/x/NeelNanda5"
       ],
       "avatarMode": "photo"
@@ -1018,7 +1038,7 @@
       "bio": "Works on AI safety benchmarks, risk measurement, and policy-relevant research.",
       "why": "Strong bridge between technical safety research and practical evaluation.",
       "links": {
-        "x": "https://x.com/DanHendrycks"
+        "x": "https://x.com/hendrycks"
       },
       "active": true,
       "roleFr": "Directeur – Center for AI Safety",
@@ -1028,11 +1048,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/DanHendrycks",
+      "avatar": "/lumina-signal-ai/assets/avatars/dan-hendrycks.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "DH",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/DanHendrycks",
         "https://unavatar.io/x/DanHendrycks"
       ],
       "avatarMode": "photo"
@@ -1065,11 +1086,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/ch402",
+      "avatar": "/lumina-signal-ai/assets/avatars/chris-olah.jpg",
       "accentFrom": "#4c0519",
       "accentTo": "#fb7185",
       "initials": "CO",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/ch402",
         "https://unavatar.io/x/ch402"
       ],
       "avatarMode": "photo"
@@ -1102,11 +1124,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/AndrewYNg",
+      "avatar": "/lumina-signal-ai/assets/avatars/andrew-ng.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "AN",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/AndrewYNg",
         "https://unavatar.io/x/AndrewYNg"
       ],
       "avatarMode": "photo"
@@ -1139,11 +1162,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/drfeifei",
+      "avatar": "/lumina-signal-ai/assets/avatars/fei-fei-li.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "FL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/drfeifei",
         "https://unavatar.io/x/drfeifei"
       ],
       "avatarMode": "photo"
@@ -1216,11 +1240,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/DrJimFan",
+      "avatar": "/lumina-signal-ai/assets/avatars/jim-fan.jpg",
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JF",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/DrJimFan",
         "https://unavatar.io/x/DrJimFan"
       ],
       "avatarMode": "photo"
@@ -1252,11 +1277,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/goodside",
+      "avatar": "/lumina-signal-ai/assets/avatars/riley-goodside.jpg",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "RG",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/goodside",
         "https://unavatar.io/x/goodside"
       ],
       "avatarMode": "photo"
@@ -1366,11 +1392,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/TheZvi",
+      "avatar": "/lumina-signal-ai/assets/avatars/zvi-mowshowitz.png",
       "accentFrom": "#0f172a",
       "accentTo": "#38bdf8",
       "initials": "ZM",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/TheZvi",
         "https://unavatar.io/x/TheZvi"
       ],
       "avatarMode": "photo"
@@ -1403,11 +1430,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/jackclarkSF",
+      "avatar": "/lumina-signal-ai/assets/avatars/jack-clark.jpg",
       "accentFrom": "#3b0764",
       "accentTo": "#e879f9",
       "initials": "JC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/jackclarkSF",
         "https://unavatar.io/x/jackclarkSF"
       ],
       "avatarMode": "photo"
@@ -1439,11 +1467,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/hlntnr",
+      "avatar": "/lumina-signal-ai/assets/avatars/helen-toner.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HT",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/hlntnr",
         "https://unavatar.io/x/hlntnr"
       ],
       "avatarMode": "photo"
@@ -1619,7 +1648,7 @@
       "bio": "Leading researcher in reinforcement learning and AI systems. Strong academic and industry presence.",
       "why": "High technical credibility with clear public communication.",
       "links": {
-        "x": "https://x.com/JoellePineau"
+        "x": "https://x.com/jpineau1"
       },
       "active": true,
       "roleFr": "Chercheuse – FAIR / McGill",
@@ -1629,11 +1658,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/JoellePineau",
+      "avatar": "/lumina-signal-ai/assets/avatars/joelle-pineau.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "JP",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/JoellePineau",
         "https://unavatar.io/x/JoellePineau"
       ],
       "avatarMode": "photo"
@@ -1666,11 +1696,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/rasbt",
+      "avatar": "/lumina-signal-ai/assets/avatars/sebastian-raschka.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "SR",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/rasbt",
         "https://unavatar.io/x/rasbt"
       ],
       "avatarMode": "photo"
@@ -1704,11 +1735,12 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/twitter/MLStreetTalk",
+      "avatar": "/lumina-signal-ai/assets/avatars/mlst.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "ML",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/MLStreetTalk",
         "https://unavatar.io/youtube/@MachineLearningStreetTalk",
         "https://unavatar.io/x/MLStreetTalk"
       ],
@@ -1814,11 +1846,13 @@
       "listenFirstFr": "Contenu long format le mieux noté ou le plus récent",
       "frequency": "Varies",
       "frequencyFr": "Variable",
-      "avatar": "https://unavatar.io/youtube/@TheAIEpiphany",
+      "avatar": "/lumina-signal-ai/assets/avatars/ai-epiphany.jpg",
       "accentFrom": "#1c1917",
       "accentTo": "#f59e0b",
       "initials": "TA",
-      "avatarFallbacks": [],
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@TheAIEpiphany"
+      ],
       "avatarMode": "photo"
     },
     {
@@ -2119,11 +2153,12 @@
         "x": "https://x.com/hwchase17"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/hwchase17",
+      "avatar": "/lumina-signal-ai/assets/avatars/harrison-chase.jpg",
       "accentFrom": "#0c4a6e",
       "accentTo": "#22d3ee",
       "initials": "HC",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/hwchase17",
         "https://unavatar.io/x/hwchase17"
       ],
       "avatarMode": "photo"
@@ -2196,11 +2231,12 @@
         "website": "https://garymarcus.substack.com"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/GaryMarcus",
+      "avatar": "/lumina-signal-ai/assets/avatars/gary-marcus.jpg",
       "accentFrom": "#1a2e05",
       "accentTo": "#a3e635",
       "initials": "GM",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/GaryMarcus",
         "https://unavatar.io/x/GaryMarcus"
       ],
       "avatarMode": "photo"
@@ -2233,11 +2269,12 @@
         "website": "https://futureoflife.org"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/tegmark",
+      "avatar": "/lumina-signal-ai/assets/avatars/max-tegmark.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "MT",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/tegmark",
         "https://unavatar.io/x/tegmark"
       ],
       "avatarMode": "photo"
@@ -2346,11 +2383,12 @@
         "x": "https://x.com/hugo_larochelle"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/hugo_larochelle",
+      "avatar": "/lumina-signal-ai/assets/avatars/hugo-larochelle.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "HL",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/hugo_larochelle",
         "https://unavatar.io/x/hugo_larochelle"
       ],
       "avatarMode": "photo"
@@ -2457,11 +2495,12 @@
         "x": "https://x.com/polynoamial"
       },
       "active": true,
-      "avatar": "https://unavatar.io/twitter/polynoamial",
+      "avatar": "/lumina-signal-ai/assets/avatars/noam-brown.jpg",
       "accentFrom": "#1e1b4b",
       "accentTo": "#7c3aed",
       "initials": "NB",
       "avatarFallbacks": [
+        "https://unavatar.io/twitter/polynoamial",
         "https://unavatar.io/x/polynoamial"
       ],
       "avatarMode": "photo"
