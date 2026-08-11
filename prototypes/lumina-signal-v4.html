@@ -662,12 +662,12 @@
     <aside class="sidebar">
       <div class="side-label">Catégories</div>
       <button class="side-item active" data-filter="all">Toutes</button>
-      <button class="side-item" data-filter="Research">Research</button>
-      <button class="side-item" data-filter="Engineering">Engineering</button>
-      <button class="side-item" data-filter="Safety">Safety</button>
+      <button class="side-item" data-filter="Research">Recherche</button>
+      <button class="side-item" data-filter="Engineering">Ingénierie</button>
+      <button class="side-item" data-filter="Safety">Sécurité</button>
       <button class="side-item" data-filter="Podcast">Podcast</button>
-      <button class="side-item" data-filter="Education">Education</button>
-      <button class="side-item" data-filter="French">French</button>
+      <button class="side-item" data-filter="Education">Éducation</button>
+      <button class="side-item" data-filter="French">Français</button>
       <div class="divider"></div>
       <div class="side-label">Favoris</div>
       <button class="side-item" type="button" id="side-favs" onclick="setView('favorites')">★ Voir mes favoris</button>
@@ -999,18 +999,16 @@
 
       const allCat = document.querySelector('[data-filter="all"]');
       if (allCat) allCat.textContent = t("side.all");
-      const catLabels = {
-        Research: { fr: "Recherche", en: "Research" },
-        Engineering: { fr: "Ingénierie", en: "Engineering" },
-        Safety: { fr: "Sécurité", en: "Safety" },
-        Podcast: { fr: "Podcast", en: "Podcast" },
-        Education: { fr: "Éducation", en: "Education" },
-        French: { fr: "Français", en: "French" }
-      };
-      document.querySelectorAll("[data-filter]").forEach(btn => {
+      document.querySelectorAll("button[data-filter]").forEach(btn => {
         const f = btn.dataset.filter;
-        if (f && f !== "all" && catLabels[f]) btn.textContent = catLabels[f][lang] || f;
+        if (!f || f === "all") return;
+        btn.textContent = catLabel(f);
       });
+      // Explicit fallback for Research / Engineering
+      const bR = document.querySelector('button[data-filter="Research"]');
+      const bE = document.querySelector('button[data-filter="Engineering"]');
+      if (bR) bR.textContent = lang === "fr" ? "Recherche" : "Research";
+      if (bE) bE.textContent = lang === "fr" ? "Ingénierie" : "Engineering";
       const allCountry = document.querySelector('[data-country="all"]');
       if (allCountry) allCountry.textContent = t("side.countries.all");
       const sideFavs = document.getElementById("side-favs");
@@ -1141,6 +1139,34 @@
         if (v[frKey]) return v[frKey];
       }
       return v[field] || "";
+    }
+
+
+    function catLabel(name) {
+      const map = {
+        Research: { fr: "Recherche", en: "Research" },
+        Engineering: { fr: "Ingénierie", en: "Engineering" },
+        Safety: { fr: "Sécurité", en: "Safety" },
+        Podcast: { fr: "Podcast", en: "Podcast" },
+        Education: { fr: "Éducation", en: "Education" },
+        French: { fr: "Français", en: "French" },
+        Frontier: { fr: "Frontier", en: "Frontier" },
+        Builders: { fr: "Builders", en: "Builders" },
+        Analysis: { fr: "Analyse", en: "Analysis" },
+        "Open-source": { fr: "Open-source", en: "Open-source" },
+        Europe: { fr: "Europe", en: "Europe" },
+        Agents: { fr: "Agents", en: "Agents" },
+        "Anti-hype": { fr: "Anti-hype", en: "Anti-hype" },
+        "Paper reviews": { fr: "Papers", en: "Paper reviews" },
+        "Long-form": { fr: "Long format", en: "Long-form" },
+        Tools: { fr: "Outils", en: "Tools" },
+        Practical: { fr: "Pratique", en: "Practical" },
+        Vision: { fr: "Vision", en: "Vision" },
+        YouTube: { fr: "YouTube", en: "YouTube" }
+      };
+      const e = map[name];
+      if (!e) return name;
+      return (lang === "fr" ? e.fr : e.en) || name;
     }
 
     function getVoice(id) {
@@ -1529,7 +1555,7 @@
           </div>
           <p class="voice-bio">${voiceText(v, "bio")}</p>
           <div class="tags">
-            ${v.categories.map(c => `<span class="tag">${c}</span>`).join("")}
+            ${v.categories.map(c => `<span class="tag">${catLabel(c)}</span>`).join("")}
           </div>
           ${linkHtml ? `<div class="voice-links">${linkHtml}</div>` : ""}
         </div>
