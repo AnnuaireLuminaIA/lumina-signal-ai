@@ -1,6 +1,76 @@
 {
   "briefings": [
     {
+      "date": "2026-08-12",
+      "generatedAt": "2026-08-12T05:46:28.984856+00:00",
+      "summary": "25 contenus · top 5 signaux",
+      "editorial": "Dominant aujourd'hui : policy, open-source, agents. 0 contenus FR dans le flux.",
+      "editorialEn": "Today's dominant topics: policy, open-source, agents. 0 FR items in the feed.",
+      "items": [
+        {
+          "rank": 1,
+          "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+          "voiceId": "swyx-alessio",
+          "voiceName": "swyx & Alessio Fanelli",
+          "signalScore": 9.0,
+          "ago": "",
+          "url": "https://www.latent.space/p/chai-discovery",
+          "language": "en",
+          "why": "Best ongoing coverage of real AI engineering practice."
+        },
+        {
+          "rank": 2,
+          "title": "Harness Engineering for Self-Improvement",
+          "voiceId": "lilian-weng",
+          "voiceName": "Lilian Weng",
+          "signalScore": 8.8,
+          "ago": "Il y a 1 mois",
+          "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+          "language": "en",
+          "why": "One of the best free curricula for serious ML practitioners."
+        },
+        {
+          "rank": 3,
+          "title": "There are no lossless transformations of natural-language text",
+          "voiceId": "simon-willison",
+          "voiceName": "Simon Willison",
+          "signalScore": 8.4,
+          "ago": "Il y a 5h",
+          "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+          "language": "en",
+          "why": "Extremely high signal-to-noise on what actually works in practice."
+        },
+        {
+          "rank": 4,
+          "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+          "voiceId": "nathan-lambert",
+          "voiceName": "Nathan Lambert",
+          "signalScore": 8.4,
+          "ago": "",
+          "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+          "language": "en",
+          "why": "High-signal commentary on how models are actually trained after pretraining."
+        },
+        {
+          "rank": 5,
+          "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+          "voiceId": "huggingface",
+          "voiceName": "Hugging Face",
+          "signalScore": 8.3,
+          "ago": "",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+          "language": "en",
+          "why": "Central node of the open-source AI community."
+        }
+      ],
+      "stats": {
+        "totalContents": 25,
+        "sources": 5,
+        "frCount": 0,
+        "enCount": 25
+      }
+    },
+    {
       "date": "2026-08-11",
       "generatedAt": "2026-08-11T12:41:32.594930+00:00",
       "summary": "87 contenus · top 7 signaux",
@@ -93,5 +163,5 @@
       }
     }
   ],
-  "updated": "2026-08-11T20:22:45.620117+00:00"
+  "updated": "2026-08-12T05:46:28.985369+00:00"
 }
