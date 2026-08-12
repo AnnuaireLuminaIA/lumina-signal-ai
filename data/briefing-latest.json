@@ -1,10 +1,10 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T15:30:45.283817+00:00",
+  "generatedAt": "2026-08-12T20:11:37.068199+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
-  "editorial": "Dominant aujourd'hui : agents, education, open-source. 12 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: agents, education, open-source. 12 FR items in the feed.",
+  "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, policy. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -23,7 +23,7 @@
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 17h",
+      "ago": "Il y a 22h",
       "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
@@ -45,7 +45,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 1j",
+      "ago": "Il y a 2j",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."

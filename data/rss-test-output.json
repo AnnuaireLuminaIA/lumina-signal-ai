@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T15:30:26.480495+00:00",
+  "fetchedAt": "2026-08-12T20:11:18.443564+00:00",
   "count": 95,
   "items": [
     {
@@ -886,6 +886,15 @@
       "voiceId": "huggingface",
       "voiceName": "Hugging Face Blog",
       "type": "podcast",
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "publishedAt": "Wed, 12 Aug 2026 16:14:36 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "publishedAt": "Wed, 12 Aug 2026 14:00:51 GMT",
@@ -916,15 +925,6 @@
       "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "publishedAt": "Mon, 10 Aug 2026 10:05:36 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "publishedAt": "Mon, 10 Aug 2026 00:00:00 GMT",
       "platform": "rss"
     }
   ]
