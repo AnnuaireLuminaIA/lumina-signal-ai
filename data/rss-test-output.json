@@ -1,7 +1,116 @@
 {
-  "fetchedAt": "2026-08-12T05:46:17.639683+00:00",
-  "count": 25,
+  "fetchedAt": "2026-08-12T09:47:05.960177+00:00",
+  "count": 95,
   "items": [
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "Claude Got Caught Trying to Hack a GitHub Repo - Ryan Greenblatt",
+      "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
+      "publishedAt": "2026-08-11T21:41:04+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/tHtkXw90IrY/hqdefault.jpg"
+    },
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+      "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
+      "publishedAt": "2026-08-11T16:45:37+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/-RXD4bTuFTo/hqdefault.jpg"
+    },
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
+      "publishedAt": "2026-08-09T16:30:36+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/KP_Bpsu69NI/hqdefault.jpg"
+    },
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "AlphaZero for Mathematics - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/AvH0cJV1Cc8",
+      "publishedAt": "2026-08-07T22:28:23+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/AvH0cJV1Cc8/hqdefault.jpg"
+    },
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "url": "https://www.youtube.com/watch?v=iewm45atodE",
+      "publishedAt": "2026-08-07T17:33:15+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/iewm45atodE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "type": "video",
+      "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+      "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
+      "publishedAt": "2026-03-06T22:07:33+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/xHi8PUIVyoo/hqdefault.jpg"
+    },
+    {
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "type": "video",
+      "title": "Traditional X-Mas Stream",
+      "url": "https://www.youtube.com/watch?v=Dr6jw-WAd9E",
+      "publishedAt": "2025-12-29T03:44:20+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/Dr6jw-WAd9E/hqdefault.jpg"
+    },
+    {
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "type": "video",
+      "title": "Traditional Holiday Live Stream",
+      "url": "https://www.youtube.com/watch?v=DNajvkqfobY",
+      "publishedAt": "2025-12-28T12:41:54+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/DNajvkqfobY/hqdefault.jpg"
+    },
+    {
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "type": "video",
+      "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
+      "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
+      "publishedAt": "2025-12-27T14:33:29+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/taCVT5vDAk0/hqdefault.jpg"
+    },
+    {
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "type": "video",
+      "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
+      "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
+      "publishedAt": "2025-12-14T16:22:15+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/v67plFw1nMw/hqdefault.jpg"
+    },
+    {
+      "voiceId": "swyx-alessio",
+      "voiceName": "Latent Space",
+      "type": "podcast",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+      "publishedAt": "Wed, 12 Aug 2026 07:11:08 GMT",
+      "platform": "rss"
+    },
     {
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
@@ -39,13 +148,604 @@
       "platform": "rss"
     },
     {
-      "voiceId": "swyx-alessio",
-      "voiceName": "Latent Space",
-      "type": "podcast",
-      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-      "publishedAt": "Thu, 06 Aug 2026 04:34:11 GMT",
-      "platform": "rss"
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown",
+      "type": "video",
+      "title": "The 64 sugar cubes puzzle",
+      "url": "https://www.youtube.com/shorts/6XPlmCDNLNc",
+      "publishedAt": "2026-07-24T15:05:39+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/6XPlmCDNLNc/hqdefault.jpg"
+    },
+    {
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown",
+      "type": "video",
+      "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
+      "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+      "publishedAt": "2026-07-16T11:56:04+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/GlYgs6v2YfU/hqdefault.jpg"
+    },
+    {
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown",
+      "type": "video",
+      "title": "100 random chords, how many intersections?",
+      "url": "https://www.youtube.com/shorts/wGffBCfrAsE",
+      "publishedAt": "2026-06-16T18:04:05+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/wGffBCfrAsE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown",
+      "type": "video",
+      "title": "Measuring the entropy of English",
+      "url": "https://www.youtube.com/shorts/-7etvZSBxlk",
+      "publishedAt": "2026-06-12T13:22:02+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/-7etvZSBxlk/hqdefault.jpg"
+    },
+    {
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown",
+      "type": "video",
+      "title": "What's the perfect encoding? How do you know?",
+      "url": "https://www.youtube.com/shorts/7L_eTem1SQ4",
+      "publishedAt": "2026-06-10T13:26:34+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/7L_eTem1SQ4/hqdefault.jpg"
+    },
+    {
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "type": "video",
+      "title": "How I use LLMs",
+      "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+      "publishedAt": "2025-02-27T22:29:56+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/EWvNQjAaOHw/hqdefault.jpg"
+    },
+    {
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "type": "video",
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+      "publishedAt": "2025-02-05T18:23:47+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/7xTGNNLPyMI/hqdefault.jpg"
+    },
+    {
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "type": "video",
+      "title": "Let's reproduce GPT-2 (124M)",
+      "url": "https://www.youtube.com/watch?v=l8pRSuU81PU",
+      "publishedAt": "2024-06-09T23:31:35+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/l8pRSuU81PU/hqdefault.jpg"
+    },
+    {
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "type": "video",
+      "title": "Let's build the GPT Tokenizer",
+      "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+      "publishedAt": "2024-02-20T17:11:35+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/zduSFxRajkE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "type": "video",
+      "title": "[1hr Talk] Intro to Large Language Models",
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "publishedAt": "2023-11-23T02:27:48+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/zjkBMFhNj_g/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "type": "video",
+      "title": "AI is getting a little out of control",
+      "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+      "publishedAt": "2026-08-06T15:02:06+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/xGzseSSStnw/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "type": "video",
+      "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+      "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+      "publishedAt": "2026-07-22T16:36:53+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/wzY2fV4Mp3U/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "type": "video",
+      "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
+      "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
+      "publishedAt": "2026-07-10T12:40:15+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/mWlCituW7wo/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "type": "video",
+      "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+      "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+      "publishedAt": "2026-07-02T16:27:26+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/y24lF1q4SFY/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-explained",
+      "voiceName": "AI Explained",
+      "type": "video",
+      "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+      "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+      "publishedAt": "2026-06-14T14:52:27+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/Qj71N0tBzRo/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nicolas-guyon",
+      "voiceName": "Comptoir IA",
+      "type": "video",
+      "title": "🤯 Deux milliardaires paient en secret pour nous faire sortir de la Matrice",
+      "url": "https://www.youtube.com/watch?v=vb2uR2aONxs",
+      "publishedAt": "2026-08-09T22:00:20+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/vb2uR2aONxs/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nicolas-guyon",
+      "voiceName": "Comptoir IA",
+      "type": "video",
+      "title": "Test des capacités de Seedance 2.5, le nouveau modèle vidéo de ByteDance, via Dreamina : générer mon",
+      "url": "https://www.youtube.com/shorts/MhY4joEuU1I",
+      "publishedAt": "2026-08-03T12:00:06+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/MhY4joEuU1I/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nicolas-guyon",
+      "voiceName": "Comptoir IA",
+      "type": "video",
+      "title": "🚜 Des pelleteuses SANS CHAUFFEUR construisent les data centers de l'IA ! — Vincent Gonguet",
+      "url": "https://www.youtube.com/watch?v=nSt4ytkeAuQ",
+      "publishedAt": "2026-07-29T21:32:26+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/nSt4ytkeAuQ/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nicolas-guyon",
+      "voiceName": "Comptoir IA",
+      "type": "video",
+      "title": "Plage maintenant, agents à la rentrée 🏖️🤖 (Claudio #4)",
+      "url": "https://www.youtube.com/shorts/kCvhGL9C1ec",
+      "publishedAt": "2026-07-22T17:45:47+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/kCvhGL9C1ec/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nicolas-guyon",
+      "voiceName": "Comptoir IA",
+      "type": "video",
+      "title": "« ARRÊTEZ DE RECRUTER DES HUMAINS » 🤖 La pub qui s'affiche partout à San Francisco.",
+      "url": "https://www.youtube.com/shorts/R0oVyoa29AM",
+      "publishedAt": "2026-07-14T07:00:24+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/R0oVyoa29AM/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
+      "publishedAt": "2026-08-10T18:02:49+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/4JYoTE_VKaU/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
+      "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
+      "url": "https://www.youtube.com/watch?v=YduOnBDuD0c",
+      "publishedAt": "2026-08-08T20:48:22+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/YduOnBDuD0c/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
+      "title": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...",
+      "url": "https://www.youtube.com/watch?v=wAzq8gA5jyc",
+      "publishedAt": "2026-08-05T18:10:32+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/wAzq8gA5jyc/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
+      "title": "Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics",
+      "url": "https://www.youtube.com/watch?v=w9zJzd3WqA8",
+      "publishedAt": "2026-08-02T21:09:52+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/w9zJzd3WqA8/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
+      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
+      "url": "https://www.youtube.com/watch?v=EjLeFMCRdWk",
+      "publishedAt": "2026-07-30T20:42:47+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/EjLeFMCRdWk/hqdefault.jpg"
+    },
+    {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499",
+      "url": "https://www.youtube.com/watch?v=XyXBwO5jYpw",
+      "publishedAt": "2026-07-28T20:02:11+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/XyXBwO5jYpw/hqdefault.jpg"
+    },
+    {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
+      "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+      "publishedAt": "2026-06-30T21:16:13+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/pv1TUJSEM2k/hqdefault.jpg"
+    },
+    {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
+      "url": "https://www.youtube.com/watch?v=1M3Vdl6DRkU",
+      "publishedAt": "2026-05-29T16:18:31+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/1M3Vdl6DRkU/hqdefault.jpg"
+    },
+    {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+      "url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+      "publishedAt": "2026-05-06T22:03:16+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/nepKKz-MzFM/hqdefault.jpg"
+    },
+    {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+      "publishedAt": "2026-04-09T17:35:20+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg"
+    },
+    {
+      "voiceId": "mlst",
+      "voiceName": "Machine Learning Street Talk",
+      "type": "video",
+      "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
+      "url": "https://www.youtube.com/watch?v=revreN8LZ_M",
+      "publishedAt": "2026-08-10T22:55:05+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/revreN8LZ_M/hqdefault.jpg"
+    },
+    {
+      "voiceId": "mlst",
+      "voiceName": "Machine Learning Street Talk",
+      "type": "video",
+      "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
+      "url": "https://www.youtube.com/watch?v=n1Qk8xbqF-M",
+      "publishedAt": "2026-07-31T20:12:29+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/n1Qk8xbqF-M/hqdefault.jpg"
+    },
+    {
+      "voiceId": "mlst",
+      "voiceName": "Machine Learning Street Talk",
+      "type": "video",
+      "title": "Watching America Run Away With AI - Alistair Pullen (Cosine AI)",
+      "url": "https://www.youtube.com/watch?v=JTHmrELSfvk",
+      "publishedAt": "2026-07-13T22:23:38+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/JTHmrELSfvk/hqdefault.jpg"
+    },
+    {
+      "voiceId": "mlst",
+      "voiceName": "Machine Learning Street Talk",
+      "type": "video",
+      "title": "ARC-AGI-3 winning team - Millennia of minds, compressed into words.",
+      "url": "https://www.youtube.com/watch?v=Vg6FBKTlfOw",
+      "publishedAt": "2026-07-01T14:26:52+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/Vg6FBKTlfOw/hqdefault.jpg"
+    },
+    {
+      "voiceId": "mlst",
+      "voiceName": "Machine Learning Street Talk",
+      "type": "video",
+      "title": "The Thermodynamic AI Chip · Thomas Ahle",
+      "url": "https://www.youtube.com/watch?v=5pieVHmlbyk",
+      "publishedAt": "2026-06-28T23:38:07+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/5pieVHmlbyk/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "OpenAI’s AI Agents Just Crossed A Line",
+      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+      "publishedAt": "2026-08-11T15:35:35+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "DeepMind Just Changed How AI Sees The World",
+      "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
+      "publishedAt": "2026-08-07T08:22:00+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/vO6SWG-jxvE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "The Billion Dollar AI Race Just Broke",
+      "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
+      "publishedAt": "2026-08-05T13:54:29+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/ppQh4Tc9BmM/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "Another DeepSeek Moment Has Arrived",
+      "url": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
+      "publishedAt": "2026-08-03T09:47:34+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/bm1BjOjS7sQ/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+      "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+      "publishedAt": "2026-08-02T15:01:10+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "Hugging Face Journal Club: Direct On-Policy Distillation",
+      "url": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
+      "publishedAt": "2026-08-11T18:05:57+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/S5wE1sjyiQY/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "Prompt Caching Explained: Stop Overpaying for AI Agents",
+      "url": "https://www.youtube.com/watch?v=SkM4k4SKvCM",
+      "publishedAt": "2026-08-10T03:15:10+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/SkM4k4SKvCM/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "How AI agents reproduced ICML 2026  papers",
+      "url": "https://www.youtube.com/watch?v=8qpEDpNhzWY",
+      "publishedAt": "2026-08-08T04:30:48+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/8qpEDpNhzWY/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "Hugging Face Journal Club: Scaling Laws for Pre-training & RL",
+      "url": "https://www.youtube.com/watch?v=XB9PlaofL-Q",
+      "publishedAt": "2026-08-04T15:41:14+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/XB9PlaofL-Q/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "Tau Crash Course: The Python Port of Pi",
+      "url": "https://www.youtube.com/watch?v=qo1QNxWcm28",
+      "publishedAt": "2026-07-31T12:30:44+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/qo1QNxWcm28/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ludovic-salenne",
+      "voiceName": "Ludovic Salenne",
+      "type": "video",
+      "title": "Le nouveau ChatGPT est DISPO : voici tout ce qu’il peut faire.",
+      "url": "https://www.youtube.com/watch?v=5dF9rDlMGhE",
+      "publishedAt": "2026-07-09T17:00:00+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/5dF9rDlMGhE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ludovic-salenne",
+      "voiceName": "Ludovic Salenne",
+      "type": "video",
+      "title": "Claude Sonnet 5 : l'IA qui fait tout... sans cramer vos tokens.",
+      "url": "https://www.youtube.com/watch?v=ffwftm89rQg",
+      "publishedAt": "2026-07-01T17:00:45+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/ffwftm89rQg/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ludovic-salenne",
+      "voiceName": "Ludovic Salenne",
+      "type": "video",
+      "title": "Les 2 seuls VRAIS BUSINESS IA à lancer en 2026",
+      "url": "https://www.youtube.com/watch?v=WyA985f8kqg",
+      "publishedAt": "2026-06-26T16:47:29+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/WyA985f8kqg/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ludovic-salenne",
+      "voiceName": "Ludovic Salenne",
+      "type": "video",
+      "title": "Claude IA : le tutoriel facile pour débutant",
+      "url": "https://www.youtube.com/watch?v=nHXND_R4Jy8",
+      "publishedAt": "2026-06-24T16:09:42+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/nHXND_R4Jy8/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ludovic-salenne",
+      "voiceName": "Ludovic Salenne",
+      "type": "video",
+      "title": "Actus IA : Anthropic et OpenAI SOUS PRESSION !",
+      "url": "https://www.youtube.com/watch?v=Msi5PaWHIe8",
+      "publishedAt": "2026-06-19T17:01:45+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/Msi5PaWHIe8/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-epiphany",
+      "voiceName": "The AI Epiphany",
+      "type": "video",
+      "title": "Archie: an engineering AGI for Dyson Spheres | P-1 AI | $23 million seed round",
+      "url": "https://www.youtube.com/watch?v=oSZYnx-Y8ZM",
+      "publishedAt": "2025-05-05T14:45:07+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/oSZYnx-Y8ZM/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-epiphany",
+      "voiceName": "The AI Epiphany",
+      "type": "video",
+      "title": "Build AI Agents using Integrail (Halloween special)",
+      "url": "https://www.youtube.com/watch?v=fsNylf0Z4wk",
+      "publishedAt": "2024-11-07T14:00:41+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/fsNylf0Z4wk/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-epiphany",
+      "voiceName": "The AI Epiphany",
+      "type": "video",
+      "title": "Cracked Engineers - Find Tech Jobs / Hire Tech Talent",
+      "url": "https://www.youtube.com/watch?v=XmuIOdES7mQ",
+      "publishedAt": "2024-10-29T12:45:03+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/XmuIOdES7mQ/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-epiphany",
+      "voiceName": "The AI Epiphany",
+      "type": "video",
+      "title": "Imbue - training a 70B model from scratch! (w/ Bowei - head of infra)",
+      "url": "https://www.youtube.com/watch?v=wTE8Dk6I80A",
+      "publishedAt": "2024-09-16T16:00:55+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/wTE8Dk6I80A/hqdefault.jpg"
+    },
+    {
+      "voiceId": "ai-epiphany",
+      "voiceName": "The AI Epiphany",
+      "type": "video",
+      "title": "LLaMA 3 Deep Dive! (Thomas Scialom - Meta)",
+      "url": "https://www.youtube.com/watch?v=J9gfTLthGVI",
+      "publishedAt": "2024-07-31T13:00:30+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/J9gfTLthGVI/hqdefault.jpg"
+    },
+    {
+      "voiceId": "thinkerview",
+      "voiceName": "Thinkerview",
+      "type": "video",
+      "title": "Bruno Le Maire Sans Filtre [EN DIRECT]",
+      "url": "https://www.youtube.com/watch?v=0QSlS8ifBbo",
+      "publishedAt": "2026-07-29T19:01:54+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/0QSlS8ifBbo/hqdefault.jpg"
+    },
+    {
+      "voiceId": "thinkerview",
+      "voiceName": "Thinkerview",
+      "type": "video",
+      "title": "Le Jour d'Après: la Révolution des Octets - Bluetouff, Alexis Roussel et Caroline Zorn [EN DIRECT]",
+      "url": "https://www.youtube.com/watch?v=IxivZdX4wmQ",
+      "publishedAt": "2026-07-06T20:20:35+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/IxivZdX4wmQ/hqdefault.jpg"
+    },
+    {
+      "voiceId": "thinkerview",
+      "voiceName": "Thinkerview",
+      "type": "video",
+      "title": "L'Euro et l’UE sont bientôt morts ? Préparez-vous ! Thomas Grjebine et Nicolas Meilhan [EN DIRECT]",
+      "url": "https://www.youtube.com/watch?v=f9_i3mYLFpA",
+      "publishedAt": "2026-07-01T20:21:42+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/f9_i3mYLFpA/hqdefault.jpg"
+    },
+    {
+      "voiceId": "thinkerview",
+      "voiceName": "Thinkerview",
+      "type": "video",
+      "title": "Fin définitive de l'énergie bon marché ? Francis Perrin [EN DIRECT]",
+      "url": "https://www.youtube.com/watch?v=KK09dYN-YtI",
+      "publishedAt": "2026-06-16T20:07:18+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/KK09dYN-YtI/hqdefault.jpg"
+    },
+    {
+      "voiceId": "thinkerview",
+      "voiceName": "Thinkerview",
+      "type": "video",
+      "title": "I.A. : L'humanité va-t-elle survivre ? Gilles Babinet [EN DIRECT]",
+      "url": "https://www.youtube.com/watch?v=U-YfMAhMB44",
+      "publishedAt": "2026-06-16T16:13:24+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/U-YfMAhMB44/hqdefault.jpg"
     },
     {
       "voiceId": "simon-willison",
