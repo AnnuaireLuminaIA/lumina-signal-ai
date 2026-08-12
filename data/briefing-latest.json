@@ -1,10 +1,10 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T09:47:25.832972+00:00",
+  "generatedAt": "2026-08-12T15:30:45.283817+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
-  "editorial": "Dominant aujourd'hui : agents, policy, education. 12 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: agents, policy, education. 12 FR items in the feed.",
+  "editorial": "Dominant aujourd'hui : agents, education, open-source. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, open-source. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
@@ -23,7 +23,7 @@
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 12h",
+      "ago": "Il y a 17h",
       "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."

@@ -1,10 +1,46 @@
 {
   "meta": {
-    "updated": "2026-08-12T09:47:06.025059+00:00",
+    "updated": "2026-08-12T15:30:26.552612+00:00",
     "count": 92
   },
-  "generatedAt": "2026-08-12T09:47:06.025067+00:00",
+  "generatedAt": "2026-08-12T15:30:26.552619+00:00",
   "contents": [
+    {
+      "id": "simon-willison-cd20ea4fd093",
+      "voiceId": "simon-willison",
+      "type": "podcast",
+      "title": "Quoting Florian Herrengt",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "Il y a 21 min",
+      "publishedAt": "2026-08-12T15:08:47+00:00",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [],
+      "language": "en",
+      "isNew": true,
+      "titleEn": "Quoting Florian Herrengt"
+    },
+    {
+      "id": "lex-fridman-6a18d8c315af",
+      "voiceId": "lex-fridman",
+      "type": "video",
+      "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=l6USUAIKJls",
+      "thumbnail": "https://i1.ytimg.com/vi/l6USUAIKJls/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 2h",
+      "publishedAt": "2026-08-12T12:57:24+00:00",
+      "platform": "youtube",
+      "signalScore": 8.3,
+      "topics": [],
+      "language": "en",
+      "isNew": true,
+      "titleEn": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500"
+    },
     {
       "id": "simon-willison-d3d55184704f",
       "voiceId": "simon-willison",
@@ -14,7 +50,7 @@
       "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 9h",
+      "ago": "Il y a 15h",
       "publishedAt": "2026-08-11T23:48:35+00:00",
       "platform": "rss",
       "signalScore": 8.4,
@@ -32,7 +68,7 @@
       "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 11h",
+      "ago": "Il y a 16h",
       "publishedAt": "2026-08-11T22:40:45+00:00",
       "platform": "rss",
       "signalScore": 8.4,
@@ -52,7 +88,7 @@
       "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
       "thumbnail": "https://i1.ytimg.com/vi/tHtkXw90IrY/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 12h",
+      "ago": "Il y a 17h",
       "publishedAt": "2026-08-11T21:41:04+00:00",
       "platform": "youtube",
       "signalScore": 9.4,
@@ -70,7 +106,7 @@
       "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 13h",
+      "ago": "Il y a 18h",
       "publishedAt": "2026-08-11T20:35:13+00:00",
       "platform": "rss",
       "signalScore": 8.4,
@@ -88,7 +124,7 @@
       "url": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
       "thumbnail": "https://i4.ytimg.com/vi/S5wE1sjyiQY/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 15h",
+      "ago": "Il y a 21h",
       "publishedAt": "2026-08-11T18:05:57+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
@@ -108,7 +144,7 @@
       "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
       "thumbnail": "https://i2.ytimg.com/vi/-RXD4bTuFTo/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 17h",
+      "ago": "Il y a 22h",
       "publishedAt": "2026-08-11T16:45:37+00:00",
       "platform": "youtube",
       "signalScore": 9.4,
@@ -126,7 +162,7 @@
       "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
       "thumbnail": "https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 18h",
+      "ago": "Il y a 23h",
       "publishedAt": "2026-08-11T15:35:35+00:00",
       "platform": "youtube",
       "signalScore": 8.0,
@@ -214,26 +250,6 @@
       "language": "en",
       "isNew": true,
       "titleEn": "Prompt Caching Explained: Stop Overpaying for AI Agents"
-    },
-    {
-      "id": "simon-willison-c1b15acb0193",
-      "voiceId": "simon-willison",
-      "type": "podcast",
-      "title": "Quoting OpenClaw (running Opus 4.6)",
-      "description": "",
-      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "Il y a 2j",
-      "publishedAt": "2026-08-10T02:05:16+00:00",
-      "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [
-        "policy"
-      ],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Quoting OpenClaw (running Opus 4.6)"
     },
     {
       "id": "nicolas-guyon-db20a97353a0",
@@ -374,7 +390,7 @@
       "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
       "thumbnail": "https://i1.ytimg.com/vi/xGzseSSStnw/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 5j",
+      "ago": "Il y a 6j",
       "publishedAt": "2026-08-06T15:02:06+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
@@ -410,7 +426,7 @@
       "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
       "thumbnail": "https://i1.ytimg.com/vi/ppQh4Tc9BmM/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 6j",
+      "ago": "Il y a 1 sem.",
       "publishedAt": "2026-08-05T13:54:29+00:00",
       "platform": "youtube",
       "signalScore": 8.0,
@@ -751,8 +767,7 @@
       "signalScore": 7.8,
       "topics": [],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "Le nouveau ChatGPT est DISPO : voici tout ce qu’il peut faire."
+      "isNew": true
     },
     {
       "id": "thinkerview-8234d578b010",
@@ -1061,23 +1076,6 @@
       "topics": [
         "multimodal"
       ],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "lex-fridman-854df813c0a9",
-      "voiceId": "lex-fridman",
-      "type": "video",
-      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
-      "thumbnail": "https://i2.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 4 mois",
-      "publishedAt": "2026-04-09T17:35:20+00:00",
-      "platform": "youtube",
-      "signalScore": 8.3,
-      "topics": [],
       "language": "en",
       "isNew": true
     },
@@ -1488,6 +1486,23 @@
       "isNew": true
     },
     {
+      "id": "nathan-lambert-ec0d34d30f20",
+      "voiceId": "nathan-lambert",
+      "type": "podcast",
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "description": "",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "",
+      "publishedAt": "Wed, 12 Aug 2026 13:01:16 GMT",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [],
+      "language": "en",
+      "isNew": true
+    },
+    {
       "id": "nathan-lambert-1b72e96967cc",
       "voiceId": "nathan-lambert",
       "type": "podcast",
@@ -1558,19 +1573,21 @@
       "isNew": true
     },
     {
-      "id": "nathan-lambert-d39a1ef9680f",
-      "voiceId": "nathan-lambert",
+      "id": "huggingface-ab799e9da743",
+      "voiceId": "huggingface",
       "type": "podcast",
-      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "description": "",
-      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Wed, 22 Jul 2026 14:09:04 GMT",
+      "publishedAt": "Wed, 12 Aug 2026 14:00:51 GMT",
       "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
+      "signalScore": 8.3,
+      "topics": [
+        "multimodal"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1646,23 +1663,6 @@
         "open-source",
         "multimodal"
       ],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "huggingface-fd5b733b3580",
-      "voiceId": "huggingface",
-      "type": "podcast",
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "description": "",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Fri, 07 Aug 2026 17:53:32 GMT",
-      "platform": "rss",
-      "signalScore": 8.3,
-      "topics": [],
       "language": "en",
       "isNew": true
     }
