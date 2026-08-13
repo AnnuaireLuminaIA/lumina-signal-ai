@@ -1,6 +1,76 @@
 {
   "briefings": [
     {
+      "date": "2026-08-13",
+      "generatedAt": "2026-08-13T05:51:05.132976+00:00",
+      "summary": "25 contenus · top 5 signaux",
+      "editorial": "Dominant aujourd'hui : reasoning, policy, open-source. 0 contenus FR dans le flux.",
+      "editorialEn": "Today's dominant topics: reasoning, policy, open-source. 0 FR items in the feed.",
+      "items": [
+        {
+          "rank": 1,
+          "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+          "voiceId": "swyx-alessio",
+          "voiceName": "swyx & Alessio Fanelli",
+          "signalScore": 9.0,
+          "ago": "",
+          "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+          "language": "en",
+          "why": "Best ongoing coverage of real AI engineering practice."
+        },
+        {
+          "rank": 2,
+          "title": "Harness Engineering for Self-Improvement",
+          "voiceId": "lilian-weng",
+          "voiceName": "Lilian Weng",
+          "signalScore": 8.8,
+          "ago": "Il y a 1 mois",
+          "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+          "language": "en",
+          "why": "One of the best free curricula for serious ML practitioners."
+        },
+        {
+          "rank": 3,
+          "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+          "voiceId": "simon-willison",
+          "voiceName": "Simon Willison",
+          "signalScore": 8.4,
+          "ago": "Il y a 5h",
+          "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+          "language": "en",
+          "why": "Extremely high signal-to-noise on what actually works in practice."
+        },
+        {
+          "rank": 4,
+          "title": "I wrote an AI textbook — how long until AI can do it better?",
+          "voiceId": "nathan-lambert",
+          "voiceName": "Nathan Lambert",
+          "signalScore": 8.4,
+          "ago": "",
+          "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+          "language": "en",
+          "why": "High-signal commentary on how models are actually trained after pretraining."
+        },
+        {
+          "rank": 5,
+          "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+          "voiceId": "huggingface",
+          "voiceName": "Hugging Face",
+          "signalScore": 8.3,
+          "ago": "",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+          "language": "en",
+          "why": "Central node of the open-source AI community."
+        }
+      ],
+      "stats": {
+        "totalContents": 25,
+        "sources": 5,
+        "frCount": 0,
+        "enCount": 25
+      }
+    },
+    {
       "date": "2026-08-12",
       "generatedAt": "2026-08-12T05:46:28.984856+00:00",
       "summary": "25 contenus · top 5 signaux",
@@ -163,5 +233,5 @@
       }
     }
   ],
-  "updated": "2026-08-12T20:11:37.068689+00:00"
+  "updated": "2026-08-13T05:51:05.133481+00:00"
 }
