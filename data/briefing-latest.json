@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-13T15:32:54.164071+00:00",
+  "generatedAt": "2026-08-13T20:04:05.217076+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
   "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
@@ -23,7 +23,7 @@
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 18h",
+      "ago": "Il y a 22h",
       "url": "https://www.youtube.com/shorts/yAq4PDB6n3s",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
@@ -45,7 +45,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 2j",
+      "ago": "Il y a 3j",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."

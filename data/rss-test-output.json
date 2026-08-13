@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T15:32:35.486510+00:00",
+  "fetchedAt": "2026-08-13T20:03:46.945734+00:00",
   "count": 95,
   "items": [
     {
@@ -886,6 +886,24 @@
       "voiceId": "huggingface",
       "voiceName": "Hugging Face Blog",
       "type": "podcast",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "publishedAt": "Thu, 13 Aug 2026 17:16:04 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "publishedAt": "Thu, 13 Aug 2026 00:00:00 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "publishedAt": "Wed, 12 Aug 2026 16:14:36 GMT",
@@ -907,24 +925,6 @@
       "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
       "publishedAt": "Tue, 11 Aug 2026 13:37:10 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "publishedAt": "Mon, 10 Aug 2026 16:25:36 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "publishedAt": "Mon, 10 Aug 2026 10:05:36 GMT",
       "platform": "rss"
     }
   ]
