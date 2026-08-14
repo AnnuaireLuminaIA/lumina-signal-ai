@@ -1,6 +1,76 @@
 {
   "briefings": [
     {
+      "date": "2026-08-14",
+      "generatedAt": "2026-08-14T05:47:14.299881+00:00",
+      "summary": "25 contenus · top 5 signaux",
+      "editorial": "Dominant aujourd'hui : education, policy, reasoning. 0 contenus FR dans le flux.",
+      "editorialEn": "Today's dominant topics: education, policy, reasoning. 0 FR items in the feed.",
+      "items": [
+        {
+          "rank": 1,
+          "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+          "voiceId": "swyx-alessio",
+          "voiceName": "swyx & Alessio Fanelli",
+          "signalScore": 9.0,
+          "ago": "",
+          "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+          "language": "en",
+          "why": "Best ongoing coverage of real AI engineering practice."
+        },
+        {
+          "rank": 2,
+          "title": "Harness Engineering for Self-Improvement",
+          "voiceId": "lilian-weng",
+          "voiceName": "Lilian Weng",
+          "signalScore": 8.8,
+          "ago": "Il y a 1 mois",
+          "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+          "language": "en",
+          "why": "One of the best free curricula for serious ML practitioners."
+        },
+        {
+          "rank": 3,
+          "title": "sqlite-utils 4.2.1",
+          "voiceId": "simon-willison",
+          "voiceName": "Simon Willison",
+          "signalScore": 8.4,
+          "ago": "Il y a 5h",
+          "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+          "language": "en",
+          "why": "Extremely high signal-to-noise on what actually works in practice."
+        },
+        {
+          "rank": 4,
+          "title": "I wrote an AI textbook — how long until AI can do it better?",
+          "voiceId": "nathan-lambert",
+          "voiceName": "Nathan Lambert",
+          "signalScore": 8.4,
+          "ago": "",
+          "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+          "language": "en",
+          "why": "High-signal commentary on how models are actually trained after pretraining."
+        },
+        {
+          "rank": 5,
+          "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+          "voiceId": "huggingface",
+          "voiceName": "Hugging Face",
+          "signalScore": 8.3,
+          "ago": "",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "language": "en",
+          "why": "Central node of the open-source AI community."
+        }
+      ],
+      "stats": {
+        "totalContents": 25,
+        "sources": 5,
+        "frCount": 0,
+        "enCount": 25
+      }
+    },
+    {
       "date": "2026-08-13",
       "generatedAt": "2026-08-13T05:51:05.132976+00:00",
       "summary": "25 contenus · top 5 signaux",
@@ -233,5 +303,5 @@
       }
     }
   ],
-  "updated": "2026-08-13T20:04:05.217590+00:00"
+  "updated": "2026-08-14T05:47:14.300393+00:00"
 }
