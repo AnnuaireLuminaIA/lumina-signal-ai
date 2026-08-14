@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T15:08:04.422549+00:00",
+  "fetchedAt": "2026-08-14T20:01:48.794166+00:00",
   "count": 95,
   "items": [
     {
@@ -886,6 +886,15 @@
       "voiceId": "huggingface",
       "voiceName": "Hugging Face Blog",
       "type": "podcast",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "publishedAt": "Fri, 14 Aug 2026 00:00:00 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face Blog",
+      "type": "podcast",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "publishedAt": "Thu, 13 Aug 2026 17:16:04 GMT",
@@ -916,15 +925,6 @@
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "publishedAt": "Wed, 12 Aug 2026 14:00:51 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "publishedAt": "Tue, 11 Aug 2026 13:37:10 GMT",
       "platform": "rss"
     }
   ]
