@@ -1,13 +1,35 @@
 {
   "date": "2026-08-14",
-  "generatedAt": "2026-08-14T05:47:14.299881+00:00",
+  "generatedAt": "2026-08-14T09:42:37.272627+00:00",
   "title": "Briefing du jour",
-  "summary": "25 contenus · top 5 signaux",
-  "editorial": "Dominant aujourd'hui : education, policy, reasoning. 0 contenus FR dans le flux.",
-  "editorialEn": "Today's dominant topics: education, policy, reasoning. 0 FR items in the feed.",
+  "summary": "92 contenus · top 7 signaux",
+  "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
+  "editorialEn": "Today's dominant topics: agents, education, policy. 12 FR items in the feed.",
   "items": [
     {
       "rank": 1,
+      "title": "How I use LLMs",
+      "voiceId": "andrej-karpathy",
+      "voiceName": "Andrej Karpathy",
+      "signalScore": 9.6,
+      "ago": "Il y a 17 mois",
+      "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+      "language": "en",
+      "why": "Best technical pedagogy currently available. Rare combination of frontier experience and teaching excellence."
+    },
+    {
+      "rank": 2,
+      "title": "Why AI would rather lie than say 'I don't know' - Ryan Greenblatt",
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "signalScore": 9.4,
+      "ago": "Il y a 13h",
+      "url": "https://www.youtube.com/shorts/BcsP0RFqu-o",
+      "language": "en",
+      "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
+    },
+    {
+      "rank": 3,
       "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
       "voiceId": "swyx-alessio",
       "voiceName": "swyx & Alessio Fanelli",
@@ -18,7 +40,18 @@
       "why": "Best ongoing coverage of real AI engineering practice."
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "voiceId": "nathan-labenz",
+      "voiceName": "Nathan Labenz",
+      "signalScore": 8.8,
+      "ago": "Il y a 3j",
+      "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
+      "language": "en",
+      "why": "Excellent signal on what models can actually do versus benchmarks."
+    },
+    {
+      "rank": 5,
       "title": "Harness Engineering for Self-Improvement",
       "voiceId": "lilian-weng",
       "voiceName": "Lilian Weng",
@@ -29,43 +62,32 @@
       "why": "One of the best free curricula for serious ML practitioners."
     },
     {
-      "rank": 3,
-      "title": "sqlite-utils 4.2.1",
-      "voiceId": "simon-willison",
-      "voiceName": "Simon Willison",
-      "signalScore": 8.4,
-      "ago": "Il y a 5h",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+      "rank": 6,
+      "title": "The 64 sugar cubes puzzle",
+      "voiceId": "3blue1brown",
+      "voiceName": "3Blue1Brown (Grant Sanderson)",
+      "signalScore": 8.7,
+      "ago": "Il y a 2 sem.",
+      "url": "https://www.youtube.com/shorts/6XPlmCDNLNc",
       "language": "en",
-      "why": "Extremely high signal-to-noise on what actually works in practice."
+      "why": "Best mathematical intuition content for understanding the foundations of deep learning."
     },
     {
-      "rank": 4,
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "voiceId": "nathan-lambert",
-      "voiceName": "Nathan Lambert",
-      "signalScore": 8.4,
-      "ago": "",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "rank": 7,
+      "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+      "voiceId": "yannic-kilcher",
+      "voiceName": "Yannic Kilcher",
+      "signalScore": 8.7,
+      "ago": "Il y a 5 mois",
+      "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
       "language": "en",
-      "why": "High-signal commentary on how models are actually trained after pretraining."
-    },
-    {
-      "rank": 5,
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face",
-      "signalScore": 8.3,
-      "ago": "",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "language": "en",
-      "why": "Central node of the open-source AI community."
+      "why": "Highest-quality paper explanation content available publicly."
     }
   ],
   "stats": {
-    "totalContents": 25,
-    "sources": 5,
-    "frCount": 0,
-    "enCount": 25
+    "totalContents": 92,
+    "sources": 18,
+    "frCount": 12,
+    "enCount": 80
   }
 }
