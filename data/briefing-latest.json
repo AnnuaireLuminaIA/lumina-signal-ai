@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generatedAt": "2026-08-14T09:42:37.272627+00:00",
+  "generatedAt": "2026-08-14T15:08:23.191780+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
   "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
@@ -23,7 +23,7 @@
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 13h",
+      "ago": "Il y a 18h",
       "url": "https://www.youtube.com/shorts/BcsP0RFqu-o",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
@@ -67,7 +67,7 @@
       "voiceId": "3blue1brown",
       "voiceName": "3Blue1Brown (Grant Sanderson)",
       "signalScore": 8.7,
-      "ago": "Il y a 2 sem.",
+      "ago": "Il y a 3 sem.",
       "url": "https://www.youtube.com/shorts/6XPlmCDNLNc",
       "language": "en",
       "why": "Best mathematical intuition content for understanding the foundations of deep learning."
