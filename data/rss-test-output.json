@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T13:40:29.602833+00:00",
+  "fetchedAt": "2026-08-15T19:01:24.885141+00:00",
   "count": 95,
   "items": [
     {
@@ -106,6 +106,15 @@
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "publishedAt": "Sat, 15 Aug 2026 15:46:22 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "swyx-alessio",
+      "voiceName": "Latent Space",
+      "type": "podcast",
       "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
       "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
       "publishedAt": "Fri, 14 Aug 2026 05:30:39 GMT",
@@ -136,15 +145,6 @@
       "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
       "url": "https://www.latent.space/p/chai-discovery",
       "publishedAt": "Tue, 11 Aug 2026 21:03:50 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "swyx-alessio",
-      "voiceName": "Latent Space",
-      "type": "podcast",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "publishedAt": "Tue, 11 Aug 2026 05:16:41 GMT",
       "platform": "rss"
     },
     {

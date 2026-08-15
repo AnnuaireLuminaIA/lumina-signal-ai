@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "generatedAt": "2026-08-15T13:40:46.966101+00:00",
+  "generatedAt": "2026-08-15T19:01:44.103790+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
   "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
@@ -23,19 +23,19 @@
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 15h",
+      "ago": "Il y a 21h",
       "url": "https://www.youtube.com/shorts/BL75EMfz_N8",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
     },
     {
       "rank": 3,
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
       "voiceId": "swyx-alessio",
       "voiceName": "swyx & Alessio Fanelli",
       "signalScore": 9.0,
       "ago": "",
-      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "url": "https://www.latent.space/p/flue-2",
       "language": "en",
       "why": "Best ongoing coverage of real AI engineering practice."
     },
@@ -45,7 +45,7 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Nathan Labenz",
       "signalScore": 8.8,
-      "ago": "Il y a 4j",
+      "ago": "Il y a 5j",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "language": "en",
       "why": "Excellent signal on what models can actually do versus benchmarks."
