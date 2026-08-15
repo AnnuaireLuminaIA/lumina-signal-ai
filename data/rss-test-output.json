@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T03:03:59.452354+00:00",
+  "fetchedAt": "2026-08-15T07:19:34.800333+00:00",
   "count": 95,
   "items": [
     {
@@ -751,6 +751,15 @@
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
+      "title": "Northern Gannet",
+      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "publishedAt": "2026-08-15T03:22:00+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
       "title": "Don't classify. Hallucinate!",
       "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
       "publishedAt": "2026-08-14T21:54:35+00:00",
@@ -781,15 +790,6 @@
       "title": "llm-gemini 0.33",
       "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
       "publishedAt": "2026-08-13T19:37:34+00:00",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "simon-willison",
-      "voiceName": "Simon Willison",
-      "type": "podcast",
-      "title": "alchemy-utils 0.1a1",
-      "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
-      "publishedAt": "2026-08-13T03:03:17+00:00",
       "platform": "rss"
     },
     {
