@@ -1,7 +1,17 @@
 {
-  "fetchedAt": "2026-08-14T20:01:48.794166+00:00",
+  "fetchedAt": "2026-08-15T03:03:59.452354+00:00",
   "count": 95,
   "items": [
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "AI has no duty of loyalty to you - Ryan Greenblatt",
+      "url": "https://www.youtube.com/shorts/BL75EMfz_N8",
+      "publishedAt": "2026-08-14T21:48:10+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i3.ytimg.com/vi/BL75EMfz_N8/hqdefault.jpg"
+    },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
@@ -41,16 +51,6 @@
       "publishedAt": "2026-08-11T16:45:37+00:00",
       "platform": "youtube",
       "thumbnail": "https://i2.ytimg.com/vi/-RXD4bTuFTo/hqdefault.jpg"
-    },
-    {
-      "voiceId": "dwarkesh-patel",
-      "voiceName": "Dwarkesh Patel",
-      "type": "video",
-      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
-      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
-      "publishedAt": "2026-08-09T16:30:36+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i4.ytimg.com/vi/KP_Bpsu69NI/hqdefault.jpg"
     },
     {
       "voiceId": "yannic-kilcher",
@@ -751,6 +751,15 @@
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "publishedAt": "2026-08-14T21:54:35+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
       "title": "sqlite-utils 4.2.1",
       "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
       "publishedAt": "2026-08-13T23:53:47+00:00",
@@ -784,12 +793,12 @@
       "platform": "rss"
     },
     {
-      "voiceId": "simon-willison",
-      "voiceName": "Simon Willison",
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
       "type": "podcast",
-      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "publishedAt": "2026-08-12T23:59:23+00:00",
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "publishedAt": "Fri, 14 Aug 2026 21:23:35 GMT",
       "platform": "rss"
     },
     {
@@ -826,15 +835,6 @@
       "title": "Introducing our Artifacts Hub and Adoption Dashboard",
       "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
       "publishedAt": "Mon, 03 Aug 2026 14:03:08 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "nathan-lambert",
-      "voiceName": "Nathan Lambert Interconnects",
-      "type": "podcast",
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-      "publishedAt": "Sun, 02 Aug 2026 13:01:40 GMT",
       "platform": "rss"
     },
     {
