@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-16T03:16:33.074160+00:00",
+  "fetchedAt": "2026-08-16T07:44:47.915888+00:00",
   "count": 95,
   "items": [
     {
@@ -351,6 +351,16 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Cognitive Revolution",
       "type": "video",
+      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
+      "url": "https://www.youtube.com/watch?v=wOFZNh2t068",
+      "publishedAt": "2026-08-16T05:43:01+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i4.ytimg.com/vi/wOFZNh2t068/hqdefault.jpg"
+    },
+    {
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
+      "type": "video",
       "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "publishedAt": "2026-08-10T18:02:49+00:00",
@@ -386,16 +396,6 @@
       "publishedAt": "2026-08-02T21:09:52+00:00",
       "platform": "youtube",
       "thumbnail": "https://i4.ytimg.com/vi/w9zJzd3WqA8/hqdefault.jpg"
-    },
-    {
-      "voiceId": "nathan-labenz",
-      "voiceName": "Cognitive Revolution",
-      "type": "video",
-      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
-      "url": "https://www.youtube.com/watch?v=EjLeFMCRdWk",
-      "publishedAt": "2026-07-30T20:42:47+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i2.ytimg.com/vi/EjLeFMCRdWk/hqdefault.jpg"
     },
     {
       "voiceId": "lex-fridman",

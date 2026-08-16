@@ -1,10 +1,28 @@
 {
   "meta": {
-    "updated": "2026-08-16T03:16:33.126091+00:00",
+    "updated": "2026-08-16T07:44:47.994848+00:00",
     "count": 92
   },
-  "generatedAt": "2026-08-16T03:16:33.126097+00:00",
+  "generatedAt": "2026-08-16T07:44:47.994855+00:00",
   "contents": [
+    {
+      "id": "nathan-labenz-7a5afa5f7360",
+      "voiceId": "nathan-labenz",
+      "type": "video",
+      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=wOFZNh2t068",
+      "thumbnail": "https://i4.ytimg.com/vi/wOFZNh2t068/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 2h",
+      "publishedAt": "2026-08-16T05:43:01+00:00",
+      "platform": "youtube",
+      "signalScore": 8.8,
+      "topics": [],
+      "language": "en",
+      "isNew": true,
+      "titleEn": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems"
+    },
     {
       "id": "dwarkesh-patel-d3bb1a56fd5c",
       "voiceId": "dwarkesh-patel",
@@ -14,7 +32,7 @@
       "url": "https://www.youtube.com/shorts/pP4scNfgL5U",
       "thumbnail": "https://i1.ytimg.com/vi/pP4scNfgL5U/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 5h",
+      "ago": "Il y a 10h",
       "publishedAt": "2026-08-15T21:21:18+00:00",
       "platform": "youtube",
       "signalScore": 9.4,
@@ -32,7 +50,7 @@
       "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 12h",
+      "ago": "Il y a 16h",
       "publishedAt": "2026-08-15T14:49:54+00:00",
       "platform": "rss",
       "signalScore": 8.4,
@@ -50,7 +68,7 @@
       "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 23h",
+      "ago": "Il y a 1j",
       "publishedAt": "2026-08-15T03:22:00+00:00",
       "platform": "rss",
       "signalScore": 8.4,
@@ -562,24 +580,6 @@
       "language": "en",
       "isNew": true,
       "titleEn": "Tau Crash Course: The Python Port of Pi"
-    },
-    {
-      "id": "nathan-labenz-c9d1a4aa1146",
-      "voiceId": "nathan-labenz",
-      "type": "video",
-      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=EjLeFMCRdWk",
-      "thumbnail": "https://i2.ytimg.com/vi/EjLeFMCRdWk/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 2 sem.",
-      "publishedAt": "2026-07-30T20:42:47+00:00",
-      "platform": "youtube",
-      "signalScore": 8.8,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard"
     },
     {
       "id": "nicolas-guyon-06f3262fc080",
