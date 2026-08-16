@@ -2812,6 +2812,414 @@
       "avatarFallbacks": [],
       "initials": "EA",
       "pillar": "ia-agents"
+    },
+    {
+      "id": "cognitive-revolution",
+      "name": "The Cognitive Revolution",
+      "role": "AI frontier podcast",
+      "roleFr": "Podcast frontier IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.5,
+      "categories": [
+        "Podcast",
+        "Research",
+        "Frontier"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Deep interviews on frontier models, safety and the future of intelligence.",
+      "bioFr": "Interviews approfondies sur les modèles frontier, la safety et le futur de l'intelligence.",
+      "why": "High-signal long-form on what actually matters at the frontier.",
+      "whyFr": "Long-format high-signal sur ce qui compte vraiment à la frontier.",
+      "links": {
+        "youtube": "https://www.youtube.com/@CognitiveRevolutionPodcast"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@CognitiveRevolutionPodcast",
+      "initials": "CR"
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "role": "Frontier research lab",
+      "roleFr": "Labo de recherche frontier",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.8,
+      "categories": [
+        "Research",
+        "Frontier"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Official research communications from DeepMind.",
+      "bioFr": "Communications recherche officielles de DeepMind.",
+      "why": "Primary source for major research releases.",
+      "whyFr": "Source primaire pour les grandes annonces recherche.",
+      "links": {
+        "youtube": "https://www.youtube.com/@GoogleDeepMind",
+        "website": "https://deepmind.google"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@GoogleDeepMind",
+      "initials": "DM"
+    },
+    {
+      "id": "statquest",
+      "name": "StatQuest (Josh Starmer)",
+      "role": "ML statistics educator",
+      "roleFr": "Éducateur stats & ML",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Education"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Clear statistical and ML foundations.",
+      "bioFr": "Fondations stats et ML ultra-claires.",
+      "why": "Best intuition-building for core ML concepts.",
+      "whyFr": "Meilleure intuition pour les concepts ML de base.",
+      "links": {
+        "youtube": "https://www.youtube.com/@statquest"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@statquest",
+      "initials": "SQ"
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI (Jack Clark)",
+      "role": "AI policy & research newsletter",
+      "roleFr": "Newsletter policy & recherche IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.0,
+      "categories": [
+        "Policy",
+        "Research",
+        "Analysis"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Weekly briefing on AI research, policy and industry by Anthropic co-founder Jack Clark.",
+      "bioFr": "Briefing hebdo recherche, policy et industrie par Jack Clark (co-fondateur Anthropic).",
+      "why": "One of the highest-signal weekly AI digests available.",
+      "whyFr": "Un des digests IA hebdomadaires les plus high-signal.",
+      "links": {
+        "website": "https://importai.substack.com"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/jackclarkSF",
+      "initials": "IA"
+    },
+    {
+      "id": "asianometry",
+      "name": "Asianometry",
+      "role": "Semiconductors & tech industry",
+      "roleFr": "Semi-conducteurs & industrie tech",
+      "country": "TW",
+      "countryCode": "TW",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.9,
+      "categories": [
+        "Industry",
+        "Analysis"
+      ],
+      "pillar": "chips-infra",
+      "bio": "Deep dives on semiconductors, manufacturing and Asian tech industry.",
+      "bioFr": "Analyses poussées sur les semi-conducteurs, la fab et l'industrie tech asiatique.",
+      "why": "Best free education on chips and industrial tech.",
+      "whyFr": "Meilleure vulgarisation gratuite sur les chips et l'industrie.",
+      "links": {
+        "youtube": "https://www.youtube.com/@Asianometry"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@Asianometry",
+      "initials": "AS"
+    },
+    {
+      "id": "munro-live",
+      "name": "Munro Live",
+      "role": "EV & automotive teardown",
+      "roleFr": "Teardown EV & automobile",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.0,
+      "categories": [
+        "Industry",
+        "Engineering"
+      ],
+      "pillar": "robotique-auto",
+      "bio": "Engineering teardowns of EVs and automotive systems.",
+      "bioFr": "Teardowns ingénierie de véhicules électriques et systèmes auto.",
+      "why": "Rare ground-truth engineering signal on mobility hardware.",
+      "whyFr": "Signal ingénierie rare et concret sur le hardware mobilité.",
+      "links": {
+        "youtube": "https://www.youtube.com/@MunroLive"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@MunroLive",
+      "initials": "ML"
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "role": "Semiconductor & AI infra analysis",
+      "roleFr": "Analyse semi-conducteurs & infra IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 9.1,
+      "categories": [
+        "Industry",
+        "Analysis",
+        "Infra"
+      ],
+      "pillar": "chips-infra",
+      "bio": "In-depth analysis of semiconductor industry and AI infrastructure.",
+      "bioFr": "Analyses approfondies de l'industrie semi-conducteurs et de l'infra IA.",
+      "why": "Top-tier infra/chips signal for serious followers.",
+      "whyFr": "Signal infra/chips de premier plan.",
+      "links": {
+        "website": "https://www.semianalysis.com"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/SemiAnalysis_",
+      "initials": "SA"
+    },
+    {
+      "id": "stratechery",
+      "name": "Stratechery (Ben Thompson)",
+      "role": "Tech strategy & business",
+      "roleFr": "Stratégie tech & business",
+      "country": "TW",
+      "countryCode": "TW",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Business",
+        "Analysis"
+      ],
+      "pillar": "fintech-macro",
+      "bio": "Technology strategy and business analysis.",
+      "bioFr": "Stratégie technologique et analyse business.",
+      "why": "Reference framework for understanding tech power and markets.",
+      "whyFr": "Référence pour comprendre le pouvoir tech et les marchés.",
+      "links": {
+        "website": "https://stratechery.com"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/benthompson",
+      "initials": "ST"
+    },
+    {
+      "id": "bens-bites",
+      "name": "Ben's Bites",
+      "role": "Daily AI newsletter",
+      "roleFr": "Newsletter IA quotidienne",
+      "country": "GB",
+      "countryCode": "GB",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.6,
+      "categories": [
+        "Tools",
+        "Practical"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Fast daily roundup of AI product and tool news.",
+      "bioFr": "Tour d'horizon quotidien des produits et outils IA.",
+      "why": "Useful pulse on the tools layer.",
+      "whyFr": "Bon pouls sur la couche outils.",
+      "links": {
+        "website": "https://www.bensbites.com"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/bensbitesco",
+      "initials": "BB"
+    },
+    {
+      "id": "the-gradient",
+      "name": "The Gradient",
+      "role": "AI research publication",
+      "roleFr": "Publication recherche IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.3,
+      "categories": [
+        "Research",
+        "Analysis"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Long-form writing on AI research and ideas.",
+      "bioFr": "Textes longs sur la recherche et les idées en IA.",
+      "why": "Thoughtful research-oriented essays.",
+      "whyFr": "Essais recherche réfléchis.",
+      "links": {
+        "website": "https://thegradient.pub"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/GradientPub",
+      "initials": "TG"
+    },
+    {
+      "id": "distill",
+      "name": "Distill",
+      "role": "Interactive ML explanations",
+      "roleFr": "Explications ML interactives",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.6,
+      "categories": [
+        "Education",
+        "Research"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Interactive essays clarifying machine learning concepts.",
+      "bioFr": "Essais interactifs pour clarifier les concepts de machine learning.",
+      "why": "Gold standard for visual ML pedagogy.",
+      "whyFr": "Référence de pédagogie ML visuelle.",
+      "links": {
+        "website": "https://distill.pub"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/distillpub",
+      "initials": "DI"
+    },
+    {
+      "id": "acquired",
+      "name": "Acquired",
+      "role": "Company & tech history podcast",
+      "roleFr": "Podcast histoire des entreprises tech",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.4,
+      "categories": [
+        "Business",
+        "Podcast"
+      ],
+      "pillar": "fintech-macro",
+      "bio": "Deep histories of iconic technology companies.",
+      "bioFr": "Histoires approfondies d'entreprises tech iconiques.",
+      "why": "Business context that frames where tech value accrues.",
+      "whyFr": "Contexte business pour comprendre où se crée la valeur tech.",
+      "links": {
+        "website": "https://www.acquired.fm"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/AcquiredFM",
+      "initials": "AQ"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "role": "Official Google AI research",
+      "roleFr": "Recherche IA officielle Google",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.2,
+      "categories": [
+        "Research"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Official updates from Google AI research.",
+      "bioFr": "Mises à jour officielles de la recherche Google AI.",
+      "why": "Primary source for Google research announcements.",
+      "whyFr": "Source primaire des annonces recherche Google.",
+      "links": {
+        "website": "https://blog.google/technology/ai/"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/GoogleAI",
+      "initials": "GA"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "role": "Frontier AI lab",
+      "roleFr": "Labo IA frontier",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 8.7,
+      "categories": [
+        "Research",
+        "Frontier"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Official posts from OpenAI.",
+      "bioFr": "Publications officielles d'OpenAI.",
+      "why": "Primary source for a major frontier lab.",
+      "whyFr": "Source primaire d'un labo frontier majeur.",
+      "links": {
+        "website": "https://openai.com",
+        "x": "https://x.com/OpenAI"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/twitter/OpenAI",
+      "initials": "OA"
+    },
+    {
+      "id": "heu7reka",
+      "name": "Heu?reka",
+      "role": "Vulgarisation scientifique FR",
+      "roleFr": "Vulgarisation scientifique FR",
+      "country": "FR",
+      "countryCode": "FR",
+      "language": [
+        "fr"
+      ],
+      "signalScore": 7.5,
+      "categories": [
+        "Education",
+        "French"
+      ],
+      "pillar": "ia-agents",
+      "bio": "Vulgarisation scientifique francophone, parfois tech/IA.",
+      "bioFr": "Vulgarisation scientifique francophone, parfois tech/IA.",
+      "why": "Qualité pédagogique FR pour élargir le socle francophone.",
+      "whyFr": "Qualité pédagogique FR pour élargir le socle francophone.",
+      "links": {
+        "youtube": "https://www.youtube.com/@Heu7reka"
+      },
+      "active": true,
+      "avatar": "https://unavatar.io/youtube/@Heu7reka",
+      "initials": "HE"
     }
   ]
 }

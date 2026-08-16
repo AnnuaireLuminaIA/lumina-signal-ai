@@ -3,7 +3,7 @@
     "project": "Lumina Signal",
     "type": "rss-sources",
     "updated": "2026-08-16",
-    "note": "Sources prioritaires pour l'ingestion RSS"
+    "note": "High-signal sources across IA, chips, robotics/auto, fintech/macro"
   },
   "sources": [
     {
@@ -238,6 +238,159 @@
       "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuQH_mB7hj4WFyApoNP1Emw",
       "priority": 3,
       "language": "en"
+    },
+    {
+      "voiceId": "cognitive-revolution",
+      "name": "The Cognitive Revolution",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoPTBQlwUm0m7gSbBW9wN6A",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "google-deepmind",
+      "name": "Google DeepMind",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "statquest",
+      "name": "StatQuest",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw",
+      "priority": 3,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "import-ai",
+      "name": "Import AI (Jack Clark)",
+      "type": "rss",
+      "rss": "https://jack-clark.net/feed/",
+      "priority": 1,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "sebastian-raschka",
+      "name": "Sebastian Raschka",
+      "type": "rss",
+      "rss": "https://magazine.sebastianraschka.com/feed",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "asianometry",
+      "name": "Asianometry",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbGy2YOZaQ2ZqCkixSokTKQ",
+      "priority": 1,
+      "language": "en",
+      "pillar": "chips-infra"
+    },
+    {
+      "voiceId": "munro-live",
+      "name": "Munro Live",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZ_jz41P3-LkGHy02_1dRSA",
+      "priority": 2,
+      "language": "en",
+      "pillar": "robotique-auto"
+    },
+    {
+      "voiceId": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "rss",
+      "rss": "https://www.semianalysis.com/feed",
+      "priority": 2,
+      "language": "en",
+      "pillar": "chips-infra"
+    },
+    {
+      "voiceId": "stratechery",
+      "name": "Stratechery",
+      "type": "rss",
+      "rss": "https://stratechery.com/feed/",
+      "priority": 2,
+      "language": "en",
+      "pillar": "fintech-macro"
+    },
+    {
+      "voiceId": "bens-bites",
+      "name": "Ben's Bites",
+      "type": "rss",
+      "rss": "https://www.bensbites.com/feed",
+      "priority": 3,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "the-gradient",
+      "name": "The Gradient",
+      "type": "rss",
+      "rss": "https://thegradient.pub/rss/",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "distill",
+      "name": "Distill",
+      "type": "rss",
+      "rss": "https://distill.pub/rss.xml",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "acquired",
+      "name": "Acquired",
+      "type": "podcast",
+      "rss": "https://feeds.transistor.fm/acquired",
+      "priority": 2,
+      "language": "en",
+      "pillar": "fintech-macro"
+    },
+    {
+      "voiceId": "google-ai-blog",
+      "name": "Google AI Blog",
+      "type": "rss",
+      "rss": "https://blog.google/technology/ai/rss/",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "openai",
+      "name": "OpenAI",
+      "type": "rss",
+      "rss": "https://openai.com/blog/rss.xml",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "chris-olah",
+      "name": "Chris Olah / colah's blog",
+      "type": "rss",
+      "rss": "https://feeds.feedburner.com/blogspot/gJZg",
+      "priority": 2,
+      "language": "en",
+      "pillar": "ia-agents"
+    },
+    {
+      "voiceId": "heu7reka",
+      "name": "Heu?reka",
+      "type": "youtube",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg",
+      "priority": 3,
+      "language": "fr",
+      "pillar": "ia-agents"
     }
   ]
 }
