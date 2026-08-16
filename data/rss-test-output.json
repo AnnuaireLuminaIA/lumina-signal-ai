@@ -1,56 +1,56 @@
 {
-  "fetchedAt": "2026-08-16T07:44:47.915888+00:00",
-  "count": 95,
+  "fetchedAt": "2026-08-11T12:41:31.305422+00:00",
+  "count": 90,
   "items": [
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "type": "video",
-      "title": "OpenAI's models hacked a package manager to cheat evals - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/pP4scNfgL5U",
-      "publishedAt": "2026-08-15T21:21:18+00:00",
+      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
+      "publishedAt": "2026-08-09T16:30:36+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i1.ytimg.com/vi/pP4scNfgL5U/hqdefault.jpg"
+      "thumbnail": "https://i4.ytimg.com/vi/KP_Bpsu69NI/hqdefault.jpg"
     },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "type": "video",
-      "title": "AI has no duty of loyalty to you - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/BL75EMfz_N8",
-      "publishedAt": "2026-08-14T21:48:10+00:00",
+      "title": "AlphaZero for Mathematics - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/AvH0cJV1Cc8",
+      "publishedAt": "2026-08-07T22:28:23+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i3.ytimg.com/vi/BL75EMfz_N8/hqdefault.jpg"
+      "thumbnail": "https://i2.ytimg.com/vi/AvH0cJV1Cc8/hqdefault.jpg"
     },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "type": "video",
-      "title": "Why AI would rather lie than say 'I don't know' - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/BcsP0RFqu-o",
-      "publishedAt": "2026-08-13T20:40:54+00:00",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "url": "https://www.youtube.com/watch?v=iewm45atodE",
+      "publishedAt": "2026-08-07T17:33:15+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i3.ytimg.com/vi/BcsP0RFqu-o/hqdefault.jpg"
+      "thumbnail": "https://i2.ytimg.com/vi/iewm45atodE/hqdefault.jpg"
     },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "type": "video",
-      "title": "Every AI Model Has an Inherited Personality - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/yAq4PDB6n3s",
-      "publishedAt": "2026-08-12T21:19:21+00:00",
+      "title": "The Skill Great Teachers Have That LLMs Completely Lack - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/1vAGYbbtahU",
+      "publishedAt": "2026-08-06T22:13:29+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i2.ytimg.com/vi/yAq4PDB6n3s/hqdefault.jpg"
+      "thumbnail": "https://i2.ytimg.com/vi/1vAGYbbtahU/hqdefault.jpg"
     },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "type": "video",
-      "title": "Claude Got Caught Trying to Hack a GitHub Repo - Ryan Greenblatt",
-      "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
-      "publishedAt": "2026-08-11T21:41:04+00:00",
+      "title": "The Real Advantage AI Has Over Human Geniuses - Grant Sanderson",
+      "url": "https://www.youtube.com/shorts/KjMKzIOhw4Q",
+      "publishedAt": "2026-08-04T22:08:20+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i1.ytimg.com/vi/tHtkXw90IrY/hqdefault.jpg"
+      "thumbnail": "https://i4.ytimg.com/vi/KjMKzIOhw4Q/hqdefault.jpg"
     },
     {
       "voiceId": "yannic-kilcher",
@@ -106,45 +106,45 @@
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "url": "https://www.latent.space/p/flue-2",
-      "publishedAt": "Sat, 15 Aug 2026 15:46:22 GMT",
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+      "publishedAt": "Tue, 11 Aug 2026 05:16:41 GMT",
       "platform": "rss"
     },
     {
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
-      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
-      "publishedAt": "Fri, 14 Aug 2026 05:30:39 GMT",
+      "title": "[AINews] Zawinski's Law of MultiAgents",
+      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+      "publishedAt": "Sat, 08 Aug 2026 01:12:07 GMT",
       "platform": "rss"
     },
     {
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
-      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "publishedAt": "Thu, 13 Aug 2026 01:53:47 GMT",
+      "title": "[AINews] AMD buys Taalas",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "publishedAt": "Fri, 07 Aug 2026 05:13:46 GMT",
       "platform": "rss"
     },
     {
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
-      "title": "[AINews] How to steal a Reasoning Trace",
-      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "publishedAt": "Wed, 12 Aug 2026 07:11:08 GMT",
+      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "publishedAt": "Thu, 06 Aug 2026 04:34:11 GMT",
       "platform": "rss"
     },
     {
       "voiceId": "swyx-alessio",
       "voiceName": "Latent Space",
       "type": "podcast",
-      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
-      "url": "https://www.latent.space/p/chai-discovery",
-      "publishedAt": "Tue, 11 Aug 2026 21:03:50 GMT",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "publishedAt": "Wed, 05 Aug 2026 01:21:47 GMT",
       "platform": "rss"
     },
     {
@@ -351,16 +351,6 @@
       "voiceId": "nathan-labenz",
       "voiceName": "Cognitive Revolution",
       "type": "video",
-      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
-      "url": "https://www.youtube.com/watch?v=wOFZNh2t068",
-      "publishedAt": "2026-08-16T05:43:01+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i4.ytimg.com/vi/wOFZNh2t068/hqdefault.jpg"
-    },
-    {
-      "voiceId": "nathan-labenz",
-      "voiceName": "Cognitive Revolution",
-      "type": "video",
       "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "publishedAt": "2026-08-10T18:02:49+00:00",
@@ -398,14 +388,14 @@
       "thumbnail": "https://i4.ytimg.com/vi/w9zJzd3WqA8/hqdefault.jpg"
     },
     {
-      "voiceId": "lex-fridman",
-      "voiceName": "Lex Fridman",
+      "voiceId": "nathan-labenz",
+      "voiceName": "Cognitive Revolution",
       "type": "video",
-      "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500",
-      "url": "https://www.youtube.com/watch?v=l6USUAIKJls",
-      "publishedAt": "2026-08-12T12:57:24+00:00",
+      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
+      "url": "https://www.youtube.com/watch?v=EjLeFMCRdWk",
+      "publishedAt": "2026-07-30T20:42:47+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i1.ytimg.com/vi/l6USUAIKJls/hqdefault.jpg"
+      "thumbnail": "https://i2.ytimg.com/vi/EjLeFMCRdWk/hqdefault.jpg"
     },
     {
       "voiceId": "lex-fridman",
@@ -448,10 +438,20 @@
       "thumbnail": "https://i3.ytimg.com/vi/nepKKz-MzFM/hqdefault.jpg"
     },
     {
+      "voiceId": "lex-fridman",
+      "voiceName": "Lex Fridman",
+      "type": "video",
+      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+      "publishedAt": "2026-04-09T17:35:20+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg"
+    },
+    {
       "voiceId": "mlst",
       "voiceName": "Machine Learning Street Talk",
       "type": "video",
-      "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
+      "title": "Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart",
       "url": "https://www.youtube.com/watch?v=revreN8LZ_M",
       "publishedAt": "2026-08-10T22:55:05+00:00",
       "platform": "youtube",
@@ -501,26 +501,6 @@
       "voiceId": "two-minute-papers",
       "voiceName": "Two Minute Papers",
       "type": "video",
-      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
-      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
-      "publishedAt": "2026-08-14T08:42:07+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i2.ytimg.com/vi/QnGNF8k_uoc/hqdefault.jpg"
-    },
-    {
-      "voiceId": "two-minute-papers",
-      "voiceName": "Two Minute Papers",
-      "type": "video",
-      "title": "OpenAI’s AI Agents Just Crossed A Line",
-      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
-      "publishedAt": "2026-08-11T15:35:35+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg"
-    },
-    {
-      "voiceId": "two-minute-papers",
-      "voiceName": "Two Minute Papers",
-      "type": "video",
       "title": "DeepMind Just Changed How AI Sees The World",
       "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
       "publishedAt": "2026-08-07T08:22:00+00:00",
@@ -548,14 +528,24 @@
       "thumbnail": "https://i3.ytimg.com/vi/bm1BjOjS7sQ/hqdefault.jpg"
     },
     {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face",
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
       "type": "video",
-      "title": "Hugging Face Journal Club: Direct On-Policy Distillation",
-      "url": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
-      "publishedAt": "2026-08-11T18:05:57+00:00",
+      "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+      "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+      "publishedAt": "2026-08-02T15:01:10+00:00",
       "platform": "youtube",
-      "thumbnail": "https://i4.ytimg.com/vi/S5wE1sjyiQY/hqdefault.jpg"
+      "thumbnail": "https://i1.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg"
+    },
+    {
+      "voiceId": "two-minute-papers",
+      "voiceName": "Two Minute Papers",
+      "type": "video",
+      "title": "Kimi K3 Just Broke The Economics Of AI",
+      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+      "publishedAt": "2026-07-29T12:37:50+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/Xj-QdEUxJkE/hqdefault.jpg"
     },
     {
       "voiceId": "huggingface",
@@ -596,6 +586,16 @@
       "publishedAt": "2026-07-31T12:30:44+00:00",
       "platform": "youtube",
       "thumbnail": "https://i2.ytimg.com/vi/qo1QNxWcm28/hqdefault.jpg"
+    },
+    {
+      "voiceId": "huggingface",
+      "voiceName": "Hugging Face",
+      "type": "video",
+      "title": "Hugging Face Journal Club: Kimi K3",
+      "url": "https://www.youtube.com/watch?v=MW8-kqd2SD8",
+      "publishedAt": "2026-07-29T18:31:00+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i2.ytimg.com/vi/MW8-kqd2SD8/hqdefault.jpg"
     },
     {
       "voiceId": "ludovic-salenne",
@@ -751,63 +751,45 @@
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "CORS Chat",
-      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
-      "publishedAt": "2026-08-15T14:49:54+00:00",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "publishedAt": "2026-08-10T23:56:03+00:00",
       "platform": "rss"
     },
     {
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "Northern Gannet",
-      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-      "publishedAt": "2026-08-15T03:22:00+00:00",
+      "title": "Quoting OpenClaw",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "publishedAt": "2026-08-10T02:05:16+00:00",
       "platform": "rss"
     },
     {
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "Don't classify. Hallucinate!",
-      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-      "publishedAt": "2026-08-14T21:54:35+00:00",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "publishedAt": "2026-08-09T23:31:39+00:00",
       "platform": "rss"
     },
     {
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "sqlite-utils 4.2.1",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-      "publishedAt": "2026-08-13T23:53:47+00:00",
+      "title": "GitHub Models is now retired",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "publishedAt": "2026-08-09T22:48:05+00:00",
       "platform": "rss"
     },
     {
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
-      "title": "sqlite-utils 4.2",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-      "publishedAt": "2026-08-13T20:11:29+00:00",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "nathan-lambert",
-      "voiceName": "Nathan Lambert Interconnects",
-      "type": "podcast",
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "publishedAt": "Fri, 14 Aug 2026 21:23:35 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "nathan-lambert",
-      "voiceName": "Nathan Lambert Interconnects",
-      "type": "podcast",
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "publishedAt": "Wed, 12 Aug 2026 13:01:16 GMT",
+      "title": "SQLite compressed text-history prototypes",
+      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+      "publishedAt": "2026-08-09T22:05:00+00:00",
       "platform": "rss"
     },
     {
@@ -835,6 +817,24 @@
       "title": "Introducing our Artifacts Hub and Adoption Dashboard",
       "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
       "publishedAt": "Mon, 03 Aug 2026 14:03:08 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "publishedAt": "Sun, 02 Aug 2026 13:01:40 GMT",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "nathan-lambert",
+      "voiceName": "Nathan Lambert Interconnects",
+      "type": "podcast",
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "publishedAt": "Wed, 22 Jul 2026 14:09:04 GMT",
       "platform": "rss"
     },
     {
@@ -880,51 +880,6 @@
       "title": "Extrinsic Hallucinations in LLMs",
       "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
       "publishedAt": "Sun, 07 Jul 2024 00:00:00 +0000",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "publishedAt": "Fri, 14 Aug 2026 00:00:00 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "publishedAt": "Thu, 13 Aug 2026 17:16:04 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "publishedAt": "Thu, 13 Aug 2026 00:00:00 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "publishedAt": "Wed, 12 Aug 2026 16:14:36 GMT",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "huggingface",
-      "voiceName": "Hugging Face Blog",
-      "type": "podcast",
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "publishedAt": "Wed, 12 Aug 2026 14:00:51 GMT",
       "platform": "rss"
     }
   ]

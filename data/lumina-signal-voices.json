@@ -2580,6 +2580,166 @@
         "https://unavatar.io/x/AllisonDuett"
       ],
       "avatarMode": "photo"
+    },
+    {
+      "id": "matt-wolfe",
+      "name": "Matt Wolfe",
+      "role": "AI tools & creator economy",
+      "roleFr": "Outils IA & économie créateur",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.6,
+      "categories": [
+        "Education",
+        "Tools",
+        "Practical",
+        "YouTube"
+      ],
+      "bio": "High-volume coverage of new AI tools, workflows and creator-facing products.",
+      "bioFr": "Couverture dense des nouveaux outils IA, workflows et produits orientés créateurs.",
+      "why": "Fast signal on what ships in the tools layer — useful complement to research voices.",
+      "whyFr": "Signal rapide sur ce qui sort dans la couche outils — complément utile aux voix recherche.",
+      "links": {
+        "youtube": "https://www.youtube.com/@mreflow",
+        "x": "https://x.com/mreflow",
+        "website": "https://futuretools.io"
+      },
+      "active": true,
+      "avatarMode": "photo",
+      "avatar": "https://unavatar.io/twitter/mreflow",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@mreflow"
+      ],
+      "initials": "MW"
+    },
+    {
+      "id": "matthew-berman",
+      "name": "Matthew Berman",
+      "role": "AI news & open models",
+      "roleFr": "Actu IA & modèles open",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.5,
+      "categories": [
+        "Education",
+        "Open-source",
+        "YouTube",
+        "Analysis"
+      ],
+      "bio": "Regular explainers on open-weight models, agents and weekly AI news.",
+      "bioFr": "Explications régulières sur modèles open-weight, agents et actu IA hebdo.",
+      "why": "Accessible bridge between research releases and practitioners.",
+      "whyFr": "Pont accessible entre annonces recherche et praticiens.",
+      "links": {
+        "youtube": "https://www.youtube.com/@matthew_berman",
+        "x": "https://x.com/MatthewBerman"
+      },
+      "active": true,
+      "avatarMode": "photo",
+      "avatar": "https://unavatar.io/twitter/MatthewBerman",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@matthew_berman"
+      ],
+      "initials": "MB"
+    },
+    {
+      "id": "wes-roth",
+      "name": "Wes Roth",
+      "role": "AI research explainers",
+      "roleFr": "Vulgarisation recherche IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.4,
+      "categories": [
+        "Education",
+        "Research",
+        "YouTube"
+      ],
+      "bio": "Paper and release explainers focused on frontier model developments.",
+      "bioFr": "Explications de papers et releases autour des modèles frontier.",
+      "why": "Clear walkthroughs of dense research news for a broad technical audience.",
+      "whyFr": "Décryptages clairs de l'actu recherche pour un public technique large.",
+      "links": {
+        "youtube": "https://www.youtube.com/@WesRoth",
+        "x": "https://x.com/WesRothx"
+      },
+      "active": true,
+      "avatarMode": "photo",
+      "avatar": "https://unavatar.io/twitter/WesRothx",
+      "avatarFallbacks": [
+        "https://unavatar.io/youtube/@WesRoth"
+      ],
+      "initials": "WR"
+    },
+    {
+      "id": "practical-ai",
+      "name": "Practical AI",
+      "role": "Applied ML podcast",
+      "roleFr": "Podcast ML appliqué",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.8,
+      "categories": [
+        "Podcast",
+        "Practical",
+        "Engineering"
+      ],
+      "bio": "Changelog podcast on real-world machine learning systems and practice.",
+      "bioFr": "Podcast Changelog sur les systèmes ML en production et la pratique.",
+      "why": "Grounded engineering conversations without the hype cycle.",
+      "whyFr": "Conversations d'ingénierie ancrées, hors cycle de hype.",
+      "links": {
+        "website": "https://practicalai.fm",
+        "youtube": "https://www.youtube.com/@practicalai"
+      },
+      "active": true,
+      "avatarMode": "photo",
+      "avatar": "https://unavatar.io/youtube/@practicalai",
+      "avatarFallbacks": [],
+      "initials": "PA"
+    },
+    {
+      "id": "eye-on-ai",
+      "name": "Eye on AI (Craig Smith)",
+      "role": "AI industry & research interviews",
+      "roleFr": "Interviews industrie & recherche IA",
+      "country": "US",
+      "countryCode": "US",
+      "language": [
+        "en"
+      ],
+      "signalScore": 7.7,
+      "categories": [
+        "Podcast",
+        "Research",
+        "Industry",
+        "Policy"
+      ],
+      "bio": "Long-running interview series with researchers, founders and policy voices.",
+      "bioFr": "Série d'interviews de longue date avec chercheurs, founders et voix policy.",
+      "why": "Consistent access to senior voices across research and industry.",
+      "whyFr": "Accès régulier à des voix seniors recherche et industrie.",
+      "links": {
+        "website": "https://www.eye-on.ai",
+        "youtube": "https://www.youtube.com/@EyeonAI"
+      },
+      "active": true,
+      "avatarMode": "photo",
+      "avatar": "https://unavatar.io/youtube/@EyeonAI",
+      "avatarFallbacks": [],
+      "initials": "EA"
     }
   ]
 }

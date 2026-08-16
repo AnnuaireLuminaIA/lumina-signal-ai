@@ -1,301 +1,47 @@
 {
   "meta": {
-    "updated": "2026-08-16T07:44:47.994848+00:00",
-    "count": 92
+    "updated": "2026-08-11T12:41:31.827673+00:00",
+    "count": 87
   },
-  "generatedAt": "2026-08-16T07:44:47.994855+00:00",
+  "generatedAt": "2026-08-11T12:41:31.827687+00:00",
   "contents": [
     {
-      "id": "nathan-labenz-7a5afa5f7360",
-      "voiceId": "nathan-labenz",
-      "type": "video",
-      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=wOFZNh2t068",
-      "thumbnail": "https://i4.ytimg.com/vi/wOFZNh2t068/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 2h",
-      "publishedAt": "2026-08-16T05:43:01+00:00",
-      "platform": "youtube",
-      "signalScore": 8.8,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems"
-    },
-    {
-      "id": "dwarkesh-patel-d3bb1a56fd5c",
-      "voiceId": "dwarkesh-patel",
-      "type": "video",
-      "title": "OpenAI's models hacked a package manager to cheat evals - Ryan Greenblatt",
-      "description": "",
-      "url": "https://www.youtube.com/shorts/pP4scNfgL5U",
-      "thumbnail": "https://i1.ytimg.com/vi/pP4scNfgL5U/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 10h",
-      "publishedAt": "2026-08-15T21:21:18+00:00",
-      "platform": "youtube",
-      "signalScore": 9.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "OpenAI's models hacked a package manager to cheat evals - Ryan Greenblatt"
-    },
-    {
-      "id": "simon-willison-b0ec4660c702",
+      "id": "simon-willison-8aaf1cb28862",
       "voiceId": "simon-willison",
       "type": "podcast",
-      "title": "CORS Chat",
+      "title": "Introducing Muse Glimmer",
       "description": "",
-      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
       "thumbnail": "",
       "duration": "—",
-      "ago": "Il y a 16h",
-      "publishedAt": "2026-08-15T14:49:54+00:00",
+      "ago": "Il y a 12h",
+      "publishedAt": "2026-08-10T23:56:03+00:00",
       "platform": "rss",
       "signalScore": 8.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "CORS Chat"
-    },
-    {
-      "id": "simon-willison-69a56244fe98",
-      "voiceId": "simon-willison",
-      "type": "podcast",
-      "title": "Northern Gannet",
-      "description": "",
-      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "Il y a 1j",
-      "publishedAt": "2026-08-15T03:22:00+00:00",
-      "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Northern Gannet"
-    },
-    {
-      "id": "simon-willison-77478ebfdae2",
-      "voiceId": "simon-willison",
-      "type": "podcast",
-      "title": "Don't classify. Hallucinate!",
-      "description": "",
-      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "Il y a 1j",
-      "publishedAt": "2026-08-14T21:54:35+00:00",
-      "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Don't classify. Hallucinate!"
-    },
-    {
-      "id": "dwarkesh-patel-0b768e7ddf87",
-      "voiceId": "dwarkesh-patel",
-      "type": "video",
-      "title": "AI has no duty of loyalty to you - Ryan Greenblatt",
-      "description": "",
-      "url": "https://www.youtube.com/shorts/BL75EMfz_N8",
-      "thumbnail": "https://i3.ytimg.com/vi/BL75EMfz_N8/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 1j",
-      "publishedAt": "2026-08-14T21:48:10+00:00",
-      "platform": "youtube",
-      "signalScore": 9.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "AI has no duty of loyalty to you - Ryan Greenblatt"
-    },
-    {
-      "id": "two-minute-papers-5ac4def88eb5",
-      "voiceId": "two-minute-papers",
-      "type": "video",
-      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
-      "thumbnail": "https://i2.ytimg.com/vi/QnGNF8k_uoc/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 1j",
-      "publishedAt": "2026-08-14T08:42:07+00:00",
-      "platform": "youtube",
-      "signalScore": 8.0,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Claude AI Failed 650 Times…Then Beat The Human Record"
-    },
-    {
-      "id": "simon-willison-3a85f23ac32b",
-      "voiceId": "simon-willison",
-      "type": "podcast",
-      "title": "sqlite-utils 4.2.1",
-      "description": "",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "Il y a 2j",
-      "publishedAt": "2026-08-13T23:53:47+00:00",
-      "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "sqlite-utils 4.2.1"
-    },
-    {
-      "id": "dwarkesh-patel-cf6cf359b46e",
-      "voiceId": "dwarkesh-patel",
-      "type": "video",
-      "title": "Why AI would rather lie than say 'I don't know' - Ryan Greenblatt",
-      "description": "",
-      "url": "https://www.youtube.com/shorts/BcsP0RFqu-o",
-      "thumbnail": "https://i3.ytimg.com/vi/BcsP0RFqu-o/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 2j",
-      "publishedAt": "2026-08-13T20:40:54+00:00",
-      "platform": "youtube",
-      "signalScore": 9.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Why AI would rather lie than say 'I don't know' - Ryan Greenblatt"
-    },
-    {
-      "id": "simon-willison-9ae5cf1d718f",
-      "voiceId": "simon-willison",
-      "type": "podcast",
-      "title": "sqlite-utils 4.2",
-      "description": "",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "Il y a 2j",
-      "publishedAt": "2026-08-13T20:11:29+00:00",
-      "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "sqlite-utils 4.2"
-    },
-    {
-      "id": "dwarkesh-patel-951b67edacdf",
-      "voiceId": "dwarkesh-patel",
-      "type": "video",
-      "title": "Every AI Model Has an Inherited Personality - Ryan Greenblatt",
-      "description": "",
-      "url": "https://www.youtube.com/shorts/yAq4PDB6n3s",
-      "thumbnail": "https://i2.ytimg.com/vi/yAq4PDB6n3s/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 3j",
-      "publishedAt": "2026-08-12T21:19:21+00:00",
-      "platform": "youtube",
-      "signalScore": 9.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Every AI Model Has an Inherited Personality - Ryan Greenblatt"
-    },
-    {
-      "id": "lex-fridman-6a18d8c315af",
-      "voiceId": "lex-fridman",
-      "type": "video",
-      "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=l6USUAIKJls",
-      "thumbnail": "https://i1.ytimg.com/vi/l6USUAIKJls/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 3j",
-      "publishedAt": "2026-08-12T12:57:24+00:00",
-      "platform": "youtube",
-      "signalScore": 8.3,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500"
-    },
-    {
-      "id": "dwarkesh-patel-3c8db7a146fb",
-      "voiceId": "dwarkesh-patel",
-      "type": "video",
-      "title": "Claude Got Caught Trying to Hack a GitHub Repo - Ryan Greenblatt",
-      "description": "",
-      "url": "https://www.youtube.com/shorts/tHtkXw90IrY",
-      "thumbnail": "https://i1.ytimg.com/vi/tHtkXw90IrY/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 4j",
-      "publishedAt": "2026-08-11T21:41:04+00:00",
-      "platform": "youtube",
-      "signalScore": 9.4,
-      "topics": [],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "Claude Got Caught Trying to Hack a GitHub Repo - Ryan Greenblatt"
-    },
-    {
-      "id": "huggingface-23bff2ad94ff",
-      "voiceId": "huggingface",
-      "type": "video",
-      "title": "Hugging Face Journal Club: Direct On-Policy Distillation",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
-      "thumbnail": "https://i4.ytimg.com/vi/S5wE1sjyiQY/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 4j",
-      "publishedAt": "2026-08-11T18:05:57+00:00",
-      "platform": "youtube",
-      "signalScore": 8.3,
       "topics": [
-        "policy"
+        "education"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Hugging Face Journal Club: Direct On-Policy Distillation"
-    },
-    {
-      "id": "two-minute-papers-611562df7404",
-      "voiceId": "two-minute-papers",
-      "type": "video",
-      "title": "OpenAI’s AI Agents Just Crossed A Line",
-      "description": "",
-      "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
-      "thumbnail": "https://i3.ytimg.com/vi/JQ97GiDwPxc/hqdefault.jpg",
-      "duration": "—",
-      "ago": "Il y a 4j",
-      "publishedAt": "2026-08-11T15:35:35+00:00",
-      "platform": "youtube",
-      "signalScore": 8.0,
-      "topics": [
-        "agents"
-      ],
-      "language": "en",
-      "isNew": true,
-      "titleEn": "OpenAI’s AI Agents Just Crossed A Line"
+      "isNew": true
     },
     {
       "id": "mlst-194b2904a683",
       "voiceId": "mlst",
       "type": "video",
-      "title": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart",
+      "title": "Why Deep Networks Don’t Need to Memorize Everything — Matthieu Wyart",
       "description": "",
       "url": "https://www.youtube.com/watch?v=revreN8LZ_M",
       "thumbnail": "https://i3.ytimg.com/vi/revreN8LZ_M/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 5j",
+      "ago": "Il y a 13h",
       "publishedAt": "2026-08-10T22:55:05+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "AI Is Learning at the Wrong Level of Abstraction — Matthieu Wyart"
+      "isNew": true
     },
     {
       "id": "nathan-labenz-0dd1c64d18de",
@@ -306,7 +52,7 @@
       "url": "https://www.youtube.com/watch?v=4JYoTE_VKaU",
       "thumbnail": "https://i1.ytimg.com/vi/4JYoTE_VKaU/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 5j",
+      "ago": "Il y a 18h",
       "publishedAt": "2026-08-10T18:02:49+00:00",
       "platform": "youtube",
       "signalScore": 8.8,
@@ -314,8 +60,7 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses"
+      "isNew": true
     },
     {
       "id": "huggingface-6dbcd6a402a7",
@@ -326,16 +71,93 @@
       "url": "https://www.youtube.com/watch?v=SkM4k4SKvCM",
       "thumbnail": "https://i4.ytimg.com/vi/SkM4k4SKvCM/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 6j",
+      "ago": "Il y a 1j",
       "publishedAt": "2026-08-10T03:15:10+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
       "topics": [
-        "agents"
+        "agents",
+        "engineering"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Prompt Caching Explained: Stop Overpaying for AI Agents"
+      "isNew": true
+    },
+    {
+      "id": "simon-willison-c1b15acb0193",
+      "voiceId": "simon-willison",
+      "type": "podcast",
+      "title": "Quoting OpenClaw",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "Il y a 1j",
+      "publishedAt": "2026-08-10T02:05:16+00:00",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [
+        "policy"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
+      "id": "simon-willison-b9793ca1b93b",
+      "voiceId": "simon-willison",
+      "type": "podcast",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "Il y a 1j",
+      "publishedAt": "2026-08-09T23:31:39+00:00",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [
+        "engineering",
+        "tools"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
+      "id": "simon-willison-1aa79843a752",
+      "voiceId": "simon-willison",
+      "type": "podcast",
+      "title": "GitHub Models is now retired",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "Il y a 1j",
+      "publishedAt": "2026-08-09T22:48:05+00:00",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [
+        "research"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
+      "id": "simon-willison-f404485becb3",
+      "voiceId": "simon-willison",
+      "type": "podcast",
+      "title": "SQLite compressed text-history prototypes",
+      "description": "",
+      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+      "thumbnail": "",
+      "duration": "—",
+      "ago": "Il y a 1j",
+      "publishedAt": "2026-08-09T22:05:00+00:00",
+      "platform": "rss",
+      "signalScore": 8.4,
+      "topics": [
+        "research"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "nicolas-guyon-db20a97353a0",
@@ -346,14 +168,34 @@
       "url": "https://www.youtube.com/watch?v=vb2uR2aONxs",
       "thumbnail": "https://i3.ytimg.com/vi/vb2uR2aONxs/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 6j",
+      "ago": "Il y a 1j",
       "publishedAt": "2026-08-09T22:00:20+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "🤯 Deux milliardaires paient en secret pour nous faire sortir de la Matrice"
+      "isNew": true
+    },
+    {
+      "id": "dwarkesh-patel-1af16c6b53ae",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "How a Random Lunch Led Physics into the Riemann Hypothesis - Grant Sanderson",
+      "description": "",
+      "url": "https://www.youtube.com/shorts/KP_Bpsu69NI",
+      "thumbnail": "https://i4.ytimg.com/vi/KP_Bpsu69NI/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 1j",
+      "publishedAt": "2026-08-09T16:30:36+00:00",
+      "platform": "youtube",
+      "signalScore": 9.4,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "nathan-labenz-16a0bac4bcc6",
@@ -364,7 +206,7 @@
       "url": "https://www.youtube.com/watch?v=YduOnBDuD0c",
       "thumbnail": "https://i2.ytimg.com/vi/YduOnBDuD0c/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 2j",
       "publishedAt": "2026-08-08T20:48:22+00:00",
       "platform": "youtube",
       "signalScore": 8.8,
@@ -372,8 +214,7 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent"
+      "isNew": true
     },
     {
       "id": "huggingface-8b20223b1f39",
@@ -384,7 +225,7 @@
       "url": "https://www.youtube.com/watch?v=8qpEDpNhzWY",
       "thumbnail": "https://i1.ytimg.com/vi/8qpEDpNhzWY/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 3j",
       "publishedAt": "2026-08-08T04:30:48+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
@@ -392,8 +233,45 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "How AI agents reproduced ICML 2026  papers"
+      "isNew": true
+    },
+    {
+      "id": "dwarkesh-patel-97548e6dac06",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "AlphaZero for Mathematics - Grant Sanderson",
+      "description": "",
+      "url": "https://www.youtube.com/shorts/AvH0cJV1Cc8",
+      "thumbnail": "https://i2.ytimg.com/vi/AvH0cJV1Cc8/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 3j",
+      "publishedAt": "2026-08-07T22:28:23+00:00",
+      "platform": "youtube",
+      "signalScore": 9.4,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
+      "id": "dwarkesh-patel-ea494a49fdf0",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=iewm45atodE",
+      "thumbnail": "https://i2.ytimg.com/vi/iewm45atodE/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 3j",
+      "publishedAt": "2026-08-07T17:33:15+00:00",
+      "platform": "youtube",
+      "signalScore": 9.4,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "two-minute-papers-a6ebe1d55cb8",
@@ -404,14 +282,34 @@
       "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
       "thumbnail": "https://i3.ytimg.com/vi/vO6SWG-jxvE/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 4j",
       "publishedAt": "2026-08-07T08:22:00+00:00",
       "platform": "youtube",
       "signalScore": 8.0,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "DeepMind Just Changed How AI Sees The World"
+      "isNew": true
+    },
+    {
+      "id": "dwarkesh-patel-fe64986999fd",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "The Skill Great Teachers Have That LLMs Completely Lack - Grant Sanderson",
+      "description": "",
+      "url": "https://www.youtube.com/shorts/1vAGYbbtahU",
+      "thumbnail": "https://i2.ytimg.com/vi/1vAGYbbtahU/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 4j",
+      "publishedAt": "2026-08-06T22:13:29+00:00",
+      "platform": "youtube",
+      "signalScore": 9.4,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "ai-explained-28e235af6d75",
@@ -422,14 +320,15 @@
       "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
       "thumbnail": "https://i1.ytimg.com/vi/xGzseSSStnw/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 4j",
       "publishedAt": "2026-08-06T15:02:06+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "AI is getting a little out of control"
+      "isNew": true
     },
     {
       "id": "nathan-labenz-cd46fff33e77",
@@ -440,14 +339,15 @@
       "url": "https://www.youtube.com/watch?v=wAzq8gA5jyc",
       "thumbnail": "https://i4.ytimg.com/vi/wAzq8gA5jyc/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 5j",
       "publishedAt": "2026-08-05T18:10:32+00:00",
       "platform": "youtube",
       "signalScore": 8.8,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ..."
+      "isNew": true
     },
     {
       "id": "two-minute-papers-cbc630e184fe",
@@ -458,14 +358,34 @@
       "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
       "thumbnail": "https://i1.ytimg.com/vi/ppQh4Tc9BmM/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 5j",
       "publishedAt": "2026-08-05T13:54:29+00:00",
       "platform": "youtube",
       "signalScore": 8.0,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "The Billion Dollar AI Race Just Broke"
+      "isNew": true
+    },
+    {
+      "id": "dwarkesh-patel-402af5312ce8",
+      "voiceId": "dwarkesh-patel",
+      "type": "video",
+      "title": "The Real Advantage AI Has Over Human Geniuses - Grant Sanderson",
+      "description": "",
+      "url": "https://www.youtube.com/shorts/KjMKzIOhw4Q",
+      "thumbnail": "https://i4.ytimg.com/vi/KjMKzIOhw4Q/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 6j",
+      "publishedAt": "2026-08-04T22:08:20+00:00",
+      "platform": "youtube",
+      "signalScore": 9.4,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "huggingface-f4fc2362b359",
@@ -476,7 +396,7 @@
       "url": "https://www.youtube.com/watch?v=XB9PlaofL-Q",
       "thumbnail": "https://i1.ytimg.com/vi/XB9PlaofL-Q/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 sem.",
+      "ago": "Il y a 6j",
       "publishedAt": "2026-08-04T15:41:14+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
@@ -484,8 +404,7 @@
         "policy"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Hugging Face Journal Club: Scaling Laws for Pre-training & RL"
+      "isNew": true
     },
     {
       "id": "nicolas-guyon-b556c240eb71",
@@ -500,10 +419,11 @@
       "publishedAt": "2026-08-03T12:00:06+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "Test des capacités de Seedance 2.5, le nouveau modèle vidéo de ByteDance, via Dreamina : générer mon"
+      "isNew": true
     },
     {
       "id": "two-minute-papers-4b6553db469a",
@@ -518,10 +438,11 @@
       "publishedAt": "2026-08-03T09:47:34+00:00",
       "platform": "youtube",
       "signalScore": 8.0,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Another DeepSeek Moment Has Arrived"
+      "isNew": true
     },
     {
       "id": "nathan-labenz-f5555a5491b7",
@@ -540,8 +461,26 @@
         "safety"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics"
+      "isNew": true
+    },
+    {
+      "id": "two-minute-papers-cd099417b9e5",
+      "voiceId": "two-minute-papers",
+      "type": "video",
+      "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+      "thumbnail": "https://i1.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 1 sem.",
+      "publishedAt": "2026-08-02T15:01:10+00:00",
+      "platform": "youtube",
+      "signalScore": 8.0,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "mlst-4500747fd8c0",
@@ -552,14 +491,15 @@
       "url": "https://www.youtube.com/watch?v=n1Qk8xbqF-M",
       "thumbnail": "https://i3.ytimg.com/vi/n1Qk8xbqF-M/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 sem.",
+      "ago": "Il y a 1 sem.",
       "publishedAt": "2026-07-31T20:12:29+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "How Researchers Test AI for Hidden Goals — Apollo Research"
+      "isNew": true
     },
     {
       "id": "huggingface-1728e8124f9e",
@@ -570,7 +510,7 @@
       "url": "https://www.youtube.com/watch?v=qo1QNxWcm28",
       "thumbnail": "https://i2.ytimg.com/vi/qo1QNxWcm28/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 sem.",
+      "ago": "Il y a 1 sem.",
       "publishedAt": "2026-07-31T12:30:44+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
@@ -578,8 +518,26 @@
         "education"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Tau Crash Course: The Python Port of Pi"
+      "isNew": true
+    },
+    {
+      "id": "nathan-labenz-c9d1a4aa1146",
+      "voiceId": "nathan-labenz",
+      "type": "video",
+      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=EjLeFMCRdWk",
+      "thumbnail": "https://i2.ytimg.com/vi/EjLeFMCRdWk/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 1 sem.",
+      "publishedAt": "2026-07-30T20:42:47+00:00",
+      "platform": "youtube",
+      "signalScore": 8.8,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "nicolas-guyon-06f3262fc080",
@@ -590,14 +548,53 @@
       "url": "https://www.youtube.com/watch?v=nSt4ytkeAuQ",
       "thumbnail": "https://i3.ytimg.com/vi/nSt4ytkeAuQ/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 sem.",
+      "ago": "Il y a 1 sem.",
       "publishedAt": "2026-07-29T21:32:26+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "🚜 Des pelleteuses SANS CHAUFFEUR construisent les data centers de l'IA ! — Vincent Gonguet"
+      "isNew": true
+    },
+    {
+      "id": "huggingface-798c8796c151",
+      "voiceId": "huggingface",
+      "type": "video",
+      "title": "Hugging Face Journal Club: Kimi K3",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=MW8-kqd2SD8",
+      "thumbnail": "https://i2.ytimg.com/vi/MW8-kqd2SD8/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 1 sem.",
+      "publishedAt": "2026-07-29T18:31:00+00:00",
+      "platform": "youtube",
+      "signalScore": 8.3,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
+      "id": "two-minute-papers-a8e1e70bfccc",
+      "voiceId": "two-minute-papers",
+      "type": "video",
+      "title": "Kimi K3 Just Broke The Economics Of AI",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+      "thumbnail": "https://i1.ytimg.com/vi/Xj-QdEUxJkE/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 1 sem.",
+      "publishedAt": "2026-07-29T12:37:50+00:00",
+      "platform": "youtube",
+      "signalScore": 8.0,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
     },
     {
       "id": "lex-fridman-49a7d5405fca",
@@ -608,14 +605,15 @@
       "url": "https://www.youtube.com/watch?v=XyXBwO5jYpw",
       "thumbnail": "https://i1.ytimg.com/vi/XyXBwO5jYpw/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 sem.",
+      "ago": "Il y a 1 sem.",
       "publishedAt": "2026-07-28T20:02:11+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499"
+      "isNew": true
     },
     {
       "id": "3blue1brown-56c70d188a21",
@@ -626,14 +624,15 @@
       "url": "https://www.youtube.com/shorts/6XPlmCDNLNc",
       "thumbnail": "https://i3.ytimg.com/vi/6XPlmCDNLNc/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 3 sem.",
+      "ago": "Il y a 2 sem.",
       "publishedAt": "2026-07-24T15:05:39+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "The 64 sugar cubes puzzle"
+      "isNew": true
     },
     {
       "id": "nicolas-guyon-e7c3c5469879",
@@ -644,7 +643,7 @@
       "url": "https://www.youtube.com/shorts/kCvhGL9C1ec",
       "thumbnail": "https://i4.ytimg.com/vi/kCvhGL9C1ec/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 3 sem.",
+      "ago": "Il y a 2 sem.",
       "publishedAt": "2026-07-22T17:45:47+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
@@ -653,8 +652,7 @@
         "multimodal"
       ],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "Plage maintenant, agents à la rentrée 🏖️🤖 (Claudio #4)"
+      "isNew": true
     },
     {
       "id": "ai-explained-67096c209990",
@@ -665,7 +663,7 @@
       "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
       "thumbnail": "https://i4.ytimg.com/vi/wzY2fV4Mp3U/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 3 sem.",
+      "ago": "Il y a 2 sem.",
       "publishedAt": "2026-07-22T16:36:53+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
@@ -673,8 +671,7 @@
         "open-source"
       ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype"
+      "isNew": true
     },
     {
       "id": "3blue1brown-cdf4d8bd6746",
@@ -685,14 +682,15 @@
       "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
       "thumbnail": "https://i4.ytimg.com/vi/GlYgs6v2YfU/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 mois",
+      "ago": "Il y a 3 sem.",
       "publishedAt": "2026-07-16T11:56:04+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "But what is cross-entropy? | Compression is Intelligence Part 2"
+      "isNew": true
     },
     {
       "id": "nicolas-guyon-9bd3649cdb20",
@@ -703,14 +701,15 @@
       "url": "https://www.youtube.com/shorts/R0oVyoa29AM",
       "thumbnail": "https://i3.ytimg.com/vi/R0oVyoa29AM/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 mois",
+      "ago": "Il y a 4 sem.",
       "publishedAt": "2026-07-14T07:00:24+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
-      "isNew": true,
-      "titleFr": "« ARRÊTEZ DE RECRUTER DES HUMAINS » 🤖 La pub qui s'affiche partout à San Francisco."
+      "isNew": true
     },
     {
       "id": "mlst-17054f29cab1",
@@ -721,14 +720,15 @@
       "url": "https://www.youtube.com/watch?v=JTHmrELSfvk",
       "thumbnail": "https://i3.ytimg.com/vi/JTHmrELSfvk/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 1 mois",
+      "ago": "Il y a 4 sem.",
       "publishedAt": "2026-07-13T22:23:38+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "Watching America Run Away With AI - Alistair Pullen (Cosine AI)"
+      "isNew": true
     },
     {
       "id": "ai-explained-4d2d0eb00032",
@@ -743,10 +743,11 @@
       "publishedAt": "2026-07-10T12:40:15+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
-      "isNew": true,
-      "titleEn": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules"
+      "isNew": true
     },
     {
       "id": "ludovic-salenne-c417eab45a70",
@@ -761,7 +762,9 @@
       "publishedAt": "2026-07-09T17:00:00+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
+      "topics": [
+        "tools"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -778,7 +781,9 @@
       "publishedAt": "2026-07-06T20:20:35+00:00",
       "platform": "youtube",
       "signalScore": 8.2,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -795,7 +800,9 @@
       "publishedAt": "Sat, 04 Jul 2026 00:00:00 +0000",
       "platform": "rss",
       "signalScore": 8.8,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -812,7 +819,9 @@
       "publishedAt": "2026-07-02T16:27:26+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -829,7 +838,9 @@
       "publishedAt": "2026-07-01T17:00:45+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
+      "topics": [
+        "tools"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -846,7 +857,9 @@
       "publishedAt": "2026-07-01T14:26:52+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -863,7 +876,9 @@
       "publishedAt": "2026-06-30T21:16:13+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -880,7 +895,9 @@
       "publishedAt": "2026-06-28T23:38:07+00:00",
       "platform": "youtube",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -897,7 +914,9 @@
       "publishedAt": "2026-06-26T16:47:29+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -914,7 +933,9 @@
       "publishedAt": "2026-06-24T16:09:42+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
+      "topics": [
+        "tools"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -950,7 +971,9 @@
       "publishedAt": "2026-06-19T17:01:45+00:00",
       "platform": "youtube",
       "signalScore": 7.8,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -963,11 +986,13 @@
       "url": "https://www.youtube.com/shorts/wGffBCfrAsE",
       "thumbnail": "https://i4.ytimg.com/vi/wGffBCfrAsE/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 mois",
+      "ago": "Il y a 1 mois",
       "publishedAt": "2026-06-16T18:04:05+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -980,11 +1005,13 @@
       "url": "https://www.youtube.com/watch?v=U-YfMAhMB44",
       "thumbnail": "https://i2.ytimg.com/vi/U-YfMAhMB44/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 mois",
+      "ago": "Il y a 1 mois",
       "publishedAt": "2026-06-16T16:13:24+00:00",
       "platform": "youtube",
       "signalScore": 8.2,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "fr",
       "isNew": true
     },
@@ -997,11 +1024,13 @@
       "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
       "thumbnail": "https://i2.ytimg.com/vi/Qj71N0tBzRo/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 mois",
+      "ago": "Il y a 1 mois",
       "publishedAt": "2026-06-14T14:52:27+00:00",
       "platform": "youtube",
       "signalScore": 8.6,
-      "topics": [],
+      "topics": [
+        "tools"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1014,11 +1043,13 @@
       "url": "https://www.youtube.com/shorts/-7etvZSBxlk",
       "thumbnail": "https://i2.ytimg.com/vi/-7etvZSBxlk/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 2 mois",
+      "ago": "Il y a 1 mois",
       "publishedAt": "2026-06-12T13:22:02+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1035,7 +1066,9 @@
       "publishedAt": "2026-06-10T13:26:34+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1052,7 +1085,9 @@
       "publishedAt": "2026-05-29T16:18:31+00:00",
       "platform": "youtube",
       "signalScore": 8.3,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1076,6 +1111,25 @@
       "isNew": true
     },
     {
+      "id": "lex-fridman-854df813c0a9",
+      "voiceId": "lex-fridman",
+      "type": "video",
+      "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+      "thumbnail": "https://i2.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg",
+      "duration": "—",
+      "ago": "Il y a 4 mois",
+      "publishedAt": "2026-04-09T17:35:20+00:00",
+      "platform": "youtube",
+      "signalScore": 8.3,
+      "topics": [
+        "education"
+      ],
+      "language": "en",
+      "isNew": true
+    },
+    {
       "id": "yannic-kilcher-4c8faf038b94",
       "voiceId": "yannic-kilcher",
       "type": "video",
@@ -1088,7 +1142,9 @@
       "publishedAt": "2026-03-06T22:07:33+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1105,7 +1161,9 @@
       "publishedAt": "2025-12-29T03:44:20+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1122,7 +1180,9 @@
       "publishedAt": "2025-12-28T12:41:54+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1139,7 +1199,9 @@
       "publishedAt": "2025-12-27T14:33:29+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1152,11 +1214,13 @@
       "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
       "thumbnail": "https://i3.ytimg.com/vi/v67plFw1nMw/hqdefault.jpg",
       "duration": "—",
-      "ago": "Il y a 8 mois",
+      "ago": "Il y a 7 mois",
       "publishedAt": "2025-12-14T16:22:15+00:00",
       "platform": "youtube",
       "signalScore": 8.7,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1173,7 +1237,9 @@
       "publishedAt": "2025-05-05T14:45:07+00:00",
       "platform": "youtube",
       "signalScore": 8.1,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1190,7 +1256,9 @@
       "publishedAt": "Thu, 01 May 2025 00:00:00 +0000",
       "platform": "rss",
       "signalScore": 8.8,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1207,7 +1275,9 @@
       "publishedAt": "2025-02-27T22:29:56+00:00",
       "platform": "youtube",
       "signalScore": 9.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1224,7 +1294,9 @@
       "publishedAt": "2025-02-05T18:23:47+00:00",
       "platform": "youtube",
       "signalScore": 9.6,
-      "topics": [],
+      "topics": [
+        "tools"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1241,7 +1313,9 @@
       "publishedAt": "Thu, 28 Nov 2024 00:00:00 +0000",
       "platform": "rss",
       "signalScore": 8.8,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1277,7 +1351,9 @@
       "publishedAt": "2024-10-29T12:45:03+00:00",
       "platform": "youtube",
       "signalScore": 8.1,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1295,6 +1371,7 @@
       "platform": "youtube",
       "signalScore": 8.1,
       "topics": [
+        "infra",
         "education"
       ],
       "language": "en",
@@ -1332,7 +1409,9 @@
       "publishedAt": "Sun, 07 Jul 2024 00:00:00 +0000",
       "platform": "rss",
       "signalScore": 8.8,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1349,7 +1428,9 @@
       "publishedAt": "2024-06-09T23:31:35+00:00",
       "platform": "youtube",
       "signalScore": 9.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1366,7 +1447,9 @@
       "publishedAt": "2024-02-20T17:11:35+00:00",
       "platform": "youtube",
       "signalScore": 9.6,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1390,125 +1473,98 @@
       "isNew": true
     },
     {
-      "id": "swyx-alessio-73924d397f2f",
+      "id": "swyx-alessio-8db30b5e91e1",
       "voiceId": "swyx-alessio",
       "type": "podcast",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
       "description": "",
-      "url": "https://www.latent.space/p/flue-2",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Sat, 15 Aug 2026 15:46:22 GMT",
+      "publishedAt": "Tue, 11 Aug 2026 05:16:41 GMT",
       "platform": "rss",
       "signalScore": 9.0,
       "topics": [
-        "agents"
+        "open-source"
       ],
       "language": "en",
       "isNew": true
     },
     {
-      "id": "swyx-alessio-086ace1c21ab",
+      "id": "swyx-alessio-0430b727e0cf",
       "voiceId": "swyx-alessio",
       "type": "podcast",
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "title": "[AINews] Zawinski's Law of MultiAgents",
       "description": "",
-      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Fri, 14 Aug 2026 05:30:39 GMT",
-      "platform": "rss",
-      "signalScore": 9.0,
-      "topics": [],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "swyx-alessio-814632afac73",
-      "voiceId": "swyx-alessio",
-      "type": "podcast",
-      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-      "description": "",
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Thu, 13 Aug 2026 01:53:47 GMT",
-      "platform": "rss",
-      "signalScore": 9.0,
-      "topics": [],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "swyx-alessio-27a641e4d1b9",
-      "voiceId": "swyx-alessio",
-      "type": "podcast",
-      "title": "[AINews] How to steal a Reasoning Trace",
-      "description": "",
-      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Wed, 12 Aug 2026 07:11:08 GMT",
+      "publishedAt": "Sat, 08 Aug 2026 01:12:07 GMT",
       "platform": "rss",
       "signalScore": 9.0,
       "topics": [
-        "reasoning"
+        "agents",
+        "policy"
       ],
       "language": "en",
       "isNew": true
     },
     {
-      "id": "swyx-alessio-11fc41f45a95",
+      "id": "swyx-alessio-2fea13078482",
       "voiceId": "swyx-alessio",
       "type": "podcast",
-      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "title": "[AINews] AMD buys Taalas",
       "description": "",
-      "url": "https://www.latent.space/p/chai-discovery",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Tue, 11 Aug 2026 21:03:50 GMT",
+      "publishedAt": "Fri, 07 Aug 2026 05:13:46 GMT",
       "platform": "rss",
       "signalScore": 9.0,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
     {
-      "id": "nathan-lambert-3e4e84742a48",
-      "voiceId": "nathan-lambert",
+      "id": "swyx-alessio-3189f1ce0fd5",
+      "voiceId": "swyx-alessio",
       "type": "podcast",
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
       "description": "",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Fri, 14 Aug 2026 21:23:35 GMT",
+      "publishedAt": "Thu, 06 Aug 2026 04:34:11 GMT",
       "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
+      "signalScore": 9.0,
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
     {
-      "id": "nathan-lambert-ec0d34d30f20",
-      "voiceId": "nathan-lambert",
+      "id": "swyx-alessio-858744584932",
+      "voiceId": "swyx-alessio",
       "type": "podcast",
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "title": "[AINews] Megakernels are so dead and so back",
       "description": "",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Wed, 12 Aug 2026 13:01:16 GMT",
+      "publishedAt": "Wed, 05 Aug 2026 01:21:47 GMT",
       "platform": "rss",
-      "signalScore": 8.4,
-      "topics": [],
+      "signalScore": 9.0,
+      "topics": [
+        "infra"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1525,7 +1581,9 @@
       "publishedAt": "Mon, 10 Aug 2026 13:02:42 GMT",
       "platform": "rss",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "education"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1542,7 +1600,9 @@
       "publishedAt": "Sun, 09 Aug 2026 14:57:11 GMT",
       "platform": "rss",
       "signalScore": 8.4,
-      "topics": [],
+      "topics": [
+        "research"
+      ],
       "language": "en",
       "isNew": true
     },
@@ -1566,92 +1626,39 @@
       "isNew": true
     },
     {
-      "id": "huggingface-d556a48bace2",
-      "voiceId": "huggingface",
+      "id": "nathan-lambert-266ea9598655",
+      "voiceId": "nathan-lambert",
       "type": "podcast",
-      "title": "State of Open Models: Summer 2026 Observations",
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
       "description": "",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Fri, 14 Aug 2026 00:00:00 GMT",
+      "publishedAt": "Sun, 02 Aug 2026 13:01:40 GMT",
       "platform": "rss",
-      "signalScore": 8.3,
-      "topics": [],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "huggingface-c1c988556190",
-      "voiceId": "huggingface",
-      "type": "podcast",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "description": "",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Thu, 13 Aug 2026 17:16:04 GMT",
-      "platform": "rss",
-      "signalScore": 8.3,
+      "signalScore": 8.4,
       "topics": [
-        "agents"
+        "research"
       ],
       "language": "en",
       "isNew": true
     },
     {
-      "id": "huggingface-5fa28c256021",
-      "voiceId": "huggingface",
+      "id": "nathan-lambert-d39a1ef9680f",
+      "voiceId": "nathan-lambert",
       "type": "podcast",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
       "description": "",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
       "thumbnail": "",
       "duration": "—",
       "ago": "",
-      "publishedAt": "Thu, 13 Aug 2026 00:00:00 GMT",
+      "publishedAt": "Wed, 22 Jul 2026 14:09:04 GMT",
       "platform": "rss",
-      "signalScore": 8.3,
-      "topics": [],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "huggingface-e43158037a35",
-      "voiceId": "huggingface",
-      "type": "podcast",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "description": "",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Wed, 12 Aug 2026 16:14:36 GMT",
-      "platform": "rss",
-      "signalScore": 8.3,
+      "signalScore": 8.4,
       "topics": [
-        "education"
-      ],
-      "language": "en",
-      "isNew": true
-    },
-    {
-      "id": "huggingface-ab799e9da743",
-      "voiceId": "huggingface",
-      "type": "podcast",
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "description": "",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "thumbnail": "",
-      "duration": "—",
-      "ago": "",
-      "publishedAt": "Wed, 12 Aug 2026 14:00:51 GMT",
-      "platform": "rss",
-      "signalScore": 8.3,
-      "topics": [
-        "multimodal"
+        "research"
       ],
       "language": "en",
       "isNew": true
