@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-15",
-  "generatedAt": "2026-08-15T19:01:44.103790+00:00",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T03:16:51.626255+00:00",
   "title": "Briefing du jour",
   "summary": "92 contenus · top 7 signaux",
   "editorial": "Dominant aujourd'hui : agents, education, policy. 12 contenus FR dans le flux.",
@@ -19,12 +19,12 @@
     },
     {
       "rank": 2,
-      "title": "AI has no duty of loyalty to you - Ryan Greenblatt",
+      "title": "OpenAI's models hacked a package manager to cheat evals - Ryan Greenblatt",
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
       "signalScore": 9.4,
-      "ago": "Il y a 21h",
-      "url": "https://www.youtube.com/shorts/BL75EMfz_N8",
+      "ago": "Il y a 5h",
+      "url": "https://www.youtube.com/shorts/pP4scNfgL5U",
       "language": "en",
       "why": "Exceptional depth, obsessive preparation, and unique access to decision-makers building frontier models."
     },

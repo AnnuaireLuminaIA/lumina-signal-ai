@@ -1,7 +1,17 @@
 {
-  "fetchedAt": "2026-08-15T19:01:24.885141+00:00",
+  "fetchedAt": "2026-08-16T03:16:33.074160+00:00",
   "count": 95,
   "items": [
+    {
+      "voiceId": "dwarkesh-patel",
+      "voiceName": "Dwarkesh Patel",
+      "type": "video",
+      "title": "OpenAI's models hacked a package manager to cheat evals - Ryan Greenblatt",
+      "url": "https://www.youtube.com/shorts/pP4scNfgL5U",
+      "publishedAt": "2026-08-15T21:21:18+00:00",
+      "platform": "youtube",
+      "thumbnail": "https://i1.ytimg.com/vi/pP4scNfgL5U/hqdefault.jpg"
+    },
     {
       "voiceId": "dwarkesh-patel",
       "voiceName": "Dwarkesh Patel",
@@ -41,16 +51,6 @@
       "publishedAt": "2026-08-11T21:41:04+00:00",
       "platform": "youtube",
       "thumbnail": "https://i1.ytimg.com/vi/tHtkXw90IrY/hqdefault.jpg"
-    },
-    {
-      "voiceId": "dwarkesh-patel",
-      "voiceName": "Dwarkesh Patel",
-      "type": "video",
-      "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
-      "url": "https://www.youtube.com/watch?v=-RXD4bTuFTo",
-      "publishedAt": "2026-08-11T16:45:37+00:00",
-      "platform": "youtube",
-      "thumbnail": "https://i2.ytimg.com/vi/-RXD4bTuFTo/hqdefault.jpg"
     },
     {
       "voiceId": "yannic-kilcher",
@@ -751,6 +751,15 @@
       "voiceId": "simon-willison",
       "voiceName": "Simon Willison",
       "type": "podcast",
+      "title": "CORS Chat",
+      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "publishedAt": "2026-08-15T14:49:54+00:00",
+      "platform": "rss"
+    },
+    {
+      "voiceId": "simon-willison",
+      "voiceName": "Simon Willison",
+      "type": "podcast",
       "title": "Northern Gannet",
       "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
       "publishedAt": "2026-08-15T03:22:00+00:00",
@@ -781,15 +790,6 @@
       "title": "sqlite-utils 4.2",
       "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
       "publishedAt": "2026-08-13T20:11:29+00:00",
-      "platform": "rss"
-    },
-    {
-      "voiceId": "simon-willison",
-      "voiceName": "Simon Willison",
-      "type": "podcast",
-      "title": "llm-gemini 0.33",
-      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "publishedAt": "2026-08-13T19:37:34+00:00",
       "platform": "rss"
     },
     {
