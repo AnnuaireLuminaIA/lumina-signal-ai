@@ -22,7 +22,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst-194b2904a683",
@@ -41,7 +42,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-labenz-0dd1c64d18de",
@@ -60,7 +62,8 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface-6dbcd6a402a7",
@@ -80,7 +83,8 @@
         "engineering"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "simon-willison-c1b15acb0193",
@@ -99,7 +103,8 @@
         "policy"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "fintech-macro"
     },
     {
       "id": "simon-willison-b9793ca1b93b",
@@ -119,7 +124,8 @@
         "tools"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "simon-willison-1aa79843a752",
@@ -138,7 +144,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "simon-willison-f404485becb3",
@@ -157,7 +164,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nicolas-guyon-db20a97353a0",
@@ -176,7 +184,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel-1af16c6b53ae",
@@ -195,7 +204,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-labenz-16a0bac4bcc6",
@@ -214,7 +224,8 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface-8b20223b1f39",
@@ -233,7 +244,8 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel-97548e6dac06",
@@ -252,7 +264,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel-ea494a49fdf0",
@@ -271,7 +284,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers-a6ebe1d55cb8",
@@ -290,7 +304,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel-fe64986999fd",
@@ -309,7 +324,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained-28e235af6d75",
@@ -328,7 +344,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-labenz-cd46fff33e77",
@@ -347,7 +364,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers-cbc630e184fe",
@@ -366,7 +384,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel-402af5312ce8",
@@ -385,7 +404,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface-f4fc2362b359",
@@ -404,7 +424,8 @@
         "policy"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "fintech-macro"
     },
     {
       "id": "nicolas-guyon-b556c240eb71",
@@ -423,7 +444,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers-4b6553db469a",
@@ -442,7 +464,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-labenz-f5555a5491b7",
@@ -461,7 +484,8 @@
         "safety"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers-cd099417b9e5",
@@ -480,7 +504,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst-4500747fd8c0",
@@ -499,7 +524,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface-1728e8124f9e",
@@ -518,7 +544,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-labenz-c9d1a4aa1146",
@@ -537,7 +564,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nicolas-guyon-06f3262fc080",
@@ -556,7 +584,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface-798c8796c151",
@@ -575,7 +604,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers-a8e1e70bfccc",
@@ -594,7 +624,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman-49a7d5405fca",
@@ -613,7 +644,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown-56c70d188a21",
@@ -632,7 +664,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nicolas-guyon-e7c3c5469879",
@@ -652,7 +685,8 @@
         "multimodal"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained-67096c209990",
@@ -671,7 +705,8 @@
         "open-source"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown-cdf4d8bd6746",
@@ -690,7 +725,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nicolas-guyon-9bd3649cdb20",
@@ -709,7 +745,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst-17054f29cab1",
@@ -728,7 +765,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained-4d2d0eb00032",
@@ -747,7 +785,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ludovic-salenne-c417eab45a70",
@@ -766,7 +805,8 @@
         "tools"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "thinkerview-8234d578b010",
@@ -785,7 +825,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng-2bc4a920b1b3",
@@ -804,7 +845,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained-789aaa795901",
@@ -823,7 +865,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ludovic-salenne-ba72c2b951c4",
@@ -842,7 +885,8 @@
         "tools"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst-b4323f66ac63",
@@ -861,7 +905,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman-39feb22ff6d8",
@@ -880,7 +925,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst-072b0a7dcfce",
@@ -899,7 +945,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ludovic-salenne-09bf57fd25c1",
@@ -918,7 +965,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ludovic-salenne-0a217df4737a",
@@ -937,7 +985,8 @@
         "tools"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng-2462892d260e",
@@ -956,7 +1005,8 @@
         "policy"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "fintech-macro"
     },
     {
       "id": "ludovic-salenne-4df33ae53535",
@@ -975,7 +1025,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown-b6838ee5f409",
@@ -994,7 +1045,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "thinkerview-8884c62e20a5",
@@ -1013,7 +1065,8 @@
         "education"
       ],
       "language": "fr",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained-ccf8fd7ea634",
@@ -1032,7 +1085,8 @@
         "tools"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown-7881ad2c9665",
@@ -1051,7 +1105,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown-545d5ef20866",
@@ -1070,7 +1125,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman-6a7b36e7cd85",
@@ -1089,7 +1145,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman-c402ebf7aa62",
@@ -1108,7 +1165,8 @@
         "multimodal"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman-854df813c0a9",
@@ -1127,7 +1185,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher-4c8faf038b94",
@@ -1146,7 +1205,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher-d8c58b6177b5",
@@ -1165,7 +1225,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher-e2e53385d345",
@@ -1184,7 +1245,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher-88da70bcda5d",
@@ -1203,7 +1265,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher-c83a2c366419",
@@ -1222,7 +1285,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-epiphany-5cdd77bc61b6",
@@ -1241,7 +1305,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng-87ed01723e4f",
@@ -1260,7 +1325,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "andrej-karpathy-9cd920d72828",
@@ -1279,7 +1345,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "andrej-karpathy-a21885e6d09a",
@@ -1298,7 +1365,8 @@
         "tools"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng-af1a476c6de0",
@@ -1317,7 +1385,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-epiphany-e1c089b81480",
@@ -1336,7 +1405,8 @@
         "agents"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-epiphany-f758dcc6c5cb",
@@ -1355,7 +1425,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-epiphany-d0246ddbf4db",
@@ -1375,7 +1446,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "chips-infra"
     },
     {
       "id": "ai-epiphany-53615c93c139",
@@ -1394,7 +1466,8 @@
         "open-source"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng-f341118d2274",
@@ -1413,7 +1486,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "andrej-karpathy-104e788eb155",
@@ -1432,7 +1506,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "andrej-karpathy-dd42f56e498c",
@@ -1451,7 +1526,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "andrej-karpathy-64296c96efa1",
@@ -1470,7 +1546,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "swyx-alessio-8db30b5e91e1",
@@ -1489,7 +1566,8 @@
         "open-source"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "swyx-alessio-0430b727e0cf",
@@ -1509,7 +1587,8 @@
         "policy"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "fintech-macro"
     },
     {
       "id": "swyx-alessio-2fea13078482",
@@ -1528,7 +1607,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "swyx-alessio-3189f1ce0fd5",
@@ -1547,7 +1627,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "swyx-alessio-858744584932",
@@ -1566,7 +1647,8 @@
         "infra"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "chips-infra"
     },
     {
       "id": "nathan-lambert-1b72e96967cc",
@@ -1585,7 +1667,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-lambert-d0cf384fd303",
@@ -1604,7 +1687,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-lambert-9df97dd7eca5",
@@ -1623,7 +1707,8 @@
         "education"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-lambert-266ea9598655",
@@ -1642,7 +1727,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-lambert-d39a1ef9680f",
@@ -1661,7 +1747,8 @@
         "research"
       ],
       "language": "en",
-      "isNew": true
+      "isNew": true,
+      "pillar": "ia-agents"
     }
   ]
 }

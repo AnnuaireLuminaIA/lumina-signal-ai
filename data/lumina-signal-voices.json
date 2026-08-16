@@ -48,7 +48,8 @@
         "https://unavatar.io/youtube/@AndrejKarpathy",
         "https://unavatar.io/x/karpathy"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "dwarkesh-patel",
@@ -90,7 +91,8 @@
         "https://unavatar.io/twitter/dwarkesh_sp",
         "https://unavatar.io/x/dwarkesh_sp"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "yann-lecun",
@@ -131,7 +133,8 @@
         "https://unavatar.io/twitter/ylecun",
         "https://unavatar.io/x/ylecun"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "robotique-auto"
     },
     {
       "id": "demis-hassabis",
@@ -169,7 +172,8 @@
         "https://unavatar.io/twitter/demishassabis",
         "https://unavatar.io/x/demishassabis"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "dario-amodei",
@@ -207,7 +211,8 @@
         "https://unavatar.io/twitter/darioamodei",
         "https://unavatar.io/x/darioamodei"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "swyx-alessio",
@@ -248,7 +253,8 @@
         "https://unavatar.io/twitter/swyx",
         "https://unavatar.io/x/swyx"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "arthur-mensch",
@@ -291,7 +297,8 @@
         "https://unavatar.io/twitter/arthurmensch",
         "https://unavatar.io/x/arthurmensch"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "fintech-macro"
     },
     {
       "id": "nathan-labenz",
@@ -330,7 +337,8 @@
         "https://unavatar.io/twitter/labenz",
         "https://unavatar.io/x/labenz"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "yannic-kilcher",
@@ -370,7 +378,8 @@
         "https://unavatar.io/youtube/@YannicKilcher",
         "https://unavatar.io/x/YannicKilcher"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-explained",
@@ -405,7 +414,8 @@
       "accentTo": "#f59e0b",
       "initials": "AE",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "nicolas-guyon",
@@ -447,7 +457,8 @@
         "https://unavatar.io/twitter/nico16184",
         "https://unavatar.io/x/nico16184"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "ilya-sutskever",
@@ -484,7 +495,8 @@
         "https://unavatar.io/twitter/ilyasut",
         "https://unavatar.io/x/ilyasut"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "geoffrey-hinton",
@@ -521,7 +533,8 @@
         "https://unavatar.io/twitter/geoffreyhinton",
         "https://unavatar.io/x/geoffreyhinton"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "yoshua-bengio",
@@ -561,7 +574,8 @@
         "https://unavatar.io/twitter/Yoshua_Bengio",
         "https://unavatar.io/x/Yoshua_Bengio"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "francois-chollet",
@@ -600,7 +614,8 @@
         "https://unavatar.io/twitter/fchollet",
         "https://unavatar.io/x/fchollet"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "thomas-wolf",
@@ -640,7 +655,8 @@
         "https://unavatar.io/twitter/Thom_Wolf",
         "https://unavatar.io/x/Thom_Wolf"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "jeremy-howard",
@@ -678,7 +694,8 @@
         "https://unavatar.io/twitter/jeremyphoward",
         "https://unavatar.io/x/jeremyphoward"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "simon-willison",
@@ -717,7 +734,8 @@
         "https://unavatar.io/twitter/simonw",
         "https://unavatar.io/x/simonw"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "3blue1brown",
@@ -752,7 +770,8 @@
       "accentTo": "#e879f9",
       "initials": "3(",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "lex-fridman",
@@ -792,7 +811,8 @@
         "https://unavatar.io/youtube/@lexfridman",
         "https://unavatar.io/x/lexfridman"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "no-priors",
@@ -833,7 +853,8 @@
         "https://unavatar.io/youtube/@NoPriorsPodcast",
         "https://unavatar.io/x/NoPriorsPod"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "fintech-macro"
     },
     {
       "id": "stuart-russell",
@@ -867,7 +888,8 @@
       "accentTo": "#22d3ee",
       "initials": "SR",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "ethan-mollick",
@@ -905,7 +927,8 @@
         "https://unavatar.io/twitter/emollick",
         "https://unavatar.io/x/emollick"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "hamel-husain",
@@ -943,7 +966,8 @@
         "https://unavatar.io/twitter/HamelHusain",
         "https://unavatar.io/x/HamelHusain"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "paul-christiano",
@@ -981,7 +1005,8 @@
         "https://unavatar.io/twitter/paul_christiano",
         "https://unavatar.io/x/paul_christiano"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "neel-nanda",
@@ -1019,7 +1044,8 @@
         "https://unavatar.io/twitter/NeelNanda5",
         "https://unavatar.io/x/NeelNanda5"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "dan-hendrycks",
@@ -1056,7 +1082,8 @@
         "https://unavatar.io/twitter/DanHendrycks",
         "https://unavatar.io/x/DanHendrycks"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "chris-olah",
@@ -1094,7 +1121,8 @@
         "https://unavatar.io/twitter/ch402",
         "https://unavatar.io/x/ch402"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "andrew-ng",
@@ -1132,7 +1160,8 @@
         "https://unavatar.io/twitter/AndrewYNg",
         "https://unavatar.io/x/AndrewYNg"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "fei-fei-li",
@@ -1170,7 +1199,8 @@
         "https://unavatar.io/twitter/drfeifei",
         "https://unavatar.io/x/drfeifei"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "robotique-auto"
     },
     {
       "id": "guillaume-lample",
@@ -1210,7 +1240,8 @@
         "https://unavatar.io/twitter/GuillaumeLample",
         "https://unavatar.io/x/GuillaumeLample"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "jim-fan",
@@ -1248,7 +1279,8 @@
         "https://unavatar.io/twitter/DrJimFan",
         "https://unavatar.io/x/DrJimFan"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "robotique-auto"
     },
     {
       "id": "riley-goodside",
@@ -1285,7 +1317,8 @@
         "https://unavatar.io/twitter/goodside",
         "https://unavatar.io/x/goodside"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "two-minute-papers",
@@ -1324,7 +1357,8 @@
         "https://unavatar.io/youtube/@TwoMinutePapers",
         "https://unavatar.io/x/TwoMinutePapers"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "laurence-devillers",
@@ -1362,7 +1396,8 @@
         "https://unavatar.io/twitter/lau_devil",
         "https://unavatar.io/x/lau_devil"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "zvi-mowshowitz",
@@ -1400,7 +1435,8 @@
         "https://unavatar.io/twitter/TheZvi",
         "https://unavatar.io/x/TheZvi"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "jack-clark",
@@ -1438,7 +1474,8 @@
         "https://unavatar.io/twitter/jackclarkSF",
         "https://unavatar.io/x/jackclarkSF"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "fintech-macro"
     },
     {
       "id": "helen-toner",
@@ -1475,7 +1512,8 @@
         "https://unavatar.io/twitter/hlntnr",
         "https://unavatar.io/x/hlntnr"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "sam-charrington",
@@ -1514,7 +1552,8 @@
         "https://unavatar.io/twitter/samcharrington",
         "https://unavatar.io/x/samcharrington"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "sarah-guo",
@@ -1552,7 +1591,8 @@
         "https://unavatar.io/twitter/Saranormous",
         "https://unavatar.io/x/Saranormous"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "fintech-macro"
     },
     {
       "id": "elad-gil",
@@ -1590,7 +1630,8 @@
         "https://unavatar.io/twitter/EladGil",
         "https://unavatar.io/x/EladGil"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "fintech-macro"
     },
     {
       "id": "luc-julia",
@@ -1627,7 +1668,8 @@
         "https://unavatar.io/twitter/lucjulia",
         "https://unavatar.io/x/lucjulia"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "joelle-pineau",
@@ -1666,7 +1708,8 @@
         "https://unavatar.io/twitter/JoellePineau",
         "https://unavatar.io/x/JoellePineau"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "sebastian-raschka",
@@ -1704,7 +1747,8 @@
         "https://unavatar.io/twitter/rasbt",
         "https://unavatar.io/x/rasbt"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "mlst",
@@ -1744,7 +1788,8 @@
         "https://unavatar.io/youtube/@MachineLearningStreetTalk",
         "https://unavatar.io/x/MLStreetTalk"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "huggingface",
@@ -1780,7 +1825,8 @@
       "accentTo": "#7c3aed",
       "initials": "HF",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "ludovic-salenne",
@@ -1816,7 +1862,8 @@
       "accentTo": "#fb7185",
       "initials": "LS",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "ai-epiphany",
@@ -1853,7 +1900,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/youtube/@TheAIEpiphany"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "thinkerview",
@@ -1889,7 +1937,8 @@
       "accentTo": "#a3e635",
       "initials": "T",
       "avatarFallbacks": [],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "lilian-weng",
@@ -1928,7 +1977,8 @@
         "https://unavatar.io/twitter/lilianweng",
         "https://unavatar.io/x/lilianweng"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "chip-huyen",
@@ -1966,7 +2016,8 @@
         "https://unavatar.io/twitter/chipro",
         "https://unavatar.io/x/chipro"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "clem-delangue",
@@ -2007,7 +2058,8 @@
         "https://unavatar.io/twitter/ClementDelangue",
         "https://unavatar.io/x/ClementDelangue"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "lewis-tunstall",
@@ -2046,7 +2098,8 @@
         "https://unavatar.io/twitter/_lewtun",
         "https://unavatar.io/x/_lewtun"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "philipp-schmid",
@@ -2085,7 +2138,8 @@
         "https://unavatar.io/twitter/_philschmid",
         "https://unavatar.io/x/_philschmid"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "jason-wei",
@@ -2123,7 +2177,8 @@
         "https://unavatar.io/twitter/_jasonwei",
         "https://unavatar.io/x/_jasonwei"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "harrison-chase",
@@ -2161,7 +2216,8 @@
         "https://unavatar.io/twitter/hwchase17",
         "https://unavatar.io/x/hwchase17"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "nathan-lambert",
@@ -2200,7 +2256,8 @@
         "https://unavatar.io/twitter/natolambert",
         "https://unavatar.io/x/natolambert"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "gary-marcus",
@@ -2239,7 +2296,8 @@
         "https://unavatar.io/twitter/GaryMarcus",
         "https://unavatar.io/x/GaryMarcus"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "max-tegmark",
@@ -2277,7 +2335,8 @@
         "https://unavatar.io/twitter/tegmark",
         "https://unavatar.io/x/tegmark"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "connor-leahy",
@@ -2313,7 +2372,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/x/npdotee"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "eugene-yan",
@@ -2351,7 +2411,8 @@
         "https://unavatar.io/twitter/eugeneyan",
         "https://unavatar.io/x/eugeneyan"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "hugo-larochelle",
@@ -2391,7 +2452,8 @@
         "https://unavatar.io/twitter/hugo_larochelle",
         "https://unavatar.io/x/hugo_larochelle"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "john-carmack",
@@ -2428,7 +2490,8 @@
         "https://unavatar.io/twitter/ID_AA_Carmack",
         "https://unavatar.io/x/ID_AA_Carmack"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "sholto-douglas",
@@ -2466,7 +2529,8 @@
         "https://unavatar.io/twitter/sholtodouglas",
         "https://unavatar.io/x/sholtodouglas"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "noam-brown",
@@ -2503,7 +2567,8 @@
         "https://unavatar.io/twitter/polynoamial",
         "https://unavatar.io/x/polynoamial"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "olivier-godement",
@@ -2542,7 +2607,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/twitter/oliviergodement",
         "https://unavatar.io/x/oliviergodement"
-      ]
+      ],
+      "pillar": "ia-agents"
     },
     {
       "id": "allison-duettmann",
@@ -2579,7 +2645,8 @@
         "https://unavatar.io/twitter/AllisonDuett",
         "https://unavatar.io/x/AllisonDuett"
       ],
-      "avatarMode": "photo"
+      "avatarMode": "photo",
+      "pillar": "ia-agents"
     },
     {
       "id": "matt-wolfe",
@@ -2613,7 +2680,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/youtube/@mreflow"
       ],
-      "initials": "MW"
+      "initials": "MW",
+      "pillar": "ia-agents"
     },
     {
       "id": "matthew-berman",
@@ -2646,7 +2714,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/youtube/@matthew_berman"
       ],
-      "initials": "MB"
+      "initials": "MB",
+      "pillar": "ia-agents"
     },
     {
       "id": "wes-roth",
@@ -2678,7 +2747,8 @@
       "avatarFallbacks": [
         "https://unavatar.io/youtube/@WesRoth"
       ],
-      "initials": "WR"
+      "initials": "WR",
+      "pillar": "ia-agents"
     },
     {
       "id": "practical-ai",
@@ -2708,7 +2778,8 @@
       "avatarMode": "photo",
       "avatar": "https://unavatar.io/youtube/@practicalai",
       "avatarFallbacks": [],
-      "initials": "PA"
+      "initials": "PA",
+      "pillar": "ia-agents"
     },
     {
       "id": "eye-on-ai",
@@ -2739,7 +2810,8 @@
       "avatarMode": "photo",
       "avatar": "https://unavatar.io/youtube/@EyeonAI",
       "avatarFallbacks": [],
-      "initials": "EA"
+      "initials": "EA",
+      "pillar": "ia-agents"
     }
   ]
 }

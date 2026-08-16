@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "ia-agents",
+      "slug": "ia",
+      "nameFr": "IA & Agents",
+      "nameEn": "AI & Agents",
+      "color": "#a78bfa",
+      "emoji": "✦",
+      "descFr": "LLM, agents, outils, recherche et pratique high-signal.",
+      "descEn": "LLMs, agents, tools, research and high-signal practice.",
+      "voiceMatch": [
+        "Research",
+        "Education",
+        "Engineering",
+        "Safety",
+        "Agents",
+        "Open-source",
+        "Frontier",
+        "Podcast",
+        "Tools",
+        "Practical",
+        "Analysis"
+      ],
+      "topicMatch": [
+        "agents",
+        "education",
+        "research",
+        "safety",
+        "open-source",
+        "engineering",
+        "tools",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "chips-infra",
+      "slug": "chips",
+      "nameFr": "Chips & Infra",
+      "nameEn": "Chips & Infra",
+      "color": "#60a5fa",
+      "emoji": "◆",
+      "descFr": "Semi-conducteurs, GPU, cloud, infrastructure de calcul.",
+      "descEn": "Semiconductors, GPUs, cloud, compute infrastructure.",
+      "voiceMatch": [
+        "Engineering",
+        "Infra",
+        "Industry"
+      ],
+      "topicMatch": [
+        "infra",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "robotique-auto",
+      "slug": "robotique-auto",
+      "nameFr": "Robotique & Auto",
+      "nameEn": "Robotics & Auto",
+      "color": "#22d3ee",
+      "emoji": "▣",
+      "descFr": "Robots, automatisation, mobilité et véhicules.",
+      "descEn": "Robots, automation, mobility and vehicles.",
+      "voiceMatch": [
+        "Robotics",
+        "Vision"
+      ],
+      "topicMatch": [
+        "robotics",
+        "automotive",
+        "mobility"
+      ]
+    },
+    {
+      "id": "fintech-macro",
+      "slug": "fintech-macro",
+      "nameFr": "Fintech & Macro",
+      "nameEn": "Fintech & Macro",
+      "color": "#fb923c",
+      "emoji": "▴",
+      "descFr": "Marchés, fintech, macroéconomie liée à la tech.",
+      "descEn": "Markets, fintech, tech-linked macroeconomy.",
+      "voiceMatch": [
+        "Business",
+        "Investing",
+        "Policy",
+        "Industry"
+      ],
+      "topicMatch": [
+        "business",
+        "policy",
+        "investing"
+      ]
+    }
+  ],
+  "updated": "2026-08-16T09:59:12.570765+00:00"
+}
