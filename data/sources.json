@@ -1,396 +1,416 @@
-{
-  "meta": {
-    "project": "Lumina Signal",
-    "type": "rss-sources",
-    "updated": "2026-08-16",
-    "note": "High-signal sources across IA, chips, robotics/auto, fintech/macro"
+[
+  {
+    "voiceId": "dwarkesh-patel",
+    "name": "Dwarkesh Patel",
+    "type": "youtube",
+    "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA",
+    "priority": 1,
+    "pillar": "ia-agents"
   },
-  "sources": [
-    {
-      "voiceId": "dwarkesh-patel",
-      "name": "Dwarkesh Patel",
-      "type": "youtube",
-      "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA",
-      "priority": 1
-    },
-    {
-      "voiceId": "yannic-kilcher",
-      "name": "Yannic Kilcher",
-      "type": "youtube",
-      "channelId": "UCZHmQk67mSJgfCCTn7xBfew",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
-      "priority": 1
-    },
-    {
-      "voiceId": "swyx-alessio",
-      "name": "Latent Space",
-      "type": "podcast",
-      "rss": "https://www.latent.space/feed",
-      "priority": 1
-    },
-    {
-      "voiceId": "3blue1brown",
-      "name": "3Blue1Brown",
-      "type": "youtube",
-      "channelId": "UCYO_jab_esuFRV4b17AJtAw",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
-      "priority": 1
-    },
-    {
-      "voiceId": "andrej-karpathy",
-      "name": "Andrej Karpathy",
-      "type": "youtube",
-      "handle": "@AndrejKarpathy",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
-      "priority": 1,
-      "notes": "Channel ID à confirmer (handle principal)",
-      "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ"
-    },
-    {
-      "voiceId": "ai-explained",
-      "name": "AI Explained",
-      "type": "youtube",
-      "handle": "@aiexplained-official",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "priority": 1,
-      "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw"
-    },
-    {
-      "voiceId": "nicolas-guyon",
-      "name": "Comptoir IA",
-      "type": "youtube",
-      "handle": "@nicolasguyon",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfpHPunOrKWnf5ONR6a5aow",
-      "priority": 1,
-      "channelId": "UCfpHPunOrKWnf5ONR6a5aow"
-    },
-    {
-      "voiceId": "nathan-labenz",
-      "name": "Cognitive Revolution",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjNRVMBVI30Sak_p6HRWhIA",
-      "priority": 1,
-      "notes": "RSS à trouver sur cognitiverevolution.ai",
-      "channelId": "UCjNRVMBVI30Sak_p6HRWhIA"
-    },
-    {
-      "voiceId": "lex-fridman",
-      "name": "Lex Fridman",
-      "type": "youtube",
-      "channelId": "UCSHZKyawb77ixDdsGog4iWA",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA",
-      "priority": 2
-    },
-    {
-      "voiceId": "mlst",
-      "name": "Machine Learning Street Talk",
-      "type": "youtube",
-      "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
-      "priority": 2
-    },
-    {
-      "voiceId": "two-minute-papers",
-      "name": "Two Minute Papers",
-      "type": "youtube",
-      "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-      "priority": 2
-    },
-    {
-      "voiceId": "huggingface",
-      "name": "Hugging Face",
-      "type": "youtube",
-      "channelId": "UCHlNU7kIZhRgSbhHvFoy72w",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHlNU7kIZhRgSbhHvFoy72w",
-      "priority": 2
-    },
-    {
-      "voiceId": "ludovic-salenne",
-      "name": "Ludovic Salenne",
-      "type": "youtube",
-      "channelId": "UCnnYqSNKKygemgmxC9PyLTw",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnnYqSNKKygemgmxC9PyLTw",
-      "priority": 2
-    },
-    {
-      "voiceId": "ai-epiphany",
-      "name": "The AI Epiphany",
-      "type": "youtube",
-      "channelId": "UCj8shE7aIn4Yawwbo2FceCQ",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCj8shE7aIn4Yawwbo2FceCQ",
-      "priority": 2
-    },
-    {
-      "voiceId": "thinkerview",
-      "name": "Thinkerview",
-      "type": "youtube",
-      "channelId": "UCQgWpmt02UtJkyO32HGUASQ",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQgWpmt02UtJkyO32HGUASQ",
-      "priority": 2,
-      "language": "fr",
-      "notes": "Generalist show — only AI-related episodes kept",
-      "filter": "ai-only"
-    },
-    {
-      "voiceId": "simon-willison",
-      "name": "Simon Willison",
-      "type": "rss",
-      "rss": "https://simonwillison.net/atom/everything/",
-      "priority": 2,
-      "language": "en",
-      "notes": "Atom feed - high signal practical LLM notes"
-    },
-    {
-      "voiceId": "nathan-lambert",
-      "name": "Nathan Lambert Interconnects",
-      "type": "rss",
-      "rss": "https://www.interconnects.ai/feed",
-      "priority": 2,
-      "language": "en"
-    },
-    {
-      "voiceId": "lilian-weng",
-      "name": "Lil'Log",
-      "type": "rss",
-      "rss": "https://lilianweng.github.io/index.xml",
-      "priority": 2,
-      "language": "en"
-    },
-    {
-      "voiceId": "huggingface",
-      "name": "Hugging Face Blog",
-      "type": "rss",
-      "rss": "https://huggingface.co/blog/feed.xml",
-      "priority": 2,
-      "language": "en",
-      "notes": "Official HF blog (often FR authors too)"
-    },
-    {
-      "voiceId": "matthew-berman",
-      "name": "Matthew Berman",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "practical-ai",
-      "name": "Practical AI",
-      "type": "podcast",
-      "rss": "https://changelog.com/practicalai/feed",
-      "priority": 2,
-      "language": "en"
-    },
-    {
-      "voiceId": "ethan-mollick",
-      "name": "One Useful Thing",
-      "type": "rss",
-      "rss": "https://www.oneusefulthing.org/feed",
-      "priority": 2,
-      "language": "en"
-    },
-    {
-      "voiceId": "zvi-mowshowitz",
-      "name": "Don't Worry About the Vase",
-      "type": "rss",
-      "rss": "https://thezvi.wordpress.com/feed/",
-      "priority": 2,
-      "language": "en"
-    },
-    {
-      "voiceId": "matt-wolfe",
-      "name": "Matt Wolfe",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "wes-roth",
-      "name": "Wes Roth",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "no-priors",
-      "name": "No Priors",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSI7h9hydQ40K5MJHnCrQvw",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "sam-charrington",
-      "name": "TWIML AI",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7kjWIK1H8tfmFlzZO-wHMw",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "eye-on-ai",
-      "name": "Eye on AI",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuQH_mB7hj4WFyApoNP1Emw",
-      "priority": 3,
-      "language": "en"
-    },
-    {
-      "voiceId": "cognitive-revolution",
-      "name": "The Cognitive Revolution",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoPTBQlwUm0m7gSbBW9wN6A",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "google-deepmind",
-      "name": "Google DeepMind",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "statquest",
-      "name": "StatQuest",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw",
-      "priority": 3,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "import-ai",
-      "name": "Import AI (Jack Clark)",
-      "type": "rss",
-      "rss": "https://jack-clark.net/feed/",
-      "priority": 1,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "sebastian-raschka",
-      "name": "Sebastian Raschka",
-      "type": "rss",
-      "rss": "https://magazine.sebastianraschka.com/feed",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "asianometry",
-      "name": "Asianometry",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbGy2YOZaQ2ZqCkixSokTKQ",
-      "priority": 1,
-      "language": "en",
-      "pillar": "chips-infra"
-    },
-    {
-      "voiceId": "munro-live",
-      "name": "Munro Live",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZ_jz41P3-LkGHy02_1dRSA",
-      "priority": 2,
-      "language": "en",
-      "pillar": "robotique-auto"
-    },
-    {
-      "voiceId": "semianalysis",
-      "name": "SemiAnalysis",
-      "type": "rss",
-      "rss": "https://www.semianalysis.com/feed",
-      "priority": 2,
-      "language": "en",
-      "pillar": "chips-infra"
-    },
-    {
-      "voiceId": "stratechery",
-      "name": "Stratechery",
-      "type": "rss",
-      "rss": "https://stratechery.com/feed/",
-      "priority": 2,
-      "language": "en",
-      "pillar": "fintech-macro"
-    },
-    {
-      "voiceId": "bens-bites",
-      "name": "Ben's Bites",
-      "type": "rss",
-      "rss": "https://www.bensbites.com/feed",
-      "priority": 3,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "the-gradient",
-      "name": "The Gradient",
-      "type": "rss",
-      "rss": "https://thegradient.pub/rss/",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "distill",
-      "name": "Distill",
-      "type": "rss",
-      "rss": "https://distill.pub/rss.xml",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "acquired",
-      "name": "Acquired",
-      "type": "podcast",
-      "rss": "https://feeds.transistor.fm/acquired",
-      "priority": 2,
-      "language": "en",
-      "pillar": "fintech-macro"
-    },
-    {
-      "voiceId": "google-ai-blog",
-      "name": "Google AI Blog",
-      "type": "rss",
-      "rss": "https://blog.google/technology/ai/rss/",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "openai",
-      "name": "OpenAI",
-      "type": "rss",
-      "rss": "https://openai.com/blog/rss.xml",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "chris-olah",
-      "name": "Chris Olah / colah's blog",
-      "type": "rss",
-      "rss": "https://feeds.feedburner.com/blogspot/gJZg",
-      "priority": 2,
-      "language": "en",
-      "pillar": "ia-agents"
-    },
-    {
-      "voiceId": "heu7reka",
-      "name": "Heu?reka",
-      "type": "youtube",
-      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg",
-      "priority": 3,
-      "language": "fr",
-      "pillar": "ia-agents"
-    }
-  ]
-}
+  {
+    "voiceId": "yannic-kilcher",
+    "name": "Yannic Kilcher",
+    "type": "youtube",
+    "channelId": "UCZHmQk67mSJgfCCTn7xBfew",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+    "priority": 1,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "swyx-alessio",
+    "name": "Latent Space",
+    "type": "podcast",
+    "rss": "https://www.latent.space/feed",
+    "priority": 1,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "3blue1brown",
+    "name": "3Blue1Brown",
+    "type": "youtube",
+    "channelId": "UCYO_jab_esuFRV4b17AJtAw",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+    "priority": 1,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "andrej-karpathy",
+    "name": "Andrej Karpathy",
+    "type": "youtube",
+    "handle": "@AndrejKarpathy",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+    "priority": 1,
+    "notes": "Channel ID à confirmer (handle principal)",
+    "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "ai-explained",
+    "name": "AI Explained",
+    "type": "youtube",
+    "handle": "@aiexplained-official",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "priority": 1,
+    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "nicolas-guyon",
+    "name": "Comptoir IA",
+    "type": "youtube",
+    "handle": "@nicolasguyon",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfpHPunOrKWnf5ONR6a5aow",
+    "priority": 1,
+    "channelId": "UCfpHPunOrKWnf5ONR6a5aow",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "nathan-labenz",
+    "name": "Cognitive Revolution",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjNRVMBVI30Sak_p6HRWhIA",
+    "priority": 1,
+    "notes": "RSS à trouver sur cognitiverevolution.ai",
+    "channelId": "UCjNRVMBVI30Sak_p6HRWhIA",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "lex-fridman",
+    "name": "Lex Fridman",
+    "type": "youtube",
+    "channelId": "UCSHZKyawb77ixDdsGog4iWA",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "mlst",
+    "name": "Machine Learning Street Talk",
+    "type": "youtube",
+    "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "two-minute-papers",
+    "name": "Two Minute Papers",
+    "type": "youtube",
+    "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "huggingface",
+    "name": "Hugging Face",
+    "type": "youtube",
+    "channelId": "UCHlNU7kIZhRgSbhHvFoy72w",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHlNU7kIZhRgSbhHvFoy72w",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "ludovic-salenne",
+    "name": "Ludovic Salenne",
+    "type": "youtube",
+    "channelId": "UCnnYqSNKKygemgmxC9PyLTw",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnnYqSNKKygemgmxC9PyLTw",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "ai-epiphany",
+    "name": "The AI Epiphany",
+    "type": "youtube",
+    "channelId": "UCj8shE7aIn4Yawwbo2FceCQ",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCj8shE7aIn4Yawwbo2FceCQ",
+    "priority": 2,
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "thinkerview",
+    "name": "Thinkerview",
+    "type": "youtube",
+    "channelId": "UCQgWpmt02UtJkyO32HGUASQ",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQgWpmt02UtJkyO32HGUASQ",
+    "priority": 2,
+    "language": "fr",
+    "notes": "Generalist show — only AI-related episodes kept",
+    "filter": "ai-only",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "simon-willison",
+    "name": "Simon Willison",
+    "type": "rss",
+    "rss": "https://simonwillison.net/atom/everything/",
+    "priority": 2,
+    "language": "en",
+    "notes": "Atom feed - high signal practical LLM notes",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "nathan-lambert",
+    "name": "Nathan Lambert Interconnects",
+    "type": "rss",
+    "rss": "https://www.interconnects.ai/feed",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "lilian-weng",
+    "name": "Lil'Log",
+    "type": "rss",
+    "rss": "https://lilianweng.github.io/index.xml",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "huggingface",
+    "name": "Hugging Face Blog",
+    "type": "rss",
+    "rss": "https://huggingface.co/blog/feed.xml",
+    "priority": 2,
+    "language": "en",
+    "notes": "Official HF blog (often FR authors too)",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "matthew-berman",
+    "name": "Matthew Berman",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "practical-ai",
+    "name": "Practical AI",
+    "type": "podcast",
+    "rss": "https://changelog.com/practicalai/feed",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "ethan-mollick",
+    "name": "One Useful Thing",
+    "type": "rss",
+    "rss": "https://www.oneusefulthing.org/feed",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "zvi-mowshowitz",
+    "name": "Don't Worry About the Vase",
+    "type": "rss",
+    "rss": "https://thezvi.wordpress.com/feed/",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "matt-wolfe",
+    "name": "Matt Wolfe",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "wes-roth",
+    "name": "Wes Roth",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "no-priors",
+    "name": "No Priors",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSI7h9hydQ40K5MJHnCrQvw",
+    "priority": 3,
+    "language": "en",
+    "pillar": "fintech-macro"
+  },
+  {
+    "voiceId": "sam-charrington",
+    "name": "TWIML AI",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7kjWIK1H8tfmFlzZO-wHMw",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "eye-on-ai",
+    "name": "Eye on AI",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuQH_mB7hj4WFyApoNP1Emw",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "cognitive-revolution",
+    "name": "The Cognitive Revolution",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoPTBQlwUm0m7gSbBW9wN6A",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "google-deepmind",
+    "name": "Google DeepMind",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "statquest",
+    "name": "StatQuest",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "import-ai",
+    "name": "Import AI (Jack Clark)",
+    "type": "rss",
+    "rss": "https://jack-clark.net/feed/",
+    "priority": 1,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "sebastian-raschka",
+    "name": "Sebastian Raschka",
+    "type": "rss",
+    "rss": "https://magazine.sebastianraschka.com/feed",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "asianometry",
+    "name": "Asianometry",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbGy2YOZaQ2ZqCkixSokTKQ",
+    "priority": 1,
+    "language": "en",
+    "pillar": "chips-infra"
+  },
+  {
+    "voiceId": "munro-live",
+    "name": "Munro Live",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZ_jz41P3-LkGHy02_1dRSA",
+    "priority": 2,
+    "language": "en",
+    "pillar": "robotique-auto"
+  },
+  {
+    "voiceId": "semianalysis",
+    "name": "SemiAnalysis",
+    "type": "rss",
+    "rss": "https://www.semianalysis.com/feed",
+    "priority": 2,
+    "language": "en",
+    "pillar": "chips-infra"
+  },
+  {
+    "voiceId": "stratechery",
+    "name": "Stratechery",
+    "type": "rss",
+    "rss": "https://stratechery.com/feed/",
+    "priority": 2,
+    "language": "en",
+    "pillar": "fintech-macro"
+  },
+  {
+    "voiceId": "bens-bites",
+    "name": "Ben's Bites",
+    "type": "rss",
+    "rss": "https://www.bensbites.com/feed",
+    "priority": 3,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "the-gradient",
+    "name": "The Gradient",
+    "type": "rss",
+    "rss": "https://thegradient.pub/rss/",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "distill",
+    "name": "Distill",
+    "type": "rss",
+    "rss": "https://distill.pub/rss.xml",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "acquired",
+    "name": "Acquired",
+    "type": "podcast",
+    "rss": "https://feeds.transistor.fm/acquired",
+    "priority": 2,
+    "language": "en",
+    "pillar": "fintech-macro"
+  },
+  {
+    "voiceId": "google-ai-blog",
+    "name": "Google AI Blog",
+    "type": "rss",
+    "rss": "https://blog.google/technology/ai/rss/",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "openai",
+    "name": "OpenAI",
+    "type": "rss",
+    "rss": "https://openai.com/blog/rss.xml",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "chris-olah",
+    "name": "Chris Olah / colah's blog",
+    "type": "rss",
+    "rss": "https://feeds.feedburner.com/blogspot/gJZg",
+    "priority": 2,
+    "language": "en",
+    "pillar": "ia-agents"
+  },
+  {
+    "voiceId": "heu7reka",
+    "name": "Heu?reka",
+    "type": "youtube",
+    "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg",
+    "priority": 3,
+    "language": "fr",
+    "pillar": "ia-agents"
+  }
+]
