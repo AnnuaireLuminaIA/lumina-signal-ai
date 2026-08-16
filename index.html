@@ -3,193 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lumina IA Signal — High-signal tech & économie radar</title>
-  <meta name="description" content="Suivre les personnes qui parlent sérieusement d'IA. Feed live, briefing du jour, curation high-signal. FR + EN." />
-  <meta name="theme-color" content="#0a0a0f" />
+  <title>Lumina IA Signal — Le briefing tech high-signal</title>
+  <meta name="description" content="Le briefing tech & économie high-signal du matin, en 5 minutes. Curation FR + EN." />
+  <meta name="theme-color" content="#07070b" />
   <meta property="og:title" content="Lumina IA Signal" />
-  <meta property="og:description" content="High-signal tech & économie radar. Briefing tech · curation high-signal · FR + EN." />
-  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Le briefing tech & économie high-signal du matin, en 5 minutes." />
   <meta property="og:url" content="https://annuaireluminaia.github.io/lumina-signal-ai/" />
-  <meta property="og:locale" content="fr_FR" />
-  <meta property="og:locale:alternate" content="en_US" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Lumina IA Signal" />
-  <meta name="twitter:description" content="High-signal tech & économie radar. Briefing tech · curation high-signal · FR + EN." />
   <meta property="og:image" content="https://annuaireluminaia.github.io/lumina-signal-ai/assets/og-image.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://annuaireluminaia.github.io/lumina-signal-ai/assets/og-image.svg" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --bg: #07070b; --surface: #0c0c11; --border: rgba(255,255,255,0.08);
-      --text: #f4f4f5; --muted: #a1a1aa; --faint: #71717a;
-      --accent: #a78bfa; --accent-soft: rgba(167,139,250,0.12);
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg:#06060a; --text:#f4f4f5; --muted:#a1a1aa; --accent:#a78bfa; }
+    * { box-sizing:border-box; margin:0; padding:0; }
     body {
-      font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--text);
-      min-height: 100vh; line-height: 1.5; -webkit-font-smoothing: antialiased;
+      font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text);
+      min-height:100vh; line-height:1.5;
+      background-image: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(124,58,237,0.25), transparent);
     }
-    .glow {
-      position: fixed; top: -20%; left: 50%; transform: translateX(-50%);
-      width: 80vw; height: 50vh;
-      background: radial-gradient(ellipse, rgba(167,139,250,0.15), transparent 70%);
-      pointer-events: none; z-index: 0;
-    }
-    .wrap { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-    header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 72px; }
-    .logo {
-      display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 15px;
-      letter-spacing: -0.02em; text-decoration: none; color: var(--text);
-    }
-    .logo-mark {
-      width: 28px; height: 28px; border-radius: 8px;
-      background: linear-gradient(135deg, #7c3aed, #a78bfa);
-      display: grid; place-items: center; font-size: 14px;
-    }
-    .nav-link { font-size: 13px; color: var(--muted); text-decoration: none; }
-    .nav-link:hover { color: var(--text); }
-    .hero { text-align: center; margin-bottom: 56px; }
+    .wrap { max-width:640px; margin:0 auto; padding:48px 24px 80px; }
+    header { display:flex; justify-content:space-between; align-items:center; margin-bottom:64px; }
+    .logo { display:flex; align-items:center; gap:10px; font-weight:600; font-size:15px; text-decoration:none; color:inherit; }
+    .mark { width:28px; height:28px; border-radius:8px; background:linear-gradient(135deg,#7c3aed,#a78bfa); display:grid; place-items:center; font-size:14px; }
+    .nav a { color:var(--muted); font-size:13px; text-decoration:none; margin-left:16px; }
+    .nav a:hover { color:#fff; }
     .eyebrow {
-      display: inline-block; font-size: 12px; font-weight: 500; color: var(--accent);
-      background: var(--accent-soft); padding: 4px 12px; border-radius: 999px;
-      margin-bottom: 20px; letter-spacing: 0.02em;
+      display:inline-block; font-size:11px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase;
+      color:var(--accent); background:rgba(167,139,250,0.12); padding:5px 12px; border-radius:999px; margin-bottom:20px;
     }
     h1 {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: clamp(36px, 7vw, 52px); font-weight: 400;
-      letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 16px;
+      font-family:"Instrument Serif",Georgia,serif; font-weight:400;
+      font-size:clamp(36px,7vw,52px); letter-spacing:-0.03em; line-height:1.12; margin-bottom:16px;
     }
-    h1 em { font-style: italic; color: var(--accent); }
-    .lead {
-      font-size: 17px; color: var(--muted); max-width: 480px;
-      margin: 0 auto 32px; line-height: 1.55;
-    }
+    h1 em { font-style:italic; color:var(--accent); }
+    .lead { font-size:17px; color:var(--muted); max-width:36ch; margin-bottom:32px; }
     .cta {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: linear-gradient(135deg, #7c3aed, #a78bfa); color: #fff;
-      font-weight: 600; font-size: 15px; padding: 14px 28px; border-radius: 12px;
-      text-decoration: none;
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.1), 0 8px 32px rgba(124,58,237,0.35);
-      transition: transform 0.15s, box-shadow 0.15s;
+      display:inline-flex; align-items:center; gap:8px;
+      background:linear-gradient(135deg,#7c3aed,#a78bfa); color:#fff; font-weight:600; font-size:15px;
+      padding:14px 26px; border-radius:12px; text-decoration:none;
+      box-shadow:0 8px 32px rgba(124,58,237,0.35);
     }
-    .cta:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.15), 0 12px 40px rgba(124,58,237,0.45);
+    .cta:hover { filter:brightness(1.05); }
+    .pillars { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:48px 0 32px; }
+    .pillars a {
+      padding:14px 16px; border-radius:12px; border:1px solid rgba(255,255,255,0.08);
+      background:rgba(255,255,255,0.02); color:#e4e4e7; text-decoration:none; font-size:13px; font-weight:500;
     }
-    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 64px; }
-    @media (max-width: 560px) { .stats { grid-template-columns: repeat(2, 1fr); } }
-    .stat {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 12px; padding: 16px; text-align: center;
+    .pillars a:hover { border-color:rgba(167,139,250,0.35); }
+    .pillars span { display:block; font-size:11px; color:#71717a; font-weight:400; margin-top:4px; }
+    .news {
+      padding:16px; border-radius:14px; border:1px dashed rgba(255,255,255,0.12);
+      display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;
     }
-    .stat-n { font-family: "Instrument Serif", Georgia, serif; font-size: 28px; color: var(--accent); }
-    .stat-l { font-size: 12px; color: var(--faint); margin-top: 2px; }
-    .section { margin-bottom: 56px; }
-    .section h2 {
-      font-family: "Instrument Serif", Georgia, serif; font-size: 24px;
-      font-weight: 400; margin-bottom: 12px; letter-spacing: -0.02em;
-    }
-    .section p { color: var(--muted); font-size: 15px; margin-bottom: 10px; }
-    .features { display: grid; gap: 12px; }
-    .feature {
-      display: flex; gap: 14px; padding: 16px;
-      background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
-    }
-    .feature-icon {
-      width: 36px; height: 36px; border-radius: 10px; background: var(--accent-soft);
-      color: var(--accent); display: grid; place-items: center; font-size: 16px; flex-shrink: 0;
-    }
-    .feature strong { display: block; font-size: 14px; font-weight: 600; margin-bottom: 2px; }
-    .feature span { font-size: 13px; color: var(--muted); }
-    footer {
-      text-align: center; padding-top: 32px; border-top: 1px solid var(--border);
-      font-size: 13px; color: var(--faint);
-    }
-    footer a { color: var(--muted); text-decoration: none; }
-    footer a:hover { color: var(--accent); }
+    .news p { font-size:13px; color:var(--muted); }
+    .news .tag { font-size:12px; font-weight:600; color:var(--accent); background:rgba(167,139,250,0.12); padding:6px 12px; border-radius:999px; }
+    footer { margin-top:48px; font-size:12px; color:#71717a; }
+    footer a { color:#a1a1aa; margin-right:12px; }
   </style>
 </head>
 <body>
-  <div class="glow"></div>
   <div class="wrap">
     <header>
-      <a class="logo" href="./"><span class="logo-mark">✦</span> Lumina IA Signal</a>
-      <a class="nav-link" href="https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html">Entrer dans le briefing →</a>
-    </header>
-
-    <section class="hero">
-      <div class="eyebrow">Live · FR + EN · Auto-refresh</div>
-      <h1>Les voix IA qui<br><em>comptent vraiment</em></h1>
-      <p class="lead">
-        Trop de bruit. Trop de hype.<br>
-        Lumina IA Signal filtre le signal : feed live, briefing du jour, curation stricte.
-      </p>
-      <a class="cta" href="https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html">Entrer dans le signal <span>→</span></a>
-    </section>
-
-    <div class="stats">
-      <div class="stat"><div class="stat-n">48</div><div class="stat-l">voix curées</div></div>
-      <div class="stat"><div class="stat-n">14</div><div class="stat-l">sources live</div></div>
-      <div class="stat"><div class="stat-n">70</div><div class="stat-l">contenus</div></div>
-      <div class="stat"><div class="stat-n">6h</div><div class="stat-l">refresh auto</div></div>
-    </div>
-
-    <section class="section">
-      <h2>Pourquoi</h2>
-      <p>L'IA avance vite. La plupart du contenu public est du bruit, du marketing, ou du retard.</p>
-      <p>Lumina IA Signal ne suit que les personnes qui parlent <strong style="color:var(--text)">sérieusement</strong> — chercheurs, builders, analystes high-signal.</p>
-    </section>
-
-    <section class="section">
-      <h2>Ce que tu obtiens</h2>
-      <div class="features">
-        <div class="feature">
-          <div class="feature-icon">📡</div>
-          <div><strong>Feed live</strong><span>YouTube + podcasts, normalisés, triés par signal</span></div>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">✦</div>
-          <div><strong>Briefing du jour</strong><span>Top signaux diversifiés + pourquoi c'est important</span></div>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🎯</div>
-          <div><strong>Curation stricte</strong><span>Signal Score, catégories, pays, FR + EN</span></div>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🤖</div>
-          <div><strong>Robot autonome</strong><span>Mise à jour automatique toutes les 6 heures</span></div>
-        </div>
+      <a class="logo" href="./"><span class="mark">✦</span> Lumina IA Signal</a>
+      <div class="nav">
+        <a href="about.html">Méthode</a>
+        <a href="app.html">Feed</a>
       </div>
-    </section>
-
-    <section class="section" style="text-align:center">
-      <a class="cta" href="https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html">Ouvrir Lumina IA Signal →</a>
-    </section>
-
+    </header>
+    <div class="eyebrow">High-signal · FR + EN</div>
+    <h1>Le briefing tech<br>du matin, <em>en 5 minutes</em></h1>
+    <p class="lead">Ce qui compte vraiment en IA, chips, robotique et macro — sans le bruit. Curation stricte, mise à jour automatique.</p>
+    <a class="cta" href="app.html">Ouvrir le briefing →</a>
+    <div class="pillars">
+      <a href="c/ia.html">✦ IA & Agents<span>Modèles, agents, recherche</span></a>
+      <a href="c/chips.html">◆ Chips & Infra<span>Semi-conducteurs, GPU, cloud</span></a>
+      <a href="c/robotique-auto.html">▣ Robotique & Auto<span>Robots, EV, mobilité</span></a>
+      <a href="c/fintech-macro.html">▴ Fintech & Macro<span>Marchés, stratégie tech</span></a>
+    </div>
+    <div class="news">
+      <p>Newsletter : le briefing dans votre boîte mail, 2× par semaine.</p>
+      <span class="tag">Bientôt</span>
+    </div>
     <footer>
-      <p>
-        Un projet <strong style="color:var(--muted)">Lumina</strong>
-        · <a href="about.html">Méthode</a>
-        · <a href="https://github.com/AnnuaireLuminaIA" target="_blank" rel="noopener">Lumina IA</a>
-        · <a href="https://github.com/AnnuaireLuminaIA/lumina-signal-ai">Code</a>
-      </p>
+      <a href="legal/mentions.html">Mentions légales</a>
+      <a href="legal/confidentialite.html">Confidentialité</a>
+      <a href="legal/cgu.html">CGU</a>
     </footer>
   </div>
-
-    <section style="margin:40px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px">
-      <a href="c/ia.html" style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);color:#e9d5ff;text-decoration:none;font-size:13px">✦ IA & Agents</a>
-      <a href="c/chips.html" style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);color:#93c5fd;text-decoration:none;font-size:13px">◆ Chips & Infra</a>
-      <a href="c/robotique-auto.html" style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);color:#67e8f9;text-decoration:none;font-size:13px">▣ Robotique & Auto</a>
-      <a href="c/fintech-macro.html" style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);color:#fdba74;text-decoration:none;font-size:13px">▴ Fintech & Macro</a>
-    </section>
-    <p style="font-size:12px;color:#71717a;margin-top:24px">
-      <a href="legal/mentions.html" style="color:#a1a1aa">Mentions légales</a> ·
-      <a href="legal/confidentialite.html" style="color:#a1a1aa">Confidentialité</a> ·
-      <a href="legal/cgu.html" style="color:#a1a1aa">CGU</a>
-    </p>
 </body>
 </html>
