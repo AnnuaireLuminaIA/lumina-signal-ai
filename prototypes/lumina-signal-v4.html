@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lumina Signal — High-signal AI voices</title>
-  <meta name="description" content="Suivre les personnes qui parlent sérieusement d'IA. Feed live, briefing du jour, curation high-signal.">
+  <title>Lumina IA Signal — High-signal tech radar</title>
+  <meta name="description" content="Le briefing tech & économie pour ceux qui n'ont pas le temps de scroller. Curation high-signal · FR + EN.">
   <meta name="theme-color" content="#0a0a0f">
-  <meta property="og:title" content="Lumina Signal">
-  <meta property="og:description" content="High-signal AI voices, live feed + daily briefing. FR + EN.">
+  <meta property="og:title" content="Lumina IA Signal">
+  <meta property="og:description" content="Briefing tech & économie high-signal. FR + EN.">
   <meta property="og:url" content="https://annuaireluminaia.github.io/lumina-signal-ai/prototypes/lumina-signal-v4.html">
   <meta property="og:image" content="https://annuaireluminaia.github.io/lumina-signal-ai/assets/og-image.svg">
-  <meta property="og:image:alt" content="Lumina Signal — High-signal AI voices">
+  <meta property="og:image:alt" content="Lumina IA Signal — High-signal tech radar">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://annuaireluminaia.github.io/lumina-signal-ai/assets/og-image.svg">
   <meta name="twitter:card" content="summary">
-  <meta name="description" content="Feed live des voix IA high-signal. Briefing du jour, filtres, favoris.">
+  <meta name="description" content="Radar high-signal · briefing du jour · voix curatées · FR + EN.">
   <meta property="og:description" content="High-signal AI voices, live. Briefing du jour + feed curaté.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://annuaireluminaia.github.io/lumina-signal-ai/">
@@ -945,28 +945,105 @@
     .cat-legend i {
       width: 8px; height: 8px; border-radius: 50%; display: inline-block;
     }
+
+    /* ===== S1 UI — Lumina IA Signal ===== */
+    .logo-text { font-weight: 600; letter-spacing: -0.02em; }
+    .logo-text em { font-style: normal; color: #c4b5fd; font-weight: 700; }
+    .btn-briefing {
+      font-family: inherit; font-size: 13px; font-weight: 600;
+      padding: 8px 14px; border-radius: 999px; cursor: pointer;
+      border: 1px solid rgba(167,139,250,0.35);
+      background: linear-gradient(135deg, rgba(124,58,237,0.35), rgba(167,139,250,0.2));
+      color: #f5f3ff;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-briefing:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(124,58,237,0.35);
+    }
+    .lang { display: flex; gap: 4px; background: rgba(255,255,255,0.04); padding: 3px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.08); }
+    .lang-btn {
+      font-family: inherit; font-size: 12px; font-weight: 600;
+      padding: 6px 10px; border-radius: 999px; border: none;
+      background: transparent; color: #a1a1aa; cursor: pointer;
+    }
+    .lang-btn.active {
+      background: rgba(167,139,250,0.2); color: #f5f3ff;
+    }
+    .briefing-hero {
+      margin: 0 0 20px;
+      padding: 22px 24px;
+      border-radius: 18px;
+      border: 1px solid rgba(167,139,250,0.22);
+      background:
+        radial-gradient(ellipse at 0% 0%, rgba(124,58,237,0.22), transparent 55%),
+        linear-gradient(160deg, rgba(20,16,40,0.95), rgba(10,10,16,0.98));
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    }
+    .briefing-hero .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+      color: #c4b5fd; margin-bottom: 10px;
+    }
+    .briefing-hero h2 {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: clamp(26px, 4vw, 34px); font-weight: 400;
+      letter-spacing: -0.03em; line-height: 1.15; margin: 0 0 10px;
+    }
+    .briefing-hero .lead {
+      color: #a1a1aa; font-size: 14.5px; line-height: 1.5; max-width: 54ch; margin-bottom: 16px;
+    }
+    .briefing-hero .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .briefing-hero .signals { display: grid; gap: 8px; margin-top: 16px; }
+    .briefing-hero .sig {
+      display: flex; gap: 12px; align-items: flex-start;
+      padding: 10px 12px; border-radius: 12px;
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
+      cursor: pointer; transition: border-color 0.15s, background 0.15s;
+    }
+    .briefing-hero .sig:hover { border-color: rgba(167,139,250,0.35); background: rgba(167,139,250,0.06); }
+    .briefing-hero .sig .rank {
+      width: 24px; height: 24px; border-radius: 7px; flex-shrink: 0;
+      display: grid; place-items: center; font-size: 11px; font-weight: 700;
+      background: rgba(167,139,250,0.15); color: #c4b5fd;
+    }
+    .briefing-hero .sig .t { font-size: 13.5px; font-weight: 560; line-height: 1.35; }
+    .briefing-hero .sig .m { font-size: 12px; color: #71717a; margin-top: 2px; }
+    .newsletter-soft {
+      margin: 12px 0 0; padding: 12px 14px; border-radius: 12px;
+      border: 1px dashed rgba(255,255,255,0.12);
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
+    }
+    .newsletter-soft p { margin: 0; font-size: 13px; color: #a1a1aa; }
+    .newsletter-soft .soon {
+      font-size: 12px; font-weight: 600; color: #c4b5fd;
+      padding: 6px 12px; border-radius: 999px; background: rgba(167,139,250,0.12);
+    }
+    @media (max-width: 720px) {
+      .header { flex-wrap: wrap; gap: 10px; }
+      .nav { order: 3; width: 100%; justify-content: space-between; }
+      .home-btn { display: none; }
+    }
   </style>
 </head>
 <body>
   <header class="header">
-    <a class="logo" href="https://annuaireluminaia.github.io/lumina-signal-ai/" title="Retour à l'accueil">
+    <a class="logo" href="https://annuaireluminaia.github.io/lumina-signal-ai/" title="Lumina IA Signal">
       <div class="logo-icon">✦</div>
-      Lumina Signal
+      <span class="logo-text">Lumina <em>IA</em> Signal</span>
     </a>
     <nav class="nav">
       <button data-view="feed" class="active">Feed</button>
       <button data-view="voices">Voix</button>
-      <button data-view="favorites">★ Favoris</button>
+      <button data-view="favorites">★</button>
       <button data-view="top">Top</button>
     </nav>
     <div class="header-actions">
-      <button type="button" class="settings-btn" id="settings-btn" title="Settings">⚙</button>
+      <button type="button" class="btn-briefing" onclick="openBriefing()" title="Briefing">✦ Briefing</button>
       <a class="home-btn" href="https://annuaireluminaia.github.io/lumina-signal-ai/about.html" title="Méthode">Méthode</a>
-      <a class="home-btn" href="https://github.com/AnnuaireLuminaIA" target="_blank" rel="noopener" title="Annuaire Lumina IA">Lumina IA</a>
-      <a class="home-btn" href="https://annuaireluminaia.github.io/lumina-signal-ai/">← Accueil</a>
-      <div class="lang">
-        <span class="active" data-lang="fr">FR</span>
-        <span data-lang="en">EN</span>
+      <div class="lang" role="group" aria-label="Langue">
+        <button type="button" class="lang-btn active" data-lang="fr" title="Français">🇫🇷 FR</button>
+        <button type="button" class="lang-btn" data-lang="en" title="English">🇬🇧 EN</button>
       </div>
     </div>
   </header>
@@ -999,6 +1076,7 @@
     <main class="main">
       <!-- FEED VIEW -->
       <div id="view-feed">
+        <section id="briefing-hero" class="briefing-hero" aria-label="Briefing du jour"></section>
         <div class="feed-header">
           <div>
             <h1 class="feed-title">Signal</h1>
@@ -1297,7 +1375,7 @@ const ARCHIVE = {"briefings": [{"date": "2026-08-11", "generatedAt": "2026-08-11
       lang = next === "en" ? "en" : "fr";
       localStorage.setItem("lumina-lang", lang);
       document.documentElement.lang = lang;
-      document.querySelectorAll(".lang span").forEach(el => {
+      document.querySelectorAll(".lang span, .lang-btn").forEach(el => {
         el.classList.toggle("active", el.dataset.lang === lang);
       });
       applyLang();
@@ -1559,7 +1637,7 @@ const ARCHIVE = {"briefings": [{"date": "2026-08-11", "generatedAt": "2026-08-11
     function getBriefingShareText() {
       let top = [];
       if (typeof BRIEFING !== "undefined" && BRIEFING.items) top = BRIEFING.items;
-      const lines = ["✦ Lumina Signal — Briefing du jour", ""];
+      const lines = ["✦ Lumina IA Signal — Briefing du jour", ""];
       top.forEach((it, i) => {
         lines.push(`${i+1}. [${it.signalScore}] ${it.voiceName || it.voiceId} — ${it.title}`);
         if (it.url) lines.push(`   ${it.url}`);
@@ -1727,7 +1805,63 @@ const ARCHIVE = {"briefings": [{"date": "2026-08-11", "generatedAt": "2026-08-11
     }
 
     // ——— Render Feed ———
-    function renderFeed() {
+    
+    function renderBriefingHero() {
+      const el = document.getElementById("briefing-hero");
+      if (!el) return;
+      let items = [];
+      let subtitle = "";
+      let dateLabel = "";
+      if (typeof BRIEFING !== "undefined" && BRIEFING && BRIEFING.items) {
+        items = BRIEFING.items.slice(0, 5);
+        const ed = lang === "fr" ? (BRIEFING.editorial || BRIEFING.summary) : (BRIEFING.editorialEn || BRIEFING.summary || BRIEFING.editorial);
+        subtitle = ed || "";
+        dateLabel = BRIEFING.date || "";
+      } else if (typeof CONTENTS !== "undefined") {
+        const seen = new Set();
+        for (const c of [...CONTENTS].sort((a,b)=>(b.signalScore||0)-(a.signalScore||0))) {
+          if (seen.has(c.voiceId)) continue;
+          seen.add(c.voiceId);
+          items.push({ title: c.title, voiceName: (getVoice(c.voiceId)||{}).name, signalScore: c.signalScore, url: c.url, ago: c.ago });
+          if (items.length >= 5) break;
+        }
+      }
+      const title = lang === "fr" ? "Briefing du jour" : "Daily briefing";
+      const lead = subtitle || (lang === "fr" ? "Les signaux high-signal à ne pas manquer." : "High-signal picks worth your time.");
+      const openLbl = lang === "fr" ? "Ouvrir le briefing" : "Open briefing";
+      const moreLbl = lang === "fr" ? "Voir le feed" : "Browse feed";
+      const newsLbl = lang === "fr" ? "Newsletter bientôt — le briefing dans votre boîte mail." : "Newsletter soon — briefing in your inbox.";
+      el.innerHTML = `
+        <div class="eyebrow">✦ Lumina IA Signal ${dateLabel ? "· " + dateLabel : ""}</div>
+        <h2>${title}</h2>
+        <p class="lead">${lead}</p>
+        <div class="actions">
+          <button type="button" class="btn-briefing" onclick="openBriefing()">${openLbl}</button>
+          <button type="button" class="chip" onclick="document.getElementById('feed-list')?.scrollIntoView({behavior:'smooth'})">${moreLbl}</button>
+        </div>
+        <div class="signals">
+          ${items.map((it, i) => {
+            const name = it.voiceName || it._voiceName || "";
+            const t = it.title || "";
+            const url = (it.url || "").replace(/'/g, "\\'");
+            const isYt = typeof ytId === "function" && ytId(url);
+            const click = isYt ? `openPlayer('${url}', '${t.replace(/'/g, "\\'")}', event)` : (url ? `window.open('${url}','_blank')` : "openBriefing()");
+            return `<div class="sig" onclick="${click}">
+              <div class="rank">${i+1}</div>
+              <div>
+                <div class="t">${t}</div>
+                <div class="m">${name}${it.signalScore != null ? " · " + it.signalScore : ""}${it.ago ? " · " + it.ago : ""}</div>
+              </div>
+            </div>`;
+          }).join("")}
+        </div>
+        <div class="newsletter-soft">
+          <p>${newsLbl}</p>
+          <span class="soon">${lang === "fr" ? "Bientôt" : "Soon"}</span>
+        </div>`;
+    }
+
+function renderFeed() {
       
       // Topic active bar
       let tbar = document.getElementById("topic-bar");
@@ -2351,6 +2485,7 @@ function setView(view) {
       } catch (e) {
         console.warn("[Lumina] Live fetch failed, using embedded data", e);
       }
+      try { renderBriefingHero(); } catch (err) { console.warn(err); }
       renderFeed();
     }
 
@@ -2410,7 +2545,7 @@ function setView(view) {
     if (location.hash === "#briefing") setTimeout(openBriefing, 400);
 
     // Lang switcher
-    document.querySelectorAll(".lang span").forEach(span => {
+    document.querySelectorAll(".lang span, .lang-btn").forEach(span => {
       span.style.cursor = "pointer";
       span.addEventListener("click", () => setLang(span.dataset.lang));
     });

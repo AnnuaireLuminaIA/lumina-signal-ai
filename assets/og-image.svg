@@ -13,7 +13,7 @@
   <circle cx="1000" cy="120" r="200" fill="#7c3aed" opacity="0.15"/>
   <circle cx="200" cy="500" r="160" fill="#a78bfa" opacity="0.1"/>
   <rect x="80" y="80" width="56" height="56" rx="14" fill="url(#a)"/>
-  <text x="80" y="220" font-family="Georgia, serif" font-size="64" fill="#f4f4f5">Lumina Signal</text>
-  <text x="80" y="290" font-family="system-ui,sans-serif" font-size="28" fill="#a1a1aa">High-signal AI voices, live</text>
+  <text x="80" y="220" font-family="Georgia, serif" font-size="64" fill="#f4f4f5">Lumina IA Signal</text>
+  <text x="80" y="290" font-family="system-ui,sans-serif" font-size="28" fill="#a1a1aa">High-signal tech & économie</text>
   <text x="80" y="340" font-family="system-ui,sans-serif" font-size="22" fill="#71717a">Feed · Briefing · Curation FR + EN</text>
 </svg>

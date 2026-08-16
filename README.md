@@ -1,4 +1,4 @@
-# Lumina Signal
+# Lumina IA Signal
 
 High-signal AI voices — live feed, daily briefing, strict curation.
 
