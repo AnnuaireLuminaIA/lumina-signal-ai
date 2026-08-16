@@ -1093,6 +1093,68 @@
     @media (min-width: 641px) and (max-width: 900px) {
       .thumb { width: 168px; height: 94px; }
     }
+
+    /* === Card media layout (thumbs) === */
+    .card {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      padding: 16px;
+    }
+    .card .thumb {
+      width: 260px;
+      height: 146px;
+      flex-shrink: 0;
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+      background: #0f0f14;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .card .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+    .card:hover .thumb img { transform: scale(1.04); }
+    .card .thumb .play {
+      position: absolute; inset: 0;
+      display: grid; place-items: center;
+      background: linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.55));
+      color: #fff; font-size: 28px;
+      opacity: 0; transition: opacity 0.15s;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.8);
+    }
+    .card:hover .thumb .play { opacity: 1; }
+    .card-content { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .fiche-box {
+      margin-top: 4px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: 12.5px;
+      line-height: 1.4;
+      color: #a1a1aa;
+    }
+    .fiche-box strong { color: #c4b5fd; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .fiche-box ul { margin: 4px 0 0 14px; }
+    body.compact .card .thumb { width: 160px; height: 90px; }
+    @media (max-width: 900px) {
+      .card .thumb { width: 200px; height: 112px; }
+    }
+    @media (max-width: 640px) {
+      .card { flex-direction: column; }
+      .card .thumb {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        max-height: 220px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1821,23 +1883,21 @@ function applyLang() {
     }
 
     function buildFiche(c, v) {
-      // Original short editorial fiche structure (no transcript)
-      const why = (v && (lang==="fr" ? (v.whyFr||v.why) : v.why)) || "";
-      const pts = [];
-      if (c.topics && c.topics.length) pts.push("Thèmes: " + c.topics.join(", "));
-      if (c.type) pts.push("Format: " + c.type);
-      if (why) pts.push(why);
+      const why = (v && (lang === "fr" ? (v.whyFr || v.why) : v.why)) || "";
+      const raw = (c.description || "").trim();
+      const generic = /curat[eé].*high-signal|ouvrir la source pour le d[eé]tail/i.test(raw);
+      const line = (!raw || generic) ? "" : (raw.length > 140 ? raw.slice(0, 140) + "…" : raw);
+      const topics = (c.topics || []).slice(0, 3);
+      if (!line && !topics.length && !why) return "";
       const head = lang === "fr" ? "Fiche signal" : "Signal sheet";
-      const one = lang === "fr" ? "En une phrase" : "In one line";
-      const line = (c.description || "").trim();
-      const short = line ? line.slice(0, 180) + (line.length > 180 ? "…" : "") : (lang==="fr" ? "Contenu curaté high-signal — ouvrir la source pour le détail." : "High-signal curated item — open the source for detail.");
+      const one = lang === "fr" ? "En bref" : "In brief";
+      let body = "";
+      if (line) body += `<div style="margin-top:4px">${line}</div>`;
+      else if (why) body += `<div style="margin-top:4px">${why.length > 120 ? why.slice(0,120)+"…" : why}</div>`;
+      if (topics.length) body += `<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">${topics.map(t => `<span class="tag cat cat-${typeof topicClass==="function"?topicClass(t):"research"}">${t}</span>`).join("")}</div>`;
       return `<div class="fiche-box" onclick="event.stopPropagation()">
-        <strong>${head}</strong>
-        <div style="margin-top:6px"><em>${one}:</em> ${short}</div>
-        ${pts.length ? `<ul>${pts.slice(0,3).map(p=>`<li>${p}</li>`).join("")}</ul>` : ""}
-        <div style="margin-top:8px">
-          <button type="button" class="report-btn" onclick="reportContent('${(c.id||"").replace(/'/g,"")}', '${(c.title||"").replace(/'/g,"\\'")}')">${lang==="fr"?"Signaler":"Report"}</button>
-        </div>
+        <strong>${head}</strong>${body}
+        <div style="margin-top:6px"><button type="button" class="report-btn" onclick="reportContent('${(c.id||"").replace(/'/g,"")}', '${(c.title||"").replace(/'/g,"\\'")}')">${lang==="fr"?"Signaler":"Report"}</button></div>
       </div>`;
     }
 
